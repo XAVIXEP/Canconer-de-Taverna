@@ -5,7 +5,7 @@
 import {
   normRoom, parseClientMessage, applySet, stateMessage, originAllowed,
   MAX_SOCKETS, MIN_GAP_MS,
-} from "./logic.js";
+} from "taula-server/src/index.js";
 
 const OPEN = 1; // WebSocket.OPEN
 
