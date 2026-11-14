@@ -159,6 +159,12 @@
       #pageBody { padding-left: 12px !important; padding-right: 10px !important; }
     }
 
+    /* Cercador al mòbil: lletra de 16px (l'iPhone no fa zoom en tocar-lo) i resultats a tota l'amplada */
+    @media (max-width: 640px) {
+      .search-input { font-size: 16px !important; }
+      #searchDropdown { position: fixed; left: 8px; right: 8px; margin-top: 0; }
+    }
+
     /* Clau d'acompanyament lateral (bracket esquerre per a tornades com a 'Sa filla des sergent' o 'Salió de Jamaica') */
     .chorus-bracket {
       border-left: 2px solid #2b2118;
@@ -270,9 +276,9 @@
 
         <!-- Barra de cerca amb desplegable instantani -->
         <div class="relative flex-1 max-w-2xl">
-          <input id="searchInput" type="text" placeholder="Títol, pàgina o tipologia (menorquines, marineres, mexicanes, de sempre, rumbes)" autocomplete="off" oninput="handleSearchInput(this.value)" onkeydown="handleSearchKeydown(event)" onfocus="if(this.value.trim()) handleSearchInput(this.value)" class="w-full px-3.5 py-1.5 rounded-[4px] bg-[#120d09] border border-[#4a3625] text-xs sm:text-sm text-[#f3e6be] placeholder-[#8c735b] focus:outline-none focus:border-[#d4a76a] font-sans transition">
+          <input id="searchInput" type="text" placeholder="Títol, pàgina o tipologia (menorquines, marineres, mexicanes, de sempre, rumbes)" autocomplete="off" oninput="handleSearchInput(this.value)" onkeydown="handleSearchKeydown(event)" onfocus="if(this.value.trim()) handleSearchInput(this.value)" class="w-full px-3.5 py-1.5 rounded-[4px] bg-[#120d09] border border-[#4a3625] text-xs sm:text-sm text-[#f3e6be] placeholder-[#8c735b] focus:outline-none focus:border-[#d4a76a] font-sans transition search-input">
           <!-- Desplegable d'autocompletat -->
-          <div id="searchDropdown" class="hidden absolute left-0 right-0 top-full mt-1 bg-[#1e1610] border border-[#5c432e] rounded shadow-2xl z-50 divide-y divide-[#2e2218]"></div>
+          <div id="searchDropdown" class="hidden absolute left-0 right-0 top-full mt-1 bg-[#1e1610] border border-[#5c432e] rounded shadow-2xl z-50 divide-y divide-[#2e2218]" style="max-height:70vh;overflow-y:auto"></div>
         </div>
       </div>
 
@@ -2016,16 +2022,9 @@
               <div onclick="goToPage('convencions')" class="cursor-pointer hover:text-[#7c3711] font-semibold"><strong>X.</strong> CONVENCIONS</div>
             </div>
 
-            <!-- Llistat en 2 columnes -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-0.5 font-lyrics">
-              <div>${col1.map(renderItem).join('')}</div>
-              <div>${col2.map(renderItem).join('')}</div>
-            </div>
-          </div>
-
-          <!-- Llegenda fidel al Cançoner original -->
-          <div class="mt-8 pt-4 border-t border-[#baa279]/60 font-lyrics text-xs sm:text-sm text-[#2b2118] space-y-2">
-            <div class="flex flex-wrap items-center gap-4 sm:gap-6">
+            <!-- Llegenda de colors (toca un color per filtrar) -->
+            <div class="mb-5 pb-3 border-b border-[#baa279]/60 font-lyrics text-xs sm:text-sm text-[#2b2118]">
+            <div class="flex flex-wrap items-center" style="column-gap:1.1rem;row-gap:0.45rem">
               ${Object.values(SONG_CATEGORIES).map(cat => `
                 <button onclick="filterByCategory('${cat.id}')" class="flex items-center gap-1.5 hover:underline cursor-pointer ${activeIndexCategoryFilter === cat.id ? 'font-bold underline' : ''}">
                   <span class="cat-dot" style="background-color: ${cat.color}"></span>
@@ -2033,6 +2032,17 @@
                 </button>
               `).join('')}
             </div>
+            </div>
+
+            <!-- Llistat en 2 columnes -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-0.5 font-lyrics">
+              <div>${col1.map(renderItem).join('')}</div>
+              <div>${col2.map(renderItem).join('')}</div>
+            </div>
+          </div>
+
+          <!-- Notes de la llegenda -->
+          <div class="mt-8 pt-4 border-t border-[#baa279]/60 font-lyrics text-xs sm:text-sm text-[#2b2118]">
             <div class="text-[11px] text-[#4a3b2c] leading-snug space-y-0.5 pt-1">
               <p><sup>1</sup> Cançons que a Menorca s'han adoptat com a pròpies més enllà de la procedència de l'autor.</p>
               <p><sup>2</sup> Cançons de procedència mexicana o amb una estructura musical semblant.</p>
@@ -2478,22 +2488,38 @@
       }
 
       html += matches.map(m => {
-        const catObj = SONG_CATEGORIES[m.cat] || SONG_CATEGORIES.desempre;
+        const tipus = m.cats.map(k => SONG_CATEGORIES[k].label).join(', ');
         return `
-          <div onclick="selectSearchResult(${m.p})" class="px-3.5 py-2 hover:bg-[#2e2117] cursor-pointer flex items-center justify-between text-xs sm:text-sm transition">
-            <div class="flex items-center gap-2 truncate">
-              ${catDotsHTML(m.cats)}
-              <span class="font-bold text-amber-300">Pàg. ${m.p}</span>
-              <span class="text-[#f3e6be] font-medium truncate">${m.t}</span>
+          <div onclick="selectSearchResult(${m.p})" class="px-3.5 py-2 hover:bg-[#2e2117] cursor-pointer flex items-start gap-2.5 text-sm transition">
+            <span class="pt-1 shrink-0">${catDotsHTML(m.cats)}</span>
+            <div class="flex-1" style="min-width:0">
+              <div class="leading-snug"><span class="font-bold text-amber-300">${m.p}.</span> <span class="text-[#f3e6be] font-medium">${m.t}</span></div>
+              <div class="text-[11px] sm:text-xs text-[#9c8269] italic leading-snug">${tipus} · ${m.r}</div>
             </div>
-            <span class="text-[11px] text-[#9c8269] italic ml-2 shrink-0">${catObj.label} · ${m.r}</span>
           </div>
         `;
       }).join('');
 
       drop.innerHTML = html;
       drop.classList.remove('hidden');
+      placeSearchDropdown();
     }
+
+    // Al mòbil, el desplegable va just davall de la capçalera i ocupa tot l'ample i l'alt disponible
+    function placeSearchDropdown() {
+      const drop = document.getElementById('searchDropdown');
+      if (!drop) return;
+      if (window.innerWidth > 640) { drop.style.top = ''; drop.style.maxHeight = '70vh'; return; }
+      const input = document.getElementById('searchInput');
+      const top = Math.round(input.getBoundingClientRect().bottom + 6);
+      const vh = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+      drop.style.top = top + 'px';
+      drop.style.maxHeight = Math.max(160, vh - top - 8) + 'px';
+    }
+    if (window.visualViewport) window.visualViewport.addEventListener('resize', () => {
+      const d = document.getElementById('searchDropdown');
+      if (d && !d.classList.contains('hidden')) placeSearchDropdown();
+    });
 
     function selectCategoryFromSearch(catId) {
       document.getElementById('searchInput').value = '';
