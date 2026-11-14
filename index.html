@@ -147,7 +147,9 @@
       text-indent: -1.1em;
     }
     .vl-empty { height: 0.6em; }
-    .lyrics-measuring .vl { white-space: nowrap; }
+    .lyrics-measuring .vl, .lyrics-fit .vl { white-space: nowrap; }
+    .lyrics-big { font-size: 1.6rem !important; }
+    @media (max-width: 640px) { .lyrics-big { font-size: 1.32rem !important; } }
     .vl { text-wrap: balance; }   /* si un vers s'ha de partir, que quedi en dues meitats semblants */
 
     /* Al mòbil en vertical aprofitam més l'amplada del full */
@@ -275,7 +277,7 @@
       </div>
 
       <!-- Dreta: Acords, Facsímil (Toggle Switches) i Modo Taula -->
-      <div class="flex items-center gap-4 sm:gap-5 text-xs sm:text-sm text-[#e6d7c3] font-sans">
+      <div class="flex items-center gap-3 sm:gap-5 text-xs sm:text-sm text-[#e6d7c3] font-sans">
         <label id="acordsLabelWrap" class="flex items-center gap-2 cursor-pointer select-none hover:text-white transition">
           <span class="toggle-switch">
             <input type="checkbox" id="chordToggle" checked="" onchange="toggleChords(this.checked)">
@@ -291,6 +293,11 @@
           </span>
           <span>Facsímil</span>
         </label>
+
+        <!-- Mida de la lletra: Ajustada (cada vers en una línia) o Gran -->
+        <button id="sizeBtn" onclick="toggleTextSize()" aria-label="Mida de la lletra" class="flex items-center px-2.5 py-1.5 rounded-[4px] border border-[#7d5635] bg-[#291b12] hover:bg-[#382518] text-[#f5e7ce] transition font-medium text-xs sm:text-sm shadow-sm">
+          <span style="font-size:0.8em;line-height:1">A</span><span style="font-size:1.2em;line-height:1">A</span>
+        </button>
 
         <!-- Input ocult per carregar el PDF original si es vol Facsímil 100% amb imatge escanejada -->
         <input type="file" id="pdfFileInput" accept="application/pdf" class="hidden" onchange="handlePdfUpload(event)">
@@ -2118,12 +2125,36 @@
       reader.readAsDataURL(file);
     }
 
-    /* Ajusta la mida de la lletra perquè cada vers càpiga en una línia (sobretot al mòbil en vertical). */
-    const LYRICS_MIN_PX = 15;
+    /* Mida de la lletra:
+       - 'fit' (Ajustada): cada vers sempre en una sola línia, com al cançoner; la lletra es redueix el que calgui.
+       - 'big' (Gran): lletra gran fixa; els versos llargs es parteixen i la continuació queda sagnada. */
+    let textSize = 'fit';
+    try { if (localStorage.getItem('canconer_text_size') === 'big') textSize = 'big'; } catch (e) {}
+
+    function paintSizeBtn() {
+      const b = document.getElementById('sizeBtn');
+      if (!b) return;
+      const big = textSize === 'big';
+      b.title = big ? 'Lletra gran (toca per ajustar cada vers a una línia)' : 'Lletra ajustada: cada vers en una línia (toca per lletra gran)';
+      b.style.background = big ? '#7d5635' : '';
+      b.style.color = big ? '#fff5e3' : '';
+    }
+
+    function toggleTextSize() {
+      textSize = textSize === 'big' ? 'fit' : 'big';
+      try { localStorage.setItem('canconer_text_size', textSize); } catch (e) {}
+      paintSizeBtn();
+      fitLyrics();
+      showToast(textSize === 'big' ? 'Lletra gran: els versos llargs es parteixen en dues línies.' : 'Lletra ajustada: cada vers en una sola línia, com al cançoner.');
+    }
+
     function fitLyrics() {
+      paintSizeBtn();
       const lc = document.querySelector('.song-lyrics');
       if (!lc) return;
       lc.style.fontSize = '';
+      lc.classList.remove('lyrics-fit', 'lyrics-big');
+      if (textSize === 'big') { lc.classList.add('lyrics-big'); return; }
       const base = parseFloat(getComputedStyle(lc).fontSize);
       const avail = lc.clientWidth;          // amplada real, abans d'impedir els salts de línia
       lc.classList.add('lyrics-measuring');
@@ -2132,8 +2163,9 @@
         if (el.offsetParent !== null) widest = Math.max(widest, el.getBoundingClientRect().width);
       });
       lc.classList.remove('lyrics-measuring');
+      lc.classList.add('lyrics-fit');        // mai no es parteix un vers
       if (widest > avail && avail > 0) {
-        lc.style.fontSize = Math.max(LYRICS_MIN_PX, Math.floor(base * avail / widest * 10) / 10) + 'px';
+        lc.style.fontSize = Math.max(8, Math.floor(base * avail / widest * 0.99 * 10) / 10) + 'px';
       }
     }
     let fitTimer = null;
@@ -2722,6 +2754,7 @@
     // Exposar totes les funcions al context global window per evitar qualsevol ReferenceError en atributs onclick
     window.goToPage = goToPage;
     window.toggleChords = toggleChords;
+    window.toggleTextSize = toggleTextSize;
     window.toggleFacsimil = toggleFacsimil;
     window.handleSearchInput = handleSearchInput;
     window.handleSearchKeydown = handleSearchKeydown;
