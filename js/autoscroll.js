@@ -18,6 +18,7 @@ function asPaint() {
     ? '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><rect x="6" y="5" width="4" height="14" rx="1" fill="currentColor"/><rect x="14" y="5" width="4" height="14" rx="1" fill="currentColor"/></svg>'
     : '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.9l10.2-6.5a1 1 0 0 0 0-1.8L9.5 4.6A1 1 0 0 0 8 5.5z" fill="currentColor"/></svg>';
   document.getElementById('asLevel').textContent = autoscroll.level;
+  asFollowViewport();
 }
 
 function asAtBottom() {
@@ -76,6 +77,24 @@ document.addEventListener('visibilitychange', async () => {
     try { autoscroll.wake = await navigator.wakeLock.request('screen'); } catch (e) {}
   }
 });
+
+// Zoom amb dos dits: la pàgina s'amplia però els controls es queden a la mateixa mida
+// i a la mateixa cantonada de la pantalla.
+function asFollowViewport() {
+  const box = document.getElementById('autoScroll');
+  const vv = window.visualViewport;
+  if (!box || !vv) return;
+  if (Math.abs(vv.scale - 1) < 0.01) { box.style.transform = ''; box.style.left = ''; box.style.top = ''; box.style.bottom = ''; return; }
+  const k = 1 / vv.scale;
+  const h = box.offsetHeight;
+  box.style.left = '0px'; box.style.top = '0px'; box.style.bottom = 'auto';
+  box.style.transformOrigin = '0 0';
+  box.style.transform = `translate(${vv.offsetLeft + 12 * k}px, ${vv.offsetTop + vv.height - (14 + h) * k}px) scale(${k})`;
+}
+if (window.visualViewport) {
+  window.visualViewport.addEventListener('resize', asFollowViewport);
+  window.visualViewport.addEventListener('scroll', asFollowViewport);
+}
 
 window.autoScrollToggle = autoScrollToggle;
 window.autoScrollSpeed = autoScrollSpeed;

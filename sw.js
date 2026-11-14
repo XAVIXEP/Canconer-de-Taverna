@@ -10,7 +10,7 @@
 //
 // Si afegeixes un fitxer nou a l'aplicació, posa'l a APP_FILES i canvia VERSION.
 
-const VERSION = '2026-11-14f';
+const VERSION = '2026-11-14g';
 const APP_CACHE = 'canconer-app-' + VERSION;
 const EXT_CACHE = 'canconer-externs-v1';
 const FAC_CACHE = 'canconer-facsimil-v1';
