@@ -1894,17 +1894,37 @@
     /* =========================================================================
        FORMATADOR DE LLETRA I ACORDS EN SUPERÍNDEX
        ========================================================================= */
+    // Un grup entre parèntesis és d'acords si tots els seus elements ho són:
+    // (la), (DO7 x4), (sol - DO7), (MI7 - la&emsp;&emsp;FA)...
+    const CHORD_TOKEN = /^(?:(?:DO|RE|MI|FA|SOL|LA|SI|do|re|mi|fa|sol|la|si)(?:#|b)?(?:7|m|dis[123])?|dis[123]|x\d+)$/;
+    const OLD_CHORD_GROUP = /^(DO#?7?|do#?|RE7?|re|MIb?7?|mi|FA#?7?|fa#?|SOL#?7?|sol#?|LA7?|la|SIb?7?|si|dis[123]|[A-Z0-9#/\s-]+)$/;
+    function isChordGroup(inner) {
+      if (OLD_CHORD_GROUP.test(inner)) return true;
+      const toks = inner.split(/\s*(?:&emsp;|-|\s)\s*/).filter(Boolean);
+      return toks.length > 0 && toks.every(t => CHORD_TOKEN.test(t));
+    }
+
+    function formatLyricLine(line) {
+      return line
+        .replace(/\{([^}]+)\}/g, '<em class="font-serif-title italic" style="font-size:0.95em">$1</em>')
+        .replace(/\[_?([^\]]+)\]/g, '<span class="chord">($1)</span>')
+        .replace(/\(([^()]{1,120})\)/g, (m, inner) => isChordGroup(inner) ? `<span class="chord">(${inner})</span>` : m);
+    }
+
     function formatLyrics(text) {
       if (!text) return "";
       if (text.trim() === "***") {
         return `<div class="text-center tracking-[0.75em] my-2 text-[#4a3b2c]">* * *</div>`;
       }
-      // Converteix [ACORD] o (ACORD) en <span class="chord">(ACORD)</span>
-      let out = text
-        .replace(/\{([^}]+)\}/g, '<em class="font-serif-title italic" style="font-size:0.95em">$1</em>')
-        .replace(/\[_?([^\]]+)\]/g, '<span class="chord">($1)</span>')
-        .replace(/\((DO#?7?|do#?|RE7?|re|MIb?7?|mi|FA#?7?|fa#?|SOL#?7?|sol#?|LA7?|la|SIb?7?|si|dis[123]|[A-Z0-9#/\s-]+)\)/g, '<span class="chord">($1)</span>');
-      return out;
+      // Cada línia: els acords van en <span class="chord">. Si una línia només té acords,
+      // s'amaga sencera (amb el seu salt de línia) quan es lleven els acords.
+      const lines = text.split('\n');
+      return lines.map((line, i) => {
+        const html = formatLyricLine(line);
+        const nl = i < lines.length - 1 ? '\n' : '';
+        const rest = html.replace(/<span class="chord">[^<]*<\/span>/g, '').trim();
+        return (html.trim() && !rest) ? `<span class="chord-only-line">${html}${nl}</span>` : html + nl;
+      }).join('');
     }
 
     /* =========================================================================
