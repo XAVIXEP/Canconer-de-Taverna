@@ -16,7 +16,7 @@ const taula = {
   n: 0, open: true, host: false, lastSeq: 0,
   retry: 0, timer: null, ping: null, want: false,
   view: 'home',                   // vista del modal: 'home' | 'create' | 'room' | 'scan'
-  error: '', busy: false,
+  error: '', info: '', busy: false,   // error: alguna cosa ha fallat (vermell); info: avís normal (neutre)
   prompt: null,                   // cançó de l'avís central
 };
 const taulaCid = Math.random().toString(36).slice(2, 10);
@@ -72,7 +72,8 @@ function taulaRenderModal() {
   body.dataset.view = view;
 
   const noServer = !taulaUrl();
-  const err = taula.error ? `<p class="tl-error" role="alert">${esc(taula.error)}</p>` : '';
+  const err = taula.error ? `<p class="tl-error" role="alert">${esc(taula.error)}</p>`
+    : (taula.info ? `<p class="tl-info" role="status">${esc(taula.info)}</p>` : '');
   const nameField = `
     <label class="tl-label" for="tlName">El teu nom</label>
     <input id="tlName" class="tl-input" type="text" maxlength="24" autocomplete="nickname" placeholder="Com et diuen?" value="${esc(taulaWho())}">`;
@@ -161,14 +162,14 @@ function taulaQrSvg(text) {
 }
 
 function taulaShow(view) {
-  taula.error = '';
+  taula.error = ''; taula.info = '';
   const name = $t('tlName'); if (name) lsSet('taula_who', name.value.trim().slice(0, 24));
   taula.view = view;
   taulaRenderModal();
 }
 
 function openTableModal() {
-  taula.error = '';
+  taula.error = ''; taula.info = '';
   if (taula.view === 'scan') taula.view = 'home';
   $t('tableModal').classList.remove('hidden');
   taulaRenderModal();
@@ -193,7 +194,7 @@ function taulaReadName() {
 }
 
 function taulaJoinFromForm() {
-  taula.error = '';
+  taula.error = ''; taula.info = '';
   if (!taulaReadName()) return;
   const code = normCode($t('tlCode').value);
   if (!code) { taula.error = 'El codi de la taula són 6 xifres.'; taulaRenderModal(); $t('tlCode').focus(); return; }
@@ -201,7 +202,7 @@ function taulaJoinFromForm() {
 }
 
 async function taulaCreateFromForm() {
-  taula.error = '';
+  taula.error = ''; taula.info = '';
   if (!taulaReadName()) return;
   const open = $t('tlOpen').checked;
   taula.busy = true; taulaRenderModal();
@@ -251,7 +252,7 @@ function taulaClearTimers() { clearTimeout(taula.timer); clearInterval(taula.pin
 /** Entra a una taula (o hi torna). */
 function taulaJoin(code) {
   if (taula.ws) taulaDrop();
-  taula.code = code; taula.want = true; taula.retry = 0; taula.lastSeq = 0; taula.error = ''; taula.busy = true;
+  taula.code = code; taula.want = true; taula.retry = 0; taula.lastSeq = 0; taula.error = ''; taula.info = ''; taula.busy = true;
   taulaConnect();
 }
 
@@ -304,15 +305,15 @@ function taulaGone() {
   taulaDrop();
   taula.want = false; taula.busy = false; taula.status = 'off'; taula.n = 0; taula.view = 'home';
   lsSet('taula_on', '0');
-  taula.error = wasIn ? `La taula ${prettyCode(taula.code)} s'ha tancat.` : `La taula ${prettyCode(taula.code)} no existeix o ja s'ha tancat. Comprova el codi.`;
-  if (wasIn) { showToast(taula.error); taula.code = null; lsDel('taula_room'); }
+  if (wasIn) { taula.info = `La taula ${prettyCode(taula.code)} s'ha tancat perquè feia 2 hores que no s'hi enviava res.`; showToast(`La taula ${prettyCode(taula.code)} s'ha tancat.`); taula.code = null; lsDel('taula_room'); }
+  else taula.error = `La taula ${prettyCode(taula.code)} no existeix o ja s'ha tancat. Comprova el codi.`;
   taulaHidePrompt();
   taulaPaint();
 }
 
 function taulaLeave() {
   taulaDrop();
-  taula.want = false; taula.busy = false; taula.status = 'off'; taula.n = 0; taula.code = null; taula.view = 'home'; taula.error = '';
+  taula.want = false; taula.busy = false; taula.status = 'off'; taula.n = 0; taula.code = null; taula.view = 'home'; taula.error = ''; taula.info = '';
   lsSet('taula_on', '0'); lsDel('taula_room');
   taulaHidePrompt();
   taulaPaint();
@@ -332,7 +333,7 @@ function taulaOnMessage(text) {
   if (m.init) {
     // Hem entrat (o hi hem tornat)
     const first = taula.busy;
-    taula.status = 'on'; taula.retry = 0; taula.busy = false; taula.error = '';
+    taula.status = 'on'; taula.retry = 0; taula.busy = false; taula.error = ''; taula.info = '';
     taula.open = m.open !== false; taula.host = !!m.host;
     lsSet('taula_room', taula.code); lsSet('taula_on', '1');
     if (first) { taula.view = 'room'; showToast(`Ets a la taula ${prettyCode(taula.code)}.`); }
@@ -396,7 +397,7 @@ function taulaLoadJsQR() {
 
 async function taulaStartScan() {
   const name = $t('tlName'); if (name) lsSet('taula_who', name.value.trim().slice(0, 24));
-  taula.error = ''; taula.view = 'scan';
+  taula.error = ''; taula.info = ''; taula.view = 'scan';
   taulaRenderModal();
   const msg = (t) => { const el = $t('tlScanMsg'); if (el) el.textContent = t; };
   try {
@@ -448,10 +449,10 @@ function taulaStopScan() {
 
 function taulaScanned(code) {
   taulaStopScan();
-  taula.view = 'home'; taula.code = code; taula.error = '';
+  taula.view = 'home'; taula.code = code; taula.error = ''; taula.info = '';
   taulaRenderModal();
   if (taulaWho()) taulaJoin(code);
-  else { taula.error = 'Codi llegit. Escriu el teu nom i prem Entrar.'; taulaRenderModal(); if ($t('tlName')) $t('tlName').focus(); }
+  else { taula.info = 'Codi llegit. Escriu el teu nom i prem Entrar.'; taulaRenderModal(); if ($t('tlName')) $t('tlName').focus(); }
 }
 
 // ---------------------------------------------------------------- Arrencada
@@ -463,7 +464,7 @@ function taulaInit() {
     try { history.replaceState(null, '', location.pathname + location.hash); } catch (e) {}
     taula.code = fromLink;
     if (taulaUrl() && taulaWho()) taulaJoin(fromLink);
-    else openTableModal();        // falta el nom: es demana amb el codi ja posat
+    else { openTableModal(); taula.info = `T'han convidat a la taula ${prettyCode(fromLink)}. Escriu el teu nom i prem Entrar.`; taulaRenderModal(); if ($t('tlName')) $t('tlName').focus(); }   // falta el nom: es demana amb el codi ja posat
   } else {
     const saved = normCode(lsGet('taula_room', ''));
     if (taulaUrl() && saved && taulaWho() && lsGet('taula_on', '0') === '1') {

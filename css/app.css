@@ -359,3 +359,6 @@ button, [role="button"], label, input[type="checkbox"] { touch-action: manipulat
   color: #e0a458; text-decoration: underline; text-underline-offset: 3px;
 }
 .feedback-paper .feedback-link { color: #8a4b12; }
+
+/* Avís normal de la Taula (no és cap error) */
+.tl-info { color: #f3e6be; background: #2a2116; border: 1px solid #6e5435; border-left: 4px solid #d97706; border-radius: 6px; padding: 8px 10px; font-size: 14px; margin: 0 0 12px; }
