@@ -140,6 +140,7 @@ function renderIndexHTML() {
           <p><sup>1</sup> Cançons que a Menorca s'han adoptat com a pròpies més enllà de la procedència de l'autor.</p>
           <p><sup>2</sup> Cançons de procedència mexicana o amb una estructura musical semblant.</p>
         </div>
+        <p class="feedback-line feedback-paper">Ens ajudes a millorar-lo? <button onclick="openFeedback()" class="feedback-link">Dona'ns la teva opinió</button></p>
       </div>
     </div>
   `;
@@ -363,6 +364,8 @@ function render() {
   // Peu: els enllaços preliminars només a la portada; el botó d'enviar, només a les cançons
   const foot = document.getElementById('footLinks');
   if (foot) foot.classList.toggle('hidden', currentView !== 0);
+  const fb = document.getElementById('footFeedback');
+  if (fb) fb.style.display = currentView === 0 ? '' : 'none';
   if (typeof taulaPaint === 'function') taulaPaint();
   if (typeof asPaint === 'function') asPaint();
 }
@@ -712,6 +715,15 @@ function showToast(msg) {
 }
 
 // Exposar totes les funcions al context global window per evitar qualsevol ReferenceError en atributs onclick
+// Enquesta d'opinió (Tally). S'hi passa la pàgina on era i el tipus d'aparell, sense cap dada personal.
+const FEEDBACK_FORM_URL = 'https://tally.so/r/4aJbyO';
+function openFeedback() {
+  const aparell = window.innerWidth <= 640 ? 'mobil' : (window.innerWidth <= 1024 ? 'tauleta' : 'ordinador');
+  const url = `${FEEDBACK_FORM_URL}?pagina=${encodeURIComponent(String(currentView))}&aparell=${aparell}`;
+  if (navigator.onLine === false) { showToast("Per enviar la teva opinió cal connexió a internet."); return; }
+  window.open(url, '_blank', 'noopener');
+}
+window.openFeedback = openFeedback;
 window.goToPage = goToPage;
 window.toggleChords = toggleChords;
 window.toggleTextSize = toggleTextSize;

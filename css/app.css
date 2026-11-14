@@ -350,3 +350,12 @@ body {
 .as-box { touch-action: manipulation; }
 /* En general, cap botó de la web fa zoom si s'hi toca dues vegades seguides */
 button, [role="button"], label, input[type="checkbox"] { touch-action: manipulation; }
+
+/* Enllaç a l'enquesta d'opinió */
+.feedback-line { margin: 14px 0 2px; text-align: center; font-size: 14px; color: #9c8269; }
+.feedback-paper { color: #4a3b2c; font-size: 13px; }
+.feedback-link {
+  background: none; border: 0; padding: 6px 2px; font: inherit; font-weight: 700; cursor: pointer;
+  color: #e0a458; text-decoration: underline; text-underline-offset: 3px;
+}
+.feedback-paper .feedback-link { color: #8a4b12; }
