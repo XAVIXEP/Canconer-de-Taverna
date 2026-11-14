@@ -140,6 +140,23 @@
       }
     }
 
+    /* Cada vers és una línia. Si tot i reduir la lletra no hi cap, la continuació
+       queda sagnada perquè es vegi que és el mateix vers. */
+    .vl {
+      padding-left: 1.1em;
+      text-indent: -1.1em;
+    }
+    .vl-empty { height: 0.6em; }
+    .lyrics-measuring .vl { white-space: nowrap; }
+    .vl { text-wrap: balance; }   /* si un vers s'ha de partir, que quedi en dues meitats semblants */
+
+    /* Al mòbil en vertical aprofitam més l'amplada del full */
+    @media (max-width: 640px) {
+      .spiral-binding { width: 22px; }
+      .spiral-hole { width: 14px; }
+      #pageBody { padding-left: 12px !important; padding-right: 10px !important; }
+    }
+
     /* Clau d'acompanyament lateral (bracket esquerre per a tornades com a 'Sa filla des sergent' o 'Salió de Jamaica') */
     .chorus-bracket {
       border-left: 2px solid #2b2118;
@@ -1916,14 +1933,15 @@
       if (text.trim() === "***") {
         return `<div class="text-center tracking-[0.75em] my-2 text-[#4a3b2c]">* * *</div>`;
       }
-      // Cada línia: els acords van en <span class="chord">. Si una línia només té acords,
-      // s'amaga sencera (amb el seu salt de línia) quan es lleven els acords.
+      // Cada vers és un bloc (.vl). Si una línia només té acords, s'amaga sencera quan es lleven els acords.
+      // fitLyrics() redueix la lletra perquè cada vers càpiga en una sola línia.
       const lines = text.split('\n');
-      return lines.map((line, i) => {
+      return lines.map(line => {
         const html = formatLyricLine(line);
-        const nl = i < lines.length - 1 ? '\n' : '';
+        if (!html.trim()) return '<div class="vl vl-empty"></div>';
         const rest = html.replace(/<span class="chord">[^<]*<\/span>/g, '').trim();
-        return (html.trim() && !rest) ? `<span class="chord-only-line">${html}${nl}</span>` : html + nl;
+        const cls = rest ? 'vl' : 'vl chord-only-line';
+        return `<div class="${cls}"><span class="vt">${html}</span></div>`;
       }).join('');
     }
 
@@ -2027,8 +2045,8 @@
       if (songData && songData.stanzas) {
         bodyContent = `
           ${songData.intro ? `<div class="chord-only-line font-lyrics italic font-semibold text-base text-[#2b2118] mb-3">${songData.intro}</div>` : ''}
-          <div class="lyrics-container space-y-5">
-            ${songData.stanzas.map(st => `<div class="whitespace-pre-line">${formatLyrics(st)}</div>`).join('')}
+          <div class="lyrics-container song-lyrics space-y-5">
+            ${songData.stanzas.map(st => `<div class="stanza">${formatLyrics(st)}</div>`).join('')}
           </div>
           ${songData.footnote ? `<div class="mt-8 pt-3 border-t border-[#baa279]/40 text-sm text-[#4a3b2c] font-lyrics italic">${songData.footnote}</div>` : ''}
         `;
@@ -2100,6 +2118,28 @@
       reader.readAsDataURL(file);
     }
 
+    /* Ajusta la mida de la lletra perquè cada vers càpiga en una línia (sobretot al mòbil en vertical). */
+    const LYRICS_MIN_PX = 15;
+    function fitLyrics() {
+      const lc = document.querySelector('.song-lyrics');
+      if (!lc) return;
+      lc.style.fontSize = '';
+      const base = parseFloat(getComputedStyle(lc).fontSize);
+      const avail = lc.clientWidth;          // amplada real, abans d'impedir els salts de línia
+      lc.classList.add('lyrics-measuring');
+      let widest = 0;
+      lc.querySelectorAll('.vt').forEach(el => {
+        if (el.offsetParent !== null) widest = Math.max(widest, el.getBoundingClientRect().width);
+      });
+      lc.classList.remove('lyrics-measuring');
+      if (widest > avail && avail > 0) {
+        lc.style.fontSize = Math.max(LYRICS_MIN_PX, Math.floor(base * avail / widest * 10) / 10) + 'px';
+      }
+    }
+    let fitTimer = null;
+    window.addEventListener('resize', () => { clearTimeout(fitTimer); fitTimer = setTimeout(fitLyrics, 120); });
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitLyrics);
+
     function render() {
       const sheet = document.getElementById('bookSheet');
       const pageBody = document.getElementById('pageBody');
@@ -2146,6 +2186,7 @@
       if (window.lucide) {
         try { lucide.createIcons(); } catch (e) {}
       }
+      fitLyrics();
     }
 
     /* =========================================================================
@@ -2319,8 +2360,8 @@
       const sampleStanza2 = `* Cantem [${subChord}]junts a sa taula de [${mainChord}]fusta,\namb a[${domChord}]mics i una copa de [${mainChord}]vi,\nque sa [${subChord}]nit marinera mos [${mainChord}]gusta\ni es re[${domChord}]cord mai no es pot esbor[${mainChord}]rar. {(bis)}`;
 
       return `
-        <div class="whitespace-pre-line">${formatLyrics(sampleStanza1)}</div>
-        <div class="whitespace-pre-line">${formatLyrics(sampleStanza2)}</div>
+        <div class="stanza">${formatLyrics(sampleStanza1)}</div>
+        <div class="stanza">${formatLyrics(sampleStanza2)}</div>
         <div class="pt-4 text-sm italic text-[#5c4a38] font-serif-title">
           Pàgina ${song.p} del Cançoner de Taverna (${song.t} — ${song.auth}). Pots activar "Facsímil" a dalt a la dreta per veure l'escaneig original del PDF.
         </div>
