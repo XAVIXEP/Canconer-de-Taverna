@@ -1,0 +1,240 @@
+:root {
+  --bg-dark: #19120c;
+  --nav-bg: #16100b;
+  --nav-border: #38291d;
+  --nav-btn-border: #634832;
+  --ink: #17120e;
+  --ink-muted: #4a3c2f;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: #dfd3c3;
+  font-family: 'Source Sans 3', 'Optima', 'Candara', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.font-serif-title {
+  font-family: 'EB Garamond', 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-lyrics {
+  font-family: 'Source Sans 3', 'Optima', 'Candara', -apple-system, sans-serif;
+}
+
+/* Color i textura de pàgina de pergamí càlid idèntic a les captures */
+.sheet-paper {
+  background: radial-gradient(ellipse at 48% 35%, #f3e6be 0%, #e7d4a1 62%, #d9c087 100%);
+  color: var(--ink);
+  box-shadow: 
+    0 18px 50px rgba(0, 0, 0, 0.85),
+    inset -18px 0 35px rgba(95, 68, 30, 0.22),
+    inset 0 0 25px rgba(110, 80, 35, 0.14);
+  border-radius: 3px;
+  position: relative;
+  transition: filter 0.2s ease, background 0.2s ease;
+}
+
+/* Mode Facsímil quan no hi ha PDF extern carregat (aspecte d'escanejat CamScanner sobre el paper) */
+.sheet-paper.facsimil-sim {
+  background: #f5ebd1;
+  filter: contrast(1.06) sepia(0.08);
+}
+
+/* En mode Facsímil amb PDF carregat s'aprofiten al màxim els marges del full */
+.facsimil-canvas-wrap {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Perforacions d'enquadernació (espiral de l'esquerra idèntica a la captura) */
+.spiral-binding {
+  width: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 14px 0;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.spiral-hole {
+  width: 18px;
+  height: 10px;
+  background-color: #19120c;
+  border-radius: 50%;
+  margin: 4px 0 4px -3px;
+  box-shadow: 
+    inset 2px 2px 4px rgba(0,0,0,0.95),
+    0 1px 1px rgba(255,255,255,0.3);
+}
+
+/* En mode Facsímil simulem també l'anella metàl·lica de l'escanejat */
+.facsimil-sim .spiral-hole {
+  border-radius: 2px 6px 6px 2px;
+  background: linear-gradient(180deg, #111 0%, #444 45%, #0a0a0a 100%);
+  width: 22px;
+  height: 11px;
+}
+
+/* Acords exactes en superíndex dins de la síl·laba (1:1 amb el Cançoner) */
+.chord {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.66em;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.58em;
+  color: #1a140e;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* Quan es desactiven els acords, desapareixen sense deixar cap espai buit enmig de les paraules */
+.no-chords .chord {
+  display: none !important;
+}
+
+/* Quan una línia només té acords d'introducció o final, en llevar acords s'oculta la línia d'acords */
+.no-chords .chord-only-line {
+  display: none !important;
+}
+
+/* Lletres més grans i llegibles tal com ha demanat l'usuari */
+.lyrics-container {
+  font-size: 1.35rem; /* ~21.6px en escriptori */
+  line-height: 1.72;
+  color: #17120e;
+  letter-spacing: 0.005em;
+}
+
+@media (max-width: 640px) {
+  .lyrics-container {
+    font-size: 1.18rem;
+    line-height: 1.68;
+  }
+}
+
+/* Cada vers és una línia. Si tot i reduir la lletra no hi cap, la continuació
+   queda sagnada perquè es vegi que és el mateix vers. */
+.vl {
+  padding-left: 1.1em;
+  text-indent: -1.1em;
+}
+.vl-empty { height: 0.6em; }
+.lyrics-measuring .vl, .lyrics-fit .vl { white-space: nowrap; }
+.lyrics-big { font-size: 1.6rem !important; }
+@media (max-width: 640px) { .lyrics-big { font-size: 1.32rem !important; } }
+.vl { text-wrap: balance; }   /* si un vers s'ha de partir, que quedi en dues meitats semblants */
+
+/* Al mòbil en vertical aprofitam més l'amplada del full */
+@media (max-width: 640px) {
+  .spiral-binding { width: 22px; }
+  .spiral-hole { width: 14px; }
+  #pageBody { padding-left: 12px !important; padding-right: 10px !important; }
+}
+
+/* Cercador al mòbil: lletra de 16px (l'iPhone no fa zoom en tocar-lo) i resultats a tota l'amplada */
+@media (max-width: 640px) {
+  .search-input { font-size: 16px !important; }
+  #searchDropdown { position: fixed; left: 8px; right: 8px; margin-top: 0; }
+}
+
+/* Clau d'acompanyament lateral (bracket esquerre per a tornades com a 'Sa filla des sergent' o 'Salió de Jamaica') */
+.chorus-bracket {
+  border-left: 2px solid #2b2118;
+  padding-left: 14px;
+  margin-left: -16px;
+  position: relative;
+}
+.chorus-bracket::before,
+.chorus-bracket::after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  width: 7px;
+  height: 1.5px;
+  background: #2b2118;
+}
+.chorus-bracket::before { top: 0; }
+.chorus-bracket::after { bottom: 0; }
+
+/* Interruptors lliscants (Toggle Switches) estil píndola amb marró suau */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.toggle-slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: #261b12;
+  border: 1.5px solid #6e5239;
+  border-radius: 999px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.6);
+}
+.toggle-slider::before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 2.5px;
+  background-color: #b59b82;
+  border-radius: 50%;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.toggle-switch input:checked + .toggle-slider {
+  background-color: #8c6239;
+  border-color: #d4a76a;
+}
+.toggle-switch input:checked + .toggle-slider::before {
+  transform: translateX(17px);
+  background-color: #f7ebd2;
+}
+
+/* Cercles de tipologia de cançó fidels al Cançoner */
+#bookSheet.cover-mode { background: none !important; box-shadow: none !important; filter: none !important; min-height: 0 !important; overflow: visible; }
+#bookSheet.cover-mode #spiralCol { display: none; }
+#bookSheet.cover-mode #pageBody { padding: 0 !important; }
+.cover-frame { position: relative; }
+.cover-img { display: block; width: 100%; height: auto; border-radius: 3px 7px 7px 3px; box-shadow: 0 18px 50px rgba(0,0,0,.85); }
+.cover-frame::after { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 26px; border-radius: 3px 0 0 3px; background: linear-gradient(90deg, rgba(40,25,10,.45), rgba(40,25,10,.12) 55%, transparent); pointer-events: none; }
+.cover-open { display: block; margin: 1.4rem auto 0; font: italic 600 1.3rem 'EB Garamond', Georgia, serif; color: #f3e6be; background: #6b2a1e; border: 0; border-radius: 3px; padding: .7rem 2rem; cursor: pointer; }
+.cover-open:hover { background: #823324; }
+.cover-link { display: block; margin: .8rem auto 0; background: none; border: 0; font: italic 1.05rem 'EB Garamond', Georgia, serif; color: #cdb98d; cursor: pointer; }
+.cat-dots { display: inline-flex; align-items: center; min-width: 26px; }
+.cat-dots .cat-dot + .cat-dot { margin-left: -4px; }
+.cat-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+  border: 1px solid rgba(23, 18, 14, 0.45);
+  box-shadow: inset 0 1px 1px rgba(255,255,255,0.3);
+}
+
+/* Dropdown de resultats de cerca ràpida */
+#searchDropdown {
+  max-height: 360px;
+  overflow-y: auto;
+}
