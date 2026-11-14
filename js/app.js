@@ -1,11 +1,6 @@
 // Lògica de l'aplicació: lector, cercador, acords, mida de lletra i Taula.
 // Necessita js/canconer-data.js carregat abans.
 
-// Configuració de PDF.js si l'usuari carrega el fitxer PDF local
-if (window.pdfjsLib) {
-  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
-}
-let loadedPdfDoc = null;
 const COVER_IMG = "img/portada-coberta.jpg";
 const ACORDS_IMG = "img/acords.jpg";
 let cachedCoverDataUrl = null;
@@ -15,6 +10,7 @@ let customCoverIllustrationUrl = localStorage.getItem('canconer_cover_img') || n
 let currentView = 0; // 0 = Portada, 'index', 'proleg', 'presentacio', 'acords', 'convencions', o número 1..125
 let showChords = true;
 let isFacsimil = false;
+try { isFacsimil = localStorage.getItem('canconer_facsimil') === '1'; } catch (e) {}
 let activeIndexCategoryFilter = null;
 // Les funcions de la Taula (connexió en viu) són a js/taula.js.
 
@@ -204,19 +200,60 @@ function renderSongPageHTML(pageNum) {
   `;
 }
 
-function handlePdfUpload(event) {
-  const file = event.target.files && event.target.files[0];
-  if (!file || !window.pdfjsLib) return;
-  const reader = new FileReader();
-  reader.onload = function(e) {
-    const typedarray = new Uint8Array(e.target.result);
-    pdfjsLib.getDocument(typedarray).promise.then(function(pdf) {
-      loadedPdfDoc = pdf;
-      showToast("PDF original carregat per al mode Facsímil!");
-      render();
-    });
-  };
-  reader.readAsArrayBuffer(file);
+/* =========================================================================
+   MODE FACSÍMIL: les pàgines escanejades del cançoner original
+   ========================================================================= */
+// Pàgines del PDF escanejat (img/facsimil/pNNN.webp) per a cada vista.
+// La cançó n és a la pàgina n+5 del PDF; el Popurri (125) ocupa de la 130 a la 137.
+// El Pròleg i la Presentació no són a l'escanejat.
+function facsimilPages(view) {
+  if (view === 0) return [1];
+  if (view === 'index') return [2, 3];
+  if (view === 'acords') return [4];
+  if (view === 'convencions') return [5];
+  if (view === 125) return [130, 131, 132, 133, 134, 135, 136, 137];
+  if (typeof view === 'number' && view >= 1 && view <= 124) return [view + 5];
+  return [];
+}
+const facsimilSrc = (n) => `img/facsimil/p${String(n).padStart(3, '0')}.webp`;
+
+function renderFacsimilHTML(view) {
+  const pages = facsimilPages(view);
+  if (!pages.length) return null;
+  const meta = typeof view === 'number' ? FULL_INDEX.find(s => s.p === view) : null;
+  const imgs = pages.map((n, i) => `
+    <img class="facsimil-img" src="${facsimilSrc(n)}" alt="${meta ? 'Pàgina ' + view + ' del cançoner original: ' + meta.t : 'Pàgina original del cançoner'}${pages.length > 1 ? ' (' + (i + 1) + '/' + pages.length + ')' : ''}"
+         ${i ? 'loading="lazy"' : 'fetchpriority="high"'} decoding="async"
+         onerror="facsimilFail(this)">`).join('');
+  let nav = '';
+  if (typeof view === 'number') {
+    const idx = FULL_INDEX.findIndex(s => s.p === view);
+    const prev = FULL_INDEX[idx - 1], next = FULL_INDEX[idx + 1];
+    nav = `
+      <div class="facsimil-nav font-serif-title italic">
+        ${prev ? `<button onclick="goToPage(${prev.p})">&lsaquo; ${prev.t}</button>` : `<button onclick="goToPage('index')">&lsaquo; Índex</button>`}
+        <span class="not-italic font-bold">${view}</span>
+        ${next ? `<button onclick="goToPage(${next.p})">${next.t} &rsaquo;</button>` : `<button onclick="goToPage('index')">Índex &rsaquo;</button>`}
+      </div>`;
+  }
+  return `<div class="facsimil-pages">${imgs}</div>${nav}`;
+}
+
+function facsimilFail(img) {
+  const p = document.createElement('p');
+  p.className = 'facsimil-missing';
+  p.textContent = navigator.onLine === false
+    ? "Aquesta pàgina escanejada encara no està desada al mòbil. Obre-la un cop amb internet i després es veurà sense connexió."
+    : "No s'ha pogut carregar la pàgina escanejada.";
+  img.replaceWith(p);
+}
+window.facsimilFail = facsimilFail;
+
+// Precarrega la pàgina escanejada següent perquè passar de cançó sigui immediat
+function facsimilPreloadNext(view) {
+  if (typeof view !== 'number' || view >= 125) return;
+  const next = facsimilPages(view + 1)[0];
+  if (next) { const im = new Image(); im.decoding = 'async'; im.src = facsimilSrc(next); }
 }
 
 function handleCoverImageUpload(event) {
@@ -282,7 +319,6 @@ if (document.fonts && document.fonts.ready) document.fonts.ready.then(fitLyrics)
 function render() {
   const sheet = document.getElementById('bookSheet');
   const pageBody = document.getElementById('pageBody');
-  const pdfBanner = document.getElementById('pdfLoadBanner');
   const chordCheckbox = document.getElementById('chordToggle');
   const facsimilCheckbox = document.getElementById('facsimilToggle');
 
@@ -297,16 +333,14 @@ function render() {
     sheet.classList.add('no-chords');
   }
 
-  if (isFacsimil) {
-    sheet.classList.add('facsimil-sim');
-    if (!loadedPdfDoc && pdfBanner) pdfBanner.classList.remove('hidden');
-  } else {
-    sheet.classList.remove('facsimil-sim');
-    if (pdfBanner) pdfBanner.classList.add('hidden');
-  }
+  const facsimilHTML = isFacsimil ? renderFacsimilHTML(currentView) : null;
+  sheet.classList.toggle('facsimil-mode', !!facsimilHTML);
 
-  sheet.classList.toggle('cover-mode', currentView === 0);
-  if (currentView === 0) {
+  sheet.classList.toggle('cover-mode', currentView === 0 && !facsimilHTML);
+  if (facsimilHTML) {
+    pageBody.innerHTML = facsimilHTML;
+    facsimilPreloadNext(currentView);
+  } else if (currentView === 0) {
     pageBody.innerHTML = renderCoverHTML();
   } else if (currentView === 'index') {
     pageBody.innerHTML = renderIndexHTML();
@@ -528,7 +562,9 @@ function toggleChords(checked) {
 
 function toggleFacsimil(checked) {
   isFacsimil = checked;
+  try { localStorage.setItem('canconer_facsimil', checked ? '1' : '0'); } catch (e) {}
   render();
+  if (checked && facsimilPages(currentView).length === 0) showToast('Aquesta pàgina no és a l\'escanejat original.');
 }
 
 function normalizeText(str) {
@@ -683,7 +719,6 @@ window.handleSearchKeydown = handleSearchKeydown;
 window.selectSearchResult = selectSearchResult;
 window.selectCategoryFromSearch = selectCategoryFromSearch;
 window.filterByCategory = filterByCategory;
-window.handlePdfUpload = handlePdfUpload;
 window.handleCoverImageUpload = handleCoverImageUpload;
 window.render = render;
 

@@ -17,8 +17,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400;1,600;1,700&amp;family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400;1,600&amp;display=swap" rel="stylesheet">
-  <!-- PDF.js per al mode Facsímil real i Portada original -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" crossorigin="anonymous"></script>
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest" crossorigin="anonymous"></script>
 
@@ -74,7 +72,6 @@
         </button>
 
         <!-- Input ocult per carregar el PDF original si es vol Facsímil 100% amb imatge escanejada -->
-        <input type="file" id="pdfFileInput" accept="application/pdf" class="hidden" onchange="handlePdfUpload(event)">
         <!-- Input ocult per carregar directament la imatge de la portada si es vol -->
         <input type="file" id="coverImgInput" accept="image/*" class="hidden" onchange="handleCoverImageUpload(event)">
 
@@ -92,16 +89,6 @@
   <main class="w-full max-w-[960px] px-1.5 sm:px-4 my-2 sm:my-4 flex flex-col items-center flex-1">
     
     <!-- Barra informativa quan Facsímil està actiu però no s'ha seleccionat l'arxiu PDF local -->
-    <div id="pdfLoadBanner" class="w-full max-w-[880px] mb-2.5 px-3.5 py-2 rounded bg-[#261c14] border border-[#6e4f35] text-[#f3e6be] text-xs sm:text-sm flex flex-wrap items-center justify-between gap-2 shadow-md hidden">
-      <div class="flex items-center gap-2">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="file-scan" aria-hidden="true" class="lucide lucide-file-scan w-4 h-4 text-amber-400 shrink-0"><path d="M20 10V8a2.4 2.4 0 0 0-.706-1.704l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.35"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M16 14a2 2 0 0 0-2 2"></path><path d="M16 22a2 2 0 0 1-2-2"></path><path d="M20 14a2 2 0 0 1 2 2"></path><path d="M20 22a2 2 0 0 0 2-2"></path></svg>
-        <span><strong>Mode Facsímil actiu:</strong> Selecciona el fitxer <code>Cançoner de Taverna 2.pdf</code> per veure la pàgina original a mida completa sense marges.</span>
-      </div>
-      <button onclick="document.getElementById('pdfFileInput').click()" class="px-3 py-1 rounded bg-[#d4a76a] hover:bg-[#e3b97e] text-[#16100b] font-semibold text-xs transition shrink-0">
-        Seleccionar PDF original
-      </button>
-    </div>
-
     <!-- EL FULL FÍSIC DEL CANÇONER -->
     <div id="bookSheet" class="w-full max-w-[880px] sheet-paper flex flex-row overflow-hidden min-h-[calc(100vh-125px)] no-chords">
       

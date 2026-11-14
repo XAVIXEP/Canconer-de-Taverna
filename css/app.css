@@ -36,21 +36,21 @@ body {
   transition: filter 0.2s ease, background 0.2s ease;
 }
 
-/* Mode Facsímil quan no hi ha PDF extern carregat (aspecte d'escanejat CamScanner sobre el paper) */
-.sheet-paper.facsimil-sim {
-  background: #f5ebd1;
-  filter: contrast(1.06) sepia(0.08);
+/* Mode Facsímil: es mostra la pàgina escanejada original (ja porta el seu paper i la seva espiral) */
+.sheet-paper.facsimil-mode { background: #fbf8f1; }
+.sheet-paper.facsimil-mode .spiral-binding { display: none; }
+.sheet-paper.facsimil-mode #pageBody { padding: 0 !important; }
+.facsimil-pages { display: flex; flex-direction: column; }
+.facsimil-img { display: block; width: 100%; height: auto; background: #f3efe6; min-height: 60vh; }
+.facsimil-img[src] { min-height: 0; }
+.facsimil-missing { padding: 40px 24px; text-align: center; font-family: 'Source Sans 3', sans-serif; color: #6b5641; }
+.facsimil-nav {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 14px 18px 18px; border-top: 1px solid rgba(186, 162, 121, 0.5);
+  font-size: 1.125rem; color: #4a3b2c; background: #f6efe0;
 }
-
-/* En mode Facsímil amb PDF carregat s'aprofiten al màxim els marges del full */
-.facsimil-canvas-wrap {
-  width: 100%;
-  flex: 1;
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  overflow: hidden;
-}
+.facsimil-nav button { max-width: 42%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.facsimil-nav button:hover { color: #000; }
 
 /* Perforacions d'enquadernació (espiral de l'esquerra idèntica a la captura) */
 .spiral-binding {
@@ -74,13 +74,6 @@ body {
     0 1px 1px rgba(255,255,255,0.3);
 }
 
-/* En mode Facsímil simulem també l'anella metàl·lica de l'escanejat */
-.facsimil-sim .spiral-hole {
-  border-radius: 2px 6px 6px 2px;
-  background: linear-gradient(180deg, #111 0%, #444 45%, #0a0a0a 100%);
-  width: 22px;
-  height: 11px;
-}
 
 /* Acords exactes en superíndex dins de la síl·laba (1:1 amb el Cançoner) */
 .chord {

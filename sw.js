@@ -1,16 +1,19 @@
 // Service worker del Cançoner de Taverna: fa que la web funcioni sense connexió.
 //
 // - En instal·lar-se, desa al mòbil tots els fitxers de l'aplicació i les llibreries
-//   externes (tipografies, Tailwind, icones, PDF.js).
+//   externes (tipografies, Tailwind, icones).
+// - Les pàgines escanejades del mode Facsímil es desen a mesura que es veuen
+//   (no canvien mai, i així no cal baixar els 9 MB de cop).
 // - Els fitxers propis es demanen primer a la xarxa (així sempre tens l'última versió)
 //   i, si no hi ha connexió o tarda massa, es fan servir els desats.
 // - Les llibreries externes es fan servir des del mòbil i s'actualitzen en segon pla.
 //
 // Si afegeixes un fitxer nou a l'aplicació, posa'l a APP_FILES i canvia VERSION.
 
-const VERSION = '2026-11-14c';
+const VERSION = '2026-11-14d';
 const APP_CACHE = 'canconer-app-' + VERSION;
 const EXT_CACHE = 'canconer-externs-v1';
+const FAC_CACHE = 'canconer-facsimil-v1';
 const NETWORK_TIMEOUT_MS = 3000;
 
 const APP_FILES = [
@@ -36,8 +39,6 @@ const APP_FILES = [
 const EXTERNAL_FILES = [
   { url: 'https://cdn.tailwindcss.com', mode: 'no-cors' },
   { url: 'https://unpkg.com/lucide@latest', mode: 'cors' },
-  { url: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js', mode: 'cors' },
-  { url: 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js', mode: 'cors' },
 ];
 const FONTS_CSS = 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,400;1,600;1,700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap';
 
@@ -99,6 +100,16 @@ async function networkFirst(request) {
   return fromNetwork;   // no hi ha res desat: esperam la xarxa
 }
 
+// Pàgines escanejades: si ja estan desades, d'allà; si no, de la xarxa i es desen.
+async function cacheFirst(request, cacheName) {
+  const cache = await caches.open(cacheName);
+  const cached = await cache.match(request);
+  if (cached) return cached;
+  const res = await fetch(request);
+  if (res.ok) cache.put(request, res.clone());
+  return res;
+}
+
 // Llibreries externes: primer el desat i s'actualitza en segon pla.
 async function staleWhileRevalidate(event) {
   const cache = await caches.open(EXT_CACHE);
@@ -118,6 +129,7 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(req.url);
   if (url.origin === self.location.origin) {
     if (url.pathname.endsWith('.pdf')) return;    // el PDF no es desa
+    if (url.pathname.includes('/img/facsimil/')) { event.respondWith(cacheFirst(req, FAC_CACHE)); return; }
     event.respondWith(networkFirst(req));
   } else if (/^(fonts\.googleapis\.com|fonts\.gstatic\.com|cdn\.tailwindcss\.com|unpkg\.com|cdnjs\.cloudflare\.com)$/.test(url.hostname)) {
     event.respondWith(staleWhileRevalidate(event));
