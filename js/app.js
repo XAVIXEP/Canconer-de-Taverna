@@ -21,7 +21,14 @@ let activeIndexCategoryFilter = null;
 // (la), (DO7 x4), (sol - DO7), (MI7 - la&emsp;&emsp;FA)...
 const CHORD_TOKEN = /^(?:(?:DO|RE|MI|FA|SOL|LA|SI|do|re|mi|fa|sol|la|si)(?:#|b)?(?:7|m|dis[123])?|dis[123]|x\d+)$/;
 const OLD_CHORD_GROUP = /^(DO#?7?|do#?|RE7?|re|MIb?7?|mi|FA#?7?|fa#?|SOL#?7?|sol#?|LA7?|la|SIb?7?|si|dis[123]|[A-Z0-9#/\s-]+)$/;
+// Un acord subratllat al Cançoner («tocar només les cordes de dalt a baix una sola vegada»)
+// s'escriu amb un _ davant: (_la), (LA - _MI7 - LA).
+const UL_MARK = /(^|[\s;(-])_(?=[A-Za-z])/g;
+function chordUnderlines(inner) {
+  return inner.replace(/(^|[\s;-])_([^\s;&-]+)/g, '$1<u class="chord-ul">$2</u>');
+}
 function isChordGroup(inner) {
+  inner = inner.replace(UL_MARK, '$1');
   if (OLD_CHORD_GROUP.test(inner)) return true;
   const toks = inner.split(/\s*(?:&emsp;|-|\s)\s*/).filter(Boolean);
   return toks.length > 0 && toks.every(t => CHORD_TOKEN.test(t));
@@ -31,7 +38,7 @@ function formatLyricLine(line) {
   return line
     .replace(/\{([^}]+)\}/g, '<em class="font-serif-title italic" style="font-size:0.95em">$1</em>')
     .replace(/\[_?([^\]]+)\]/g, '<span class="chord">($1)</span>')
-    .replace(/\(([^()]{1,120})\)/g, (m, inner) => isChordGroup(inner) ? `<span class="chord">(${inner})</span>` : m);
+    .replace(/\(([^()]{1,120})\)/g, (m, inner) => isChordGroup(inner) ? `<span class="chord">(${chordUnderlines(inner)})</span>` : m);
 }
 
 function formatLyrics(text) {
@@ -45,7 +52,7 @@ function formatLyrics(text) {
   return lines.map(line => {
     const html = formatLyricLine(line);
     if (!html.trim()) return '<div class="vl vl-empty"></div>';
-    const rest = html.replace(/<span class="chord">[^<]*<\/span>/g, '').trim();
+    const rest = html.replace(/<span class="chord">.*?<\/span>/g, '').trim();
     const cls = rest ? 'vl' : 'vl chord-only-line';
     return `<div class="${cls}"><span class="vt">${html}</span></div>`;
   }).join('');
@@ -155,7 +162,7 @@ function renderSongPageHTML(pageNum) {
   let bodyContent = "";
   if (songData && songData.stanzas) {
     bodyContent = `
-      ${songData.intro ? `<div class="chord-only-line font-lyrics italic font-semibold text-base text-[#2b2118] mb-3">${songData.intro}</div>` : ''}
+      ${songData.intro ? `<div class="chord-only-line font-lyrics italic font-semibold text-base text-[#2b2118] mb-3">${songData.intro.replace(/\(([^()]{1,200})\)/g, (m, inner) => isChordGroup(inner) ? `(${chordUnderlines(inner)})` : m)}</div>` : ''}
       <div class="lyrics-container song-lyrics space-y-5">
         ${songData.stanzas.map(st => `<div class="stanza">${formatLyrics(st)}</div>`).join('')}
       </div>

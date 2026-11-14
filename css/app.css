@@ -91,6 +91,13 @@ body {
   pointer-events: none;
 }
 
+/* Acord subratllat: es toca només de dalt a baix una sola vegada (vegeu «Convencions») */
+.chord-ul {
+  text-decoration: underline;
+  text-decoration-thickness: 0.09em;
+  text-underline-offset: 0.12em;
+}
+
 /* Quan es desactiven els acords, desapareixen sense deixar cap espai buit enmig de les paraules */
 .no-chords .chord {
   display: none !important;

@@ -166,68 +166,68 @@ const FULL_INDEX = RAW_INDEX.map(s => ({
 const TRANSCRIBED_SONGS = {
   1: {
     stanzas: [
-      "A la (SOL7)llum d'aquest fa(DO)nal\n(a la (SOL7)llum d'aquest fa(DO)nal)\net trobo especialment (SOL7)guapa,\nquina llàstima que ahir\ntambé t'hi trobés un (DO)altre. (DO)",
-      "Però no et (SOL7)vull retreure (DO)res\n(però no et (SOL7)vull retreure (DO)res)\nsinó donar-te les (SOL7)gràcies\nper marcar-me aquest camí,\nque ara em du la sort de (DO)cara. (DO)",
-      "Tant si (DO7)la bala és per (FA)ell\n(tant si la bala és per ell)\ncom si m'hi deixo la (SOL7)pell,\nguanyo l'a(DO)posta,\nperquè així, si no ets per (SOL7)mi,\nno veuré com se t'em(DO)porta. (DO)",
-      "Per si un cas, digue'm a(FA)déu,\n(per si un cas, digue'm adéu,)\nja que em jugo a cara o (SOL7)creu,\nper tu, la (DO)vida.\nPerò fes-ho sense plo(SOL7)rar,\ndoncs ja veus que la par(DO)tida,\nvagi com (SOL7)vagi,\nl'he de gua(DO)nyar.",
-      "Apos(SOL7)tares en dos (DO)jocs,\n(apos(SOL7)tares en dos (DO)jocs,)\nvares carregar sis (SOL7)bales\nals revòlvers que al matí\nhan d'acabar amb la ba(DO)ralla. (DO)",
-      "Brindem (SOL7)per la teva (DO)sort,\n(brindem (SOL7)per la teva (DO)sort,)\nque el destí faci la (SOL7)tria,\nveurem qui et dóna l'amor,\nveurem qui et dóna la (DO)vida. (DO)",
-      "Tant si (DO7)la bala és per (FA)ell\n(tant si la bala és per ell)\ncom si m'hi deixo la (SOL7)pell,\nguanyo l'a(DO)posta,\nperquè així, si no ets per (SOL7)mi,\nno veuré com se t'em(DO)porta. (DO)",
-      "Per si un cas, digue'm a(FA)déu,\n(per si un cas, digue'm adéu,)\nja que em jugo a cara o (SOL7)creu,\nper tu, la (DO)vida.\nPerò fes-ho sense plo(SOL7)rar,\ndoncs ja veus que la par(DO)tida,\nvagi com (SOL7)vagi...\nL'he de gua(DO)nyar. (DO - SOL7 - DO)"
+      "A la (_SOL7)llum d'aquest fa(DO)nal\n(a la (SOL7)llum d'aquest fa(DO)nal)\net trobo especialment (SOL7)guapa,\nquina llàstima que ahir\ntambé t'hi trobés un (DO)altre. (_DO)",
+      "Però no et (_SOL7)vull retreure (DO)res\n(però no et (SOL7)vull retreure (DO)res)\nsinó donar-te les (SOL7)gràcies\nper marcar-me aquest camí,\nque ara em du la sort de (DO)cara. (_DO)",
+      "Tant si (_DO7)la bala és per (FA)ell\n(tant si la bala és per ell)\ncom si m'hi deixo la (SOL7)pell,\nguanyo l'a(DO)posta,\nperquè així, si no ets per (SOL7)mi,\nno veuré com se t'em(DO)porta. (_DO)",
+      "Per si un (_DO7)cas, digue'm a(FA)déu,\n(per si un cas, digue'm adéu,)\nja que em jugo a cara o (SOL7)creu,\nper tu, la (DO)vida.\nPerò fes-ho sense plo(SOL7)rar,\ndoncs ja veus que la par(DO)tida,\nvagi com (SOL7)vagi,\nl'he de gua(DO)nyar.",
+      "Apos(_SOL7)tares en dos (DO)jocs,\n(apos(SOL7)tares en dos (DO)jocs,)\nvares carregar sis (SOL7)bales\nals revòlvers que al matí\nhan d'acabar amb la ba(DO)ralla. (_DO)",
+      "Brindem (_SOL7)per la teva (DO)sort,\n(brindem (SOL7)per la teva (DO)sort,)\nque el destí faci la (SOL7)tria,\nveurem qui et dóna l'amor,\nveurem qui et dóna la (DO)vida. (_DO)",
+      "Tant si (_DO7)la bala és per (FA)ell\n(tant si la bala és per ell)\ncom si m'hi deixo la (SOL7)pell,\nguanyo l'a(DO)posta,\nperquè així, si no ets per (SOL7)mi,\nno veuré com se t'em(DO)porta. (_DO)",
+      "Per si un (_DO7)cas, digue'm a(FA)déu,\n(per si un cas, digue'm adéu,)\nja que em jugo a cara o (SOL7)creu,\nper tu, la (DO)vida.\nPerò fes-ho sense plo(SOL7)rar,\ndoncs ja veus que la par(DO)tida,\nvagi com (_SOL7)vagi...\nL'he de gua(DO)nyar. (_DO - _SOL7 - _DO)"
     ]
   },
   2: {
     stanzas: [
       "(la)M'agrada el blau de la mar, m'agrada la tramun(MI7)tana,\nm'agraden les nits d'estiu i el cel rogent de l'a(la)bada.\n(LA7)M'agrada dels pins l'o(re)lor (SOL)i dels matins la ro(DO)sada,\n(re)però més m'agrada el teu (la)cos, més m'a(MI7)grada ta be(la)sada.",
-      "* (la)Res en el món em plau tant, (FA)tu ets la raó del meu cant,\n(SOL)la melodia vibrant del meu (re)cor, que més m'a(MI7)grada.",
+      "* (_la)Res en el món em plau tant, (_FA)tu ets la raó del meu cant,\n(_SOL)la melodia vibrant del meu (_re)cor, que més m'a(_MI7)grada.",
       "(LA)M'agraden els teus ulls verds i ta mirada enci(MI7)sera,\nm'agraden els teus cabells quan la ventada els es(LA)vera.\n(FA#)M'agraden els teus pe(si)tons (MI7)amb regust de prima(LA)vera,\n(si)i m'agra(MI7)da el teu po(LA)sat quan et (SI7)canto una hava(MI7)nera.",
       "(LA)M'agrada el teu despertar, la teva veu ria(MI7)llera,\nm'agrada la teva pell i el teu somrís, vida (LA)meva.\n(FA#)M'agrada quan dius que (si)sí, (MI7)ben fluixet i a cau d'o(LA)rella,\n(RE)m'agrada (MI7)dur el teu re(LA)cord si (si)sóc molt (MI7)lluny de Ca(LA)lella. {(bis)}",
-      "(re)Si sóc molt lluny de Ca(la)lella... (MI7)m'agrada dur el teu re(LA)cord. (LA)"
+      "(_re)Si sóc molt lluny de Ca(_la)lella... (MI7)m'agrada dur el teu re(LA)cord. (_LA)"
     ]
   },
   3: {
     stanzas: [
       "A sa (LA)boca des (LA7)port hi ha la (RE)Mola,\ndestru(MI7)ïda per tots, és sa trista his(LA)tòria. (MI7)\nMos de(LA)fensa des mal (LA7)temps sense cap (RE)arma,\ntempo(MI7)rals de mals vents transforma en (LA)calma. (MI7)",
-      "* ** La (LA)Mola s'alça va(LA7)lenta davant la (RE)mar\ni (MI7)plora quan veu que a tots tant mos ne (LA)fa. (MI7)\nEs (LA)menorquins no hem fet (LA7)res per allibe(RE)rar\na(MI7)quest trosset de terra que han destro(LA)ssat. {(bis 2: (MI7) i final: (LA))}",
+      "* ** La (LA)Mola s'alça va(LA7)lenta davant la (RE)mar\ni (MI7)plora quan veu que a tots tant mos ne (LA)fa. (MI7)\nEs (LA)menorquins no hem fet (LA7)res per allibe(RE)rar\na(MI7)quest trosset de terra que han destro(LA)ssat. {(bis 2: (MI7) i final: (_LA))}",
       "Una (LA)gent que hi va arri(LA7)bar la va fer (RE)seva,\nplantant (MI7)bombes, canons i una ban(LA)dera. (MI7)\nI nin(LA)gú va defen(LA7)sar sa terra (RE)nostra,\nni tam(MI7)poc la va plorar: adéu, la (LA)Mola... (MI7) {(bis 1)}"
     ],
     footnote: "Cançó coneguda altrament amb el títol de Cançó de la Mola"
   },
   4: {
     stanzas: [
-      "(mi)Per nau, un vai(SI7)xell de vint ca(mi)nons,\n(MI7)per llar, els confins blaus de la (la)mar,\n(SI7)per llei, el vent de tramun(mi)tana,\nvent que enga(RE7)lana el bergan(SOL)tí en la fos(SI7)cor. (SI7)",
-      "(mi)Busca una (SI7)nau per enfon(mi)sar,\n(MI7)busca un vaixell per abor(la)dar,\n(SI7)mentre el pirata na(mi)vega\ndeixa al da(RE7)rrere estela de (SOL)sang i de (SI7)cor,\nflama de (MI)mort.",
-      "* (MI)Canta el pi(SI7)rata a co(MI)berta, (do#)canta somnis de lliber(fa#)tat,\ndes de l'illa de Formen(SI7)tera, al nord-est de Menorca\ni del cel de Mallorca, fins a l'Empor(MI)dà. (SI7)",
-      "(MI)Solca el mar (SI7)a tota (MI)vela, (MI7)fins a l'illa d'Espalma(LA)dor,\n(la)on fa més de cent trenta (MI)llunes,\nentre les (fa#)roques, (SI7)va enterrar el cofre (MI)d'or. (MI)\n{(final en bis):} (SI7)El seu tre(MI)sor. (MI)",
-      "(mi)Diuen que no (SI7)sap el que és la (mi)por,\n(MI7)diuen que l'han vist jugar amb la (la)mort,\n(SI7)diuen que la sang l'ena(mi)mora\ni no per(RE7)dona cap ene(SOL)mic carre(SI7)gat\nde rom i (MI)blat. {(bis)}"
+      "(mi)Per nau, un vai(_SI7)xell de vint ca(mi)nons,\n(MI7)per llar, els confins blaus de la (la)mar,\n(SI7)per llei, el vent de tramun(mi)tana,\nvent que enga(RE7)lana el bergan(SOL)tí en la fos(SI7)cor. (_SI7)",
+      "(mi)Busca una (_SI7)nau per enfon(mi)sar,\n(MI7)busca un vaixell per abor(la)dar,\n(SI7)mentre el pirata na(mi)vega\ndeixa al da(RE7)rrere estela de (SOL)sang i de (SI7)cor,\nflama de (MI)mort.",
+      "* (MI)Canta el pi(_SI7)rata a co(MI)berta, (do#)canta somnis de lliber(fa#)tat,\ndes de l'illa de Formen(SI7)tera, al nord-est de Menorca\ni del cel de Mallorca, fins a l'Empor(MI)dà. (SI7)",
+      "(MI)Solca el mar (_SI7)a tota (MI)vela, (MI7)fins a l'illa d'Espalma(LA)dor,\n(la)on fa més de cent trenta (MI)llunes,\nentre les (fa#)roques, (SI7)va enterrar el cofre (MI)d'or. (_MI)\n{(final en bis):} (_SI7)El seu tre(MI)sor. (_MI)",
+      "(mi)Diuen que no (_SI7)sap el que és la (mi)por,\n(MI7)diuen que l'han vist jugar amb la (la)mort,\n(SI7)diuen que la sang l'ena(mi)mora\ni no per(RE7)dona cap ene(_SOL)mic carre(SI7)gat\nde rom i (MI)blat. {(bis)}"
     ]
   },
   5: {
     stanzas: [
-      "Recuerdo aquella (la)vez (LA7)\nque yo te cono(re)cí,\nrecuerdo aquella (la)tarde\npero no me a(MI7)cuerdo\nni como te (la)vi. (la)",
-      "* Pero sí te di(la)ré (LA7)\nque yo me enamo(re)ré\nde esos tus lindos (la)ojos\ny tus labios (MI7)rojos\nque no olvida(la)ré. (la) {(bis)}",
+      "Recuerdo aquella (la)vez (LA7)\nque yo te cono(re)cí,\nrecuerdo aquella (la)tarde\npero no me a(MI7)cuerdo\nni como te (la)vi. (_la)",
+      "* Pero sí te di(la)ré (LA7)\nque yo me enamo(re)ré\nde esos tus lindos (la)ojos\ny tus labios (MI7)rojos\nque no olvida(la)ré. (_la) {(bis)}",
       "(la)Oye esta canción que lleva\n(SOL)alma, corazón y vida,\n(FA)estas tres cositas nada más te (MI7)doy.",
       "(la)Porque no tengo fortuna\n(SOL)estas tres cosas te ofrezco:\n(FA)alma, corazón y vida y nada (MI7)más.",
-      "* (re)Alma para conquistarte,\n(la)corazón para quererte\ny (MI7)vida para vivirla junto a (la)ti. {(bis: (LA7) i final: (la))}\n{(DC)}"
+      "* (re)Alma para conquistarte,\n(la)corazón para quererte\ny (MI7)vida para vivirla junto a (la)ti. {(bis: (LA7) i final: (_la))}\n{(DC)}"
     ]
   },
   6: {
     stanzas: [
-      "Sa(DO)bré abai(mi)xar es meus (re)ulls (SOL7)si te (DO)veig,\nse posen massa bri(re)llants (SOL7)quan te (DO)mir. (DO7)\nAmaga(FA)ré molt en(SOL7)dintre senti(DO)ments i de(LA7)liris,\nque mai nin(re)gú no ima(SOL7)gini que ets sa (DO)font de s'a(re)mor (SOL7)prohi(DO)bit.",
-      "Sa(DO)bré guar(mi)dar silen(re)ciós (SOL7)es teu (DO)nom,\nmentre voldria cri(re)dar (SOL7)com t'es(DO)tim. (DO7)\nNo senti(FA)ran ni una (SOL7)queixa, ni sos(DO)pir d'enyo(LA7)rança,\nfermada (re)tenc sa me(SOL7)mòria, ama(DO)gant desga(re)vells (SOL7)vis(DO)cuts. (DO)",
-      "* Te tenc pre(MI7)sent i duc sempre dintre (la)meu\nes (RE7)dolços moments viscuts plens d'il·lu(FA)sió d'amor per (SOL7)tu. (SOL7)",
-      "Però no (MI7)vull que mai amb es pas des (la)temps\ns'a(RE7)pagui sa teva llum ** i es foc en(FA)cès (SOL7)se torni (DO)fum.\n{(bis 1) (bis 2 i final: (DO))}"
+      "Sa(DO)bré abai(mi)xar es meus (re)ulls (SOL7)si te (DO)veig,\nse posen massa bri(re)llants (SOL7)quan te (DO)mir. (_DO7)\nAmaga(FA)ré molt en(SOL7)dintre senti(DO)ments i de(LA7)liris,\nque mai nin(re)gú no ima(SOL7)gini que ets sa (DO)font de s'a(re)mor (SOL7)prohi(DO)bit.",
+      "Sa(DO)bré guar(mi)dar silen(re)ciós (SOL7)es teu (DO)nom,\nmentre voldria cri(re)dar (SOL7)com t'es(DO)tim. (_DO7)\nNo senti(FA)ran ni una (SOL7)queixa, ni sos(DO)pir d'enyo(LA7)rança,\nfermada (re)tenc sa me(SOL7)mòria, ama(DO)gant desga(re)vells (SOL7)vis(DO)cuts. (_DO)",
+      "* Te tenc pre(MI7)sent i duc sempre dintre (la)meu\nes (RE7)dolços moments viscuts plens d'il·lu(FA)sió d'amor per (SOL7)tu. (_SOL7)",
+      "Però no (MI7)vull que mai amb es pas des (la)temps\ns'a(RE7)pagui sa teva llum ** i es foc en(FA)cès (SOL7)se torni (DO)fum.\n{(bis 1) (bis 2 i final: (_DO))}"
     ]
   },
   7: {
     stanzas: [
       "{(a cappella) Encara sé d'un poble que viu}\n{sota l'elegíac so de les campanes,}\n{i que cada any a assenyalats dies,}\n{tan blanca com la calç, batega la seva ànima}",
-      "quan (RE7)sent pausats i (SOL)rítmics\ncom (DO)canten un tam(SOL)bor (RE7)i un fabi(SOL)ol.",
+      "quan (_RE7)sent pausats i (_SOL)rítmics\ncom (_DO)canten un tam(_SOL)bor (_RE7)i un fabi(_SOL)ol.",
       "* Co(SOL)nec encara un (si)poble\nd'un (DO)passat quasi (SOL)mític,\nge(la)lós, ge(si)lós d'un (DO)vell tre(RE7)sor. {(bis)}",
-      "* (SOL)Tirurirurí, ti(RE7)rí, tirí, tiró,\n(mi)tirurirurí, ti(si)rí, tirí, tiró,\n(DO)tirurirurí, ti(SOL)rí, tirí, tiró,\n(DO)tirurirurí, ti(RE7)rí, tirí, tiró! {(bis)}",
+      "* (SOL)Tirurirurí, ti(_RE7)rí, tirí, tiró,\n(mi)tirurirurí, ti(si)rí, tirí, tiró,\n(DO)tirurirurí, ti(SOL)rí, tirí, tiró,\n(DO)tirurirurí, ti(RE7)rí, tirí, tiró! {(bis)}",
       "***",
       "Co(SOL)nec encara un (si)poble\nd'un (DO)passat quasi (SOL)mític,\nge(la)lós, ge(si)lós d'un (DO)vell tre(RE7)sor.",
-      "* (SOL)Tirurirurí, ti(RE7)rí, tirí, tiró,\n(mi)tirurirurí, ti(si)rí, tirí, tiró,\n(DO)tirurirurí, ti(SOL)rí, tirí, tiró,\n(DO)tirurirurí, ti(RE7)rí, tirí, tiró! {(bis)} (SOL)"
+      "* (SOL)Tirurirurí, ti(_RE7)rí, tirí, tiró,\n(mi)tirurirurí, ti(si)rí, tirí, tiró,\n(DO)tirurirurí, ti(SOL)rí, tirí, tiró,\n(DO)tirurirurí, ti(_RE7)rí, tirí, tiró! {(bis)} (_SOL)"
     ],
     footnote: "La primera part es pot acompanyar amb ritme de valset, i la segona, amb ritme de jota."
   },
@@ -235,30 +235,30 @@ const TRANSCRIBED_SONGS = {
     stanzas: [
       "A(la)sómate a la ventana\npara que (MI7)mi alma no (la)pene,\npara que (MI7)mi alma no (la)pene.",
       "A(la)sómate, que ya viene\nel claro (MI7)de la ma(la)ñana,\nel claro (MI7)de la ma(la)ñana.",
-      "A(LA7)sómate, que te (re)miro,\nmi ar(SOL7)diente amor te con(MI7)fieso (MI7)\nen (re)los rumores de un (la)beso\ny en el vai(MI7)vén de un sus(la)piro,\ny en el vai(MI7)vén de un sus(la)piro.",
+      "A(LA7)sómate, que te (re)miro,\nmi ar(SOL7)diente amor te con(MI7)fieso (_MI7)\nen (re)los rumores de un (la)beso\ny en el vai(MI7)vén de un sus(la)piro,\ny en el vai(MI7)vén de un sus(la)piro.",
       "Sa(la)brás que guardo un tesoro\npara ti, (MI7)dentro del (la)pecho,\npara ti, (MI7)dentro del (la)pecho.",
       "Le(la)vántate de tu lecho\ny sabrás (MI7)cuánto te a(la)doro,\ny sabrás (MI7)cuánto te a(la)doro.",
-      "Las (LA7)calles están de(re)siertas,\nlas (SOL7)nubes vagan per(MI7)didas (MI7)\ny es(re)tán las aves des(la)piertas,\ny las es(MI7)trellas dor(la)midas,\ny las es(MI7)trellas dor(la)midas. (la)",
-      "Están las (MI7)flores... abier(la)tas. (re - la - MI7 - la)"
+      "Las (LA7)calles están de(re)siertas,\nlas (SOL7)nubes vagan per(MI7)didas (_MI7)\ny es(re)tán las aves des(la)piertas,\ny las es(MI7)trellas dor(la)midas,\ny las es(MI7)trellas dor(la)midas. (_la)",
+      "Están las (_MI7)flores... abier(la)tas. (re - la - MI7 - _la)"
     ]
   },
   9: {
     stanzas: [
       "Ay Ja(DO)lisco, Jalisco, Jalisco,\ntú tienes tu novia, que es Guadala(SOL7)jara.\nMuchacha bonita, la perla más rara\nde todo Ja(re)lisco es mi (SOL7)Guadala(DO)jara.",
       "Y me (DO)gusta escuchar los mariachis\ncantar con el alma sus lindas can(SOL7)ciones,\noír como suenan esos guitarrones\ny echarme un te(re)quila con (SOL7)los valen(DO)tones. (DO7)",
-      "* (FA)¡Aaaaaaaay! ¡Ja(FA)lisco, (SOL7)no te (DO)rajes!\nMe sale del (SOL7)alma gritar con ca(DO)lor, (DO7)\n** abrir todo el (FA)pecho pa' echar este (DO)grito:\n«¡Qué lindo es Ja(SOL7)lisco, palabra de ho(DO)nor!» {(bis 2 i final: (DO - SOL7 - DO))}",
+      "* (FA)¡Aaaaaaaay! ¡Ja(_FA)lisco, (_SOL7)no te (DO)rajes!\nMe sale del (SOL7)alma gritar con ca(DO)lor, (DO7)\n** abrir todo el (FA)pecho pa' echar este (DO)grito:\n«¡Qué lindo es Ja(SOL7)lisco, palabra de ho(DO)nor!» {(bis 2 i final: (_DO - _SOL7 - _DO))}",
       "Pa' mu(DO)jeres, Jalisco primero,\nlo mismo en los Altos que allá en la Ca(SOL7)ñada.\nMujeres muy lindas, rechulas de cara,\nasí son las (re)hembras de (SOL7)Guadala(DO)jara.",
-      "En Ja(DO)lisco se quiere a la buena\nporque es peligroso querer a la (SOL7)mala,\npor una morena echar mucha bala\ny bajo la (re)luna can(SOL7)tar en Cha(DO)pala. (DO7) {(bis 1)}"
+      "En Ja(DO)lisco se quiere a la buena\nporque es peligroso querer a la (SOL7)mala,\npor una morena echar mucha bala\ny bajo la (re)luna can(_SOL7)tar en Cha(DO)pala. (DO7) {(bis 1)}"
     ]
   },
   10: {
     intro: "(DO - fa - DO - fa - DO - RE7 - SOL7)",
     stanzas: [
-      "Jo te(DO)nia una ca(re)seta (SOL7)vora el (DO)mar, (re - SOL7)\njo te(DO)nia un jardí flo(LA7)rit i un cel de (re)pau, (SOL7)\njo te(re)nia una (SOL7)barca i unes (DO)xerxes a sa (LA7)platja,\ni una (re)dolça mati(SOL7)nada en desper(DO)tar. (re - SOL7)",
-      "* Quan vin(DO)gueren gent de (re)fora, (SOL7)gent del (DO)nord, (re - SOL7)\ngent es(DO)tranya que ju(LA7)gaven amb s'a(re)mor, (SOL7)\njo vaig (re)perdre s'ale(SOL7)gria i sa (DO)pau de cada (LA7)dia,\ni sa (re)cala, (SOL7)que era es meu (DO)món.",
-      "I ara hi (sol)pens de dia i (LA7)nit,\namb a(sol)quell jardí flo(LA7)rit\ni amb mu(sol)mare, que espe(LA7)rava es meu re(re)torn,\ni amb sa (FA)platja soli(fa)tària quan es (DO)so de sa gui(LA7)terra\nli so(re)nava (SOL7)una can(DO)çó.",
-      "Fins s'a(sol)roma des meus (LA7)pins\ni ses (sol)flors des meu jar(LA7)dí,\ntot ho (sol)tenc jugat i (LA7)tot ho tenc per(re)dut.\n** Ja no em (FA)queda ni sa (fa)vela de sa (DO)barca mari(LA7)nera,\nni sa (re)cala, (SOL7)que era es meu (DO)món. {(bis 1) (bis 2: (DO7))} (DO)",
-      "Es meu (fa)món... (fa) (SOL7)Es meu (DO)món! (DO)"
+      "Jo te(DO)nia una ca(re)seta (SOL7)vora el (DO)mar, (re - SOL7)\njo te(DO)nia un jardí flo(LA7)rit i un cel de (re)pau, (SOL7)\njo te(re)nia una (SOL7)barca i unes (DO)xerxes a sa (LA7)platja,\ni una (re)dolça mati(SOL7)nada en desper(DO)tar. (_re - _SOL7)",
+      "* Quan vin(DO)gueren gent de (re)fora, (SOL7)gent del (DO)nord, (re - SOL7)\ngent es(DO)tranya que ju(LA7)gaven amb s'a(re)mor, (SOL7)\njo vaig (re)perdre s'ale(SOL7)gria i sa (DO)pau de cada (LA7)dia,\ni sa (_re)cala, (SOL7)que era es meu (DO)món.",
+      "I ara hi (sol)pens de dia i (LA7)nit,\namb a(sol)quell jardí flo(LA7)rit\ni amb mu(sol)mare, que espe(LA7)rava es meu re(_re)torn,\ni amb sa (FA)platja soli(fa)tària quan es (DO)so de sa gui(LA7)terra\nli so(re)nava (SOL7)una can(DO)çó.",
+      "Fins s'a(sol)roma des meus (LA7)pins\ni ses (sol)flors des meu jar(LA7)dí,\ntot ho (sol)tenc jugat i (LA7)tot ho tenc per(re)dut.\n** Ja no em (FA)queda ni sa (fa)vela de sa (DO)barca mari(LA7)nera,\nni sa (re)cala, (SOL7)que era es meu (DO)món. {(bis 1) (bis 2: (DO7))} (_DO)",
+      "Es meu (fa)món... (_fa) (SOL7)Es meu (DO)món! (_DO)"
     ]
   },
   11: {
@@ -267,9 +267,9 @@ const TRANSCRIBED_SONGS = {
       "Triste es(DO)toy (SOL7)cuando lejos del (DO)puerto, (DO7)\ncuando el (FA)mar me separa de (DO)ti,\nmi can(SOL7)ción es el grito que (DO)quiero,\nes tu nombre que invoco en las (RE7)noches de mi sole(SOL7)dad. (SOL7)",
       "Volve(DO)ré (SOL7)a buscar tu ca(DO)riño (DO7)\ncuando el (FA)sol deje ya de bri(DO)llar.\nVolve(SOL7)ré cuando muera la (DO)tarde\na encontrarte en el viejo ca(RE7)mino que a (SOL7)tu calle (DO)va.",
       "* (RE7)tú también me es(SOL)peras,\n(RE7)tú también piensas en (SOL)mí.\n(MI7)Tú, que también me (la)quieres, tú,\n(RE7)di cuando vas a ve(SOL)nir. (SOL7)",
-      "Tú se(DO)rás, (SOL7)menorquina bo(DO)nita, (DO7)\ntú se(FA)rás en las sombras del (DO)mar,\ntú se(SOL7)rás en mis noches sin (DO)luna,\nel recuerdo del viejo ca(RE7)mino del (SOL7)cañave(DO)ral. {(final en bis: (DO))}",
+      "Tú se(DO)rás, (_SOL7)menorquina bo(DO)nita, (DO7)\ntú se(FA)rás en las sombras del (DO)mar,\ntú se(SOL7)rás en mis noches sin (DO)luna,\nel recuerdo del viejo ca(RE7)mino del (SOL7)cañave(DO)ral. {(final en bis: (_DO))}",
       "(DO - SOL7 - FA - DO)",
-      "Pesca(DO)dor (SOL7)ser quisiera de es(DO)trellas, (DO7)\nque tu (FA)faz en el agua del (DO)mar\npara (SOL7)mí me dibujas con (DO)perlas\ny me guiñan los dulces pen(RE7)sares que tú soña(SOL7)rás. (SOL7)",
+      "Pesca(DO)dor (SOL7)ser quisiera de es(DO)trellas, (DO7)\nque tu (FA)faz en el agua del (DO)mar\npara (SOL7)mí me dibujas con (DO)perlas\ny me guiñan los dulces pen(RE7)sares que tú soña(SOL7)rás. (_SOL7)",
       "Pesca(DO)dor (SOL7)con mi nansa de (DO)luces (DO7)\nregre(FA)sar hacia el alba a Ma(DO)hón,\ny ador(SOL7)nar tu ventana hechi(DO)cera\ncon un ramo de estrellas que (RE7)cante a mi (SOL7)reina y mi a(DO)mor. {(bis)}"
     ]
   },
@@ -277,44 +277,44 @@ const TRANSCRIBED_SONGS = {
     stanzas: [
       "(re)Bésame, bésame (sol)mucho,\ncomo si (RE7)fuera esta (sol)noche la (LA7)última (re)vez.\n(RE7)Bésame, bésame (sol)mucho,\n(re)que tengo miedo a per(SIb7)derte, per(LA7)derte des(re)pués.",
       "* (sol)Quiero tenerte muy (re)cerca,\nmirarme en tus (LA7)ojos, verte junto a (re)mí. (RE7)\n(sol)Piensa que tal vez ma(re)ñana\nyo ya estaré (MI7)lejos, muy lejos de (LA7)aquí. (SIb7 - LA7)",
-      "(re)Bésame, bésame (sol)mucho,\ncomo si (RE7)fuera esta (sol)noche la (LA7)última (re)vez.\n(RE7)Bésame, bésame (sol)mucho,\n(re)que tengo miedo a per(SIb7)derte, per(LA7)derte des(re)pués. {(bis)} (re)"
+      "(re)Bésame, bésame (sol)mucho,\ncomo si (RE7)fuera esta (sol)noche la (LA7)última (re)vez.\n(_RE7)Bésame, bésame (sol)mucho,\n(re)que tengo miedo a per(SIb7)derte, per(LA7)derte des(re)pués. {(bis)} (_re)"
     ]
   },
   13: {
     intro: "(SOL7&emsp;&emsp;DO - la - re - SOL7&emsp;&emsp;DO - la - re - SOL7 - DO)",
     stanzas: [
-      "Aquí a Me(DO)norca tenc una (re)casa: parets de (SOL7)calç, teules ver(DO)melles,\ni ses finestres que alegres (re)s'obren a un camp molt (SOL7)bell de tanques (DO)verdes.\nCasa senzilla, de porxos (re)baixos, que a tramun(SOL7)tana dóna s'es(DO)quena,\nan es sol s'obre, cara as mig(re)jorn, amb un som(SOL7)rís d'al·lota a(DO)legre. (SOL7)",
-      "Din(SOL7)tre des (DO)pati enrejo(la)lat,\na on es (re)ca hi juga(SOL7)reja,\nhi ha sa cis(DO)terna que guarda (la)s'aigo,\nmés pura i (re)clara, (SOL7)lleugera i (DO)fresca.",
-      "Sa casa és (DO)pobra, no té bal(re)cons, tot és aus(SOL7)ter per dintre (DO)d'ella,\nperò a jo em sembla que tenc sa (re)casa més rica i (SOL7)noble, sumptuosa i (DO)bella,\nque la decoren es colors (re)vius de ses mil (SOL7)flors que, ria(DO)lleres,\nentre herbes verdes, nombrosos (re)pins, rient es(SOL7)claten en prima(DO)vera. (SOL7)",
-      "Vi(SOL7)ne a Me(DO)norca, que tenc sa (la)casa,\nque com bre(re)ssol un llit t'es(SOL7)pera,\nenmig d'es(DO)tores de tendres (la)flors\ni rode(re)jada (SOL7)de tanques (DO)verdes.",
-      "* (LA7)Vi(LA7)ne a Me(RE)norca, que tenc sa (si)casa,\nque com bre(mi)ssol un llit t'es(LA7)pera,\nenmig d'es(RE)tores de tendres (si)flors\ni rode(mi)jada (LA7)de tanques (RE)verdes. {(bis x2)}",
+      "Aquí a Me(DO)norca tenc una (re)casa: parets de (SOL7)calç, teules ver(DO)melles,\ni ses finestres que alegres (re)s'obren a un camp molt (SOL7)bell de tanques (DO)verdes.\nCasa senzilla, de porxos (re)baixos, que a tramun(SOL7)tana dóna s'es(DO)quena,\nan es sol s'obre, cara as mig(re)jorn, amb un som(SOL7)rís d'al·lota a(DO)legre. (_SOL7)",
+      "Din(_SOL7)tre des (DO)pati enrejo(la)lat,\na on es (re)ca hi juga(SOL7)reja,\nhi ha sa cis(DO)terna que guarda (la)s'aigo,\nmés pura i (re)clara, (SOL7)lleugera i (DO)fresca.",
+      "Sa casa és (DO)pobra, no té bal(re)cons, tot és aus(SOL7)ter per dintre (DO)d'ella,\nperò a jo em sembla que tenc sa (re)casa més rica i (SOL7)noble, sumptuosa i (DO)bella,\nque la decoren es colors (re)vius de ses mil (SOL7)flors que, ria(DO)lleres,\nentre herbes verdes, nombrosos (re)pins, rient es(SOL7)claten en prima(DO)vera. (_SOL7)",
+      "Vi(_SOL7)ne a Me(DO)norca, que tenc sa (la)casa,\nque com bre(re)ssol un llit t'es(SOL7)pera,\nenmig d'es(DO)tores de tendres (la)flors\ni rode(re)jada (SOL7)de tanques (DO)verdes.",
+      "* (_LA7)Vi(_LA7)ne a Me(RE)norca, que tenc sa (si)casa,\nque com bre(mi)ssol un llit t'es(LA7)pera,\nenmig d'es(RE)tores de tendres (si)flors\ni rode(mi)jada (LA7)de tanques (RE)verdes. {(bis x2)}",
       "{(si - mi - LA7 - RE&emsp;&emsp;si - mi - LA7 - LA7&emsp;&emsp;RE)}"
     ]
   },
   14: {
     stanzas: [
-      "(la)Vaig cantant com cada (re)nit\n(MI7)assegut davant sa (la)cova,\nper si (dis2)véns, bona veu em surt des (re)pit,\nsa gui(SI7)terra per tu (MI7)sona. (MI7)",
-      "Per si passes i m'es(re)coltes,\n(SOL7)tanta sort si és a(DO)vui.\nSi des(la)prés veig que quedes una es(re)tona\n(MI7)somriuré de coa (LA)d'ull. (LA)",
-      "* Sentiràs noves can(do#)çons\nque fa (RE)temps que tenc guar(LA)dades.\n(FA#)Si més tard quedam tot (si)sols,\n(SI7)xerrarem des bons records\namb ses mans ben aga(MI7)fades. (MI7)",
-      "Partirem de Cala (do#)Corb,\npasse(RE)jant fins sa mati(LA)nada,\n(FA#)pot ser que quan surti es (si)sol\nabra(MI7)çats ens trobi en(LA)cara.\n{(final en bis):} (FA#)Ja fa dies que de(si)sitj donar-(MI7)te una be(LA)sada. (LA)",
-      "(la)Vaig cantant com cada (re)nit\n(MI7)assegut davant sa (la)cova,\nsi no (dis2)véns, guard sa pena molt en(re)dins,\nbona (SI7)cara per de(MI7)fora. (MI7)",
-      "Estàs dins de cada (re)nota,\n(SOL7)en es fons de cada a(DO)cord,\nets pre(la)sent a sa música que (re)sona\n(MI7)i s'escampa per es (LA)port. (LA) {(bis)}"
+      "(_la)Vaig cantant com cada (re)nit\n(MI7)assegut davant sa (la)cova,\nper si (_dis2)véns, bona veu em surt des (_re)pit,\nsa gui(_SI7)terra per tu (MI7)sona. (_MI7)",
+      "Per si passes i m'es(re)coltes,\n(SOL7)tanta sort si és a(DO)vui.\nSi des(_la)prés veig que quedes una es(re)tona\n(MI7)somriuré de coa (LA)d'ull. (_LA)",
+      "* Sentiràs noves can(do#)çons\nque fa (RE)temps que tenc guar(LA)dades.\n(FA#)Si més tard quedam tot (si)sols,\n(SI7)xerrarem des bons records\namb ses mans ben aga(MI7)fades. (_MI7)",
+      "Partirem de Cala (do#)Corb,\npasse(RE)jant fins sa mati(LA)nada,\n(FA#)pot ser que quan surti es (si)sol\nabra(MI7)çats ens trobi en(LA)cara.\n{(final en bis):} (FA#)Ja fa dies que de(si)sitj donar-(MI7)te una be(LA)sada. (_LA)",
+      "(_la)Vaig cantant com cada (re)nit\n(MI7)assegut davant sa (la)cova,\nsi no (_dis2)véns, guard sa pena molt en(_re)dins,\nbona (_SI7)cara per de(MI7)fora. (_MI7)",
+      "Estàs dins de cada (re)nota,\n(SOL7)en es fons de cada a(DO)cord,\nets pre(_la)sent a sa música que (re)sona\n(MI7)i s'escampa per es (LA)port. (_LA) {(bis)}"
     ]
   },
   15: {
     stanzas: [
       "El (la)cel molt blau per teulada,\nparets de penya-se(MI7)gat,\nses (si)gavines fan ni(MI)uada\nen (MI7)un racó redo(la)ssat.",
-      "(la)Veuen com passen ses barques\n(LA7)plenes de braus pesca(re)dors,\nveuen la mar sense o(la)nades,\nses barques apare(MI7)llades\nsempre de dos en (LA)dos. (LA)",
-      "* Cala Mont(LA)gó, racó de pau i de (MI7)llum,\ncala Mont(si)gó, ra(MI7)có de pau i per(LA)fum, (MI7)\ncala Mont(LA)gó, ra(LA7)có des més bell en(RE)cís, (re)\ncala Mont(LA)gó, un (MI7)trosset de para(LA)dís.\n{(final en bis):} Cala Mont(re)gó, un (MI7)trosset de para(LA)dís. (LA)",
+      "(la)Veuen com passen ses barques\n(LA7)plenes de braus pesca(re)dors,\nveuen la mar sense o(la)nades,\nses barques apare(MI7)llades\nsempre de dos en (LA)dos. (_LA)",
+      "* Cala Mont(LA)gó, racó de pau i de (MI7)llum,\ncala Mont(si)gó, ra(MI7)có de pau i per(LA)fum, (MI7)\ncala Mont(LA)gó, ra(LA7)có des més bell en(RE)cís, (_re)\ncala Mont(LA)gó, un (MI7)trosset de para(LA)dís.\n{(final en bis):} Cala Mont(re)gó, un (MI7)trosset de para(LA)dís. (LA)",
       "La (la)lluna se'n va a la posta,\nses barques tornen a (MI7)port,\nses (si)gavines, bones (MI)mares,\na(MI7)rranquen d'un vol molt (la)fort.",
       "(la)A ses barques per darrere\nes (LA7)bon menjar van cer(re)cant,\nperquè, amagats a ses (la)penyes,\nperquè, amagats a ses (MI7)penyes,\nes fills no es morin de (LA)fam. (LA) {(bis)}"
     ]
   },
   16: {
     stanzas: [
-      "(la)Hoy he vuelto a pa(re)sar (MI7)por aquel camino (la)verde\nque por el valle se (SOL)pierde (FA)con mi triste sole(MI7)dad. (FA - MI7)\nHoy he vuelto a re(re)zar (MI7)a la puerta de la er(la)mita,\ny pedí a mi virgen(re)cita (MI7)que yo te vuelva a encon(LA)trar. (LA)",
-      "* Por el camino (LA)verde, camino verde, que va a la er(si)mita, (MI7)\ndesde que tú te (si)fuiste lloran de (MI7)pena las marga(LA)ritas. (MI7)\nLa fuente se ha se(LA)cado, las azucenas están mar(si)chitas, (MI7)\npor el camino (si)verde, camino (MI7)verde, que va a la er(LA)mita. (la)\n{(final en bis):} Ca(re)mino... (MI7)camino (LA)verde. (LA)",
-      "Hoy he vuelto a pa(re)sar (MI7)por aquel camino (la)verde,\nque en el recuerdo se (SOL)pierde (FA)toda mi felici(MI7)dad. (FA - MI7)\nHoy he vuelto a gra(re)bar (MI7)nuestros nombres en la en(la)cina\ny he subido a la co(re)lina (MI7)y ahí me he puesto a llo(LA)rar. (LA) {(bis)}"
+      "(_la)Hoy he vuelto a pa(re)sar (MI7)por aquel camino (la)verde\nque por el valle se (SOL)pierde (FA)con mi triste sole(MI7)dad. (FA - _MI7)\nHoy he vuelto a re(re)zar (MI7)a la puerta de la er(la)mita,\ny pedí a mi virgen(re)cita (MI7)que yo te vuelva a encon(LA)trar. (_LA)",
+      "* Por el camino (LA)verde, camino verde, que va a la er(si)mita, (MI7)\ndesde que tú te (si)fuiste lloran de (MI7)pena las marga(LA)ritas. (_MI7)\nLa fuente se ha se(LA)cado, las azucenas están mar(si)chitas, (MI7)\npor el camino (si)verde, camino (MI7)verde, que va a la er(LA)mita. (_la)\n{(final en bis):} Ca(_re)mino... (_MI7)camino (LA)verde. (_LA)",
+      "Hoy he vuelto a pa(re)sar (MI7)por aquel camino (la)verde,\nque en el recuerdo se (SOL)pierde (FA)toda mi felici(MI7)dad. (FA - _MI7)\nHoy he vuelto a gra(re)bar (MI7)nuestros nombres en la en(la)cina\ny he subido a la co(re)lina (MI7)y ahí me he puesto a llo(LA)rar. (_LA) {(bis)}"
     ]
   },
   17: {
@@ -323,47 +323,47 @@ const TRANSCRIBED_SONGS = {
       "(RE)Passa una (LA7)barca del (RE)bou rellis(SI7)cant la mar ben (mi)plana,\n(LA7)breu onatge que suaument trenca dolç, per un moment,\nsa tranquil·la hora tar(RE)dana.",
       "(RE)Quan torna(LA7)ràs a sa (RE)vida, si(SI7)rena des port de (mi)Maó?\n* (sol)I quan amb una be(RE)sada, desper(SI7)tant emocio(mi)nada,\ndeixa(LA7)ràs pena i tris(RE)tor? {(bis final)}",
       "Allà en(RE)fora Sant Antoni, allà enfora Cala (LA7)Rata,\ni sa (mi)lluna deixa (LA)caure dins la (LA7)mar es seus raigs de (RE)plata.\nEs llumets de s'Altra (SI7)Banda i un gran cel tot estre(mi)llat,\n(SOL)d'aquesta pau, sa si(RE)rena, se n'ha (LA7)ben enimo(RE)rat.",
-      "(RE)Passa una (LA7)barca del (RE)bou [...]",
+      "(_RE)Passa una (_LA7)barca del (RE)bou [...]",
       "Sire(RE)neta bella i jove, escolta aquesta can(LA7)çó,\ndeixa (mi)ja de ser de (LA)bronze i re(LA7)torna as teu co(RE)lor.\nJa per sempre estarem (SI7)junts i seràs de pell ro(mi)sada,\n(SOL)i tindrem somnis ma(RE)rins recol(LA7)zats a sa ba(RE)rana.",
-      "(RE)Passa una (LA7)barca del (RE)bou [...]\n{(final):} Si(sol)rena des port de (RE)Maó. (RE)"
+      "(_RE)Passa una (_LA7)barca del (RE)bou [...]\n{(final):} Si(sol)rena des port de (RE)Maó. (_RE)"
     ]
   },
   18: {
     stanzas: [
-      "(la)Ya vienen los pescadores, (LA7)se acerca la madru(re)gada,\n(SOL7)en una barquita (DO)blanca, el a(MI7)mor de mi espe(la)ranza.\n(SOL7)En una barquita (DO)blanca (SOL7)que se refleja en el (DO)agua,\n(MI7){Mi Virgencita de (la)Gracia} es el (MI7)nombre de mi (la)barca. (la)",
-      "Ciudad de Ma(SOL7)hón, tú sabes, mi a(DO)mor,\nla Virgen y a(MI7)quella mocita morena del aire y el (la)sol. (la)\nCalle de San (SOL7)Juan, barrio pesca(DO)dor,\ncamino del (MI7)puerto, la calle del Carmen y la Concep(la)ción.",
-      "(la)Te llevo en el pensamiento, (LA7){Mi Virgencita de (re)Gracia},\n(SOL7)te rezo en los tempo(DO)rales, busco en (MI7)ti la paz del (la)alma.\n(SOL7)Me enamoré de unos (DO)ojos, (SOL7)negros como el aza(DO)bache,\n(MI7)y ahora lloro como un (la)niño, son las (MI7)causas de mis (la)males. (la)",
+      "(la)Ya vienen los pescadores, (LA7)se acerca la madru(re)gada,\n(SOL7)en una barquita (DO)blanca, el a(MI7)mor de mi espe(la)ranza.\n(SOL7)En una barquita (DO)blanca (SOL7)que se refleja en el (DO)agua,\n(MI7){Mi Virgencita de (la)Gracia} es el (MI7)nombre de mi (la)barca. (_la)",
+      "Ciudad de Ma(SOL7)hón, tú sabes, mi a(DO)mor,\nla Virgen y a(MI7)quella mocita morena del aire y el (la)sol. (_la)\nCalle de San (SOL7)Juan, barrio pesca(DO)dor,\ncamino del (MI7)puerto, la calle del Carmen y la Concep(la)ción.",
+      "(la)Te llevo en el pensamiento, (LA7){Mi Virgencita de (_re)Gracia},\n(SOL7)te rezo en los tempo(DO)rales, busco en (MI7)ti la paz del (la)alma.\n(SOL7)Me enamoré de unos (DO)ojos, (SOL7)negros como el aza(_DO)bache,\n(MI7)y ahora lloro como un (la)niño, son las (MI7)causas de mis (la)males. (_la)",
       "Ciudad de Ma(SOL7)hón [...]",
-      "(la)Aquellos tiestos de albahaca (LA7)que tienes en tu ven(re)tana\n(SOL7)me embrujan, paloma (DO)mía, cuando (MI7)voy hacia mi (la)barca.\n(SOL7)Me embrujan, paloma (DO)mía, (SOL7)como si fueran ro(DO)badas\n(MI7)de un altarcito de (la)flores de mi (MI7)Virgen ado(la)rada. (la)",
+      "(la)Aquellos tiestos de albahaca (LA7)que tienes en tu ven(re)tana\n(SOL7)me embrujan, paloma (DO)mía, cuando (MI7)voy hacia mi (la)barca.\n(SOL7)Me embrujan, paloma (DO)mía, (SOL7)como si fueran ro(DO)badas\n(MI7)de un altarcito de (la)flores de mi (MI7)Virgen ado(la)rada. (_la)",
       "Ciudad de Ma(SOL7)hón [...]",
-      "(la)Porque rondamos de noche (LA7)nos llaman los Parran(re)deros,\n(SOL7)pero a cantar a la (DO)Virgen siempre (MI7)vamos los pri(la)meros.\n(SOL7)Se oyen voces en las (DO)calles, (SOL7)canciones de mari(DO)neros,\n(MI7)cuando suenan las gui(la)tarras todos (MI7)somos Parran(la)deros. (la)",
+      "(la)Porque rondamos de noche (LA7)nos llaman los Parran(re)deros,\n(SOL7)pero a cantar a la (DO)Virgen siempre (MI7)vamos los pri(la)meros.\n(SOL7)Se oyen voces en las (DO)calles, (SOL7)canciones de mari(DO)neros,\n(MI7)cuando suenan las gui(la)tarras todos (MI7)somos Parran(la)deros. (_la)",
       "Ciudad de Ma(SOL7)hón [...]"
     ]
   },
   19: {
     stanzas: [
-      "Per a(LA)nar cap a ro(do#)mandre,\nes ca(RE)mí és molt po(LA)lit,\n(FA#)el passam tots es di(si)ssabtes\n(MI7)per poder veure es (LA)amics. (LA)",
-      "Prospe(LA)ram, tenim ca(do#)seta,\nbarca (RE)nova, ja fa un (LA)any,\n(FA#)i per fer sa calde(si)reta,\n(MI7)peixet de roca i quatre (LA)crancs. (LA7)",
-      "* Ca(RE)seta, barca, sa (LA)dona\ni es a(mi)mics en (LA7)es con(RE)torn,\n(RE7)una guiterra que (SOL)sona,\nsón lo (RE)més po(LA7)lit del (RE)món. (RE)",
-      "Ca(RE)seta, barca, sa (LA)dona\ni aga(mi)far un (LA7)mig ce(RE)rol,\n** (RE7)amb cançons de mati(SOL)nada\ncontem(RE)plant com (LA7)neix es (RE)sol. (RE) {(bis 2 i final)}",
-      "(MI7)De re(LA)grés cap a ca (do#)nostra,\nes diu(RE)menge per sa (LA)nit,\n(FA#)es camí de retor(si)nada\n(MI7)ja mos sembla un poc més (LA)trist. (LA)",
-      "Hem men(LA)jat i hem fet sa (do#)festa,\nhem can(RE)tat fins a escla(LA)tar,\n(FA#)quan acaba sa set(si)mana,\n(MI7)tornam de vega, deixam la (LA)mar. (LA7) {(bis 1)}"
+      "Per a(LA)nar cap a ro(do#)mandre,\nes ca(RE)mí és molt po(LA)lit,\n(FA#)el passam tots es di(si)ssabtes\n(MI7)per poder veure es (LA)amics. (_LA)",
+      "Prospe(LA)ram, tenim ca(do#)seta,\nbarca (RE)nova, ja fa un (LA)any,\n(FA#)i per fer sa calde(si)reta,\n(MI7)peixet de roca i quatre (LA)crancs. (_LA7)",
+      "* Ca(RE)seta, barca, sa (LA)dona\ni es a(mi)mics en (LA7)es con(RE)torn,\n(RE7)una guiterra que (SOL)sona,\nsón lo (RE)més po(LA7)lit del (RE)món. (_RE)",
+      "Ca(RE)seta, barca, sa (LA)dona\ni aga(mi)far un (LA7)mig ce(RE)rol,\n** (RE7)amb cançons de mati(SOL)nada\ncontem(RE)plant com (LA7)neix es (RE)sol. (_RE) {(bis 2 i final)}",
+      "(_MI7)De re(LA)grés cap a ca (do#)nostra,\nes diu(RE)menge per sa (LA)nit,\n(FA#)es camí de retor(si)nada\n(MI7)ja mos sembla un poc més (LA)trist. (_LA)",
+      "Hem men(LA)jat i hem fet sa (do#)festa,\nhem can(RE)tat fins a escla(LA)tar,\n(FA#)quan acaba sa set(si)mana,\n(MI7)tornam de vega, deixam la (LA)mar. (_LA7) {(bis 1)}"
     ]
   },
   20: {
     stanzas: [
-      "(LA)Quan em despert as ma(si)tí sa il·lu(MI7)sió em fa de (LA)guia,\n(FA#)sent una sola inten(si)ció (MI7)que va durant tot es (LA)dia,\n(LA7)és una pàgina en (RE)blanc i la (MI7)vull plena de (LA)glòria,\n(FA#)et tenc present cada ins(si)tant, il·lu(MI7)mines sa me(LA)mòria. (LA)",
-      "* ** Sempre faig a(si)vant, (MI7)no vull perdre (LA)passa,\n(FA#)sense tu sa (si)vida es fa fe(MI7)rida, és una (LA)creu. Cap a tu! (LA)\nSempre faig a(si)vant, (MI7)que són quatre (LA)dies,\n(FA#)i ses ale(si)gries són molt po(MI7)lides, no tenen (LA)preu. (LA) {(bis 2)}\n{(final):} Cap a tu! (LA)",
-      "(LA)Sé que seré bastant (si)llest i m'ai(MI7)xec amb sa con(LA)fiança\n(FA#)de que per tu ja mai (si)més (MI7)no minvarà s'espe(LA)rança,\n(LA7)em sentiré prou ca(RE)paç de tren(MI7)car tota ba(LA)rrera,\n(FA#)no torçaré mai es (si)braç ni fa(MI7)ré una passa en(LA)rere. (LA) {(bis 1)}"
+      "(_LA)Quan em despert as ma(si)tí sa il·lu(MI7)sió em fa de (LA)guia,\n(FA#)sent una sola inten(si)ció (MI7)que va durant tot es (LA)dia,\n(LA7)és una pàgina en (RE)blanc i la (MI7)vull plena de (LA)glòria,\n(FA#)et tenc present cada ins(si)tant, il·lu(MI7)mines sa me(LA)mòria. (_LA)",
+      "* ** Sempre faig a(si)vant, (MI7)no vull perdre (LA)passa,\n(FA#)sense tu sa (si)vida es fa fe(MI7)rida, és una (_LA)creu. Cap a tu! (LA)\nSempre faig a(si)vant, (MI7)que són quatre (LA)dies,\n(FA#)i ses ale(_si)gries són molt po(MI7)lides, no tenen (LA)preu. (_LA) {(bis 2)}\n{(final):} Cap a tu! (_LA)",
+      "(_LA)Sé que seré bastant (si)llest i m'ai(MI7)xec amb sa con(LA)fiança\n(FA#)de que per tu ja mai (si)més (MI7)no minvarà s'espe(LA)rança,\n(LA7)em sentiré prou ca(RE)paç de tren(MI7)car tota ba(LA)rrera,\n(FA#)no torçaré mai es (si)braç ni fa(MI7)ré una passa en(LA)rere. (_LA) {(bis 1)}"
     ]
   },
   21: {
     stanzas: [
-      "(la)Són cent pa(MI7)raules que surten lli(la)gades\ndes de Me(LA7)norca fins a l'Empor(re)dà,\nfan es vi(MI7)atge cercant sa to(la)nada\nde notes que (SI7)tenguin salobre de (MI7)mar. (la)",
-      "Se'n van lleu(MI7)geres a terres a(la)migues,\nvolen em(LA7)peses pes vent de xa(re)loc,\nacompa(SOL)nyades d'estols de ga(DO)vines\nriuen a(MI7)legres, des vol en fan (LA)joc. (LA)",
-      "* Quan a(LA)rribin a Ca(si)lella,\nbaix de ses (MI7)voltes, davant des Port (LA)Bo,\nbaixin i es(FA#)coltin ses notes tan (si)belles\nd'una gui(SI7)terra que dóna es seu (MI7)to. (LA)",
-      "Quan ten(LA)guin sa melo(si)dia\n(MI7)tornaran cap a (LA)Maó,\n(FA#)dansant damunt de ses (si)aigües,\nun dia de tramuntana, (MI7)convertides en can(LA)çons. {(final en bis: (LA))}",
-      "(la)Es vol fan (MI7)ràpid a s'altra ri(la)bera,\nno s'han de (LA7)perdre enmig des ca(re)mí,\ncercant es (SOL)càlid compàs d'hava(DO)nera\nque les es(MI7)pera amb es seu en(LA)cís. (LA) {(bis)}"
+      "(la)Són cent pa(MI7)raules que surten lli(la)gades\ndes de Me(LA7)norca fins a l'Empor(re)dà,\nfan es vi(MI7)atge cercant sa to(la)nada\nde notes que (SI7)tenguin salobre de (MI7)mar. (_la)",
+      "Se'n van lleu(MI7)geres a terres a(la)migues,\nvolen em(LA7)peses pes vent de xa(re)loc,\nacompa(SOL)nyades d'estols de ga(DO)vines\nriuen a(MI7)legres, des vol en fan (LA)joc. (_LA)",
+      "* Quan a(_LA)rribin a Ca(si)lella,\nbaix de ses (MI7)voltes, davant des Port (LA)Bo,\nbaixin i es(FA#)coltin ses notes tan (si)belles\nd'una gui(SI7)terra que dóna es seu (MI7)to. (_LA)",
+      "Quan ten(_LA)guin sa melo(si)dia\n(MI7)tornaran cap a (LA)Maó,\n(FA#)dansant damunt de ses (_si)aigües,\nun dia de tramuntana, (_MI7)convertides en can(LA)çons. {(final en bis: (_LA))}",
+      "(_la)Es vol fan (MI7)ràpid a s'altra ri(la)bera,\nno s'han de (LA7)perdre enmig des ca(re)mí,\ncercant es (SOL)càlid compàs d'hava(DO)nera\nque les es(MI7)pera amb es seu en(LA)cís. (_LA) {(bis)}"
     ]
   },
   22: {
@@ -373,33 +373,33 @@ const TRANSCRIBED_SONGS = {
       "* (LA)Ese lunar que tienes,\ncielito lindo, junto a la (MI7)boca,\n(si)no se lo des a (MI)nadie,\ncielito (MI7)lindo, que a mí me (LA)toca. {(bis)}",
       "* (LA7)¡Ay, ay, ay, (RE)ay! [...] {(bis)}",
       "* (LA)Siempre que te enamores\nmira primero, mira pri(MI7)mero,\n(si)donde pones los (MI)ojos,\ncielito (MI7)lindo, no llores (LA)luego. {(bis)}",
-      "* (LA7)¡Ay, ay, ay, (RE)ay! [...] {(bis accel.)} (LA)"
+      "* (LA7)¡Ay, ay, ay, (RE)ay! [...] {(bis accel.)} (_LA)"
     ]
   },
   23: {
     stanzas: [
-      "Vaig de(RE7)sembarcar un (SOL)dia\na Menorca, ja fa (DO)temps, (MI7 - la)\ni vaig tenir s'alegria\nde trobar amics de(si)cents.",
-      "(FA#)No penseu que faig la bona,\njo vos dic bé lo que (DO)sent,\ns'ale(RE7)gria va i (SOL)torna\ni jo (la)ara es(RE7)tic con(SOL)tent.",
-      "Ciuta(RE7)della, bona (SOL)terra,\non jo vaig de tant en (DO)tant, (MI7 - la)\nque de lo dolent fan guerra\ni lo bo ho diuen can(RE7)tant. (RE7)",
-      "Una es(RE7)trella sempre (SOL)torna\nper ses festes de Sant (DO)Joan, (MI7 - la)\nqui no té cavall en compra\ni si (RE7)no hi va cami(SOL)nant. (SOL)",
-      "Me va du a Santan(SI7)dria\nen Diego Vera una (mi)nit,\ncantant se va fer de (LA7)dia\nsense haver tocat es (RE7)llit. (RE7)",
-      "* Ciuta(RE7)della, bona (SOL)terra,\non jo vaig de tant en (DO)tant, (MI7 - la)\nque de lo dolent fan guerra\ni lo (RE7)bo ho diuen can(SOL)tant. (SOL) {(bis)}",
-      "** Ciuta(RE7)della, bona (SOL)terra...\nI a lo (RE7)bo ho diuen can(SOL)tant! {(bis 2 x2 i final)} (RE7 - SOL)"
+      "Vaig de(_RE7)sembarcar un (SOL)dia\na Menorca, ja fa (DO)temps, (MI7 - la)\ni vaig tenir s'alegria\nde trobar amics de(si)cents.",
+      "(FA#)No penseu que faig la bona,\njo vos dic bé lo que (DO)sent,\ns'ale(RE7)gria va i (SOL)torna\ni jo (la)ara es(RE7)tic con(_SOL)tent.",
+      "Ciuta(_RE7)della, bona (SOL)terra,\non jo vaig de tant en (DO)tant, (MI7 - la)\nque de lo dolent fan guerra\ni lo bo ho diuen can(RE7)tant. (_RE7)",
+      "Una es(_RE7)trella sempre (SOL)torna\nper ses festes de Sant (DO)Joan, (MI7 - la)\nqui no té cavall en compra\ni si (RE7)no hi va cami(SOL)nant. (_SOL)",
+      "Me va du a Santan(SI7)dria\nen Diego Vera una (mi)nit,\ncantant se va fer de (LA7)dia\nsense haver tocat es (RE7)llit. (_RE7)",
+      "* Ciuta(_RE7)della, bona (SOL)terra,\non jo vaig de tant en (DO)tant, (MI7 - la)\nque de lo dolent fan guerra\ni lo (RE7)bo ho diuen can(SOL)tant. (_SOL) {(bis)}",
+      "** Ciuta(RE7)della, bona (SOL)terra...\nI a lo (RE7)bo ho diuen can(SOL)tant! {(bis 2 x2 i final)} (_RE7 - _SOL)"
     ]
   },
   24: {
     stanzas: [
-      "(LA)Diuen que hi ha una ciutat, misteriosa ciutat, vora Ciuta(MI7)della.\n(si)Diuen que enmig de la (MI)mar, enfonsada es(MI7)tà sa ciutat de Pa(LA)rella.\nDiuen que fades i bruixes la van encan(LA7)tar fa molts d'anys enda(RE)rrere.\nDiuen que es desencanta(LA)rà si un dia se (MI7)troben set Joans i set (LA7)Joanes.\n(RE)A sa vorera de la (LA)mar, si un dia se (MI7)troben set Joans i set (LA)Joanes. (LA)",
-      "* Ciutat de Pa(LA)rella, ciutat encan(MI7)tada,\nciutat enfon(si)sada (MI7)enmig de la (LA)mar.\nTu ets part de Menorca, (FA#)tu ets part d'aquesta (si)illa.\n(RE)Jo un dia vol(LA)dria es teu gran mis(MI7)teri poder desvet(LA7)lar.\n(RE)Jo un dia vol(LA)dria es teu gran mis(MI7)teri poder desvet(LA)lar. {(bis)} (LA)"
+      "(LA)Diuen que hi ha una ciutat, misteriosa ciutat, vora Ciuta(MI7)della.\n(si)Diuen que enmig de la (MI)mar, enfonsada es(MI7)tà sa ciutat de Pa(LA)rella.\nDiuen que fades i bruixes la van encan(LA7)tar fa molts d'anys enda(_RE)rrere.\nDiuen que es desencanta(LA)rà si un dia se (MI7)troben set Joans i set (LA7)Joanes.\n(RE)A sa vorera de la (LA)mar, si un dia se (MI7)troben set Joans i set (LA)Joanes. (LA)",
+      "* Ciutat de Pa(LA)rella, ciutat encan(MI7)tada,\nciutat enfon(si)sada (MI7)enmig de la (LA)mar.\nTu ets part de Menorca, (FA#)tu ets part d'aquesta (si)illa.\n(_RE)Jo un dia vol(LA)dria es teu gran mis(MI7)teri poder desvet(LA7)lar.\n(RE)Jo un dia vol(LA)dria es teu gran mis(MI7)teri poder desvet(LA)lar. {(bis)} (_LA)"
     ]
   },
   25: {
     stanzas: [
       "Mo(la)cita, (MI7)dame el cla(la)vel,\ndame el clavel de tu (MI7)boca,\npara eso no hay que tener\nmucha vergüenza ni (la)poca.",
-      "(SOL7)Yo te daré un casca(DO)bel,\nte lo (SOL7)prometo, mo(DO)cita,\n(MI7)si tú me das esa (la)miel\nque lle(MI7)vas en la bo(LA)quita. (LA)",
-      "* Clave(LA)litos, clavelitos, clavelitos de mi cora(MI7)zón.\nHoy te (si)traigo clave(MI)litos colo(MI7)rados igual que un fre(LA)són.\nSi algún día clavelitos no lo(LA7)grara poderte tra(RE)er,\nno te creas que ya no te (LA)quiero, es que (MI7)no te los pude co(LA)ger. (LA)\n{(final en bis)}",
+      "(SOL7)Yo te daré un casca(DO)bel,\nte lo (SOL7)prometo, mo(DO)cita,\n(MI7)si tú me das esa (la)miel\nque lle(MI7)vas en la bo(LA)quita. (_LA)",
+      "* Clave(LA)litos, clavelitos, clavelitos de mi cora(MI7)zón.\nHoy te (si)traigo clave(MI)litos colo(MI7)rados igual que un fre(LA)són.\nSi algún día clavelitos no lo(LA7)grara poderte tra(RE)er,\nno te creas que ya no te (LA)quiero, es que (MI7)no te los pude co(LA)ger. (_LA)\n{(final en bis)}",
       "De (la)tarde (MI7)y a media (la)luz\nvi tu boquita de (MI7)guinda,\nyo no he visto en Santa Cruz\notra mocita más (la)linda.",
-      "(SOL7)Y luego al ver el cla(DO)vel\nque lle(SOL7)vabas en el (DO)pelo,\n(MI7)mirándolo creí (la)ver\nun pe(MI7)dacito de (LA)cielo. (LA) {(bis)}"
+      "(SOL7)Y luego al ver el cla(DO)vel\nque lle(SOL7)vabas en el (DO)pelo,\n(MI7)mirándolo creí (la)ver\nun pe(MI7)dacito de (LA)cielo. (_LA) {(bis)}"
     ]
   },
   26: {
@@ -409,62 +409,62 @@ const TRANSCRIBED_SONGS = {
       "(DO)Ja ha sortit sa somereta,\n(SOL7)ja sentim es fabi(DO)ol,\n(DO7)es cavalls ja se re(FA)pleguen\nper a(DO)nar an es (SOL7)cara(DO)gol.",
       "(DO)Després de sa convidada\n(SOL7)davallarem an es (DO)Pla,\n(DO7)i veurem en Xec «sa (FA)Mosca»\nquants de (DO)bots li (SOL7)fa do(DO)nar.",
       "(DO)Pujarem cap a Ses Voltes,\n(SOL7)a Santa Clara ani(DO)rem,\n(DO7)a deixar sa Cape(FA)llana\ni allà (DO)tots mos (SOL7)troba(DO)rem.",
-      "(DO)Demà farem festa gran,\n(SOL7)cantem tots amb ale(DO)gria,\n(DO7)que tothom tengui un bon (FA)dia\ni bones (DO)festes (SOL7)de Sant (DO)Joan. (DO)",
+      "(DO)Demà farem festa gran,\n(SOL7)cantem tots amb ale(DO)gria,\n(DO7)que tothom tengui un bon (FA)dia\ni bones (DO)festes (SOL7)de Sant (DO)Joan. (_DO)",
       "{+ Jaleo (acords:} (DO) {i} (SOL7){)}"
     ]
   },
   27: {
     stanzas: [
-      "Lo nuestro du(MI)ró lo que (MI)duran dos peces de (dis2)hielo en un whisky on the (fa#)rocks.\nEn vez de fin(SI7)gir o estre(fa#)llarme una copa de (SI7)celos, le dio por re(MI)ír. (SI7)\nDe pronto me (MI)vi como un perro de nadie la(MI7)drando a las puertas del (LA)cielo.\nMe de(la)jó un neceser con a(DO#)gravios, la miel en los (fa#)labios (SI7)y escarcha en el (MI)pelo. (MI)",
-      "Tenían ra(MI)zón mis a(MI)mantes en eso de (dis2)que antes el malo era (fa#)yo,\ncon una excep(SI7)ción: esta (fa#)vez yo quería que(SI7)rerla querer y ella (MI)no. (SI7)\nAsí que se (MI)fue. Me dejó el corazón en los (MI7)huesos y yo de ro(LA)dillas.\nDesde el (la)taxi y haciendo un ex(DO#)ceso me tiró dos (fa#)besos, (SI7)uno por me(MI)jilla. (MI7)",
-      "* Y regre(LA)sé a la maldición del cajón sin su ropa, a la perdición de los bares de copas,\nY las cenicientas de saldo y esquina, y por esas ventas del fino Laína,\npagando las cuentas de gente sin alma que pierde la calma (SI7)con la coca(MI)ína,\nvolviéndome (SI7)loco, derro(fa#)chando la bolsa y la (SI7)vida\nla fui poco a (fa#)poco (SI7)dando por per(MI)dida. (MI7)",
-      "Y eso que (LA)yo, para no agobiar con flores a María, para no asediarla con mi antología\nde sábanas frías y alcobas vacías, para no comprarla con bisutería\nni ser el fantoche que va en romería con la cofradía del (SI7)santo re(MI)proche.\nTanto la que(SI7)ría, que tar(fa#)dé en aprender a olvi(SI7)darla\ndiecinueve (fa#)días (SI7)y quinientas (MI)noches. (MI) {(final en bis)}",
-      "Dijo «hola y a(MI)diós», y el por(MI)tazo sonó como un (dis2)signo de interroga(fa#)ción.\nSospecho que a(SI7)sí se ven(fa#)gaba a través del ol(SI7)vido, Cupido, de (MI)mí. (SI7)\nNo pido per(MI)dón, para qué, si me va a perdo(MI7)nar porque ya no le im(LA)porta.\nSiempre (la)tuvo la frente muy (DO#)alta, la lengua muy (fa#)larga (SI7)y la falda muy (MI)corta. (MI7)",
+      "Lo nuestro du(MI)ró lo que (_MI)duran dos peces de (_dis2)hielo en un whisky on the (fa#)rocks.\nEn vez de fin(SI7)gir o estre(fa#)llarme una copa de (SI7)celos, le dio por re(MI)ír. (_SI7)\nDe pronto me (MI)vi como un perro de nadie la(MI7)drando a las puertas del (LA)cielo.\nMe de(la)jó un neceser con a(DO#)gravios, la miel en los (fa#)labios (SI7)y escarcha en el (MI)pelo. (_MI)",
+      "Tenían ra(MI)zón mis a(_MI)mantes en eso de (_dis2)que antes el malo era (fa#)yo,\ncon una excep(SI7)ción: esta (fa#)vez yo quería que(SI7)rerla querer y ella (MI)no. (_SI7)\nAsí que se (MI)fue. Me dejó el corazón en los (MI7)huesos y yo de ro(LA)dillas.\nDesde el (_la)taxi y haciendo un ex(DO#)ceso me tiró dos (fa#)besos, (SI7)uno por me(MI)jilla. (MI7)",
+      "* Y regre(LA)sé a la maldición del cajón sin su ropa, a la perdición de los bares de copas,\nY las cenicientas de saldo y esquina, y por esas ventas del fino Laína,\npagando las cuentas de gente sin alma que pierde la calma (_SI7)con la coca(MI)ína,\nvolviéndome (SI7)loco, derro(fa#)chando la bolsa y la (SI7)vida\nla fui poco a (fa#)poco (SI7)dando por per(MI)dida. (MI7)",
+      "Y eso que (LA)yo, para no agobiar con flores a María, para no asediarla con mi antología\nde sábanas frías y alcobas vacías, para no comprarla con bisutería\nni ser el fantoche que va en romería con la cofradía del (_SI7)santo re(MI)proche.\nTanto la que(SI7)ría, que tar(fa#)dé en aprender a olvi(SI7)darla\ndiecinueve (fa#)días (SI7)y quinientas (_MI)noches. (_MI) {(final en bis)}",
+      "Dijo «hola y a(MI)diós», y el por(_MI)tazo sonó como un (_dis2)signo de interroga(fa#)ción.\nSospecho que a(SI7)sí se ven(fa#)gaba a través del ol(SI7)vido, Cupido, de (MI)mí. (_SI7)\nNo pido per(MI)dón, para qué, si me va a perdo(MI7)nar porque ya no le im(LA)porta.\nSiempre (la)tuvo la frente muy (DO#)alta, la lengua muy (fa#)larga (SI7)y la falda muy (MI)corta. (MI7)",
       "Me abando(LA)nó como se abandonan los zapatos viejos, destrozó el cristal de mis gafas\nde lejos, sacó del espejo su vivo retrato, y fui tan torero por los callejones\ndel juego y el vino que ayer el portero me echó del casino de (SI7)Torrelo(MI)dones.\nQué pena tan (SI7)grande, nega(fa#)ría el santo sacra(SI7)mento\nen el mismo mo(fa#)mento (SI7)que ella me lo (MI)mande. (MI7) {(bis)}"
     ]
   },
   28: {
     stanzas: [
-      "(SOL)Sabes mejor que nadie que (RE7)me fa(SOL)llaste,\nque lo que prometiste se te olvi(RE7)dó.\n(la)Sabes a ciencia (RE7)cierta que me engañaste\naunque nadie te amaba igual que (SOL)yo.",
-      "(SOL)Lleno estoy de razones pa' (RE7)despre(SOL)ciarte\ny sin embargo (SOL7)quiero que seas fe(DO)liz.",
-      "* (SOL7)Que a(la)llá en el otro (RE7)mundo\nen vez de in(SOL)fierno encuentres (MI7)gloria,\ny que una (la)nube de tu me(RE7)moria\nme borre a (SOL)mí. {(bis: (SOL7 x4))}",
-      "(RE7)Dile al que te pregunte que no te (SOL)quise,\n(RE7)dile que te engañaba, que fui lo (SOL)peor.\nÉchame a mí la culpa de (RE7)lo que (SOL)pase,\n(SOL7)cúbrete tú la espalda con mi do(DO)lor.",
-      "* (SOL7)Que a(la)llá en el otro (RE7)mundo\nen vez de in(SOL)fierno encuentres (MI7)gloria,\ny que una (la)nube de tu me(RE7)moria\nme borre a (SOL)mí. {(bis x2: (SOL7 x4))} (SOL)",
-      "(RE7)Échame a mí la culpa... de lo que (RE7)pa(SOL)se. (SOL)"
+      "(SOL)Sabes mejor que nadie que (_RE7)me fa(SOL)llaste,\nque lo que prometiste se te olvi(RE7)dó.\n(la)Sabes a ciencia (RE7)cierta que me engañaste\naunque nadie te amaba igual que (SOL)yo.",
+      "(SOL)Lleno estoy de razones pa' (_RE7)despre(SOL)ciarte\ny sin embargo (SOL7)quiero que seas fe(DO)liz.",
+      "* (_SOL7)Que a(la)llá en el otro (RE7)mundo\nen vez de in(SOL)fierno encuentres (MI7)gloria,\ny que una (la)nube de tu me(RE7)moria\nme borre a (SOL)mí. {(bis: (_SOL7 x4))}",
+      "(RE7)Dile al que te pregunte que no te (SOL)quise,\n(RE7)dile que te engañaba, que fui lo (SOL)peor.\nÉchame a mí la culpa de (_RE7)lo que (SOL)pase,\n(SOL7)cúbrete tú la espalda con mi do(DO)lor.",
+      "* (_SOL7)Que a(la)llá en el otro (RE7)mundo\nen vez de in(SOL)fierno encuentres (MI7)gloria,\ny que una (la)nube de tu me(RE7)moria\nme borre a (SOL)mí. {(bis x2: (_SOL7 x4))} (_SOL)",
+      "(_RE7)Échame a mí la culpa... de lo que (_RE7)pa(SOL)se. (_SOL)"
     ]
   },
   29: {
     stanzas: [
-      "(la)Yo que fui del a(LA7)mor ave de (re)paso,\n(SOL7)yo que fui mariposa de mil (DO)flores,\n(re)hoy siento la nostalgia de tus (MI7)brazos,\nde aquellos tus o(FA)jazos, de aquellos tus a(MI7)mores. (MI7)",
-      "(la)Ni cadenas ni (LA7)lágrimas me a(re)taron,\n(SOL7)mas hoy quiero la calma y el so(DO)siego.\n(FA)Perdona mi tardanza, te lo (re)ruego,\nperdona el anda(la)riego que hoy te o(MI7)frece el cora(la)zón. (la)",
-      "* Hay au(re)sencias que (SOL7)triunfan, y la (DO)nuestra triunfó,\namémonos a(re)hora con la (MI7)paz que en otro (la)tiempo nos faltó. (LA7)\nY cuando yo me (re)muera, ni luz, ni (SOL7)llanto, ni (DO)luto, ni nada (LA7)más,\nahí junto a mi (re)cruz (MI7)yo solo quiero (la)paz.",
-      "Solo (MI7)tu corazón, si re(la)cuerdas mi amor,\nuna (re)lágrima (SOL7)llévame por (DO)última vez.\nEn si(re)lencio di(SOL7)rás una ple(DO)garia,\ny por (MI7)Dios, olvídame des(la)pués. {(bis)} (la - MI7 - la)"
+      "(la)Yo que fui del a(_LA7)mor ave de (re)paso,\n(SOL7)yo que fui mariposa de mil (DO)flores,\n(re)hoy siento la nostalgia de tus (MI7)brazos,\nde aquellos tus o(FA)jazos, de aquellos tus a(MI7)mores. (_MI7)",
+      "(la)Ni cadenas ni (_LA7)lágrimas me a(re)taron,\n(SOL7)mas hoy quiero la calma y el so(DO)siego.\n(FA)Perdona mi tardanza, te lo (re)ruego,\nperdona el anda(la)riego que hoy te o(MI7)frece el cora(la)zón. (_la)",
+      "* Hay au(re)sencias que (SOL7)triunfan, y la (DO)nuestra triunfó,\namémonos a(re)hora con la (MI7)paz que en otro (la)tiempo nos faltó. (_LA7)\nY cuando yo me (re)muera, ni luz, ni (SOL7)llanto, ni (DO)luto, ni nada (_LA7)más,\nahí junto a mi (re)cruz (MI7)yo solo quiero (la)paz.",
+      "Solo (MI7)tu corazón, si re(la)cuerdas mi amor,\nuna (re)lágrima (SOL7)llévame por (DO)última vez.\nEn si(re)lencio di(SOL7)rás una ple(DO)garia,\ny por (MI7)Dios, olvídame des(la)pués. {(bis)} (_la - _MI7 - _la)"
     ]
   },
   30: {
     stanzas: [
-      "Amb se(la)tanta anys (MI7)a l'es(la)quena,\nla pipa sempre a flor de (MI7)llavi,\ncontem(si)plant la nit se(MI)rena\nvora la (MI7)mar es passeja un (la)avi.",
-      "Tota la (la)vida engron(MI7)xat per les (la)ones,\namb son bas(LA7)tó caminant a l'at(re)zar,\ncontemplant la nit se(la)rena\nes pa(MI7)sseja un llop de (LA)mar.",
-      "Quan el tempo(LA)ral i (MI7)la tramun(LA)tana\ninflaven les veles d'un vell bergan(MI7)tí,\njove i afe(si)rrat al pal de me(MI)ssana\ncridava ben (MI7)fort: «El mar és per (LA)mi!»",
-      "Ara que ja és (LA)vell al (MI7)vespre no (LA)marxa,\nja no va a la (LA7)pesca, ja no té com(RE)panys.\nNomés va a pa(re)sseig i enyora la (LA)xarxa,\ncamina fei(MI7)xuc pel pes de tants (LA)anys.\n{(DC)}\nEl llop de (re)mar, el llop de (LA)mar. (LA)"
+      "Amb se(la)tanta anys (_MI7)a l'es(la)quena,\nla pipa sempre a flor de (MI7)llavi,\ncontem(si)plant la nit se(MI)rena\nvora la (MI7)mar es passeja un (la)avi.",
+      "Tota la (la)vida engron(_MI7)xat per les (la)ones,\namb son bas(LA7)tó caminant a l'at(re)zar,\ncontemplant la nit se(la)rena\nes pa(MI7)sseja un llop de (LA)mar.",
+      "Quan el tempo(_LA)ral i (_MI7)la tramun(LA)tana\ninflaven les veles d'un vell bergan(MI7)tí,\njove i afe(si)rrat al pal de me(MI)ssana\ncridava ben (_MI7)fort: «El mar és per (LA)mi!»",
+      "Ara que ja és (_LA)vell al (_MI7)vespre no (LA)marxa,\nja no va a la (LA7)pesca, ja no té com(RE)panys.\nNomés va a pa(_re)sseig i enyora la (LA)xarxa,\ncamina fei(MI7)xuc pel pes de tants (LA)anys.\n{(DC)}\nEl llop de (re)mar, el llop de (LA)mar. (LA)"
     ]
   },
   31: {
     stanzas: [
-      "El meu (mi)avi va anar a Cuba a bordo del Cata(SI7)là,\nel millor barco de guerra de la flota d'ultra(mi)mar.\nEl timoner i el nostramo i ca(MI7)torze mari(la)ners\neren nascuts a Ca(mi)lella, eren na(SI7)scuts a Palafru(MI)gell. (MI)",
-      "Quan el Cata(MI)là sortia a la (SI7)mar\nels nois de Calella feien un cre(MI)mat.\nMans a la guitarra solien can(DO#)tar, solien can(fa#)tar:\n«Visca Cata(MI)lunya! (SI7)Visca el Cata(MI)là!» (mi)",
-      "Arri(mi)baren temps de guerres, de perfídies i trai(SI7)cions,\ni en el mar de les Antilles retronaren els ca(mi)nons.\nEls mariners de Calella i el meu (MI7)avi enmig de (la)tots\nvaren morir a co(mi)berta, varen mo(SI7)rir al peu del ca(MI)nó. (MI)",
-      "Quan el Cata(MI)là sortia a la (SI7)mar\ncridava el meu avi: «Apa, nois, que és (MI)tard!».\nPerò els valents de bordo no varen tor(DO#)nar, no varen tor(fa#)nar,\ntingueren la (MI)culpa (SI7)els ameri(MI)cans.",
-      "Quan el Cata(MI)là sortia a la (SI7)mar\nels nois de Calella feien un cre(MI)mat.\nMans a la guitarra solien can(DO#)tar, solien can(fa#)tar:\n«Visca Cata(MI)lunya! (SI7)Visca el Cata(MI)là!» (SI7 - MI)"
+      "El meu (mi)avi va anar a Cuba a bordo del Cata(SI7)là,\nel millor barco de guerra de la flota d'ultra(mi)mar.\nEl timoner i el nostramo i ca(MI7)torze mari(la)ners\neren nascuts a Ca(mi)lella, eren na(SI7)scuts a Palafru(MI)gell. (_MI)",
+      "Quan el Cata(MI)là sortia a la (_SI7)mar\nels nois de Calella feien un cre(MI)mat.\nMans a la guitarra solien can(DO#)tar, solien can(fa#)tar:\n«Visca Cata(MI)lunya! (SI7)Visca el Cata(MI)là!» (mi)",
+      "Arri(mi)baren temps de guerres, de perfídies i trai(SI7)cions,\ni en el mar de les Antilles retronaren els ca(mi)nons.\nEls mariners de Calella i el meu (MI7)avi enmig de (la)tots\nvaren morir a co(mi)berta, varen mo(SI7)rir al peu del ca(MI)nó. (_MI)",
+      "Quan el Cata(MI)là sortia a la (_SI7)mar\ncridava el meu avi: «Apa, nois, que és (MI)tard!».\nPerò els valents de bordo no varen tor(DO#)nar, no varen tor(fa#)nar,\ntingueren la (MI)culpa (SI7)els ameri(MI)cans.",
+      "Quan el Cata(MI)là sortia a la (SI7)mar\nels nois de Calella feien un cre(MI)mat.\nMans a la guitarra solien can(DO#)tar, solien can(fa#)tar:\n«Visca Cata(MI)lunya! (SI7)Visca el Cata(MI)là!» (_SI7 - _MI)"
     ]
   },
   32: {
     stanzas: [
-      "A mi amigo Blanco He(mi)rrera le pagaron su sa(SI7)lario,\ny sin pensarlo dos veces salió para malgas(mi)tarlo.\nUna semana de juerga y per(MI7)dió el conoci(la)miento,\ncomo no volvió a su (mi)casa to(SI7)dos lo dieron por (mi)muerto. (mi)",
-      "Y no estaba (SI7)muerto, no, no, y no estaba (mi)muerto, no, no,\ny no estaba (SI7)muerto, no, no, estaba tomando (mi)cañas, ¡lere-le(mi)rele!\nY no estaba (SI7)muerto, no, no, y no estaba (mi)muerto, no, no,\ny no estaba (SI7)muerto, no, no, (mi)¡chiviri, cu(SI7)chiviri, chivi(mi)rí!",
-      "Pero al cabo de unos (mi)días de haber desapare(SI7)cido\nencontraron a uno muerto, un muerto muy pare(mi)cido.\nLe hicieron un gran velorio, le re(MI7)zaron la no(la)vena,\nle perdonaron sus (mi)deudas y (SI7)lo enterraron con (mi)pena. (mi)",
-      "* Y no estaba (SI7)muerto, no, no, y no estaba (mi)muerto, no, no,\ny no estaba (SI7)muerto, no, no, estaba tomando (mi)cañas, ¡lere-le(mi)rele!\nY no estaba (SI7)muerto, no, no, y no estaba (mi)muerto, no, no,\ny no estaba (SI7)muerto, no, no, (mi)¡chiviri, cu(SI7)chiviri, chivi(mi)rí! {(final en bis)}",
-      "Pero un día se apare(mi)ció lleno de vida y con(SI7)tento,\ndiciéndole a todo el mundo: (SI7)«¡Eh! ¡Se equivocaron de (mi)muerto!»\nQue lío el que se formó, esto (MI7)sí que es puro (la)cuento,\nsu mujer ya no lo (mi)quiere, no, no (SI7)quiere dormir con (mi)muertos. (mi)",
+      "A mi amigo Blanco He(mi)rrera le pagaron su sa(SI7)lario,\ny sin pensarlo dos veces salió para malgas(mi)tarlo.\nUna semana de juerga y per(MI7)dió el conoci(la)miento,\ncomo no volvió a su (mi)casa to(SI7)dos lo dieron por (mi)muerto. (_mi)",
+      "Y no estaba (SI7)muerto, no, no, y no estaba (mi)muerto, no, no,\ny no estaba (SI7)muerto, no, no, estaba tomando (_mi)cañas, ¡lere-le(_mi)rele!\nY no estaba (SI7)muerto, no, no, y no estaba (mi)muerto, no, no,\ny no estaba (SI7)muerto, no, no, (_mi)¡chiviri, cu(_SI7)chiviri, chivi(_mi)rí!",
+      "Pero al cabo de unos (mi)días de haber desapare(SI7)cido\nencontraron a uno muerto, un muerto muy pare(mi)cido.\nLe hicieron un gran velorio, le re(MI7)zaron la no(la)vena,\nle perdonaron sus (mi)deudas y (SI7)lo enterraron con (mi)pena. (_mi)",
+      "* Y no estaba (SI7)muerto, no, no, y no estaba (mi)muerto, no, no,\ny no estaba (SI7)muerto, no, no, estaba tomando (_mi)cañas, ¡lere-le(_mi)rele!\nY no estaba (SI7)muerto, no, no, y no estaba (mi)muerto, no, no,\ny no estaba (SI7)muerto, no, no, (_mi)¡chiviri, cu(_SI7)chiviri, chivi(_mi)rí! {(final en bis)}",
+      "Pero un día se apare(mi)ció lleno de vida y con(SI7)tento,\ndiciéndole a todo el mundo: (_SI7)«¡Eh! ¡Se equivocaron de (mi)muerto!»\nQue lío el que se formó, esto (MI7)sí que es puro (la)cuento,\nsu mujer ya no lo (mi)quiere, no, no (SI7)quiere dormir con (mi)muertos. (mi)",
       "¡No estaba (SI7)muerto, estaba de pa(mi)rranda!\n¡No estaba (SI7)muerto, estaba de pa(mi)rranda! {(bis)}"
     ]
   },
@@ -472,75 +472,75 @@ const TRANSCRIBED_SONGS = {
     stanzas: [
       "(DO)Reloj, no (la)marques las (re)horas (SOL7)\n(DO)porque (la)voy a enloque(re)cer. (SOL7)\n(DO)Ella se i(la)rá para (re)siempre (SOL7)\n(DO)cuando ama(la)nezca otra (re)vez. (SOL7)",
       "(DO)No más nos (la)queda esta (re)noche (SOL7)\n(DO)para vi(la)vir nuestro a(re)mor, (SOL7)\n(DO)y tu tic-(la)tac me re(re)cuerda (SOL7)\n(DO)mi irreme(la)diable do(re)lor. (SOL7)",
-      "* Re(DO)loj, de(la)tén tu ca(MI7)mino\n(FA)porque mi (SOL7)vida se a(DO)paga. (la)\n(re)Ella es la es(SOL7)trella que a(DO)lumbra mi (LA7)ser,\n(re)yo sin su a(SOL7)mor no soy (DO)nada. (la - re - SOL7)",
-      "De(DO)tén el (la)tiempo en tus (MI7)manos,\n(FA)haz esta (SOL7)noche per(DO)petua (la)\n(re)para que (SOL7)nunca se (DO)vaya de (LA7)mí,\n** (re)para que (SOL7)nunca ama(DO)nezca. {(bis 1: (la - re - SOL7)) (bis 2: (la) x2 i final: (DO))}"
+      "* Re(DO)loj, de(la)tén tu ca(MI7)mino\n(FA)porque mi (SOL7)vida se a(DO)paga. (la)\n(re)Ella es la es(SOL7)trella que a(DO)lumbra mi (LA7)ser,\n(re)yo sin su a(SOL7)mor no soy (DO)nada. (la - re - _SOL7)",
+      "De(DO)tén el (la)tiempo en tus (MI7)manos,\n(FA)haz esta (SOL7)noche per(DO)petua (la)\n(re)para que (SOL7)nunca se (DO)vaya de (LA7)mí,\n** (re)para que (SOL7)nunca ama(DO)nezca. {(bis 1: (la - re - _SOL7)) (bis 2: (la) x2 i final: (_DO))}"
     ]
   },
   34: {
     stanzas: [
-      "{(ranxera)} Yo sé (RE7)bien que estoy a(SOL)fuera,\npero el día que yo me muera\nsé que tendrás que llo(RE7)rar\n(llo(la)rar y llo(RE7)rar, llo(la)rar y llo(RE7)rar).",
-      "Di(RE7)rás que no me quisiste,\npero vas a estar muy (RE7)triste\ny así te vas a {(valset)} que(SOL)dar. (SOL7 - SOL7)",
+      "{(ranxera)} Yo sé (_RE7)bien que estoy a(SOL)fuera,\npero el día que yo me muera\nsé que tendrás que llo(RE7)rar\n(llo(la)rar y llo(RE7)rar, llo(la)rar y llo(RE7)rar).",
+      "Di(RE7)rás que no me quisiste,\npero vas a estar muy (_RE7)triste\ny así te vas a {(valset)} que(SOL)dar. (SOL7 - _SOL7)",
       "* Con di(DO)nero y sin dinero\nhago siempre lo que quiero\n¡y mi pa(LA7)labra es la (RE7)ley!",
-      "(la)No tengo trono ni (RE7)reina,\nni (la)nadie que me com(RE7)prenda,\n¡pero (la)sigo (RE7)siendo el (SOL)rey! (SOL) {(final en bis):} (RE7 - SOL)",
-      "{(ranxera)} Una (RE7)piedra en el ca(SOL)mino\nme enseñó que mi destino\nera rodar y ro(RE7)dar\n(ro(la)dar y ro(RE7)dar, ro(la)dar y ro(RE7)dar).",
-      "Des(RE7)pués me dijo un arriero\nque no hay que llegar pri(RE7)mero,\nsino que hay que saber {(valset)} lle(SOL)gar. (SOL7 - SOL7) {(bis)}"
+      "(la)No tengo trono ni (RE7)reina,\nni (la)nadie que me com(RE7)prenda,\n¡pero (la)sigo (RE7)siendo el (SOL)rey! (_SOL) {(final en bis):} (_RE7 - _SOL)",
+      "{(ranxera)} Una (_RE7)piedra en el ca(SOL)mino\nme enseñó que mi destino\nera rodar y ro(RE7)dar\n(ro(la)dar y ro(RE7)dar, ro(la)dar y ro(RE7)dar).",
+      "Des(RE7)pués me dijo un arriero\nque no hay que llegar pri(_RE7)mero,\nsino que hay que saber {(valset)} lle(SOL)gar. (SOL7 - _SOL7) {(bis)}"
     ]
   },
   35: {
     stanzas: [
-      "Me can(RE7)sé de ro(SOL)garle,\nme cansé de decirle que yo sin ella de pena (RE7)muero.\nYa no quiso escu(la)charme, (RE7)\ny sus labios se abri(la)eron, fue pa' de(RE7)cirme: «Ya no te (SOL)quiero».",
-      "Yo sen(RE7)tí que mi (SOL)vida\nse perdió en un abismo\nprofundo y (SOL7)negro como mi (DO)suerte. (DO)",
-      "Quise hallar el ol(la)vido (RE7)\nal estilo Ja(SOL)lisco; (MI7)\npero aquellos ma(la)riachis\ny aquel te(RE7)quila me hicieron llo(SOL)rar. (SOL)",
-      "Me can(RE7)sé de ro(SOL)garle.\nCon el llanto en los ojos alcé mi copa y brindé por (RE7)ella.\nNo podía despre(la)ciarme, (RE7)\nera el último (la)brindis de un bo(RE7)hemio por una (SOL)reina.",
-      "Los ma(RE7)riachis ca(SOL)llaron.\nDe mi mano sin fuerza\ncayó mi (SOL7)copa sin darme (DO)cuenta. (DO)",
-      "Ella quiso que(la)darse (RE7)\ncuando vio mi tris(SOL)teza, (MI7)\npero ya estaba es(la)crito\nque aquella (RE7)noche... (RE7)perdiera su a(SOL)mor. (SOL - RE7 - SOL)"
+      "Me can(_RE7)sé de ro(SOL)garle,\nme cansé de decirle que yo sin ella de pena (RE7)muero.\nYa no quiso escu(la)charme, (RE7)\ny sus labios se abri(la)eron, fue pa' de(RE7)cirme: «Ya no te (SOL)quiero».",
+      "Yo sen(_RE7)tí que mi (SOL)vida\nse perdió en un abismo\nprofundo y (SOL7)negro como mi (DO)suerte. (_DO)",
+      "Quise hallar el ol(la)vido (RE7)\nal estilo Ja(SOL)lisco; (MI7)\npero aquellos ma(la)riachis\ny aquel te(RE7)quila me hicieron llo(SOL)rar. (_SOL)",
+      "Me can(_RE7)sé de ro(SOL)garle.\nCon el llanto en los ojos alcé mi copa y brindé por (RE7)ella.\nNo podía despre(la)ciarme, (RE7)\nera el último (la)brindis de un bo(RE7)hemio por una (SOL)reina.",
+      "Los ma(_RE7)riachis ca(SOL)llaron.\nDe mi mano sin fuerza\ncayó mi (SOL7)copa sin darme (DO)cuenta. (_DO)",
+      "Ella quiso que(la)darse (RE7)\ncuando vio mi tris(SOL)teza, (MI7)\npero ya estaba es(la)crito\nque aquella (RE7)noche... (_RE7)perdiera su a(SOL)mor. (_SOL - _RE7 - _SOL)"
     ]
   },
   36: {
     stanzas: [
-      "En mi (SI7)viejo San (MI)Juan, cuántos sueños forjé en mis noches de in(SI7)fancia.\nMi primera ilu(fa#)sión y mis cuitas de a(SI7)mor son recuerdos del (MI)alma.\n(SI7)Una tarde me (MI)fui hacia extraña nación pues lo (MI7)quiso el des(LA)tino, (la)\npero (SI7)mi cora(MI)zón se quedó frente al (fa#)mar en mi (SI7)viejo San (MI)Juan.",
-      "* A(SI7)diós (adiós, adiós), Borinquen que(MI)rido, tierra de mi amor.\nA(SI7)diós (adiós, adiós), mi diosa del (MI)mar, reina del palmar.\nMe voy (ya me (MI7)voy), pero un día volve(LA)ré (la)\na bus(SI7)car mi que(MI)rer, a soñar otra (fa#)vez en mi (SI7)viejo San (MI)Juan. {(final en bis: (MI))}",
-      "Pero el (SI7)tiempo pa(MI)só y el destino burló mi terrible nos(SI7)talgia.\nY no pude vol(fa#)ver al San Juan que yo a(SI7)mé, pedacito de (MI)patria.\n(SI7)Mi cabello blan(MI)queó, ya mi vida se va, ya la (MI7)muerte me (LA)llama (la)\ny no (SI7)quiero mo(MI)rir alejado de (fa#)ti, Puerto (SI7)Rico del (MI)alma. {(bis)}"
+      "En mi (_SI7)viejo San (MI)Juan, cuántos sueños forjé en mis noches de in(SI7)fancia.\nMi primera ilu(fa#)sión y mis cuitas de a(SI7)mor son recuerdos del (MI)alma.\n(SI7)Una tarde me (MI)fui hacia extraña nación pues lo (MI7)quiso el des(LA)tino, (_la)\npero (_SI7)mi cora(MI)zón se quedó frente al (fa#)mar en mi (SI7)viejo San (MI)Juan.",
+      "* A(SI7)diós (adiós, adiós), Borinquen que(MI)rido, tierra de mi amor.\nA(SI7)diós (adiós, adiós), mi diosa del (MI)mar, reina del palmar.\nMe voy (ya me (MI7)voy), pero un día volve(LA)ré (_la)\na bus(_SI7)car mi que(MI)rer, a soñar otra (fa#)vez en mi (SI7)viejo San (MI)Juan. {(final en bis: (MI))}",
+      "Pero el (_SI7)tiempo pa(MI)só y el destino burló mi terrible nos(SI7)talgia.\nY no pude vol(fa#)ver al San Juan que yo a(SI7)mé, pedacito de (MI)patria.\n(SI7)Mi cabello blan(MI)queó, ya mi vida se va, ya la (MI7)muerte me (LA)llama (_la)\ny no (_SI7)quiero mo(MI)rir alejado de (fa#)ti, Puerto (SI7)Rico del (MI)alma. {(bis)}"
     ]
   },
   37: {
     stanzas: [
-      "T'estima(LA)ré, t'estima(DO#)ré,\nenamo(RE)rada de la (MI7)mar i des (LA)vent.\nSa barca (si)veig, (MI7)des pensa(LA)ment,\nque trista (SI7)torna perquè tu no em (MI7)sents. (RE)No em (MI7)sents... (MI7)",
-      "Es verd ca(LA)mí que mira a la (DO#)mar,\nflor de gi(RE)nesta fins (MI7)dalt des se(LA)rrat.\nPodríem (si)dir, (MI7)també con(LA)tar,\nses moltes (SI7)hores que (MI7)jo t'he esti(LA)mat. (LA)",
-      "* Adéu, Ma(MI)ria, Ma(RE)ria, Ma(LA)ria,\nsi m'esti(MI7)messis jo et canta(LA)ria.\nFlor menor(MI7)quina, amb (RE)tu em casa(LA)ria. (LA7)\n** Si està de (RE)Déu, el (MI7)món no ho atura(LA)rà. {(bis 2 i final: (LA))}",
-      "Estim la (LA)mar i estim es (DO#)vent,\ni es pi que et (RE)vetla prop (MI7)des teu ca(LA)rrer.\nCerc un re(si)dòs (MI7)as teu cos(LA)tat,\nple d'espe(SI7)rança perquè mai no és (MI7)tard. (RE)No és (MI7)tard... (MI7)",
-      "T'espera(LA)ré, t'espera(DO#)ré,\nenamo(RE)rada de la (MI7)mar i des (LA)vent.\nEstim el (si)cel, (MI7)blau mari(LA)ner,\nde nit i (SI7)dia sem(MI7)pre et tenc pre(LA)sent. (LA) {(bis 1)}"
+      "T'estima(LA)ré, t'estima(DO#)ré,\nenamo(RE)rada de la (MI7)mar i des (LA)vent.\nSa barca (si)veig, (MI7)des pensa(LA)ment,\nque trista (SI7)torna perquè tu no em (MI7)sents. (RE)No em (MI7)sents... (_MI7)",
+      "Es verd ca(LA)mí que mira a la (DO#)mar,\nflor de gi(RE)nesta fins (MI7)dalt des se(LA)rrat.\nPodríem (si)dir, (MI7)també con(LA)tar,\nses moltes (SI7)hores que (MI7)jo t'he esti(LA)mat. (_LA)",
+      "* Adéu, Ma(MI)ria, Ma(RE)ria, Ma(LA)ria,\nsi m'esti(MI7)messis jo et canta(LA)ria.\nFlor menor(MI7)quina, amb (RE)tu em casa(LA)ria. (LA7)\n** Si està de (RE)Déu, el (MI7)món no ho atura(LA)rà. {(bis 2 i final: (_LA))}",
+      "Estim la (LA)mar i estim es (DO#)vent,\ni es pi que et (RE)vetla prop (MI7)des teu ca(LA)rrer.\nCerc un re(si)dòs (MI7)as teu cos(LA)tat,\nple d'espe(SI7)rança perquè mai no és (_MI7)tard. (RE)No és (MI7)tard... (_MI7)",
+      "T'espera(LA)ré, t'espera(DO#)ré,\nenamo(RE)rada de la (MI7)mar i des (LA)vent.\nEstim el (si)cel, (MI7)blau mari(LA)ner,\nde nit i (SI7)dia sem(MI7)pre et tenc pre(LA)sent. (_LA) {(bis 1)}"
     ]
   },
   38: {
     stanzas: [
-      "Enamo(la)rar-se no sempre (RE7)és senzill i fàcil com vol(SOL)dríem.\nPer uns re(mi)sulta que és di(MI7)fícil de com(la)prendre\naquesta (RE7)festa que ens envolta dolça i (SOL)tendra. (SOL - dis3)",
-      "És que no(la)saltres tenim tots (RE7)dos la sort de cara i vent de (SOL)popa,\namb la cer(mi)tesa que no (MI7)minva ni es pot (la)fondre\nla immensa (RE7)joia que sentim si ens abra(SOL)cem. (SOL7 - SOL7)",
-      "* Sa(DO)bem cuidar d'allò que ens ena(la)mora,\npo(SOL)dem parlar sentint la mà de (mi)l'altre.\nSi hi (la)ha algun mal entès, s'esborra a l'alba,\nsé que mai podrà tren(LA7)car-se la bellesa del teu (RE7)bes. (RE7)",
-      "És mera(la)vella estar u(RE7)nits per un amor buit de men(SOL)tides.\nHem compar(mi)tit les nostres (MI7)penes i ale(la)gries.\nMai el des(RE7)tí apagarà tant de de(SOL)sig. {(bis: (SOL7 - SOL7))}",
-      "(FA - MI7)Enamo(la)rar-se per no(RE7)saltres... (RE7)és ai(SOL)xí. (SOL)"
+      "Enamo(la)rar-se no sempre (RE7)és senzill i fàcil com vol(SOL)dríem.\nPer uns re(mi)sulta que és di(MI7)fícil de com(la)prendre\naquesta (RE7)festa que ens envolta dolça i (SOL)tendra. (_SOL - _dis3)",
+      "És que no(la)saltres tenim tots (RE7)dos la sort de cara i vent de (SOL)popa,\namb la cer(mi)tesa que no (MI7)minva ni es pot (la)fondre\nla immensa (RE7)joia que sentim si ens abra(SOL)cem. (SOL7 - _SOL7)",
+      "* Sa(DO)bem cuidar d'allò que ens ena(la)mora,\npo(SOL)dem parlar sentint la mà de (mi)l'altre.\nSi hi (la)ha algun mal entès, s'esborra a l'alba,\nsé que mai podrà tren(LA7)car-se la bellesa del teu (RE7)bes. (_RE7)",
+      "És mera(la)vella estar u(_RE7)nits per un amor buit de men(SOL)tides.\nHem compar(mi)tit les nostres (MI7)penes i ale(la)gries.\nMai el des(RE7)tí apagarà tant de de(SOL)sig. {(bis: (SOL7 - _SOL7))}",
+      "(FA - _MI7)Enamo(la)rar-se per no(RE7)saltres... (_RE7)és ai(SOL)xí. (_SOL)"
     ]
   },
   39: {
     stanzas: [
-      "(SI7)Quan surt el (mi)sol co(SI7)menço a pensar en (mi)tu,\n(MI7)i dels teus (la)ulls, ge(MI7)lós, em sento (la)trist.\nEl teu es(SI7)guard, nineta encisa(mi)dora,\nés la il·lu(FA#)sió més gran del meu (SI7)jardí. (SI7)",
-      "Quan ja no (mi)sigui (SI7)més que un vell can(mi)sat\n(MI7)de veure (la)clar les (MI7)coses del meu (la)món,\nde no sa(SI7)ber on va tanta espe(mi)rança,\ndolça(FA#)ment guarda(SI7)ré el teu re(mi)cord. (mi)",
-      "* Lluny de (mi)tu (MI7)canta(la)ré\n(RE7)el teu encís mari(SOL)ner,\n(mi)la teva cala pla(SI7)nera\ni el teu somrís cara al (mi)vent. (mi)",
-      "Lluny de (mi)tu (MI7)guarda(la)ré\n(RE7)aquelles flors del ca(SOL)mí,\n(mi)la teva alegre veu (SI7)clara\n(DO)i l'aire (SI7)fresc del ma(mi)tí. (mi) {(final en bis):} Del ma(la)tí... (la) Del ma(MI)tí. (MI)",
-      "Si jo po(mi)gués can(SI7)viar el meu des(mi)tí\n(MI7)i al teu cos(la)tat can(MI7)tar-te el meu a(la)mor,\nseries (SI7)tu, nineta encisa(mi)dora,\nel gran con(FA#)sol i la pau del meu (SI7)món. (SI7)",
-      "Com un a(mi)mant que (SI7)canta el seu ne(mi)guit,\n(MI7)com un in(la)fant que (MI7)crida vora el (la)mar,\nespera(SI7)ré pensant que torni el (mi)dia\nque per (FA#)sempre et tin(SI7)dré al meu cos(mi)tat. (mi) {(bis)}"
+      "(_SI7)Quan surt el (mi)sol co(SI7)menço a pensar en (mi)tu,\n(MI7)i dels teus (la)ulls, ge(MI7)lós, em sento (la)trist.\nEl teu es(SI7)guard, nineta encisa(mi)dora,\nés la il·lu(FA#)sió més gran del meu (SI7)jardí. (_SI7)",
+      "Quan ja no (mi)sigui (SI7)més que un vell can(mi)sat\n(MI7)de veure (la)clar les (MI7)coses del meu (la)món,\nde no sa(SI7)ber on va tanta espe(mi)rança,\ndolça(_FA#)ment guarda(_SI7)ré el teu re(mi)cord. (_mi)",
+      "* Lluny de (mi)tu (MI7)canta(la)ré\n(RE7)el teu encís mari(SOL)ner,\n(mi)la teva cala pla(SI7)nera\ni el teu somrís cara al (mi)vent. (_mi)",
+      "Lluny de (mi)tu (MI7)guarda(la)ré\n(RE7)aquelles flors del ca(SOL)mí,\n(mi)la teva alegre veu (SI7)clara\n(_DO)i l'aire (_SI7)fresc del ma(mi)tí. (_mi) {(final en bis):} Del ma(la)tí... (_la) Del ma(MI)tí. (_MI)",
+      "Si jo po(mi)gués can(SI7)viar el meu des(mi)tí\n(MI7)i al teu cos(la)tat can(MI7)tar-te el meu a(la)mor,\nseries (SI7)tu, nineta encisa(mi)dora,\nel gran con(FA#)sol i la pau del meu (SI7)món. (_SI7)",
+      "Com un a(mi)mant que (SI7)canta el seu ne(mi)guit,\n(MI7)com un in(la)fant que (MI7)crida vora el (la)mar,\nespera(SI7)ré pensant que torni el (mi)dia\nque per (_FA#)sempre et tin(_SI7)dré al meu cos(mi)tat. (_mi) {(bis)}"
     ]
   },
   40: {
     stanzas: [
       "Són quasi qua(la)ranta es (MI7)anys que han pa(la)ssat\ni dins aquella (LA7)cova sempre sents can(re)tar,\ni s'ànima (MI7)viva davalla sa (la)costa,\nque ja són les (MI7)deu, no vol 'ribar (la)tard.",
-      "Quan s'obre sa (la)porta és (MI7)ben arri(la)bat\ni entre ses tau(LA7)letes es va faguent (re)pas.\nPeu a sa ban(MI7)queta, guiterra aga(la)fada,\n«Manetes de (MI7)plata», es Curro des (la)Cau. (la)",
-      "(FA)Què fa(SOL7)rem si un dia te'n (DO)vas,\ntu ets s'ànima (MI7)viva, com tu no n'hi ha (la)cap. (la)\n(FA)Què fa(SOL7)rem si ens deixes tot (la)sols,\nplorarà sa (MI7)cova de baix Cala (la)Corb.",
+      "Quan s'obre sa (la)porta és (MI7)ben arri(la)bat\ni entre ses tau(LA7)letes es va faguent (re)pas.\nPeu a sa ban(MI7)queta, guiterra aga(la)fada,\n«Manetes de (MI7)plata», es Curro des (la)Cau. (_la)",
+      "(_FA)Què fa(SOL7)rem si un dia te'n (DO)vas,\ntu ets s'ànima (MI7)viva, com tu no n'hi ha (la)cap. (_la)\n(_FA)Què fa(SOL7)rem si ens deixes tot (la)sols,\nplorarà sa (MI7)cova de baix Cala (la)Corb.",
       "Posa sa ce(la)lleta que (MI7)pujaré un (la)to,\nem queda un poc (LA7)baixa aquesta can(re)çó,\ni es valset que (MI7)sona, li diu a sa (la)cova:\n«Aquesta humi(MI7)tat acabarà amb (la)jo».",
-      "No vagis tan (la)ràpid, és (MI7)més poc a (la)poc,\nen cantarem una (LA7)altra, tots junts farem (re)cors.\nI unes veus que (MI7)sonen tenen per to(la)nada\ncançons que eni(MI7)moren a tot aquest (la)lloc. (la)",
-      "(FA)Què fa(SOL7)rem [...]",
-      "Farem sa da(la)rrera, que (MI7)ja és molt (la)tard,\nté ses mans can(LA7)sades de tant de so(re)nar\ni sa costa és (MI7)llarga, en té més de vui(la)tanta,\ni es anys no per(MI7)donen es Curro des (la)Cau. (la)",
-      "(FA)Què fa(SOL7)rem si un dia te'n (DO)vas,\ntu ets s'ànima (MI7)viva, com tu no n'hi ha (la)cap. (la)\n(FA)Què fa(SOL7)rem si es Curro se'n (la)va,\n* plorarà sa (MI7)cova, sa cova des (la)Cau. {(bis)} (la - MI7 - la)"
+      "No vagis tan (la)ràpid, és (MI7)més poc a (la)poc,\nen cantarem una (LA7)altra, tots junts farem (re)cors.\nI unes veus que (MI7)sonen tenen per to(la)nada\ncançons que eni(MI7)moren a tot aquest (la)lloc. (_la)",
+      "(_FA)Què fa(SOL7)rem [...]",
+      "Farem sa da(la)rrera, que (MI7)ja és molt (la)tard,\nté ses mans can(LA7)sades de tant de so(re)nar\ni sa costa és (MI7)llarga, en té més de vui(la)tanta,\ni es anys no per(MI7)donen es Curro des (la)Cau. (_la)",
+      "(_FA)Què fa(SOL7)rem si un dia te'n (DO)vas,\ntu ets s'ànima (MI7)viva, com tu no n'hi ha (la)cap. (_la)\n(_FA)Què fa(SOL7)rem si es Curro se'n (la)va,\n* plorarà sa (MI7)cova, sa cova des (la)Cau. {(bis)} (la - _MI7 - _la)"
     ]
   },
   41: {
@@ -551,23 +551,23 @@ const TRANSCRIBED_SONGS = {
       "Si (LA)véns amb jo a conèixer aquell pa(si)ratge,\nt'es(MI7)timaré com mai ningú ho ha (LA)fet:\nda(FA#)munt s'arena fina de sa (si)platja\nco(SI7)neixeràs es (MI7)goig des meu se(LA)cret.",
       "Te (LA7)mostraré es racons d'aquesta (RE)cala,\nt'ex(FA#)plicaré es secret que allà hi tenc (si)jo,\nsa(MI7)bràs com és de dolça una be(LA)sada\ni (SI7)quanta màgia té una nit d'a(MI7)mor.",
       "Co(LA)nec una caleta resguar(si)dada\nque es (MI7)vent hi arriba sense fer re(LA)nou,\nla (FA#)mar tan blava i neta, sempre en (si)calma,\ni es (SI7)temps s'atura (MI7)si rallam d'a(LA)mor.",
-      "Jo (LA)sé d'una caleta resguar(si)dada\nque (MI7)ningú més coneix es seu ca(LA)mí.\nEm (FA#)guard aquell secret, dona esti(si)mada,\n* que a (SI7)prop des port de (MI7)Maó vaig desco(LA)brir. {(bis)} (LA)"
+      "Jo (LA)sé d'una caleta resguar(si)dada\nque (MI7)ningú més coneix es seu ca(LA)mí.\nEm (FA#)guard aquell secret, dona esti(si)mada,\n* que a (SI7)prop des port de (MI7)Maó vaig desco(LA)brir. {(bis)} (_LA)"
     ]
   },
   42: {
     stanzas: [
-      "Porque tu amor es mi es(mi)pina,\npor las cuatro es(DO)quinas hablan de los (mi)dos,\nque es un es(RE7)cándalo, (SOL)dicen,\ny hasta me mal(SI7)dicen por (DO)darte mi a(SI7)mor.",
-      "* No hagas (SI7)caso de la (mi)gente,\nsigue la co(MI7)rriente y quiéreme (la)más,\ncon esto tengo bas(mi)tante,\nvamos ade(SI7)lante sin ver qué di(mi)rán. (mi)",
-      "Si yo pu(MI7)diera algún (la)día (RE7)remontarme a las es(SOL)trellas,\n(DO)conmigo te lleva(la)ría (DO)adonde nadie nos (SI7)viera. (SI7)",
-      "No hagas (SI7)caso de la (mi)gente,\nsigue la co(MI7)rriente y quiéreme (la)más,\nque si esto es escanda(mi)loso,\nes más vergon(SI7)zoso el no saber a(mi)mar. (mi) {(final en bis)}",
-      "Si yo pu(MI7)diera algún (la)día (RE7)remontarme a las es(SOL)trellas,\n(DO)conmigo te lleva(la)ría adonde (DO)nadie nos (SI7)viera. (SI7) {(bis)}"
+      "Porque tu amor es mi es(_mi)pina,\npor las cuatro es(_DO)quinas hablan de los (_mi)dos,\nque es un es(_RE7)cándalo, (_SOL)dicen,\ny hasta me mal(_SI7)dicen por (_DO)darte mi a(_SI7)mor.",
+      "* No hagas (_SI7)caso de la (mi)gente,\nsigue la co(MI7)rriente y quiéreme (la)más,\ncon esto tengo bas(mi)tante,\nvamos ade(SI7)lante sin ver qué di(mi)rán. (_mi)",
+      "Si yo pu(_MI7)diera algún (la)día (RE7)remontarme a las es(SOL)trellas,\n(DO)conmigo te lleva(la)ría (DO)adonde nadie nos (SI7)viera. (_SI7)",
+      "No hagas (_SI7)caso de la (mi)gente,\nsigue la co(MI7)rriente y quiéreme (la)más,\nque si esto es escanda(mi)loso,\nes más vergon(SI7)zoso el no saber a(mi)mar. (_mi) {(final en bis)}",
+      "Si yo pu(_MI7)diera algún (la)día (RE7)remontarme a las es(SOL)trellas,\n(DO)conmigo te lleva(la)ría adonde (DO)nadie nos (SI7)viera. (_SI7) {(bis)}"
     ]
   },
   43: {
     stanzas: [
       "Si no (la)veus dins des meus ulls lo que es(re)peres\nque te (MI7)digui amb sa mi(la)rada,\nsi (re)trobes que tal vegada\nses pro(FA)meses d'a(re)mor no són sin(MI7)ceres...",
       "Si (la)penses que t'he oblidat un mo(SOL)ment,\nde(FA)mana totes ses (re)nits an aquella es(FA)trella des firma(SOL)ment\nes (FA)vespres que li he pregat du(re)gués as teu costat\ntot s'a(SOL)mor que t'he tin(FA)gut i te (MI7)tenc.",
-      "* Mira el (la)cel i escolta es vent que de Menorca t'a(SOL)rriba,\nte di(FA)rà que tu ets sa (re)vida i des meu (FA)cor, s'ali(MI7)ment.\nMira el (la - MI7)cel i escolta es (la)vent.\n{(final en bis):} (la)Es (FA)vent, (MI7)es (la)vent... (re - la)",
+      "* Mira el (la)cel i escolta es vent que de Menorca t'a(SOL)rriba,\nte di(FA)rà que tu ets sa (re)vida i des meu (FA)cor, s'ali(MI7)ment.\nMira el (la - MI7)cel i escolta es (la)vent.\n{(final en bis):} (_la)Es (FA)vent, (MI7)es (la)vent... (re - _la)",
       "Si tu (la)creus que tot lo meu és men(re)tida,\nsi tu (MI7)creus que no t'es(la)tim,\nsi (re)penses que tal vegada\nen es (FA)món de s'a(re)mor vius enga(MI7)nada...",
       "S'es(la)trella que com jo plora en sa (SOL)nit\ni es(FA)pera s'hora i es (re)dia enyorat que (FA)tu retornis a(SOL)quí,\npo(FA)dria dir-te as moment sa (re)pena que em va creixent,\nva crei(SOL)xent i arriba as (FA)fons des meu (MI7)pit. {(bis)}"
     ]
@@ -575,83 +575,83 @@ const TRANSCRIBED_SONGS = {
   44: {
     stanzas: [
       "{(recitat) Ja, entre somnis, de jove, te vaig començar a estimar,}\n{tota Menorca me deia: «Serà un trosset de Roqueta, filla des vent i la mar».}",
-      "Te cer(re)cava per entre sa tris(LA7)tor\nde ses platges soli(re)tàries,\nespe(DO7)rava trobar es teu a(FA)mor\na (MI7)s'hora que es sol s'a(LA7)maga. (LA7)",
-      "Amb es (re)braços abraçava sa (LA7)brisa\nja pensant que t'enlla(re)çava,\ni dins sa (RE7)fresca de s'aigo sen(sol)tia\ncom es (re)teus, com es (LA7)teus llavis be(RE)sava. (RE)",
-      "* (RE)Ets com una (dis1)altra Me(mi)norca, (LA)plena de (LA7)pau i de (RE)llum,\nsols ella (dis1)té ses be(mi)lleses que es déus guar(LA7)daven per (RE)tu. (LA7)\n(RE)És dintre (dis1)teu, dona (mi)meva, (LA)a on tenc (FA#)fet es meu al(si)tar.\n(RE)Ets com una (dis1)altra Me(RE)norca, (RE7) ** filla des (mi)vent (LA7)i la (RE)mar. (RE) {(bis 2 i final)}",
-      "Te vaig (re)veure per un rústic ca(LA7)sat,\nentre tanques i dre(re)ceres.\nCom mi(DO7)racle es van fer reali(FA)tat\nes (MI7)somnis de nits en(LA7)rere. (LA7)",
-      "Entre es (re)braços, forts com si fossin (LA7)branques,\nes teu cos tot tremo(re)lava,\ncom sa mà (RE7)meva quan ses teves (sol)galtes\ndolça(re)ment, dolça(LA7)ment, acari(RE)ciava. (RE) {(bis 1)}"
+      "Te cer(re)cava per entre sa tris(LA7)tor\nde ses platges soli(re)tàries,\nespe(DO7)rava trobar es teu a(FA)mor\na (MI7)s'hora que es sol s'a(LA7)maga. (_LA7)",
+      "Amb es (re)braços abraçava sa (LA7)brisa\nja pensant que t'enlla(re)çava,\ni dins sa (RE7)fresca de s'aigo sen(sol)tia\ncom es (re)teus, com es (LA7)teus llavis be(RE)sava. (_RE)",
+      "* (RE)Ets com una (dis1)altra Me(mi)norca, (LA)plena de (LA7)pau i de (_RE)llum,\nsols ella (dis1)té ses be(mi)lleses que es déus guar(LA7)daven per (RE)tu. (LA7)\n(RE)És dintre (dis1)teu, dona (mi)meva, (LA)a on tenc (FA#)fet es meu al(si)tar.\n(RE)Ets com una (dis1)altra Me(RE)norca, (RE7) ** filla des (mi)vent (LA7)i la (RE)mar. (_RE) {(bis 2 i final)}",
+      "Te vaig (re)veure per un rústic ca(LA7)sat,\nentre tanques i dre(re)ceres.\nCom mi(DO7)racle es van fer reali(FA)tat\nes (MI7)somnis de nits en(LA7)rere. (_LA7)",
+      "Entre es (re)braços, forts com si fossin (LA7)branques,\nes teu cos tot tremo(re)lava,\ncom sa mà (RE7)meva quan ses teves (sol)galtes\ndolça(re)ment, dolça(LA7)ment, acari(RE)ciava. (_RE) {(bis 1)}"
     ]
   },
   45: {
     stanzas: [
-      "{(2/4)} (la)Quan jo era molt petito(re)net\n(MI7)l'avi m'agafava de sa (la)mà\n(LA7)i me deia: «Mira, si ets bon (re)fillet,\n(SI7)jo te menaré a passe(MI7)jar». (MI7)",
-      "(la)Ses festes de Gràcia prest vin(re)dran\n(MI7)i es fabiol ja sona(la)rà.\n(LA7)S'alegre colcada sorti(re)rà\n(MI7)i joves i vells s'alegra(LA)ran. (LA)",
-      "* {(marxa)} Festes de (LA)Gràcia, que alegres (MI7)són!\nFestes de Gràcia, de pau i d'a(LA)mor!\nSón dos records d'his(dis2)tòria i tradi(MI)ció,\nsón s'espe(si)rit de (MI7)sa ciutat de (LA)Maó. (LA)",
-      "Festes de (LA)Gràcia, que alegres (MI7)són!\nFestes de Gràcia, de pau i d'a(LA)mor!\nElles mos (LA7)diuen a petits i (RE)grans:\n«Per ara i (MI7)sempre visquem com ger(LA)mans.» (LA)",
-      "** Ja sona es tiru(LA)rit, ja sona es tirurit i es ja(si)leo.\nFandango balla(MI7)rem, fandango ballarem, i es bo(LA)lero.\nJa sona es tirurit, ja sona es tiru(LA7)rit i es ja(RE)leo.\nJa surt sa col(MI7)cada que és lo més po(LA)lit. (LA) {(bis 2 accelerant i final:} tiru(LA)rit!{)}",
-      "{(2/4)} (la)Es anys molt de veres han pa(re)ssat,\n(MI7)l'avi, mesquinet, se va mo(la)rir,\n(LA7)i ara ja som jo que duc es (re)néts\n(SI7)a veure es cavalls i es tiru(MI7)rit. (MI7)",
-      "(la)Tot en aquest món se va aca(re)bant\n(MI7)però hi ha una cosa que mai (la)mor:\n(LA7)és una ambició noble i cons(re)tant\n(MI7)quan sentim Menorca dins el (LA)cor. (LA) {(bis 1)}"
+      "{(2/4)} (la)Quan jo era molt petito(re)net\n(MI7)l'avi m'agafava de sa (la)mà\n(LA7)i me deia: «Mira, si ets bon (re)fillet,\n(SI7)jo te menaré a passe(MI7)jar». (_MI7)",
+      "(la)Ses festes de Gràcia prest vin(re)dran\n(MI7)i es fabiol ja sona(la)rà.\n(LA7)S'alegre colcada sorti(re)rà\n(MI7)i joves i vells s'alegra(LA)ran. (_LA)",
+      "* {(marxa)} Festes de (LA)Gràcia, que alegres (MI7)són!\nFestes de Gràcia, de pau i d'a(LA)mor!\nSón dos records d'his(_dis2)tòria i tradi(MI)ció,\nsón s'espe(si)rit de (MI7)sa ciutat de (LA)Maó. (_LA)",
+      "Festes de (LA)Gràcia, que alegres (MI7)són!\nFestes de Gràcia, de pau i d'a(LA)mor!\nElles mos (LA7)diuen a petits i (RE)grans:\n«Per ara i (MI7)sempre visquem com ger(LA)mans.» (_LA)",
+      "** Ja sona es tiru(LA)rit, ja sona es tirurit i es ja(si)leo.\nFandango balla(MI7)rem, fandango ballarem, i es bo(LA)lero.\nJa sona es tirurit, ja sona es tiru(LA7)rit i es ja(RE)leo.\nJa surt sa col(MI7)cada que és lo més po(LA)lit. (_LA) {(bis 2 accelerant i final:} tiru(_LA)rit!{)}",
+      "{(2/4)} (la)Es anys molt de veres han pa(re)ssat,\n(MI7)l'avi, mesquinet, se va mo(la)rir,\n(LA7)i ara ja som jo que duc es (re)néts\n(SI7)a veure es cavalls i es tiru(MI7)rit. (_MI7)",
+      "(la)Tot en aquest món se va aca(re)bant\n(MI7)però hi ha una cosa que mai (la)mor:\n(LA7)és una ambició noble i cons(re)tant\n(MI7)quan sentim Menorca dins el (LA)cor. (_LA) {(bis 1)}"
     ]
   },
   46: {
     stanzas: [
-      "Fidel a(la)mant no voldria mai (mi)perdre\ncap de ses (re)coses que m'estim tant de (MI7)tu.\nTens, as vol(la)tant, llops amb ganes de (mi)vendre't,\nmes et vull (re)lliure, propietat de (SOL7)ningú. (SOL7)",
-      "Em sent ge(DO)lós, illa (la)nostra, des (FA)tamarells i des (SOL7)horts,\ndes blau ma(DO)rí que t'en(la)volta, de (FA)ses porxades des (SOL7)llocs.\nQuan veig ses (DO)barques de (la)pesca per (FA)tantes cales i (SOL7)ports.\nEnyor es (DO)pous d'aigo (la)fresca (FA)i (SOL7)ses finestres en (DO)pont. (la - re - MI7)",
-      "I marquen (la)preu a ses tanques i u(mi)llastres,\nposen ba(re)rreres i retallen el (MI7)camp.\nPer tot a(la)rreu t'omplirien de (mi)cases\nfins ses vo(re)reres de devora la (SOL7)mar. (SOL7)",
-      "Em sent ge(DO)lós des teus (la)pobles, de (FA)ses tempestes d'hi(SOL7)vern\ni de sa (DO)gent que fa (la)noble es (FA)nostro idioma ma(SOL7)tern.\nDe (DO)s'àguila peixa(la)tera que (FA)nia dalt des cos(SOL7)ters,\nquan guaita (DO)sa prima(la)vera (FA)en (SOL7)es portal des ca(DO)rrer. (la - FA - SOL7)",
+      "Fidel a(la)mant no voldria mai (mi)perdre\ncap de ses (re)coses que m'estim tant de (MI7)tu.\nTens, as vol(la)tant, llops amb ganes de (mi)vendre't,\nmes et vull (re)lliure, propietat de (SOL7)ningú. (_SOL7)",
+      "Em sent ge(DO)lós, illa (la)nostra, des (FA)tamarells i des (SOL7)horts,\ndes blau ma(DO)rí que t'en(la)volta, de (FA)ses porxades des (_SOL7)llocs.\nQuan veig ses (DO)barques de (la)pesca per (FA)tantes cales i (SOL7)ports.\nEnyor es (DO)pous d'aigo (la)fresca (FA)i (SOL7)ses finestres en (DO)pont. (_la - _re - _MI7)",
+      "I marquen (la)preu a ses tanques i u(mi)llastres,\nposen ba(re)rreres i retallen el (MI7)camp.\nPer tot a(la)rreu t'omplirien de (mi)cases\nfins ses vo(re)reres de devora la (SOL7)mar. (_SOL7)",
+      "Em sent ge(DO)lós des teus (la)pobles, de (FA)ses tempestes d'hi(SOL7)vern\ni de sa (DO)gent que fa (la)noble es (FA)nostro idioma ma(SOL7)tern.\nDe (DO)s'àguila peixa(la)tera que (FA)nia dalt des cos(SOL7)ters,\nquan guaita (DO)sa prima(la)vera (FA)en (SOL7)es portal des ca(DO)rrer. (la - FA - _SOL7)",
       "Em sent ge(DO)lós terra ai(la)mada, de (FA)ses sonores can(SOL7)çons\nque et fan be(DO)sant ses o(la)nades, a (FA)cops de vent amo(SOL7)rós.\nDe s'aire (DO)fresc que da(la)valla pes (FA)canalons des ba(SOL7)rrancs,\ndes bes que em (DO)fa s'esti(la)mada. (FA)",
-      "* Us (SOL7)vull així, per molts (DO)d'anys. {(bis x2: (la - FA))} (DO)"
+      "* Us (SOL7)vull així, per molts (DO)d'anys. {(bis x2: (la - FA))} (_DO)"
     ]
   },
   47: {
     stanzas: [
       "{(valset)} (LA)Golondrina de amor,\ntú que a mi tierra (MI7)vas,\n(si)ya dirás a mi a(MI)mor\nque se (MI7)venga pa' acá y ve(LA)rá.",
-      "(LA)Y aquí la espero yo,\n(LA7)muertecito de a(RE)mor,\n(MI7)esperando (RE)a que (LA)venga\npa(FA#)ra entre(si)garle mi (MI7)cora(LA)zón. (LA)",
-      "(LA)Si tú me amas, te llevaré en el (MI7)mar\ncon mi bar(si)quita (MI7)a nave(LA)gar y verás\n(MI7)qué de(LA)lirio, (LA7)¡ay, qué pla(RE)cer!,\n(MI7)hermosa (LA)niña, (RE)dul(MI7)ce vai(LA)vén. (LA)",
-      "Tú eres (LA)blanca y resa(MI)lada\ncual la es(MI7)puma de la (LA)mar.\nMás bonitos son tus (MI)ojos,\nmás bo(MI7)nito es tu mi(LA)rar. (LA)",
-      "* {(jota)} No me ol(MI7)vides por los (LA)mares,\nprenda (MI7)de mi cora(LA)zón,\ntú se(MI7)rás como las (LA)olas (LA7)\nque pier(RE)den la em(MI7)barca(LA)ción. (LA) {(bis)} (MI7 - LA)"
+      "(LA)Y aquí la espero yo,\n(LA7)muertecito de a(RE)mor,\n(MI7)esperando (_RE)a que (LA)venga\npa(FA#)ra entre(si)garle mi (MI7)cora(LA)zón. (_LA)",
+      "(LA)Si tú me amas, te llevaré en el (MI7)mar\ncon mi bar(si)quita (MI7)a nave(LA)gar y verás\n(MI7)qué de(LA)lirio, (LA7)¡ay, qué pla(RE)cer!,\n(MI7)hermosa (LA)niña, (RE)dul(MI7)ce vai(LA)vén. (_LA)",
+      "Tú eres (LA)blanca y resa(MI)lada\ncual la es(MI7)puma de la (LA)mar.\nMás bonitos son tus (MI)ojos,\nmás bo(MI7)nito es tu mi(LA)rar. (_LA)",
+      "* {(jota)} No me ol(MI7)vides por los (LA)mares,\nprenda (MI7)de mi cora(LA)zón,\ntú se(MI7)rás como las (LA)olas (LA7)\nque pier(RE)den la em(MI7)barca(LA)ción. (LA) {(bis)} (_MI7 - _LA)"
     ]
   },
   48: {
     stanzas: [
-      "Se cono(DO)cieron en un cur(SOL7)sillo de logo(DO)pedia.\nLos dos tenían algún problema con la dic(re)ción.\nLos dos ha(SOL7)blaban entrecortados dejando a (re)medias\nlos comple(SOL7)mentos y predicados de la ora(DO)ción. (DO7)",
-      "Una ma(FA)ñana junto a la orilla del río Duero,\nen los juncales donde las aves van a ani(DO)dar,\nella le dijo «¡cua-cua-cua-cua, cua-cuánto te (SOL7)quiero!»\ny hasta los patos le respondieron «cua-cua-cua-(DO)cua». (DO7)",
-      "Embele(FA)zado por sus palabras sacó su hombría,\npues la pasión ya no le cabía en el baña(DO)dor.\nY así le dijo «ma-ma-ma-ma, ma-ma-ma-Ma(SOL7)ría,\neste corrido te lo dedico con mucho a(DO)mor». (DO)",
-      "(DO7)¡Ay!, qué (FA)chi-chi, menudo chi-chi, chiste ba(DO)rato,\nlleno de (FA)pi-pi, lleno de pi-pi, de picar(DO)día.\nCon tanto chichi, con tanto pipi, con tanto (SOL7)pato,\nhazte una paja, hazte una paja, pajare(DO)ría. (DO)",
-      "A media (DO)tarde, en el o(SOL7)caso, cuando el sol (DO)mengua,\nse oyó un repique de campanillas en el (re)lugar.\nLos dos a(SOL7)mantes que practicaban clases de (re)lengua\ncon la pun(SOL7)tita se hacían tilín en el pala(DO)dar. (DO7)",
-      "Con tanto (FA)beso, tanta caricia, sintieron hambre\ny decidieron que era la hora de meren(DO)dar.\nElla sacó de la fiambrera todo el fi(SOL7)ambre\ny él puso huevos y un choricillo espectacu(DO)lar. (DO)",
-      "(DO7)¡Ay!, qué (FA)cho-cho, menudo cho-cho, cho-chori(DO)cillo\npara tu (FA)boca, para tu boca, tu boca(DO)dillo.\nMételo dentro, mételo dentro del pane(SOL7)cillo,\nverás qué pica, qué pica-pica, qué pican(DO)tillo. (DO)",
+      "Se cono(DO)cieron en un cur(SOL7)sillo de logo(DO)pedia.\nLos dos tenían algún problema con la dic(re)ción.\nLos dos ha(SOL7)blaban entrecortados dejando a (re)medias\nlos comple(SOL7)mentos y predicados de la ora(DO)ción. (_DO7)",
+      "Una ma(FA)ñana junto a la orilla del río Duero,\nen los juncales donde las aves van a ani(DO)dar,\nella le dijo «¡cua-cua-cua-cua, cua-cuánto te (SOL7)quiero!»\ny hasta los patos le respondieron «cua-cua-cua-(DO)cua». (_DO7)",
+      "Embele(FA)zado por sus palabras sacó su hombría,\npues la pasión ya no le cabía en el baña(DO)dor.\nY así le dijo «ma-ma-ma-ma, ma-ma-ma-Ma(SOL7)ría,\neste corrido te lo dedico con mucho a(DO)mor». (_DO)",
+      "(_DO7)¡Ay!, qué (FA)chi-chi, menudo chi-chi, chiste ba(DO)rato,\nlleno de (FA)pi-pi, lleno de pi-pi, de picar(DO)día.\nCon tanto chichi, con tanto pipi, con tanto (SOL7)pato,\nhazte una paja, hazte una paja, pajare(DO)ría. (_DO)",
+      "A media (DO)tarde, en el o(SOL7)caso, cuando el sol (DO)mengua,\nse oyó un repique de campanillas en el (re)lugar.\nLos dos a(SOL7)mantes que practicaban clases de (re)lengua\ncon la pun(SOL7)tita se hacían tilín en el pala(DO)dar. (_DO7)",
+      "Con tanto (FA)beso, tanta caricia, sintieron hambre\ny decidieron que era la hora de meren(DO)dar.\nElla sacó de la fiambrera todo el fi(SOL7)ambre\ny él puso huevos y un choricillo espectacu(DO)lar. (_DO)",
+      "(_DO7)¡Ay!, qué (FA)cho-cho, menudo cho-cho, cho-chori(DO)cillo\npara tu (FA)boca, para tu boca, tu boca(DO)dillo.\nMételo dentro, mételo dentro del pane(SOL7)cillo,\nverás qué pica, qué pica-pica, qué pican(DO)tillo. (_DO)",
       "Comieron (DO)tanto que termi(SOL7)naron de madru(DO)gada,\nen los juncales donde las aves van a ani(re)dar.\nLuego de (SOL7)postres comieron cua, cua-cua-cua, cua(re)jada,\ny en todo el (SOL7)río se oyó los patos «cua-cua-cua-(DO)cua».",
-      "¡Cua-cua-cua-(FA)cua, cua-cua-cua-(SOL7)cua, cua-cua-cua-(DO)cua! (SOL7 - DO)"
+      "¡Cua-cua-cua-(FA)cua, cua-cua-cua-(SOL7)cua, cua-cua-cua-(DO)cua! (_SOL7 - _DO)"
     ]
   },
   49: {
     stanzas: [
-      "(re)Vaig com (LA7)loco per tornar a vo(re)re't,\ntocar es teus ca(LA7)bells, besar-te a sa (re)boca\ni ensumar es per(LA7)fum que t'enrevolta. (re)",
+      "(_re)Vaig com (LA7)loco per tornar a vo(re)re't,\ntocar es teus ca(LA7)bells, besar-te a sa (re)boca\ni ensumar es per(LA7)fum que t'enrevolta. (_re)",
       "I és que (LA7)te duc tan a dintre (re)meu\nque no res sé (LA7)fer si no et tenc de(re)vora.\nI si no vols que em (LA7)mori, torna, torna (RE)prest.",
-      "(RE)Torna, que em mor de ganes per cantar-(RE)te, ai!, u(dis1)na hava(LA7)nera!\n(mi)La te vaig escriure un (LA7)vespre que t'enyorava i que tu no hi (RE)eres. (LA7)\n(RE)Té una coseta dolça que es qui l'es(RE)colta, (dis1)ai!, s'ena(mi)mora! (LA7)",
-      "(SOL)Com de sa cadència hermosa\ndes teu co(RE)sset i des seu en(LA7)cant,\nque com un jonc s'en(RE)gronça. (RE7 x5)",
+      "(RE)Torna, que em mor de ganes per cantar-(_RE)te, ai!, u(_dis1)na hava(LA7)nera!\n(mi)La te vaig escriure un (LA7)vespre que t'enyorava i que tu no hi (RE)eres. (LA7)\n(RE)Té una coseta dolça que es qui l'es(_RE)colta, (_dis1)ai!, s'ena(mi)mora! (LA7)",
+      "(SOL)Com de sa cadència hermosa\ndes teu co(RE)sset i des seu en(LA7)cant,\nque com un jonc s'en(RE)gronça. (_RE7 x5)",
       "(SOL)Quan tu passes s'aire es gira\nper mirar-(RE)te i fins i tot la (LA7)mar\ns'atura de fer (RE)ones.",
       "{(DC)}",
-      "* I fins i tot la (LA)mar\ns'atura de fer (RE)ones. {(bis)} (RE - LA7 - RE)"
+      "* I fins i tot la (LA)mar\ns'atura de fer (RE)ones. {(bis)} (_RE - _LA7 - RE)"
     ]
   },
   50: {
     stanzas: [
-      "Si un (mi)dia en(SI7)fora de (mi)tu\nvaig patir de tristor i d'enyo(SI7)rança,\nno poguera abatre ningú\nel re(fa#)cord, la il·lu(SI7)sió i l'espe(mi)rança. (SI7)",
-      "Quan més (mi)negre es(SI7)tava el (mi)cel\nuna (MI7)dolça claror m'ani(la)mava. (la)\nAi, Me(la)norca, ai, roqueta esti(mi)mada,\nper tu vaig llui(SI7)tar i per tu vull mo(MI)rir.",
-      "* Me(MI)norca, (MI)Menorca (SI7)meva,\ni(fa#)lleta, (SI7)illeta (MI)d'or!\nMenorca, tan sospi(SI7)rada,\nque n'ets, d'ai(fa#)mada,\n(SI7)dins del meu (MI)cor! (FA - SI7)",
-      "Me(MI)norca, (MI)Menorca (SI7)meva,\ni(fa#)lleta, (SI7)illeta (MI)d'or!\nMe(DO#7)norca, sempre esti(fa#)mada,\ntu (SI7)vius dintre del meu (MI)cor! (MI) {(bis)}",
-      "(fa#)Din(SI7)tre el meu (MI)cor! (MI)"
+      "Si un (mi)dia en(SI7)fora de (mi)tu\nvaig patir de tristor i d'enyo(SI7)rança,\nno poguera abatre ningú\nel re(fa#)cord, la il·lu(SI7)sió i l'espe(mi)rança. (_SI7)",
+      "Quan més (mi)negre es(SI7)tava el (mi)cel\nuna (MI7)dolça claror m'ani(la)mava. (_la)\nAi, Me(la)norca, ai, roqueta esti(mi)mada,\nper tu vaig llui(SI7)tar i per tu vull mo(MI)rir.",
+      "* Me(MI)norca, (_MI)Menorca (SI7)meva,\ni(fa#)lleta, (SI7)illeta (MI)d'or!\nMenorca, tan sospi(SI7)rada,\nque n'ets, d'ai(fa#)mada,\n(SI7)dins del meu (MI)cor! (FA - SI7)",
+      "Me(MI)norca, (_MI)Menorca (SI7)meva,\ni(fa#)lleta, (SI7)illeta (MI)d'or!\nMe(DO#7)norca, sempre esti(fa#)mada,\ntu (SI7)vius dintre del meu (MI)cor! (_MI) {(bis)}",
+      "(_fa#)Din(_SI7)tre el meu (MI)cor! (_MI)"
     ]
   },
   51: {
     stanzas: [
-      "{(jota)} A(RE7)l·lota des meu carrer, (SOL)\nal·lota des meu carrer, (RE7)\nno (la)n'he volguda cap mai, (SOL)\n* mumare diu que fregall (RE7)\nper (la)escurar e(RE7)lla ja en té. (SOL) {(bis)} (SOL)",
-      "{(marxa)} (SOL)Qui és aquella morena qui se'n va per a(RE7)llà?\nJo la crid i la crid i ella no es vol gi(SOL)rar,\ni ella no es vol girar, i ella no es vol gi(RE7)rar.\nQui és aquella morena qui se'n va per a(SOL)llà? (SOL)",
-      "{(jota)} Al(RE7)ça es ulls, perla estimada, (SOL)\nalça es ulls, perla estimada, (RE7)\nalça (la)es ulls, que Déu ho vol, (SOL)\n* veuràs un tronxo de col (RE7)\npen(la)jat de sa (RE7)traginada. (SOL) {(bis)} (SOL)",
+      "{(jota)} A(_RE7)l·lota des meu carrer, (SOL)\nal·lota des meu carrer, (RE7)\nno (la)n'he volguda cap mai, (SOL)\n* mumare diu que fregall (RE7)\nper (la)escurar e(RE7)lla ja en té. (SOL) {(bis)} (_SOL)",
+      "{(marxa)} (SOL)Qui és aquella morena qui se'n va per a(RE7)llà?\nJo la crid i la crid i ella no es vol gi(SOL)rar,\ni ella no es vol girar, i ella no es vol gi(RE7)rar.\nQui és aquella morena qui se'n va per a(SOL)llà? (_SOL)",
+      "{(jota)} Al(_RE7)ça es ulls, perla estimada, (SOL)\nalça es ulls, perla estimada, (RE7)\nalça (la)es ulls, que Déu ho vol, (SOL)\n* veuràs un tronxo de col (RE7)\npen(la)jat de sa (RE7)traginada. (SOL) {(bis)} (_SOL)",
       "{(marxa)} (SOL)Qui és aquella morena [...]",
-      "{(jota)} No (RE7)cant perquè faci bo, (SOL)\nno cant perquè faci bo, (RE7)\nni (la)perquè faci dolent, (SOL)\n* cant per dar gust a sa gent (RE7)\ni (la)per diver(RE7)tir-me jo. (SOL) {(bis)} (SOL)",
+      "{(jota)} No (_RE7)cant perquè faci bo, (SOL)\nno cant perquè faci bo, (RE7)\nni (la)perquè faci dolent, (SOL)\n* cant per dar gust a sa gent (RE7)\ni (la)per diver(RE7)tir-me jo. (SOL) {(bis)} (_SOL)",
       "{(marxa)} (SOL)Qui és aquella morena [...]\n{(final):} (RE7 - SOL)"
     ]
   },
@@ -660,14 +660,14 @@ const TRANSCRIBED_SONGS = {
       "* U(DO)na barca és arriba(SOL7)da\ncarregada d'estiso(DO)res {(bis)}\n* per escapçar-lis ses llen(FA)guetes a ses do(SOL7)nes,\na ses dones xerrado(DO)res. {(bis)}",
       "Sa(DO)bata picada, talonet ver(SOL7)mell,\ns'al·lota que em 'grada ja no té re(DO)mei,\nja no té remei, ja no té re(SOL7)mei.\nSabata picada, talonet ver(DO)mell.",
       "* Ses (DO)muntanyes de Mallor(SOL7)ca\nsón ses més altes del món, (DO) {(bis)}\n* i de tan altes que (FA)són veuen te(SOL7)rres,\nveuen terres de Menor(DO)ca. {(bis)}",
-      "(DO)Ses fadrines m'agraden, ses casades tam(SOL7)bé,\nsi són velles ruades, (re)les a(SOL7)profita(DO)ré,\nles aprofitaré, les aprofita(SOL7)ré.\nSes fadrines m'agraden, (re)ses ca(SOL7)sades tam(DO)bé. (SOL7 - DO)"
+      "(DO)Ses fadrines m'agraden, ses casades tam(SOL7)bé,\nsi són velles ruades, (re)les a(SOL7)profita(DO)ré,\nles aprofitaré, les aprofita(SOL7)ré.\nSes fadrines m'agraden, (re)ses ca(SOL7)sades tam(DO)bé. (_SOL7 - _DO)"
     ]
   },
   53: {
     intro: "(MI7 - la - FA&emsp;&emsp;MI7 - la - FA&emsp;&emsp;MI7 - MI7)",
     stanzas: [
       "* (la)L'amo de (MI7)Son Cara(la)bassa {(bis)}\ndiu que en (SOL)sap molt, (FA)de ne(MI7)dar. (MI7)\n(DO)I un dia el (SOL7)varen tro(DO)bar\nofegat dins una (SOL)bassa.",
-      "(FA)I un dia el (MI7)varen tro(la)bar\nofe(SOL)gat dins (FA)una (MI7)bassa. (MI7)",
+      "(FA)I un dia el (MI7)varen tro(la)bar\nofe(SOL)gat dins (FA)una (MI7)bassa. (_MI7)",
       "L'amo de Son Fabiol\ntres missatges mantenia:\nun de coix, s'altre manxol,\ns'altre menjant s'adormia.",
       "Marieta, quan escuris,\nno tiris s'aigo as carrer,\nque banyaràs sa guiterra\nd'aquest pobre mariner.",
       "Dalt sa muntanya més alta\nhi ha un romaní florit,\ni a les dotze de sa nit\nhi ha un rossinyol qui canta.",
@@ -681,32 +681,32 @@ const TRANSCRIBED_SONGS = {
   },
   54: {
     stanzas: [
-      "(SI7)Yo ya me (MI)voy al puerto donde se (SI7)halla\nla barca de (fa#)oro que (SI7)debe condu(MI)cirme.\n(SI7)Yo ya me (MI)voy, solo (MI7)vengo a despe(LA)dirme. (la)\nA(SI7)diós, mu(MI)jer, a(fa#)diós, para (SI7)siempre, a(MI)diós. (MI)",
-      "* No volve(SI7)rán mis ojos a mi(MI)rarte,\nni tus o(fa#)ídos es(SI7)cucharán mi (MI)canto.\n(SI7)Voy a aumen(MI)tar los (MI7)mares con mi (LA)llanto. (la)\n** A(SI7)diós, mu(MI)jer, a(fa#)diós, para (SI7)siempre, a(MI)diós. (MI) {(bis 1) (bis 2)}"
+      "(_SI7)Yo ya me (MI)voy al puerto donde se (SI7)halla\nla barca de (fa#)oro que (SI7)debe condu(MI)cirme.\n(SI7)Yo ya me (MI)voy, solo (MI7)vengo a despe(LA)dirme. (_la)\nA(_SI7)diós, mu(MI)jer, a(fa#)diós, para (SI7)siempre, a(MI)diós. (_MI)",
+      "* No volve(SI7)rán mis ojos a mi(MI)rarte,\nni tus o(fa#)ídos es(SI7)cucharán mi (MI)canto.\n(SI7)Voy a aumen(MI)tar los (MI7)mares con mi (LA)llanto. (_la)\n** A(_SI7)diós, mu(MI)jer, a(fa#)diós, para (SI7)siempre, a(MI)diós. (_MI) {(bis 1) (bis 2)}"
     ]
   },
   55: {
     stanzas: [
-      "Amb l'esclop d'un pesca(re)dor\nm'he fet una barca (LA)xica:\nd'un llapis, el pal major,\ni la vela més bonica\nd'un retall de moca(re)dor petit. (re)",
-      "Amb l'esclop d'un pesca(re)dor (RE7)\nm'he fet una barca (sol)xica:\nd'un llapis, el pal ma(re)jor,\ni la vela més bo(LA)nica\nd'un retall de moca(RE)dor. (RE)",
-      "Els rems els he fet ta(RE)llar\ndels boixets d'una pun(LA)taire,\ni per poder-la ancorar,\nun ham que no pesi gaire\nlligat amb fil de pes(RE)car. (RE)",
-      "I amb l'ala d'un papa(RE)lló\ni una agulla de pi(SOL)nassa\nfaig la canya i el ti(RE)mó,\nper si cas hi ha mare(LA)gassa\nno es posi gens al gai(RE)ró. (re)",
-      "La xerxa la fa un fo(re)llet\namb tela de mosqui(LA)tera,\nque jo conec un indret\nper quan surti de pesquera\non només hi ha xan(re)guet petit. (re)",
-      "La xerxa la fa un fo(re)llet (RE7)\namb tela de mosqui(sol)tera,\nque jo conec un in(re)dret\nper quan surti de pes(LA)quera\non només hi ha xan(RE)guet. (RE)",
-      "La meva barca és ai(RE)xí,\npetita com una en(LA)gruna,\ni quan solqui el blau marí\ntindrà la llum de la lluna\nil·luminant-li el ca(RE)mí. (RE)",
-      "I el dia que arribi a (RE)port\ncarregat de proa a (SOL)popa,\nvela inflada i remant (RE)fort,\ntot el poble farà (LA)tropa\npregonant la meva (RE)sort. (RE)",
-      "Tothom di(SOL)rà: «Déu n'hi (RE)do!,\ntanta pesca no s'ex(SOL)plica,\ntres unces del peix mi(RE)llor\namb una barca tan (LA)xica (LA)\ncom l'es(LA)clop d'un pesca(RE)dor». (RE)"
+      "Amb l'esclop d'un pesca(re)dor\nm'he fet una barca (LA)xica:\nd'un llapis, el pal major,\ni la vela més bonica\nd'un retall de moca(re)dor petit. (_re)",
+      "Amb l'esclop d'un pesca(re)dor (RE7)\nm'he fet una barca (sol)xica:\nd'un llapis, el pal ma(re)jor,\ni la vela més bo(LA)nica\nd'un retall de moca(RE)dor. (_RE)",
+      "Els rems els he fet ta(RE)llar\ndels boixets d'una pun(LA)taire,\ni per poder-la ancorar,\nun ham que no pesi gaire\nlligat amb fil de pes(RE)car. (_RE)",
+      "I amb l'ala d'un papa(RE)lló\ni una agulla de pi(SOL)nassa\nfaig la canya i el ti(RE)mó,\nper si cas hi ha mare(LA)gassa\nno es posi gens al gai(RE)ró. (_re)",
+      "La xerxa la fa un fo(re)llet\namb tela de mosqui(LA)tera,\nque jo conec un indret\nper quan surti de pesquera\non només hi ha xan(re)guet petit. (_re)",
+      "La xerxa la fa un fo(re)llet (RE7)\namb tela de mosqui(sol)tera,\nque jo conec un in(re)dret\nper quan surti de pes(LA)quera\non només hi ha xan(RE)guet. (_RE)",
+      "La meva barca és ai(RE)xí,\npetita com una en(LA)gruna,\ni quan solqui el blau marí\ntindrà la llum de la lluna\nil·luminant-li el ca(RE)mí. (_RE)",
+      "I el dia que arribi a (RE)port\ncarregat de proa a (SOL)popa,\nvela inflada i remant (RE)fort,\ntot el poble farà (LA)tropa\npregonant la meva (RE)sort. (_RE)",
+      "Tothom di(SOL)rà: «Déu n'hi (RE)do!,\ntanta pesca no s'ex(SOL)plica,\ntres unces del peix mi(RE)llor\namb una barca tan (LA)xica (_LA)\ncom l'es(_LA)clop d'un pesca(RE)dor». (_RE)"
     ]
   },
   56: {
     stanzas: [
-      "Después de un (LA)año de no ver tierra\nporque la guerra me lo impi(MI7)dió,\nme fui al (si)puerto don(MI7)de se ha(LA)llaba\nla que ado(MI7)raba mi cora(LA)zón. (LA)",
-      "Ay, qué pla(MI7)cer sentía (LA)yo,\ncuando en la (si)playa sacó el pa(MI7)ñuelo y me salu(LA)dó.\nLuego des(MI7)pués vino hacia (LA)mí,\n(FA#)me dio un a(si)brazo y en aquel (MI7)lazo creí mo(LA)rir. (LA)",
-      "Cuando en la (LA)playa la bella Lola\nsu larga cola luciendo (MI7)va,\nlos mari(si)neros se (MI7)vuelven (LA)locos\ny hasta el pi(MI7)loto pierde el com(LA)pàs. (LA)",
+      "Después de un (LA)año de no ver tierra\nporque la guerra me lo impi(MI7)dió,\nme fui al (si)puerto don(MI7)de se ha(LA)llaba\nla que ado(MI7)raba mi cora(LA)zón. (_LA)",
+      "Ay, qué pla(MI7)cer sentía (LA)yo,\ncuando en la (si)playa sacó el pa(MI7)ñuelo y me salu(LA)dó.\nLuego des(MI7)pués vino hacia (LA)mí,\n(FA#)me dio un a(si)brazo y en aquel (MI7)lazo creí mo(LA)rir. (_LA)",
+      "Cuando en la (LA)playa la bella Lola\nsu larga cola luciendo (MI7)va,\nlos mari(si)neros se (MI7)vuelven (LA)locos\ny hasta el pi(MI7)loto pierde el com(LA)pàs. (_LA)",
       "Ay, qué pla(MI7)cer [...]",
-      "La cuba(LA)nita lloraba triste\nal verse sola y en alta (MI7)mar,\nlos mari(si)neros la (MI7)conso(LA)laban:\n«No llores, (MI7)Lola, no llores (LA)más». (LA)",
+      "La cuba(LA)nita lloraba triste\nal verse sola y en alta (_MI7)mar,\nlos mari(si)neros la (MI7)conso(LA)laban:\n«No llores, (MI7)Lola, no llores (_LA)más». (_LA)",
       "Ay, qué pla(MI7)cer [...]",
-      "La cuba(LA)nita tenía un hijo,\ny aquel panchito se le mu(MI7)rió,\ny el mari(si)nero la (MI7)conso(LA)laba:\n«No llores, (MI7)Lola, que aquí estoy (LA)yo». (LA)",
+      "La cuba(LA)nita tenía un hijo,\ny aquel panchito se le mu(MI7)rió,\ny el mari(si)nero la (MI7)conso(LA)laba:\n«No llores, (MI7)Lola, que aquí estoy (LA)yo». (_LA)",
       "Ay, qué pla(MI7)cer [...]",
       "{(final):} y en aquel (MI7)lazo... (MI7) cre(RE)í (MI7)mo(LA)rir. (LA)"
     ]
@@ -715,7 +715,7 @@ const TRANSCRIBED_SONGS = {
     stanzas: [
       "«¿Qué te (LA)pasa, chiquillo, qué te pasa?»,\nme dicen en la escuela y me preguntan en mi (MI7)casa.\nY hasta ahora lo supe de repente\ncuando oí pasar la lista y ella no estuvo pre(LA)sente. (LA7)",
       "* ** La de (RE)la mochila azul,\nla de o(MI7)jitos dormi(LA)lones,\nme dejó gran inquie(MI7)tud\ny bajas califica(LA)ciones.",
-      "Ni al recreo quiero sa(MI7)lir,\nno me divierto con (LA)nada,\nno puedo leer ni escri(MI7)bir,\nme hace falta su mi(LA)rada. {(bis 2: (LA7) i final: (LA - MI7 - LA))}",
+      "Ni al recreo quiero sa(MI7)lir,\nno me divierto con (LA)nada,\nno puedo leer ni escri(MI7)bir,\nme hace falta su mi(LA)rada. {(bis 2: (LA7) i final: (LA - _MI7 - _LA))}",
       "De re(LA)cuerdo me quedan sus colores,\ndos hojas del cuaderno dice «amor» entre bo(MI7)rrones.\nYo quisiera mirar en su pupitre\nporque si ella ya no vuelve nuestro amor será muy (LA)triste. (LA7) {(bis 1)}"
     ]
   },
@@ -726,64 +726,64 @@ const TRANSCRIBED_SONGS = {
       "(LA)Con mi caballo re(MI7)pinto\nyo he ve(RE)nido (MI7)de muy (LA)lejos,\ny (FA#)traigo pistola al (si)cinto\ny con (MI7)ella doy con(LA)sejos.",
       "* Y a(LA)travesé la montaña\npa' venir a ver las (MI7)flores,\naquí hay una rosa huraña\nque es la flor de mis a(LA)mores.",
       "(LA)Aunque otro quiera cor(MI7)tarla,\nyo la (RE)divi(MI7)sé pri(LA)mero,\ny (FA#)juro que he de arran(si)carla\naunque (MI7)tenga jardi(LA)nero.",
-      "Yo (LA)la he de ver trasplantada\nen el huerto de mi (MI7)casa,\ny si sale el jardinero,\npues a ver, a ver qué (LA)pasa. {(bis)} (LA - MI7 - LA)"
+      "Yo (LA)la he de ver trasplantada\nen el huerto de mi (MI7)casa,\ny si sale el jardinero,\npues a ver, a ver qué (LA)pasa. {(bis)} (LA - _MI7 - _LA)"
     ]
   },
   59: {
     stanzas: [
-      "(la)Oh, gavina voladora que vol(re)teges sobre el (la)mar,\ni al pas del vent, mar enfora, vas vol(re)tant fins a arri(MI7)bar\n(FA)a la platja assole(DO)llada, (SOL7)platja de dolços re(la)cords,\n(re)on dia i nit hi fa es(MI7)tada la ni(re)na dels (re)meus a(MI7)mors.",
-      "* (LA)Quan la vegis (MI7)sola, prop la quieta o(LA)nada,\ndon-li la be(MI7)sada que li envio més fer(LA)vent.\n(LA7)Digue-li que (RE)sento (MI7)dolça melan(LA)gia\n** i que penso en (si)ella en (MI7)tot mo(LA)ment. {(bis 2 i final: (LA - MI7 - LA))}",
-      "(la)Oh, si igual que tu, gavina, el mar po(re)gués jo trave(la)ssar,\nfins a arribar a la platja, on tan (re)dolç és recor(MI7)dar,\n(FA)i veure la imatge (DO)bruna, (SOL7)en el seu bell desper(la)tar,\n(re)de la nina que entre (MI7)somnis és tan (re)grat d'a(re)cari(MI7)ciar. {(bis 1)}"
+      "(la)Oh, gavina voladora que vol(re)teges sobre el (la)mar,\ni al pas del vent, mar enfora, vas vol(re)tant fins a arri(MI7)bar\n(FA)a la platja assole(DO)llada, (SOL7)platja de dolços re(la)cords,\n(re)on dia i nit hi fa es(MI7)tada la ni(_re)na dels (_re)meus a(_MI7)mors.",
+      "* (_LA)Quan la vegis (MI7)sola, prop la quieta o(LA)nada,\ndon-li la be(MI7)sada que li envio més fer(LA)vent.\n(LA7)Digue-li que (RE)sento (MI7)dolça melan(LA)gia\n** i que penso en (_si)ella en (_MI7)tot mo(LA)ment. {(bis 2 i final: (_LA - _MI7 - _LA))}",
+      "(la)Oh, si igual que tu, gavina, el mar po(re)gués jo trave(la)ssar,\nfins a arribar a la platja, on tan (re)dolç és recor(MI7)dar,\n(FA)i veure la imatge (DO)bruna, (SOL7)en el seu bell desper(la)tar,\n(re)de la nina que entre (MI7)somnis és tan (_re)grat d'a(_re)cari(_MI7)ciar. {(bis 1)}"
     ]
   },
   60: {
     stanzas: [
-      "¿Adónde i(RE)rá, veloz y fati(LA7)gada,\nla golon(RE)drina que de aquí se (LA7)va?\nAsí en el (RE)cielo se (RE7)hallará angus(SOL)tiada,\nbus(LA7)cando a(RE)brigo y (LA7)no lo encontra(RE)rá. (RE)",
-      "Junto a mi (LA7)pecho encontrará su (RE)nido,\nen donde (LA7)pueda la estación pa(RE)sar.\nTambién yo estoy en (RE7)la región per(SOL)dida,\noh, (LA7)cielo (RE)santo, y (LA7)sin poder vo(RE)lar. (RE)",
-      "Dejé tam(RE)bién mi patria idola(LA7)trada,\nesa man(RE)sión que me miró na(LA7)cer.\nMi vida es (RE)hoy e(RE7)rrante y angus(SOL)tiada\ny (LA7)ya no (RE)puedo a (LA7)mi mansión vol(RE)ver. (RE)",
-      "Ave que(LA7)rida, amada golon(RE)drina,\nmi cora(LA7)zón al tuyo estrecha(RE)ré.\nOiré tu canto, oh, (RE7)tierna golon(SOL)drina,\nre(LA7)corda(RE)ré (LA7)mi patria y (SOL)llo(LA7)ra(RE)ré. (RE)"
+      "¿Adónde i(RE)rá, veloz y fati(LA7)gada,\nla golon(RE)drina que de aquí se (LA7)va?\nAsí en el (RE)cielo se (RE7)hallará angus(SOL)tiada,\nbus(_LA7)cando a(RE)brigo y (LA7)no lo encontra(RE)rá. (_RE)",
+      "Junto a mi (LA7)pecho encontrará su (RE)nido,\nen donde (LA7)pueda la estación pa(RE)sar.\nTambién yo estoy en (_RE7)la región per(SOL)dida,\noh, (_LA7)cielo (RE)santo, y (LA7)sin poder vo(RE)lar. (_RE)",
+      "Dejé tam(RE)bién mi patria idola(LA7)trada,\nesa man(RE)sión que me miró na(LA7)cer.\nMi vida es (RE)hoy e(RE7)rrante y angus(SOL)tiada\ny (_LA7)ya no (RE)puedo a (LA7)mi mansión vol(RE)ver. (_RE)",
+      "Ave que(LA7)rida, amada golon(RE)drina,\nmi cora(LA7)zón al tuyo estrecha(RE)ré.\nOiré tu canto, oh, (_RE7)tierna golon(SOL)drina,\nre(_LA7)corda(RE)ré (_LA7)mi patria y (_SOL)llo(_LA7)ra(RE)ré. (_RE)"
     ]
   },
   61: {
     stanzas: [
-      "Pa(la)saron desde aquel a(MI7)yer ya tantos (la)años, (MI7)\nde(la)jaron en su gris co(MI7)rrer mil desen(la)gaños. (SOL7)\nMas (DO)cuando quiero recor(SOL7)dar nuestro pa(DO)sado,\n(la)te siento cual la (SI7)hiedra li(FA)gada a (MI7)mí.",
-      "Y a(la)sí, hasta la e(MI7)ternidad, te senti(LA)ré. (do# - si - MI7)",
-      "Yo (LA)sé que estoy ligado a (do#)ti más fuerte que la (si)hiedra, (MI7)\npor(LA)que tus ojos de mis (do#)sueños no pueden sepa(si)rarse jamás. (MI7)\nDondequiera que es(LA)tés mi voz escucha(LA7)rás\nllamándote con (RE)ansiedad, (RE)por la pena ya (MI7)sin final\nde sentirte en mi (LA)soledad. (do# - si - MI7)",
-      "Ja(LA)más la hiedra y la pa(do#)red podrían apre(si)tarse más, (MI7)\ni(LA)gual tus ojos de mis (do#)ojos no pueden sepa(si)rarse jamás. (MI7)\nDondequiera que es(LA)tés mi voz escucha(LA7)rás\nllamándote con (RE)mi canción, (RE)más (MI7)fuerte que el do(LA)lor\nse a(do#)ferra nuestro a(si)mor (MI7)como la (LA)hiedra. (LA)",
-      "Soy (re)hiedra que a (LA)ti u(re)nida (re)se mori(LA)rá. (LA)"
+      "Pa(_la)saron desde aquel a(_MI7)yer ya tantos (_la)años, (_MI7)\nde(_la)jaron en su gris co(_MI7)rrer mil desen(_la)gaños. (_SOL7)\nMas (_DO)cuando quiero recor(_SOL7)dar nuestro pa(_DO)sado,\n(_la)te siento cual la (_SI7)hiedra li(_FA)gada a (_MI7)mí.",
+      "Y a(la)sí, hasta la e(MI7)ternidad, te senti(LA)ré. (do# - si - _MI7)",
+      "Yo (LA)sé que estoy ligado a (do#)ti más fuerte que la (si)hiedra, (MI7)\npor(LA)que tus ojos de mis (do#)sueños no pueden sepa(si)rarse jamás. (MI7)\nDondequiera que es(LA)tés mi voz escucha(LA7)rás\nllamándote con (RE)ansiedad, (_RE)por la pena ya (MI7)sin final\nde sentirte en mi (LA)soledad. (do# - si - _MI7)",
+      "Ja(LA)más la hiedra y la pa(do#)red podrían apre(si)tarse más, (MI7)\ni(LA)gual tus ojos de mis (do#)ojos no pueden sepa(si)rarse jamás. (MI7)\nDondequiera que es(LA)tés mi voz escucha(LA7)rás\nllamándote con (RE)mi canción, (_RE)más (_MI7)fuerte que el do(LA)lor\nse a(do#)ferra nuestro a(si)mor (MI7)como la (LA)hiedra. (_LA)",
+      "Soy (re)hiedra que a (LA)ti u(re)nida (_re)se mori(LA)rá. (_LA)"
     ]
   },
   62: {
     stanzas: [
-      "Te (LA)vas porque yo (MI7)quiero que te (LA)vayas, (LA7)\na la (RE)hora que yo (FA#)quiera te de(si)tengo.\nYo (MI7)sé que mi cariño te hace (LA)falta, (FA#)\nporque (si)quieras o (MI7)no yo soy tu (LA)dueño.",
-      "Yo (LA)quiero que te (MI7)vayas por el (LA)mundo (LA7)\ny (RE)quiero que co(FA#)nozcas mucha (si)gente.\nYo (MI7)quiero que te besen otros (LA)labios (FA#)\npara que me com(si)pares (MI7)hoy como (LA)siempre. (LA7)",
-      "* Si en(RE)cuentras un a(FA#)mor que te com(si)prenda\ny (MI7)sientes que te quiere más que (LA)nadie,\nen(FA#)tonces yo daré la media (si)vuelta\ny me iré con el (MI7)sol cuando muera la (LA)tarde.",
-      "En(MI7)tonces yo da(RE)ré la media (LA)vuelta (FA#)\ny me iré con el (si)sol (MI7)cuando muera la (LA)tarde. {(bis: (LA7))} (LA)",
-      "Te (LA)vas porque yo (MI7)quiero que te (LA)vayas. (LA)"
+      "Te (LA)vas porque yo (MI7)quiero que te (LA)vayas, (LA7)\na la (RE)hora que yo (FA#)quiera te de(si)tengo.\nYo (MI7)sé que mi cariño te hace (LA)falta, (_FA#)\nporque (_si)quieras o (MI7)no yo soy tu (LA)dueño.",
+      "Yo (LA)quiero que te (MI7)vayas por el (LA)mundo (LA7)\ny (RE)quiero que co(FA#)nozcas mucha (si)gente.\nYo (MI7)quiero que te besen otros (LA)labios (FA#)\npara que me com(_si)pares (MI7)hoy como (LA)siempre. (LA7)",
+      "* Si en(_RE)cuentras un a(FA#)mor que te com(si)prenda\ny (MI7)sientes que te quiere más que (LA)nadie,\nen(FA#)tonces yo daré la media (si)vuelta\ny me iré con el (MI7)sol cuando muera la (LA)tarde.",
+      "En(MI7)tonces yo da(RE)ré la media (LA)vuelta (FA#)\ny me iré con el (si)sol (MI7)cuando muera la (LA)tarde. {(bis: (LA7))} (_LA)",
+      "Te (LA)vas porque yo (_MI7)quiero que te (LA)vayas. (_LA)"
     ]
   },
   63: {
     stanzas: [
       "Es(re)pera, aún la nave del olvido no ha par(la)tido,\nno condenemos al naufragio lo vi(MI7)vido,\npor nuestro ayer, por nuestro amor, yo te lo (la)pido. (LA7)",
       "Es(re)pera, aún me quedan en mis manos prima(la)veras,\npara colmarte de caricias todas (MI7)nuevas,\nque morirían en mis manos si te (la)fueras.",
-      "* Espera un poco, (MI7 - la)un po(re)quito (SOL7)más,\npara llevarte mi fe(DO)lici(la)dad.\nEspera un poco, un po(re)quito (MI7)más,\nme moriría si te (la)vas. (LA7) {(final en bis):} Es(re)pera, es(MI7)pera, es(la)pera... (la)",
+      "* Espera un poco, (_MI7 - _la)un po(re)quito (SOL7)más,\npara llevarte mi fe(DO)lici(la)dad.\nEspera un poco, un po(re)quito (MI7)más,\nme moriría si te (la)vas. (LA7) {(final en bis):} Es(re)pera, es(MI7)pera, es(la)pera... (la)",
       "Es(re)pera, aún me quedan alegrías para (la)darte,\ntengo mil noches de amor que rega(MI7)larte,\nte doy mi vida a cambio de que(la)darte. (LA7)",
       "Es(re)pera, no entendería mi mañana si te (la)fueras,\ny hasta te admito que tu amor me lo min(MI7)tieras,\nte adoraría aunque tú no me qui(la)sieras. {(bis)}"
     ]
   },
   64: {
     stanzas: [
-      "Cuan(LA)do salí de la Ha(LA)bana, vál(dis1)game (MI7)Dios,\nnadie supo mi salida más que tu y (LA)yo.\nCuando salí de la Ha(LA)bana, vál(dis1)game (MI7)Dios,\nnadie supo mi salida más que tu y (LA)yo.",
-      "(LA)Si a tu ventana (dis1)llega una pa(MI7)loma,\ntrátala con cariño, que es mi per(LA)sona.\nSi a tu ventana (dis1)llega un aire (MI7)frío,\nson suspiros del alma que yo te en(LA)vío. (LA)",
-      "Ay, chinita, que (LA)sí, ay, que dame tu a(MI7)mor, ay!, (MI7)\ny que vente conmigo, chi(MI7)nita, adonde (RE)vi(MI7)vo (LA)yo.",
-      "U(LA)na noche clara y (LA)bella te (dis1)cono(MI7)cí,\ny entre aquellos matorrales te dije a(LA)sí.\nU(LA)na noche clara y (LA)bella te (dis1)cono(MI7)cí,\ny entre aquellos matorrales te dije a(LA)sí:",
-      "(LA)«Palomita que a(dis1)vanzas sobre las (MI7)aves,\ncuéntale mis amores a quien tú (LA)sabes.\nDiles que el mal de au(dis1)sencia es un tor(MI7)mento,\ny que pensando en ella tan solo a(LA)liento.» (LA)",
-      "Ay, chinita, que (LA)sí, ay, que dame tu a(MI7)mor, ay!, (MI7)\ny que vente conmigo, chi(MI7)nita, adonde (RE)vi(MI7)vo (LA)yo. (LA)"
+      "Cuan(LA)do salí de la Ha(_LA)bana, vál(_dis1)game (MI7)Dios,\nnadie supo mi salida más que tu y (LA)yo.\nCuando salí de la Ha(_LA)bana, vál(_dis1)game (MI7)Dios,\nnadie supo mi salida más que tu y (LA)yo.",
+      "(LA)Si a tu ventana (_dis1)llega una pa(MI7)loma,\ntrátala con cariño, que es mi per(LA)sona.\nSi a tu ventana (_dis1)llega un aire (MI7)frío,\nson suspiros del alma que yo te en(LA)vío. (_LA)",
+      "Ay, chinita, que (LA)sí, ay, que dame tu a(MI7)mor, ay!, (_MI7)\ny que vente conmigo, chi(_MI7)nita, adonde (_RE)vi(_MI7)vo (LA)yo.",
+      "U(LA)na noche clara y (_LA)bella te (_dis1)cono(MI7)cí,\ny entre aquellos matorrales te dije a(LA)sí.\nU(LA)na noche clara y (_LA)bella te (_dis1)cono(MI7)cí,\ny entre aquellos matorrales te dije a(LA)sí:",
+      "(LA)«Palomita que a(_dis1)vanzas sobre las (MI7)aves,\ncuéntale mis amores a quien tú (LA)sabes.\nDiles que el mal de au(_dis1)sencia es un tor(MI7)mento,\ny que pensando en ella tan solo a(LA)liento.» (_LA)",
+      "Ay, chinita, que (LA)sí, ay, que dame tu a(MI7)mor, ay!, (_MI7)\ny que vente conmigo, chi(_MI7)nita, adonde (_RE)vi(_MI7)vo (LA)yo. (_LA)"
     ]
   },
   65: {
     stanzas: [
-      "A (DO)la ciutat de Nàpols n'hi ha una pre(re)só, la vida (SOL7)mia;\nn'hi (FA)ha una pre(SOL7)só, la vida mia, la vida a(DO)mor.",
+      "A (DO)la ciutat de Nàpols n'hi ha una pre(re)só, la vida (SOL7)mia;\nn'hi (FA)ha una pre(SOL7)só, la vida mia, la vida a(_DO)mor.",
       "N'hi ha vint-i-nou presos que canten sa cançó, la vida mia.\nLa dama està en finestra, que escolta sa cançó, la vida mia.\nEs presos s'en temeren, ja no cantaren, no, la vida mia.\n—Per què no cantau, presos? Per què no cantau, no?, la vida mia.\n—Com cantarem, senyora, tancats dins sa presó, la vida mia.\nSense menjar ni beure, més que algun rosegó, la vida mia.\n—Ai, pare, lo meu pare, jo vos deman un do, la vida mia.\nNo vos deman València ni tampoc Aragó, la vida mia.\n—Ma filla Margalida, quin do vols que jo et do?, la vida mia.\n—Ai, pare, lo meu pare, ses claus de sa presó, la vida mia.\n—Ma filla Margalida, no te les puc dar, no, la vida mia.\nPerquè demà és dissabte i els hem de penjar a tots, la vida mia.\n—Ai, pare, lo meu pare, no em mateu m'aimador, la vida mia.\n—Ai, filla Margalida... Qui és ton aimador?, la vida mia.\n—Es qui du ses calces verdes i ses cintes de colors, la vida mia.\n—Ma filla Margalida, serà es primer de tots!, la vida mia.\nPerquè fo qui foradava aquella trista presó, la vida mia.\n—Ai, pare, lo meu pare, penjau-me a mi i tot, la vida mia.\nI a cada cap de forca posau-hi un ram de flors, la vida mia.\nPerquè sa gent quan passi senti sa bona olor, la vida mia.\n—Ai, filla Margalida, açò no ho faré, no, la vida mia."
     ],
     footnote: "Tots els versos segueixen l'estructura musical indicada al començament."
@@ -791,125 +791,125 @@ const TRANSCRIBED_SONGS = {
   66: {
     stanzas: [
       "La (re)última noche que pasé con(LA7)tigo\nquisiera olvidarla pero no he po(re)dido.\nLa (RE7)última noche que pasé con(sol)tigo\n(re)hoy quiero olvi(MI7)darla por mi (LA7)bien.",
-      "La (re)última noche que pasé con(LA7)tigo\nla llevo grabada como cruel tes(re)tigo\nde a(RE7)quellos momentos en que fuiste (sol)mía.\n(re)Hoy quiero olvi(LA7)darla por mi (RE)bien. (RE)",
-      "* ¿Por qué te (LA7)fuiste aquella (RE)noche? (SI7)\n¿Por qué te (mi)fuiste (LA7)sin regre(RE)sar?\nY (RE)me de(LA7)jaste aquella (RE)noche (SI7)\ncon el re(mi)cuerdo (LA7)de tu trai(re)ción. (re)",
-      "La (re)última noche que pasé con(LA7)tigo\nquisiera olvidarla pero no he po(re)dido.\nLa (RE7)última noche que pasé con(sol)tigo\n** (re)hoy quiero olvi(LA7)darla por mi (RE)bien. {(bis 1: (RE)) (bis 2 x2 i final: (re - LA7 - re))}"
+      "La (re)última noche que pasé con(LA7)tigo\nla llevo grabada como cruel tes(re)tigo\nde a(RE7)quellos momentos en que fuiste (sol)mía.\n(re)Hoy quiero olvi(LA7)darla por mi (_RE)bien. (_RE)",
+      "* ¿Por qué te (LA7)fuiste aquella (RE)noche? (SI7)\n¿Por qué te (mi)fuiste (LA7)sin regre(RE)sar?\nY (_RE)me de(LA7)jaste aquella (RE)noche (SI7)\ncon el re(mi)cuerdo (LA7)de tu trai(re)ción. (_re)",
+      "La (re)última noche que pasé con(LA7)tigo\nquisiera olvidarla pero no he po(re)dido.\nLa (RE7)última noche que pasé con(sol)tigo\n** (re)hoy quiero olvi(LA7)darla por mi (RE)bien. {(bis 1: (_RE)) (bis 2 x2 i final: (_re - _LA7 - _re))}"
     ]
   },
   67: {
     stanzas: [
       "Com (la)és que es vells pescadors no moren dins de sa (MI7)barca,\na s'hora que sa foscor besa sa llum de s'au(la)bada.\nDi(SOL7)ent adéu a la (DO)mar, es(MI7)culls, desitjos i (la)lloses.\nEn (re)terra poden que(la)dar pensa(MI7)ments que facin (LA)nosa.",
-      "No te'n (LA)vagis en(MI7)cara, com(LA)pany,\npoc a poc canta(dis2)rem sa da(MI7)rrera.\nLenta(si)ment, retardant es com(MI)pàs,\ntanma(MI7)teix ja ningú mos es(LA)pera.",
-      "I des(LA)prés baixa(MI7)rem cap as (LA)port,\nvolte(LA7)jant, pas a pas, sa vo(RE)rera.\nObri(RE)rem es ca(MI7)laix des re(LA)cords,\nsols des (si)bons, es do(MI7)lents deixen (LA)pena. (la)",
+      "No te'n (_LA)vagis en(_MI7)cara, com(LA)pany,\npoc a poc canta(_dis2)rem sa da(MI7)rrera.\nLenta(si)ment, retardant es com(MI)pàs,\ntanma(MI7)teix ja ningú mos es(LA)pera.",
+      "I des(LA)prés baixa(MI7)rem cap as (LA)port,\nvolte(LA7)jant, pas a pas, sa vo(RE)rera.\nObri(_RE)rem es ca(_MI7)laix des re(LA)cords,\nsols des (si)bons, es do(MI7)lents deixen (LA)pena. (la)",
       "Pe(la)rò deixem que es destí sigui qui meni sa (MI7)vela.\nCantem ses nostres cançons amb sa veu plena i se(la)rena.\nA(SOL7)vui segur que tam(DO)poc sa (MI7)sort mos dóna s'es(la)quena.\nS'o(re)ratge ve de xa(la)loc i fa (MI7)nit de lluna (LA)plena.",
-      "No te'n (LA)vagis en(MI7)cara, com(LA)pany [...]",
-      "Malgrat (LA)tot si arri(MI7)bam fins as (LA)moll,\non des(LA7)cansen ses barques i (RE)nanses,\ncompta(RE)rem quantes (MI7)n'hi ha que mai (LA)més,\ncom tu i (si)jo, pesca(MI7)ran espe(LA)rances.",
-      "No te'n (re)vagis encara, com(LA)pany,\nque tenim avui (MI7)nit lluna (LA)plena. (LA - MI7 - LA)"
+      "No te'n (_LA)vagis en(_MI7)cara, com(LA)pany [...]",
+      "Malgrat (LA)tot si arri(MI7)bam fins as (LA)moll,\non des(LA7)cansen ses barques i (RE)nanses,\ncompta(_RE)rem quantes (_MI7)n'hi ha que mai (LA)més,\ncom tu i (si)jo, pesca(MI7)ran espe(LA)rances.",
+      "No te'n (_re)vagis encara, com(_LA)pany,\nque tenim avui (_MI7)nit lluna (LA)plena. (_LA - _MI7 - _LA)"
     ]
   },
   68: {
     stanzas: [
-      "* (LA)Lola, chapa marola,\nya no te quiero por coqueta y presu(MI7)mida.\n¡Anda! ¡Ponte elegante!\nCon tus vestidos y zapatos de cha(LA)rol. {(bis)} (LA)",
-      "Cuando (LA)tuve te mantuve, cuando tuve yo te (MI7)di,\nhoy no (si)tengo, ni man(MI)tengo, ni te (MI7)tengo, ni te (LA)doy.\nBusca a otro que te tenga, te mantenga y que te (MI7)dé.\nHoy no (si)tengo, ni man(MI)tengo, ni te (MI7)tengo, ni te (LA)doy. (LA)",
-      "* Serían las (LA)dos (serían las dos),\nserían las tres (serían las tres),\nserían las cuatro, cinco, seis de la ma(MI7)ñana\ncuando es(si)taba con mi novia plati(MI7)cando en su ven(LA)tana. {(bis)} (LA)\n{(DC)}",
-      "* Cuando (LA)tuve te mantuve, cuando tuve yo te (MI7)di,\nhoy no (si)tengo, ni man(MI)tengo, ni te (MI7)tengo, ni te (LA)doy.\nBusca a otro que te tenga, te mantenga y que te (MI7)dé.\nHoy no (si)tengo, ni man(MI)tengo, ni te (MI7)tengo, ni te (LA)doy. (LA) {(bis accel.)}\n(LA - MI7 - LA)"
+      "* (LA)Lola, chapa marola,\nya no te quiero por coqueta y presu(MI7)mida.\n¡Anda! ¡Ponte elegante!\nCon tus vestidos y zapatos de cha(LA)rol. {(bis)} (_LA)",
+      "Cuando (LA)tuve te mantuve, cuando tuve yo te (MI7)di,\nhoy no (si)tengo, ni man(MI)tengo, ni te (MI7)tengo, ni te (LA)doy.\nBusca a otro que te tenga, te mantenga y que te (MI7)dé.\nHoy no (si)tengo, ni man(MI)tengo, ni te (MI7)tengo, ni te (LA)doy. (_LA)",
+      "* Serían las (LA)dos (serían las dos),\nserían las tres (serían las tres),\nserían las cuatro, cinco, seis de la ma(MI7)ñana\ncuando es(si)taba con mi novia plati(MI7)cando en su ven(LA)tana. {(bis)} (_LA)\n{(DC)}",
+      "* Cuando (LA)tuve te mantuve, cuando tuve yo te (MI7)di,\nhoy no (si)tengo, ni man(MI)tengo, ni te (MI7)tengo, ni te (_LA)doy.\nBusca a otro que te tenga, te mantenga y que te (MI7)dé.\nHoy no (si)tengo, ni man(MI)tengo, ni te (MI7)tengo, ni te (LA)doy. (_LA) {(bis accel.)}\n(LA - _MI7 - _LA)"
     ]
   },
   69: {
     stanzas: [
-      "Ja de negra (re)nit, buscant aixo(LA7)pluc, entra a la ta(re)verna. (re)\nEl vent (DO7)i la (FA)pluja van malme(DO7)nant dies de tar(FA)dor.\nMariner (sol)jove, tibat i fort, amb fulard (re)negre lligat al coll,\nalt, roda-(LA7)soques, perdonavides i adula(RE)dor. (RE)",
-      "(RE)Corre, Lola, posa'm un got de (LA7)vi, i et cantaré una can(RE)çó! (RE)",
-      "* I mentre li (RE)canta una hava(fa#)nera amb la gui(mi)tarra,\nella mou el (LA7)cul, balanceja els pits, xiscla una ri(RE)alla,\ni mirant coqueta pica l'u(dis1)llet al noi de Ca(mi)lella,\ngronxolant el (LA7)cos, marcant el compàs d'aquella hava(RE)nera. (RE)",
-      "El teu cos m'en(RE)cén, el meu cos em (fa#)pot, mulateta (mi)bella,\njo t'estima(LA7)ré fins la fi del temps, si tu vols ser (RE)meva.\nI la bella (RE7)Lola llença el davan(SOL)tal,\n** mans a la cin(RE)tura, balla amb sol(LA7)tura pel seu a(RE)mant. (RE) {(bis 2 i final)}",
-      "I com cada (re)vespre la taver(LA7)nera encisa(re)dora (re)\nespera (DO7)el ga(FA)lant que, com cada (DO7)nit, l'ha d'enamo(FA)rar.\nAmb la gui(sol)tarra i un got de vi cantarà a(re)legre tota la nit\ncançons de (LA7)Cuba, cants de mulates i blau ma(RE)rí. (RE)",
-      "(RE)Corre, Lola, posa'm un got de (LA7)vi, i et canto tota la (RE)nit! (RE) {(bis 1)}"
+      "Ja de negra (re)nit, buscant aixo(LA7)pluc, entra a la ta(re)verna. (_re)\nEl vent (_DO7)i la (FA)pluja van malme(DO7)nant dies de tar(FA)dor.\nMariner (sol)jove, tibat i fort, amb fulard (re)negre lligat al coll,\nalt, roda-(LA7)soques, perdonavides i adula(RE)dor. (_RE)",
+      "(_RE)Corre, Lola, posa'm un got de (_LA7)vi, i et cantaré una can(RE)çó! (_RE)",
+      "* I mentre li (_RE)canta una hava(fa#)nera amb la gui(mi)tarra,\nella mou el (LA7)cul, balanceja els pits, xiscla una ri(RE)alla,\ni mirant coqueta pica l'u(_dis1)llet al noi de Ca(mi)lella,\ngronxolant el (LA7)cos, marcant el compàs d'aquella hava(RE)nera. (_RE)",
+      "El teu cos m'en(RE)cén, el meu cos em (fa#)pot, mulateta (mi)bella,\njo t'estima(LA7)ré fins la fi del temps, si tu vols ser (RE)meva.\nI la bella (RE7)Lola llença el davan(SOL)tal,\n** mans a la cin(_RE)tura, balla amb sol(_LA7)tura pel seu a(RE)mant. (_RE) {(bis 2 i final)}",
+      "I com cada (re)vespre la taver(LA7)nera encisa(re)dora (_re)\nespera (_DO7)el ga(FA)lant que, com cada (DO7)nit, l'ha d'enamo(FA)rar.\nAmb la gui(sol)tarra i un got de vi cantarà a(re)legre tota la nit\ncançons de (LA7)Cuba, cants de mulates i blau ma(_RE)rí. (_RE)",
+      "(_RE)Corre, Lola, posa'm un got de (_LA7)vi, i et canto tota la (RE)nit! (_RE) {(bis 1)}"
     ]
   },
   70: {
     stanzas: [
-      "Marga(MI)rita, qué lindo es el mar y el (SI7)cielo.\nCuando es(fa#)tás cara al viento y al (SI7)sol parece un (MI)sueño. (SI7 x4)\n(SI7)Yo tam(MI)bién te quisiera be(MI7)sar como las (LA)olas\nque se a(MI)cercan a (FA#)ti, vienen y (SI7)van.",
-      "En la (MI)noche callada y sensual del (SI7)puerto\nyo tam(fa#)bién te quisiera con(SI7)tar un dulce (MI)cuento, (SI7 x4)\n(SI7)pero al (MI)verme tan lejos de (MI7)ti, tan impo(LA)sible,\nsolo (MI)puedo de(fa# - SI7)cirte «piensa en (MI)mí». (SI7 x5)",
-      "* (MI)Piensa en mí cuando estés triste, cuando (SI7)sufras.\nSi (fa#)tienes una (SI7)pena, piensa en (MI)mí. (SI7 x5)\n(MI)Piensa en mí cuando te invada la amar(SI7)gura.\nSi es(fa#)tás enamo(SI7)rada, piensa en (MI)mí.",
-      "(SOL#)Cuando estés lejos de mí quizás re(do#)cuerdes\n(FA#)estas dulces horas de ilu(SI7)sión (de ilusión...). (SI7)\nSi es(LA)tás enamo(SI7)rada, piensa en (MI)mí.\nSi es(fa#)tás enamo(SI7)rada, piensa en (MI)mí. {(bis: (SI7 x5))} (MI - SI7 - MI)"
+      "Marga(MI)rita, qué lindo es el mar y el (SI7)cielo.\nCuando es(fa#)tás cara al viento y al (SI7)sol parece un (MI)sueño. (_SI7 x4)\n(_SI7)Yo tam(MI)bién te quisiera be(MI7)sar como las (LA)olas\nque se a(MI)cercan a (FA#)ti, vienen y (SI7)van.",
+      "En la (MI)noche callada y sensual del (SI7)puerto\nyo tam(fa#)bién te quisiera con(SI7)tar un dulce (MI)cuento, (_SI7 x4)\n(_SI7)pero al (MI)verme tan lejos de (MI7)ti, tan impo(LA)sible,\nsolo (MI)puedo de(fa# - SI7)cirte «piensa en (MI)mí». (_SI7 x5)",
+      "* (MI)Piensa en mí cuando estés triste, cuando (SI7)sufras.\nSi (fa#)tienes una (SI7)pena, piensa en (MI)mí. (_SI7 x5)\n(MI)Piensa en mí cuando te invada la amar(SI7)gura.\nSi es(fa#)tás enamo(SI7)rada, piensa en (MI)mí.",
+      "(SOL#)Cuando estés lejos de mí quizás re(do#)cuerdes\n(FA#)estas dulces horas de ilu(SI7)sión (de ilusión...). (_SI7)\nSi es(LA)tás enamo(SI7)rada, piensa en (MI)mí.\nSi es(fa#)tás enamo(SI7)rada, piensa en (MI)mí. {(bis: (SI7 x5))} (MI - SI7 - MI)"
     ]
   },
   71: {
     stanzas: [
-      "Vaig conèixer un vell pas(la)tor que ses ovelles me(MI7)nava,\ncada jorn, de sol a (re)sol, amb sa flauta acompa(FA)nyat\neixa tonada can(MI7)tava, eixa tonada can(la)tava: (la)",
+      "Vaig conèixer un vell pas(_la)tor que ses ovelles me(_MI7)nava,\ncada jorn, de sol a (_re)sol, amb sa flauta acompa(_FA)nyat\neixa tonada can(_MI7)tava, eixa tonada can(la)tava: (_la)",
       "* «Com serà el (SOL7)mar? Serà blau i gran com (DO)diuen?\nSerà veri(MI7)tat que de nit és com la (la)plata?\nTothom qui el (SOL7)veu es queda ple d'enyo(DO)rança.\n(DO7)Digue'm tu (FA)sol, que véns d'una altra con(MI7)trada, si has vist el (LA)mar.",
-      "(LA)Tota la vida he viscut aquí, al (dis2)pla de mun(MI7)tanya,\n(si)i fer diners no he po(MI7)gut per (si)veure la (MI7)costa llu(LA)nyana.\nSé que hi ha un Mediterrà que (LA7)té l'encís de don(RE)zella,\nsé que hi ha barcos de (LA)vela, sé que hi (MI7)ha mar a Ca(LA)lella,¹\n(RE)on les ones van i (LA)vénen al com(MI7)pàs de l'hava(LA)nera. (LA) {(bis)}",
-      "{(final en bis):} Però jo (MI)mai no he (MI7)vist el (LA)mar.» (LA)"
+      "(LA)Tota la vida he viscut aquí, al (_dis2)pla de mun(MI7)tanya,\n(si)i fer diners no he po(MI7)gut per (_si)veure la (_MI7)costa llu(LA)nyana.\nSé que hi ha un Mediterrà que (LA7)té l'encís de don(RE)zella,\nsé que hi ha barcos de (LA)vela, sé que hi (MI7)ha mar a Ca(LA)lella,¹\n(RE)on les ones van i (LA)vénen al com(MI7)pàs de l'hava(LA)nera. (_LA) {(bis)}",
+      "{(final en bis):} Però jo (_MI)mai no he (_MI7)vist el (LA)mar.» (_LA)"
     ],
     footnote: "¹ En la repetició, aquest vers se sol cantar així: «Sé que hi ha barcos de vela a Maó i a Ciutadella»."
   },
   72: {
     stanzas: [
-      "A(LA)migo, ¿qué te pasa?, estás llorando,\nseguro es por des(dis2)denes de mu(MI7)jeres.\nNo hay (si)golpe más mortal para los (MI)hombres\nque el llanto y el des(MI7)precio de esos (LA)seres.",
-      "* A(LA)migo, voy a darte un buen consejo\nsi (LA7)quieres disfrutar se sus pla(RE)ceres:\nconsigue una pis(MI7)tola si es que (LA)quieres,\no cómprate una daga si pre(MI7)fieres,\ny vuélvete asesino de mu(LA)jeres. (LA7 x5)",
-      "** (RE)Mátalas con una sobredosis de ter(LA)nura,\nasfíxialas con besos y dul(MI7)zuras,\ncontágialas de todas tus lo(LA)curas. (LA7 x5)",
-      "(RE)Mátalas con flores, con canciones, no les (LA)falles,\nque no hay una mujer en este (MI7)mundo\nque pueda resistirse a e(MI7)sos de(LA)talles. {(bis 2: (LA7 x5) i final: (LA - MI7 - LA))}",
-      "Des(LA)piértalas con una serenata,\nsin ser un día espe(dis2)cial llévale (MI7)flores,\nno im(si)porta si es la peor de las in(MI)gratas,\nque tú no eres un (MI7)santo sin e(LA)rrores. {(bis 1)}"
+      "A(LA)migo, ¿qué te pasa?, estás llorando,\nseguro es por des(_dis2)denes de mu(MI7)jeres.\nNo hay (si)golpe más mortal para los (MI)hombres\nque el llanto y el des(MI7)precio de esos (LA)seres.",
+      "* A(LA)migo, voy a darte un buen consejo\nsi (LA7)quieres disfrutar se sus pla(RE)ceres:\nconsigue una pis(MI7)tola si es que (LA)quieres,\no cómprate una daga si pre(MI7)fieres,\ny vuélvete asesino de mu(LA)jeres. (_LA7 x5)",
+      "** (RE)Mátalas con una sobredosis de ter(LA)nura,\nasfíxialas con besos y dul(MI7)zuras,\ncontágialas de todas tus lo(LA)curas. (_LA7 x5)",
+      "(RE)Mátalas con flores, con canciones, no les (LA)falles,\nque no hay una mujer en este (MI7)mundo\nque pueda resistirse a e(_MI7)sos de(LA)talles. {(bis 2: (_LA7 x5) i final: (_LA - _MI7 - _LA))}",
+      "Des(LA)piértalas con una serenata,\nsin ser un día espe(_dis2)cial llévale (MI7)flores,\nno im(si)porta si es la peor de las in(MI)gratas,\nque tú no eres un (MI7)santo sin e(LA)rrores. {(bis 1)}"
     ]
   },
   73: {
     stanzas: [
-      "Me(la)norca és un (MI7)jardí flo(la)rit,\nses menorquines són (MI7)roses,\nses (re)cales són tan her(la)moses\ncom ses (MI7)flors des roma(LA)ní. (MI7 - LA)",
+      "Me(la)norca és un (_MI7)jardí flo(la)rit,\nses menorquines són (MI7)roses,\nses (re)cales són tan her(la)moses\ncom ses (MI7)flors des roma(LA)ní. (_MI7 - _LA)",
       "Són ses cales de Me(MI7)norca, sa meva (LA)vida,\ni ses casetes (MI7)blanques, i ses casetes blanques netes i acla(LA)rides.\nJo vull romandre a Me(MI7)norca des meu a(LA)mor,\nque una menor(RE)quina moreneta i (MI7)fina m'ha robat el (LA)cor. (la)",
-      "Sa (la)cara és un (MI7)sol resplen(la)dent\nde tendresa i melan(MI7)gia.\nQuin (re)dia serà aquell (la)dia\nque a Me(MI7)norca torna(LA)ré? (MI7 - LA)",
+      "Sa (la)cara és un (_MI7)sol resplen(la)dent\nde tendresa i melan(MI7)gia.\nQuin (re)dia serà aquell (la)dia\nque a Me(MI7)norca torna(LA)ré? (_MI7 - _LA)",
       "Són ses cales de Me(MI7)norca, sa meva (LA)vida,\ni ses casetes (MI7)blanques, i ses casetes blanques netes i acla(LA)rides.\nJo vull romandre a Me(MI7)norca des meu a(LA)mor,\nque una menor(RE)quina moreneta i (MI7)fina m'ha robat el (LA)cor.",
       "Quiero vivir en Me(MI7)norca toda mi (LA)vida,\ny mirarme a los (MI7)ojos, y mirarme a los ojos de una menor(LA)quina.\nQue no me saquen de Me(MI7)norca, por compa(LA)sión,\nque una menor(RE)quina me ha robado el (MI7)alma y el cora(LA)zón. (MI7 - LA)"
     ]
   },
   74: {
     stanzas: [
-      "(LA)Una perla desprendida en medio del mar de(MI7)jaste,\na la que llaman Me(LA)norca, (MI7)de las (MI7)Islas Bale(LA)ares.\nSon sus lindas menorquinas de una belleza fra(MI7)gante,\na la mía yo que(LA)ría (MI7)y no (MI7)pude ya de(LA)jarte.",
-      "Me(RE)norca (MI7)mía, te (LA)quiero, eres cuna del en(MI7)sueño,\npor ti daría mi (LA)vida, eres tú (MI7)mi gran con(LA)suelo. (LA)",
-      "* Menorca (la)mía, isla de las Bale(MI7)ares,\nla isla blanca y azul de nuestros (la)mares, (la)\nher(MI7)mosas (la)playas, (LA7)las que el turismo admi(re)ró. (re)\nYo (re)te ve(la)nero, (MI7)pues Dios te las conce(la)dió. (la) {(bis)} (MI7 - la)"
+      "(LA)Una perla desprendida en medio del mar de(MI7)jaste,\na la que llaman Me(LA)norca, (_MI7)de las (_MI7)Islas Bale(LA)ares.\nSon sus lindas menorquinas de una belleza fra(MI7)gante,\na la mía yo que(LA)ría (_MI7)y no (_MI7)pude ya de(LA)jarte.",
+      "Me(RE)norca (MI7)mía, te (LA)quiero, eres cuna del en(MI7)sueño,\npor ti daría mi (LA)vida, eres tú (MI7)mi gran con(LA)suelo. (_LA)",
+      "* Menorca (la)mía, isla de las Bale(MI7)ares,\nla isla blanca y azul de nuestros (la)mares, (_la)\nher(_MI7)mosas (la)playas, (LA7)las que el turismo admi(re)ró. (_re)\nYo (_re)te ve(la)nero, (MI7)pues Dios te las conce(la)dió. (_la) {(bis)} (_MI7 - _la)"
     ]
   },
   75: {
     stanzas: [
-      "(re)Esta tierra, que es la (sol)mía,\n(LA7)Menorca de mis a(re)mores,\naves, peces y (MI7)flores\ncantan, cantan de ale(LA7)gría. (LA7)",
-      "(re)Esta isla que yo a(sol)doro\n(LA7)tiene un faro lumi(re)noso.\n(sol)Es la virgen, la virgen más her(re)mosa,\n(LA7)la Morenita de Monte (re)Toro. (re)",
-      "Me(RE7)norca, isla de a(sol)mor,\n(DO7)blancas playas y verdes pi(FA)nares,\n(sol)baña todo el lito(re)ral\n(LA7)la blanca espuma de los (re)mares. (re)",
-      "* Me(RE7)norca, ¡siempre Me(sol)norca!,\n(DO7)tierra de las Bale(FA)ares,\n** (sol)tierra, tierra hospita(re)laria,\n(LA7)reina, reina de nuestros ma(re)res. {(bis 1: (re x3)) (bis 2)} (re)",
-      "¡Me(sol)norca, (sol)siempre Me(RE)norca! (RE)"
+      "(re)Esta tierra, que es la (_sol)mía,\n(LA7)Menorca de mis a(re)mores,\naves, peces y (MI7)flores\ncantan, cantan de ale(LA7)gría. (_LA7)",
+      "(re)Esta isla que yo a(sol)doro\n(LA7)tiene un faro lumi(re)noso.\n(sol)Es la virgen, la virgen más her(re)mosa,\n(LA7)la Morenita de Monte (re)Toro. (_re)",
+      "Me(RE7)norca, isla de a(sol)mor,\n(DO7)blancas playas y verdes pi(FA)nares,\n(sol)baña todo el lito(re)ral\n(LA7)la blanca espuma de los (re)mares. (_re)",
+      "* Me(RE7)norca, ¡siempre Me(sol)norca!,\n(DO7)tierra de las Bale(FA)ares,\n** (sol)tierra, tierra hospita(re)laria,\n(LA7)reina, reina de nuestros ma(re)res. {(bis 1: (_re x3)) (bis 2)} (_re)",
+      "¡Me(sol)norca, (_sol)siempre Me(RE)norca! (RE)"
     ]
   },
   76: {
     stanzas: [
-      "Es(re)tim molt sa marina, es vol de sa gavina, (re)s'arena (LA7)fina,\nes jorn a s'ombra estesa, del cel, sa lluna encesa, (LA7)i es nom de (re)tina.\nSa (RE7)barca, la mar blava que deixa una estelada (RE7)d'espuma (sol)blanca.\nJo deixa(re)ria de nit i (MI7)dia vo(LA)lar es meu pensa(re)ment.",
-      "(sol)Ai, menorquina del meu cor,\nquan (DO7)veig es llum des teu vestit flo(FA)rit,\ni(re)gual que un raig de sol que jo veu(LA7)ria,\nem dones s'alegria (LA7)dins des meu (re)pit.",
-      "(sol)Em giraré cap a la mar\ni es (DO7)nom tan estimat jo et canta(FA)ré,\ndes (re)foc ardent des llavis que et som(LA7)riuen\ni tantes coses diuen, (LA7)som preso(re)ner. (re)",
-      "El (re)món i sa planura, es verd de sa natura, (re)el cor m'a(LA7)tura.\nQuan veus sa vida blanca, quan ve sa nit callada (LA7)tan ampla i (re)bruna,\njo (RE7)pens amb esperança que ja s'amor s'atraca (RE7)a nostra (sol)vora.\nJo no sa(re)bria, tampoc po(MI7)dria, dei(LA)xar-te d'esti(re)mar.",
-      "(sol)Quan em desvetl de fora es vent\nque (DO7)xiula per damunt del món dor(FA)ment,\nse(re)rà s'amor sa por que jo sen(LA7)tia\ni que corrents fugia (LA7)cap a po(re)nent.",
-      "(sol)Com un ocell que vola sol\ncer(DO7)cant es vell camí des rie(FA)rol,\njo (re)cerc as teu costat sa meva (LA7)vida,\nsa meva fe dormida (LA7)i es meu con(re)sol. (re)"
+      "Es(re)tim molt sa marina, es vol de sa gavina, (_re)s'arena (LA7)fina,\nes jorn a s'ombra estesa, del cel, sa lluna encesa, (_LA7)i es nom de (re)tina.\nSa (RE7)barca, la mar blava que deixa una estelada (_RE7)d'espuma (sol)blanca.\nJo deixa(re)ria de nit i (MI7)dia vo(LA)lar es meu pensa(_re)ment.",
+      "(sol)Ai, menorquina del meu cor,\nquan (DO7)veig es llum des teu vestit flo(FA)rit,\ni(re)gual que un raig de sol que jo veu(LA7)ria,\nem dones s'alegria (_LA7)dins des meu (_re)pit.",
+      "(sol)Em giraré cap a la mar\ni es (DO7)nom tan estimat jo et canta(FA)ré,\ndes (re)foc ardent des llavis que et som(LA7)riuen\ni tantes coses diuen, (_LA7)som preso(re)ner. (_re)",
+      "El (re)món i sa planura, es verd de sa natura, (_re)el cor m'a(LA7)tura.\nQuan veus sa vida blanca, quan ve sa nit callada (_LA7)tan ampla i (re)bruna,\njo (RE7)pens amb esperança que ja s'amor s'atraca (_RE7)a nostra (sol)vora.\nJo no sa(re)bria, tampoc po(MI7)dria, dei(LA)xar-te d'esti(_re)mar.",
+      "(sol)Quan em desvetl de fora es vent\nque (DO7)xiula per damunt del món dor(FA)ment,\nse(re)rà s'amor sa por que jo sen(LA7)tia\ni que corrents fugia (_LA7)cap a po(_re)nent.",
+      "(sol)Com un ocell que vola sol\ncer(DO7)cant es vell camí des rie(FA)rol,\njo (re)cerc as teu costat sa meva (LA7)vida,\nsa meva fe dormida (_LA7)i es meu con(re)sol. (_re)"
     ]
   },
   77: {
     stanzas: [
-      "Te'n vas (MI7)'nar un dia de(la)vuit, una estrella s'apa(MI7)gava,\ni aquí a tots ens va quedar es record de quan can(la)taves. (la)\nI ara (LA7)sí plora de (re)ver as racó aquella gui(la)terra,\ni una rosa es va se(SI7)car (MI7)cantant cançons de sa (la)terra. (la)",
-      "* Tu eres (MI7)mestre i jo apre(la)nent, digues com jo ho he de (MI7)fer,\nquan sa ploma tu agafaves acariciant es pa(la)per. (la)\nI sa (LA7)tinta feia (re)punts que sonaven com can(la)çons,\ndedicades a ses (SI7)cales, (MI7)dedicades a s'a(la)mor.",
-      "Mestre Or(MI7)tega Monas(la)terio, a(LA7)questa cançó és per (re)tu.\nTu cantaves hava(la)neres, componies hava(MI7)neres com no les ha fetes nin(la)gú.\nMestre Or(MI7)tega Monas(la)terio, allà on (LA7)siguis jo te (re)cant.\nTu cantaves an en (la)Lucas, tu cantaves a na (MI7)Nena, na {Margarita y el (la)mar.} (la) {(bis)}",
-      "On són (MI7)aquells mari(la)ners que cantaven a co(MI7)berta,\npotser tu ara ets amb ells, es teu avi i sa gui(la)terra. (la)\nI aquell (LA7)barco va anar a (re)fons, es va endur el que esti(la)maves,\ni es canó de Pala(MI7)mós amb ses salves li can(la)tava: (la)",
-      "«El meu (la)avi (MI7)va anar a (la)Cuba». (MI7 - la)"
+      "Te'n vas (_MI7)'nar un dia de(la)vuit, una estrella s'apa(MI7)gava,\ni aquí a tots ens va quedar es record de quan can(la)taves. (_la)\nI ara (_LA7)sí plora de (re)ver as racó aquella gui(la)terra,\ni una rosa es va se(SI7)car (MI7)cantant cançons de sa (la)terra. (_la)",
+      "* Tu eres (_MI7)mestre i jo apre(la)nent, digues com jo ho he de (MI7)fer,\nquan sa ploma tu agafaves acariciant es pa(la)per. (_la)\nI sa (_LA7)tinta feia (re)punts que sonaven com can(la)çons,\ndedicades a ses (SI7)cales, (MI7)dedicades a s'a(_la)mor.",
+      "Mestre Or(_MI7)tega Monas(la)terio, a(LA7)questa cançó és per (re)tu.\nTu cantaves hava(la)neres, componies hava(MI7)neres com no les ha fetes nin(_la)gú.\nMestre Or(_MI7)tega Monas(la)terio, allà on (LA7)siguis jo te (re)cant.\nTu cantaves an en (la)Lucas, tu cantaves a na (MI7)Nena, na {Margarita y el (la)mar.} (_la) {(bis)}",
+      "On són (_MI7)aquells mari(la)ners que cantaven a co(MI7)berta,\npotser tu ara ets amb ells, es teu avi i sa gui(la)terra. (_la)\nI aquell (_LA7)barco va anar a (re)fons, es va endur el que esti(la)maves,\ni es canó de Pala(MI7)mós amb ses salves li can(la)tava: (_la)",
+      "«El meu (la)avi (MI7)va anar a (la)Cuba». (_MI7 - _la)"
     ]
   },
   78: {
     stanzas: [
       "(SOL)Sufro al pensar que el des(si)tino logró sepa(la)rarnos,\n(RE7)guardo tan bellos re(la)cuerdos que (RE7)no olvida(SOL)ré.\nSueño que juntas for(SOL7)jaron tu alma y la (DO)mí(do)a,\nen las (SOL)horas de (MI7)dicha infi(la)nita\nque añoro en mi (RE7)canto y no han de vol(SOL)ver.",
       "(SOL)Hoy que en mi vida tan (si)solo quedó tu re(la)cuerdo,\n(RE7)siento en mis labios tus (la)besos, dul(RE7)ce {yvapu(SOL)rú}.\nTu cabellera se(SOL7)dosa acaricio en mis (DO)sue(do)ños,\ny me es(SOL)trechan tus (MI7)brazos a(la)mantes\nal arrullo (RE7)suave de tu {kunu(SOL)ú}.",
-      "* (mi)Mi corazón en ti(SI7)nieblas te busca con (mi)ansias,\n(SOL)rezo tu nombre pi(RE7)diendo que vuelvas a (SOL)mí, (SOL7)\n(DO)porque sin ti ya ni el (do)sol ilumina mis (SOL)días,\ny al (MI7)llegar la au(la)rora me encuentra llo(RE7)rando\nmis noches sin (SOL)ti. {(bis)} (SOL)"
+      "* (mi)Mi corazón en ti(SI7)nieblas te busca con (mi)ansias,\n(SOL)rezo tu nombre pi(RE7)diendo que vuelvas a (SOL)mí, (SOL7)\n(DO)porque sin ti ya ni el (do)sol ilumina mis (SOL)días,\ny al (MI7)llegar la au(la)rora me encuentra llo(RE7)rando\nmis noches sin (SOL)ti. {(bis)} (_SOL)"
     ]
   },
   79: {
     stanzas: [
-      "Ha(re)blando de mu(RE7)jeres y trai(sol)ciones\nse (DO7)fueron consumiendo las bo(FA)tellas,\npi(re)dieron que cantara mis can(LA7)ciones,\ny yo canté unas dos en contra (re)de ellas. (re)",
-      "De (re)pronto que se a(RE7)cerca un caba(sol)llero,\nsu (DO7)pelo ya pintaba algunas (FA)canas,\nme (re)dijo: «Le suplico, compa(LA7)ñero,\nque no hable en mi presencia de las (re)damas». (re)",
-      "Le (DO7)dije que nosotros simple(FA)mente\nha(DO7)blamos de lo mal que nos pa(FA)garon,\n* que (LA7)si alguien opinaba dife(re)rente\nse(LA7)ría porque jamás lo traicio(re)naron. {(bis)} (re)",
-      "Me (re)dijo: «Yo soy (RE7)uno de los (sol)seres\nque (DO7)más han soportado los fra(FA)casos,\ny (re)siempre me dejaron las mu(LA7)jeres\nllorando y con el alma hecha pe(re)dazos. (re)",
-      "Mas (re)nunca les re(RE7)procho mis he(sol)ridas,\nse (DO7)tiene que sufrir cuando se (FA)ama,\nlas (re)horas más hermosas de mi (LA7)vida\nlas he pasado al lado de una (re)dama». (re)",
-      "Pu(DO7)diéramos morir en las can(FA)tinas\ny (DO7)nunca lograríamos olvi(FA)darlas.\n* Mu(LA7)jeres, oh, mujeres tan di(re)vinas,\nno (LA7)queda otro camino que ado(re)rarlas. {(bis)} (re - LA7 - re)"
+      "Ha(re)blando de mu(_RE7)jeres y trai(sol)ciones\nse (DO7)fueron consumiendo las bo(FA)tellas,\npi(re)dieron que cantara mis can(LA7)ciones,\ny yo canté unas dos en contra (re)de ellas. (_re)",
+      "De (re)pronto que se a(_RE7)cerca un caba(sol)llero,\nsu (DO7)pelo ya pintaba algunas (FA)canas,\nme (re)dijo: «Le suplico, compa(LA7)ñero,\nque no hable en mi presencia de las (re)damas». (_re)",
+      "Le (DO7)dije que nosotros simple(FA)mente\nha(DO7)blamos de lo mal que nos pa(FA)garon,\n* que (LA7)si alguien opinaba dife(re)rente\nse(LA7)ría porque jamás lo traicio(re)naron. {(bis)} (_re)",
+      "Me (re)dijo: «Yo soy (_RE7)uno de los (sol)seres\nque (DO7)más han soportado los fra(FA)casos,\ny (re)siempre me dejaron las mu(LA7)jeres\nllorando y con el alma hecha pe(re)dazos. (_re)",
+      "Mas (re)nunca les re(_RE7)procho mis he(sol)ridas,\nse (DO7)tiene que sufrir cuando se (FA)ama,\nlas (re)horas más hermosas de mi (LA7)vida\nlas he pasado al lado de una (re)dama». (_re)",
+      "Pu(DO7)diéramos morir en las can(FA)tinas\ny (DO7)nunca lograríamos olvi(FA)darlas.\n* Mu(LA7)jeres, oh, mujeres tan di(re)vinas,\nno (LA7)queda otro camino que ado(re)rarlas. {(bis)} (_re - _LA7 - _re)"
     ]
   },
   80: {
@@ -929,229 +929,229 @@ const TRANSCRIBED_SONGS = {
     intro: "(mi - FA# - SI7)",
     stanzas: [
       "Jo vol(mi)dria tornar a Me(SI7)norca, sa blanca Me(mi)norca,\ni tornar a sentir sa can(la)çó de la (RE7)mar i des (SOL)vent,\n(DO)veure de nou com es (MI7)sol tan brillant i tan (la)càlid\n(FA#)damunt ses aigües tranquil·les s'adorm dolça(SI7)ment.",
-      "Jo vol(mi)dria tornar a Me(SI7)norca, sa meva Me(mi)norca,\ni tenir-te entre es braços, sen(la)tir com ba(RE7)tega es teu (SOL)cor,\n(DO)veure es teus ulls llumi(MI7)nosos, humits d'enyo(la)rança,\nses teves mans deli(DO)cades i es teus cabells (SI7)d'or. (SI7)",
+      "Jo vol(mi)dria tornar a Me(SI7)norca, sa meva Me(mi)norca,\ni tenir-te entre es braços, sen(la)tir com ba(RE7)tega es teu (SOL)cor,\n(DO)veure es teus ulls llumi(MI7)nosos, humits d'enyo(la)rança,\nses teves mans deli(DO)cades i es teus cabells (SI7)d'or. (_SI7)",
       "* (MI)Serà una nit, (do#)serà una nit\n(MI)plena de llum, d'il·lu(SI7)sió.\n(MI)Tu ploraràs (do#)quan jo vindré,\n(MI)tu ploraràs d'emo(SI7)ció.",
-      "I quan (MI)senti que tu em (do#)ralles,\nque tu em (DO#7)ralles molt suau(fa#)ment,\nsenti(la)ré dins el cor sa pa(SI7)raula\nde la mar i des (MI)vent. {(bis)} (MI)",
-      "De la (la)mar... (la) i des (MI)vent. (MI)"
+      "I quan (MI)senti que tu em (do#)ralles,\nque tu em (DO#7)ralles molt suau(fa#)ment,\nsenti(la)ré dins el cor sa pa(SI7)raula\nde la mar i des (MI)vent. {(bis)} (_MI)",
+      "De la (la)mar... (_la) i des (MI)vent. (_MI)"
     ],
     footnote: "Cançó coneguda altrament amb el títol de Tornada a Menorca"
   },
   82: {
     stanzas: [
-      "No sé si (MI7)saps que encara (la)guardo\n(RE7)com un tresor en la me(SOL)mòria\n(mi)cada detall d'aquella his(la)tòria,\ncada (RE7)gest, cada mi(SOL)rada. (SOL)",
-      "No sé si (MI7)saps que encara (la)sento\n(RE7)cada petó, cada abra(SOL)çada\n(mi)que t'he fet més de mil ve(la)gades\nrebre(RE7)gant aquell re(SOL)cord. (SOL7)",
-      "* De(DO)sig o caprici, anhel o (RE7)vici,\npotser un xic de cada (SOL)cosa.\nEn tot (SI7)cas no hi ha res que hem faci (mi)nosa\nper explicar en vers o en (LA7)prosa\nel que em vares (RE7)fer sentir. (SOL)",
-      "No sé si (MI7)saps que encara (la)friso\n(RE7)d'aquella nit de boge(SOL)ria,\n(mi)que en un desfet sense ma(la)nies\nens ho (RE7)vàrem donar (SOL)tot\n** (SI7)per inspi(MI7)rar aquest bo(la)lero:\n(RE7)lletra, música i a(SOL)mor. {(bis 1: (SOL7)) (bis 2 i final: (SOL))}"
+      "No sé si (_MI7)saps que encara (la)guardo\n(RE7)com un tresor en la me(SOL)mòria\n(mi)cada detall d'aquella his(la)tòria,\ncada (RE7)gest, cada mi(SOL)rada. (_SOL)",
+      "No sé si (_MI7)saps que encara (la)sento\n(RE7)cada petó, cada abra(SOL)çada\n(mi)que t'he fet més de mil ve(la)gades\nrebre(RE7)gant aquell re(SOL)cord. (SOL7)",
+      "* De(DO)sig o caprici, anhel o (RE7)vici,\npotser un xic de cada (SOL)cosa.\nEn tot (SI7)cas no hi ha res que hem faci (mi)nosa\nper explicar en vers o en (LA7)prosa\nel que em vares (RE7)fer sentir. (_SOL)",
+      "No sé si (_MI7)saps que encara (la)friso\n(RE7)d'aquella nit de boge(SOL)ria,\n(mi)que en un desfet sense ma(la)nies\nens ho (RE7)vàrem donar (SOL)tot\n** (_SI7)per inspi(_MI7)rar aquest bo(la)lero:\n(RE7)lletra, música i a(SOL)mor. {(bis 1: (SOL7)) (bis 2 i final: (_SOL))}"
     ]
   },
   83: {
     stanzas: [
-      "Cuando (RE)lejos me en(LA7)cuentre de (RE)ti,\ncuando quieras que esté yo con(LA7)tigo,\nno halla(SOL)rás un recuerdo de (RE)mí (SI7)\nni ten(mi)drás más a(LA7)mores con(RE)migo. (RE)",
+      "Cuando (RE)lejos me en(LA7)cuentre de (RE)ti,\ncuando quieras que esté yo con(LA7)tigo,\nno halla(SOL)rás un recuerdo de (RE)mí (SI7)\nni ten(mi)drás más a(LA7)mores con(RE)migo. (_RE)",
       "Yo te (RE)juro que (LA7)no volve(RE)ré\naunque (RE7)me haga pedazos la (SOL)vida.\nSi una vez con locura te a(RE)mé\nya de (LA7)mi alma estarás despe(RE)dida.",
-      "* (SOL)No volveré, te lo juro por (LA7)Dios, que me (RE)mira,\nte lo digo temblando de (LA)rabia: (SOL)no (LA7)volve(RE)ré. (RE7)\n(SOL)No pararé hasta ver que mi (LA7)llanto ha for(RE)mado\nun arroyo de olvido abne(LA)gado\ndonde (SOL)yo tu re(LA7)cuerdo ahoga(RE)ré. (RE) {(final en bis)}",
-      "Fuimos (RE)nubes que el (LA7)viento apar(RE)tó,\nfuimos piedras que siempre cho(LA7)camos,\ngotas (SOL)de agua que el sol rese(RE)có, (SI7)\nborra(mi)chera que (LA7)no termi(RE)namos. (RE)",
+      "* (SOL)No volveré, te lo juro por (LA7)Dios, que me (RE)mira,\nte lo digo temblando de (LA)rabia: (SOL)no (LA7)volve(RE)ré. (RE7)\n(SOL)No pararé hasta ver que mi (LA7)llanto ha for(RE)mado\nun arroyo de olvido abne(LA)gado\ndonde (SOL)yo tu re(LA7)cuerdo ahoga(RE)ré. (_RE) {(final en bis)}",
+      "Fuimos (RE)nubes que el (LA7)viento apar(RE)tó,\nfuimos piedras que siempre cho(LA7)camos,\ngotas (SOL)de agua que el sol rese(RE)có, (SI7)\nborra(mi)chera que (LA7)no termi(RE)namos. (_RE)",
       "En el (RE)tren de la au(LA7)sencia me (RE)voy,\nmi bo(RE7)leto no tiene re(SOL)greso.\nLo que tengas de mí te lo (RE)doy,\npero (LA7)no te devuelvo tus (RE)besos. {(bis)}"
     ]
   },
   84: {
     stanzas: [
-      "Que el maqui(SOL)llaje no a(RE7)pague tu (SOL)risa,\nque el equipaje no lastre tus (RE7)alas,\nque el calendario no venga con prisas,\nque el diccionario de(RE7)tenga las (SOL)balas.",
-      "Que las per(SOL)sianas co(RE7)rrijan la au(SOL)rora,\nque gane el quiero la guerra del (RE7)puedo,\nque los que esperan no cuenten las horas,\nque los que matan se (RE7)mueran de (SOL)miedo.",
-      "Que el fin del (SOL7)mundo te pille bai(DO)lando,\nque el esce(LA)nario me (LA7)tiña las (RE7)canas, (RE7)\nque nunca (DO)sepas ni cómo, ni (SOL)cuándo,\nni (MI7)ciento vo(la)lando, ni a(RE7)yer ni ma(SOL)ñana.",
-      "* Que el cora(DO)zón no se pase de moda, que los otoños te (RE7)doren la (SOL)piel,\nque cada (MI7)noche sea noche de (la)boda, que no se (RE7)ponga la luna de (SOL)miel.\nQue (SOL7)todas las (DO)noches sean (RE7)noches de (SOL)boda,\nque (MI7)todas las (la)lunas sean (RE7)lunas de (SOL)miel. {(final en bis: (SOL - RE7 - SOL))}",
-      "Que las ver(SOL)dades no (RE7)tengan com(SOL)plejos,\nque las mentiras parezcan men(RE7)tiras,\nque no te den la razón los espejos,\nque te aproveche mi(RE7)rar lo que (SOL)miras.",
-      "Que no se o(SOL)cupe de (RE7)ti el desam(SOL)paro,\nque cada cena sea tu última (RE7)cena,\nque ser valiente no salga tan caro,\nque ser cobarde no (RE7)valga la (SOL)pena.",
-      "Que no te (SOL7)compren por menos de (DO)nada,\nque no te (LA)vendan a(LA7)mor sin es(RE7)pinas, (RE7)\nque no te (DO)duerman con cuentos de (SOL)hadas, (MI7)\nque no te (la)cierren el (RE7)bar de la (SOL)esquina. {(bis)}"
+      "Que el maqui(_SOL)llaje no a(_RE7)pague tu (SOL)risa,\nque el equipaje no lastre tus (RE7)alas,\nque el calendario no venga con prisas,\nque el diccionario de(_RE7)tenga las (SOL)balas.",
+      "Que las per(SOL)sianas co(_RE7)rrijan la au(SOL)rora,\nque gane el quiero la guerra del (RE7)puedo,\nque los que esperan no cuenten las horas,\nque los que matan se (_RE7)mueran de (SOL)miedo.",
+      "Que el fin del (SOL7)mundo te pille bai(DO)lando,\nque el esce(LA)nario me (LA7)tiña las (RE7)canas, (_RE7)\nque nunca (DO)sepas ni cómo, ni (SOL)cuándo,\nni (MI7)ciento vo(la)lando, ni a(RE7)yer ni ma(SOL)ñana.",
+      "* Que el cora(DO)zón no se pase de moda, que los otoños te (RE7)doren la (SOL)piel,\nque cada (MI7)noche sea noche de (la)boda, que no se (RE7)ponga la luna de (SOL)miel.\nQue (SOL7)todas las (DO)noches sean (RE7)noches de (SOL)boda,\nque (MI7)todas las (la)lunas sean (RE7)lunas de (SOL)miel. {(final en bis: (_SOL - _RE7 - _SOL))}",
+      "Que las ver(_SOL)dades no (_RE7)tengan com(SOL)plejos,\nque las mentiras parezcan men(RE7)tiras,\nque no te den la razón los espejos,\nque te aproveche mi(_RE7)rar lo que (SOL)miras.",
+      "Que no se o(SOL)cupe de (_RE7)ti el desam(SOL)paro,\nque cada cena sea tu última (RE7)cena,\nque ser valiente no salga tan caro,\nque ser cobarde no (_RE7)valga la (SOL)pena.",
+      "Que no te (SOL7)compren por menos de (DO)nada,\nque no te (LA)vendan a(LA7)mor sin es(RE7)pinas, (_RE7)\nque no te (DO)duerman con cuentos de (SOL)hadas, (MI7)\nque no te (la)cierren el (RE7)bar de la (SOL)esquina. {(bis)}"
     ]
   },
   85: {
     stanzas: [
-      "* (la)Ódiame, por pie(MI7)dad, yo te lo (la)pido,\n(LA7)ódiame sin medida ni cle(re)mencia,\nodio quiero (SOL7)más que indife(DO)rencia,\nporque el ren(MI7)cor hiere menos que el ol(la)vido. (la) {(bis)}",
-      "Si tú me (SOL7)odias quedaré yo conven(DO)cido\nque me a(SOL7)maste, mujer, con insis(DO)tencia,\npero ten pre(MI7)sente de acuerdo a la expe(la)riencia\nque tan sólo se (FA)o(MI7)dia lo que(la)rido. (la)",
-      "* Que vale (la)más ser hu(MI7)milde que orgu(la)llosa,\no vale (LA7)más tu débil hermo(re)sura,\npiensa que en el (SOL7)fondo de la (DO)fosa\nlleva(MI7)remos la misma vesti(la)dura. (la) {(bis)}",
-      "Si tú me (SOL7)odias quedaré yo conven(DO)cido\nque me a(SOL7)maste, mujer, con insis(DO)tencia,\npero ten pre(MI7)sente de acuerdo a la expe(la)riencia\nque tan sólo se (FA)o(MI7)dia... lo que(la)rido. (la - MI7 - la)"
+      "* (la)Ódiame, por pie(MI7)dad, yo te lo (la)pido,\n(LA7)ódiame sin medida ni cle(re)mencia,\nodio quiero (SOL7)más que indife(DO)rencia,\nporque el ren(MI7)cor hiere menos que el ol(la)vido. (_la) {(bis)}",
+      "Si tú me (SOL7)odias quedaré yo conven(DO)cido\nque me a(SOL7)maste, mujer, con insis(DO)tencia,\npero ten pre(MI7)sente de acuerdo a la expe(la)riencia\nque tan sólo se (FA)o(_MI7)dia lo que(la)rido. (_la)",
+      "* Que vale (la)más ser hu(MI7)milde que orgu(la)llosa,\no vale (LA7)más tu débil hermo(re)sura,\npiensa que en el (SOL7)fondo de la (DO)fosa\nlleva(MI7)remos la misma vesti(la)dura. (_la) {(bis)}",
+      "Si tú me (SOL7)odias quedaré yo conven(DO)cido\nque me a(SOL7)maste, mujer, con insis(DO)tencia,\npero ten pre(MI7)sente de acuerdo a la expe(la)riencia\nque tan sólo se (FA)o(_MI7)dia... lo que(la)rido. (_la - _MI7 - _la)"
     ]
   },
   86: {
     stanzas: [
-      "Por tu a(LA)mor que tanto (MI7)quiero y tanto ex(LA)traño,\nque me sirvan otra copa y muchas (MI7)más,\nque me (si)sirvan de una vez pa' todo el (MI7)año,\nque me (si)pienso seria(MI7)mente emborra(LA)char.",
-      "Si te (LA)cuentan que me (MI7)vieron muy bo(LA)rracho,\norgu(LA7)llosamente diles que es por (RE)ti,\nporque yo tendré el valor de no ne(LA)garlo,\ngritaré que por tu amor me estoy ma(MI7)tando,\ny sa(si)brán que por tus (MI7)besos me per(LA)dí. (LA)",
-      "* Para de (LA)hoy en ade(MI7)lante\nya el amor no me inte(LA)resa,\ncantaré por todo el (MI7)mundo\nmi dolor y mi tris(LA)teza.",
-      "Porque (LA)sé que de este (MI7)golpe\nya no voy a levan(LA)tarme,\ny aunque yo no lo qui(MI7)siera\nvoy a morirme de a(LA)mor. (LA) {(bis)}"
+      "Por tu a(_LA)mor que tanto (_MI7)quiero y tanto ex(LA)traño,\nque me sirvan otra copa y muchas (MI7)más,\nque me (si)sirvan de una vez pa' todo el (MI7)año,\nque me (si)pienso seria(MI7)mente emborra(LA)char.",
+      "Si te (LA)cuentan que me (_MI7)vieron muy bo(LA)rracho,\norgu(LA7)llosamente diles que es por (RE)ti,\nporque yo tendré el valor de no ne(LA)garlo,\ngritaré que por tu amor me estoy ma(MI7)tando,\ny sa(si)brán que por tus (MI7)besos me per(LA)dí. (_LA)",
+      "* Para de (_LA)hoy en ade(MI7)lante\nya el amor no me inte(LA)resa,\ncantaré por todo el (MI7)mundo\nmi dolor y mi tris(LA)teza.",
+      "Porque (_LA)sé que de este (MI7)golpe\nya no voy a levan(LA)tarme,\ny aunque yo no lo qui(MI7)siera\nvoy a morirme de a(LA)mor. (_LA) {(bis)}"
     ]
   },
   87: {
     intro: "(DO - SOL7 - DO - SOL7 - DO)",
     stanzas: [
-      "Ses (DO)al·lotes no em volen perquè som pi(SOL7 - DO)llo.\n(DO - SOL7 - DO - SOL7 - DO)\nPerquè som (DO)pillo i per(MI)què,\nperquè els hi rob ses 'gu(FA)lles des rebo(SOL7)sillo, (SOL7)\nper(FA)què els hi rob ses 'gu(DO)lles des rebosi(SOL7 - DO)llo.",
-      "(DO - SOL7 - DO - SOL7 - DO)\nFi de ju(DO)riol, quan crema es (MI)sol,\narriba la Bea(FA)ta, vénen ses (SOL7)festes (SOL7)\ni (FA)tirarem sa ca(DO)sa per sa fine(SOL7 - DO)stra.",
-      "(DO - SOL7 - DO - SOL7 - DO)\nMitjan es(DO)tiu, i riu que (MI)riu,\ndarem lo que mos so(FA)bra: goig i ale(SOL7)gria (SOL7)\nan (FA)es que són des po(DO)ble i fora vi(SOL7 - DO)la.",
-      "(DO - SOL7 - DO - SOL7 - DO)\nFassers i (DO)pins, flors i jar(MI)dins,\ngarlandes i festers, (FA)plantes her(SOL7)moses, (SOL7)\na(FA)dornen es ca(DO)rrers de Valldemo(SOL7 - DO)ssa.",
+      "Ses (DO)al·lotes no em volen perquè som pi(SOL7 - DO)llo.\n(DO - SOL7 - DO - SOL7 - DO)\nPerquè som (DO)pillo i per(MI)què,\nperquè els hi rob ses 'gu(FA)lles des rebo(SOL7)sillo, (_SOL7)\nper(FA)què els hi rob ses 'gu(DO)lles des rebosi(SOL7 - DO)llo.",
+      "(DO - SOL7 - DO - SOL7 - DO)\nFi de ju(DO)riol, quan crema es (MI)sol,\narriba la Bea(FA)ta, vénen ses (SOL7)festes (_SOL7)\ni (FA)tirarem sa ca(DO)sa per sa fine(SOL7 - DO)stra.",
+      "(DO - SOL7 - DO - SOL7 - DO)\nMitjan es(DO)tiu, i riu que (MI)riu,\ndarem lo que mos so(FA)bra: goig i ale(SOL7)gria (_SOL7)\nan (FA)es que són des po(DO)ble i fora vi(SOL7 - DO)la.",
+      "(DO - SOL7 - DO - SOL7 - DO)\nFassers i (DO)pins, flors i jar(MI)dins,\ngarlandes i festers, (FA)plantes her(SOL7)moses, (_SOL7)\na(FA)dornen es ca(DO)rrers de Valldemo(SOL7 - DO)ssa.",
       "(DO - SOL7 - DO - SOL7 - DO)\nPorque me (DO)paro me lla(MI)man,\nme llaman el Para(FA)do, porque me (SOL7)paro, (SOL7)\nme (FA)llaman el Para(DO)do, porque me pa(SOL7 - DO)ro."
     ]
   },
   88: {
     stanzas: [
       "(DO)Ella em va estimar (la)tant,\n(FA)jo me (SOL7)l'estimo en(DO)cara.\nPlegats vam trave(la)ssar\n(FA)una (SOL7)porta tan(DO)cada.",
-      "(DO7)Ella, com us ho (FA)podré dir,\n(DO)era tot el meu (SOL7)món llavors,\n(DO)quan en la llar cre(SOL7)maven\nnomés pa(DO)raules d'amor. (SOL7)",
+      "(DO7)Ella, com us ho (FA)podré dir,\n(DO)era tot el meu (_SOL7)món llavors,\n(DO)quan en la llar cre(SOL7)maven\nnomés pa(DO)raules d'amor. (_SOL7)",
       "* Paraules d'a(DO)mor sen(SOL7)zilles i (DO)tendres,\n(DO7)no en sabíem (FA)més, te(SOL7)níem quinze (DO)anys.\nNo ha(LA7)víem tin(re)gut massa (SOL7)temps per a(DO)prendre'n,\ntot (LA7)just desper(re)tàvem del (SOL7)son dels in(DO)fants.",
-      "(SOL7)En teníem (DO)prou amb (SOL7)tres frases (DO)fetes\n(DO7)que havíem a(FA)près d'an(SOL7)tics come(DO)diants,\n(la)d'històries d'a(re)mor, (SOL7)somnis de po(DO)etes.\n(la)No en sabíem (re)més, (SOL7)teníem quinze (DO)anys. (DO) {(final en bis)}",
-      "(DO)Ella, qui sap on (la)és,\n(FA)ella, (SOL7)qui sap on (DO)para.\nLa vaig perdre i mai (la)més\n(FA)he tor(SOL7)nat a tro(DO)bar-la.",
-      "Pe(DO7)rò sovint en (FA)fer-se fosc,\n(DO)de lluny m'arriba u(SOL7)na cançó:\n(DO)velles notes, (SOL7)vells acords,\nvelles pa(DO)raules d'amor. (SOL7) {(bis)}"
+      "(SOL7)En teníem (DO)prou amb (SOL7)tres frases (DO)fetes\n(DO7)que havíem a(FA)près d'an(SOL7)tics come(DO)diants,\n(la)d'històries d'a(re)mor, (SOL7)somnis de po(DO)etes.\n(la)No en sabíem (re)més, (SOL7)teníem quinze (DO)anys. (_DO) {(final en bis)}",
+      "(_DO)Ella, qui sap on (la)és,\n(FA)ella, (SOL7)qui sap on (DO)para.\nLa vaig perdre i mai (la)més\n(FA)he tor(SOL7)nat a tro(DO)bar-la.",
+      "Pe(DO7)rò sovint en (FA)fer-se fosc,\n(DO)de lluny m'arriba u(SOL7)na cançó:\n(DO)velles notes, (SOL7)vells acords,\nvelles pa(DO)raules d'amor. (_SOL7) {(bis)}"
     ]
   },
   89: {
     stanzas: [
-      "{(2/4)} Pensando (SOL)en ti, prenda (DO)mí(SOL)a, canta(RE7)ba con ilu(SOL)sión,\ny aliviaba con mis (DO)can(SOL)tos a mi (RE7)triste cora(SOL)zón.\nVuelva, por (RE7)Dios, vuelva, por (RE7)Dios, la suspirada (SOL)calma.\n¿Adónde i(RE7)rá? ¿Adónde i(RE7)rá? ¿Que no oyes tú mi amor? (RE7)Sí...",
-      "Mira que (DO)voy a mo(RE7)rir de a(SOL)mor.\nTen pie(RE7)dad de mi mar(SOL)tirio,\ncalma (RE7)mi cruel do(SOL)lor.\n(RE7)Mira que una flor suaviza cual su a(SOL)roma\n(RE7)grato y puro amor, grato y puro amor. (RE7)Sí...",
+      "{(2/4)} Pensando (SOL)en ti, prenda (DO)mí(SOL)a, canta(RE7)ba con ilu(SOL)sión,\ny aliviaba con mis (DO)can(SOL)tos a mi (RE7)triste cora(SOL)zón.\nVuelva, por (_RE7)Dios, vuelva, por (RE7)Dios, la suspirada (SOL)calma.\n¿Adónde i(_RE7)rá? ¿Adónde i(RE7)rá? ¿Que no oyes tú mi amor? (_RE7)Sí...",
+      "Mira que (DO)voy a mo(RE7)rir de a(SOL)mor.\nTen pie(RE7)dad de mi mar(SOL)tirio,\ncalma (RE7)mi cruel do(SOL)lor.\n(RE7)Mira que una flor suaviza cual su a(SOL)roma\n(RE7)grato y puro amor, grato y puro amor. (_RE7)Sí...",
       "{(valset)} (SOL)Mira que mi amor saluda\na la ave(RE7)cilla de la au(SOL)rora, (RE7)de la au(SOL)rora.\n(SOL)Mira que mi alma triste, por ti, bien (RE7)mío,\nde amor (SOL)llora, (RE7)de amor (SOL)llora.",
-      "Tú, (RE7)dulce son de mi (SOL)vida,\na tus pies horas la(RE7)mento,\npensando en (RE7)ti, vida y alien(SOL)to.\nAy, vida (RE7)mía de mi tor(SOL)mento.",
-      "(RE7)Dime, niña, por favor: (RE7)«No me hagas morir de amor».\n(RE7)No moriré, no. No moriré, no. (RE7)",
+      "Tú, (RE7)dulce son de mi (SOL)vida,\na tus pies horas la(_RE7)mento,\npensando en (_RE7)ti, vida y alien(_SOL)to.\nAy, vida (_RE7)mía de mi tor(_SOL)mento.",
+      "(_RE7)Dime, niña, por favor: (_RE7)«No me hagas morir de amor».\n(_RE7)No moriré, no. No moriré, no. (_RE7)",
       "Vuelva, por (SOL)Dios, vuelva a (DO)mi pe(RE7)cho la (SOL)calma.\n(RE7)Mi dulce (SOL)bien, ¿que no (DO)oyes (RE7)tú mi a(SOL)mor?\n(RE7)Vuelva, por (SOL)Dios, vuelva a (DO)mi pe(RE7)cho la (SOL)calma.\n(RE7)Mi dulce (SOL)bien, ¿que no (DO)oyes (RE7)tú mi a(SOL)mor? (SOL)",
-      "(RE7)Adiós, mi bien... (SOL)Adiós, mi bien... (RE7)Mi bien, a(SOL)diós. (SOL - RE7 - SOL)"
+      "(RE7)Adiós, mi bien... (_SOL)Adiós, mi bien... (_RE7)Mi bien, a(SOL)diós. (SOL - RE7 - SOL)"
     ],
     footnote: "Aquesta és la versió original de la lletra, tot i que avui en dia alguns fragments es canten de manera diferent."
   },
   90: {
     stanzas: [
-      "(la)Nadie comprende lo que sufro (re)yo.\n(MI7)Canto, pues ya no puedo sollo(la)zar.\n(LA7)Solo, temblando de ansiedad es(re)toy.\n(MI7)Todos me miran y se (LA)van. (DO - la - re - SOL7)",
-      "Mu(DO)jer, (la - re) si (SOL7)puedes tú con (DO)Dios ha(la)blar, (re)\npre(SOL7)gúntale si (DO)yo alguna (la)vez\nte he (re)dejado de (SOL7)ado(DO)rar. (la - re - SOL7)",
-      "Al (DO)mar, (la - re) es(SOL7)pejo de mi (DO)cora(la)zón, (re)\nlas (SOL7)veces que me ha (DO)visto llo(la)rar\nla (re)perfidia (SOL7)de tu a(MI7)mor. (MI7)",
-      "Te he bus(FA)cado por doquiera que yo voy\ny no te puedo ha(MI7)llar. (MI7)\n¿Para (re)qué quiero otros besos\nsi tus (SOL7)labios no me (FA)quieren ya be(MI7)sar? (FA - MI7)",
-      "* Y (DO)tú, (la - re) quién (SOL7)sabe por dónde (DO)anda(la)rás, (re)\nquién (SOL7)sabe qué aven(DO)turas ten(la)drás,\nqué (re)lejos es(SOL7)tás de (DO)mí. (la - re - SOL7)\n{(final en bis):} de (DO)mí, (la - re - SOL7) de (DO)mí. (DO)",
-      "Tri(DO)ana, Tri(la)ana, Tri(re)ana, Tri(SOL7)ana mo(DO)rena, (la - re)\ntú eres la (SOL7)más sale(DO)rosa (la - re)\npor ser gi(SOL7)tana y mo(DO)rena, mo(la)rena, mo(re)rena! (SOL7) {(bis)}"
+      "(_la)Nadie comprende lo que sufro (_re)yo.\n(_MI7)Canto, pues ya no puedo sollo(_la)zar.\n(_LA7)Solo, temblando de ansiedad es(_re)toy.\n(MI7)Todos me miran y se (_LA)van. (DO - la - re - _SOL7)",
+      "Mu(DO)jer, (la - re) si (SOL7)puedes tú con (DO)Dios ha(la)blar, (re)\npre(SOL7)gúntale si (DO)yo alguna (la)vez\nte he (re)dejado de (SOL7)ado(DO)rar. (la - re - _SOL7)",
+      "Al (DO)mar, (la - re) es(SOL7)pejo de mi (DO)cora(la)zón, (re)\nlas (SOL7)veces que me ha (DO)visto llo(la)rar\nla (re)perfidia (SOL7)de tu a(MI7)mor. (_MI7)",
+      "Te he bus(FA)cado por doquiera que yo voy\ny no te puedo ha(MI7)llar. (_MI7)\n¿Para (re)qué quiero otros besos\nsi tus (SOL7)labios no me (FA)quieren ya be(MI7)sar? (FA - _MI7)",
+      "* Y (DO)tú, (la - re) quién (SOL7)sabe por dónde (DO)anda(la)rás, (re)\nquién (SOL7)sabe qué aven(DO)turas ten(la)drás,\nqué (re)lejos es(SOL7)tás de (DO)mí. (la - re - _SOL7)\n{(final en bis):} de (DO)mí, (la - re - _SOL7) de (_DO)mí. (_DO)",
+      "Tri(DO)ana, Tri(la)ana, Tri(re)ana, Tri(SOL7)ana mo(DO)rena, (la - re)\ntú eres la (SOL7)más sale(DO)rosa (la - re)\npor ser gi(SOL7)tana y mo(DO)rena, mo(la)rena, mo(re)rena! (_SOL7) {(bis)}"
     ]
   },
   91: {
     intro: "(SOL7 - DO - MI7 - la)",
     stanzas: [
       "Si (la)penses que perquè cant (LA7)jo estic a(re)legre,\nsi (SOL7)penses que una guiterra no sap plo(DO)rar,\nno o(la)blidis que fins ses roses guarden es(MI7)pines,\nno oblidis que fins es vidre se pot tren(la)car.",
-      "Re(la)corda qui t'escrivia (LA7)cartes sin(re)ceres,\nre(SOL7)corda qui t'enviava cartes d'a(DO)mor,\nre(la)corda ses meves roses de prima(MI7)vera,\nflors de sa vida que surten del (la)cor. (la)",
+      "Re(la)corda qui t'escrivia (LA7)cartes sin(re)ceres,\nre(SOL7)corda qui t'enviava cartes d'a(DO)mor,\nre(la)corda ses meves roses de prima(MI7)vera,\nflors de sa vida que surten del (la)cor. (_la)",
       "* (la)Canta a sa verda prima(MI7)vera,\ncanta vora el mar plate(la)jat,\n(LA7)canta, cardina torren(re)tera,\n(SI7)canta a sa quietud de la (MI7)mar.",
       "(la)Mira, al·lota que ena(MI7)mores,\nmira ma trista sole(la)dat,\n** (LA7)pens en tu totes ses (re)hores,\nde nit i (la)dia vull (SI7)ser as (MI7)teu cos(la)tat. {(bis 2 i final: (SOL7 - DO - MI7 - la))}",
       "(SOL7 - DO - MI7 - la)\nJo (la)cant perquè es qui canta es (LA7)seu mal es(re)panta,\njo (SOL7)cant perquè en sa barca sempre re(DO)cord\nque en(la)cara que la mar brami ve sa bo(MI7)nança.\nAl·lota, és per açò que et vull cantar (la)jo.",
-      "Vol(la)dria tenir-te amb jo, és (LA7)lo que vol(re)dria,\nvol(SOL7)dria que es teu amor amb jo tor(DO)nàs,\ni amb (la)roses i clavellines l'abraça(MI7)ria,\ni així tindria sa ditxa més (la)gran. (la) {(bis 1)}"
+      "Vol(la)dria tenir-te amb jo, és (LA7)lo que vol(re)dria,\nvol(SOL7)dria que es teu amor amb jo tor(DO)nàs,\ni amb (la)roses i clavellines l'abraça(MI7)ria,\ni així tindria sa ditxa més (la)gran. (_la) {(bis 1)}"
     ]
   },
   92: {
     stanzas: [
-      "Som d'un (MI7)poble mari(la)ner,\nben polit, de bona (MI7)traça,\namb un sol que és juga(re)ner,\nva passant demati(MI7)ner\nescalfant sa nostra (la)casa. (la)",
-      "Es ca(LA7)rrers, guaitant la (re)mar,\n(SOL7)volen veure sa be(DO)llesa\n(re)de ses cales des vol(la)tant,\non es temps està guar(MI7)dant\nes records de sa infan(LA)tesa. (LA)",
-      "Dona (MI7)meva, quina (LA)sort\npoder passar es cap(MI7)vespre\nmirant s'entrada des (si)port,\nben (MI7)junts, davant sa fi(LA)nestra. (LA)",
-      "Veient ses (LA7)barques del (RE)bou\n(SI7)amb un estol de ga(MI7)vines.\n(RE)Reprèn s'oratge es seu (LA)vol\nom(MI7)plert de notes ma(LA)rines. (LA)",
-      "Som d'un (MI7)poble que és fei(la)ner,\nsap cantar, també sap (MI7)viure,\ni sa festa coneix (re)bé,\nquan arriba un foras(MI7)ter\nja l'acull amb un som(la)riure. (la)",
-      "Té ses (LA7)barques descan(re)sant,\n(SOL7)amarrades a sa (DO)riba,\n(re)presumint des seu en(la)cant\nfan un vel pintat de (MI7)blanc\nsimulant que estan dor(LA)mides. (LA)",
-      "Dona (MI7)meva, quina (LA)sort\npoder passar es cap(MI7)vespre\nmirant s'entrada des (si)port,\nben (MI7)junts, davant sa fi(LA)nestra. (LA)",
-      "Veient ses (LA7)barques del (RE)bou\n(SI7)amb un estol de ga(MI7)vines.\n(RE)Reprèn s'oratge es seu (LA)vol\nom(MI7)plert de notes ma(LA)rines. (LA)",
-      "(re)Sa teva veu sent de (la)nou,\nva repe(FA)tint (MI7)que m'es(LA)times. (LA)"
+      "Som d'un (_MI7)poble mari(la)ner,\nben polit, de bona (MI7)traça,\namb un sol que és juga(re)ner,\nva passant demati(MI7)ner\nescalfant sa nostra (la)casa. (_la)",
+      "Es ca(_LA7)rrers, guaitant la (re)mar,\n(SOL7)volen veure sa be(DO)llesa\n(re)de ses cales des vol(la)tant,\non es temps està guar(MI7)dant\nes records de sa infan(LA)tesa. (_LA)",
+      "Dona (_MI7)meva, quina (LA)sort\npoder passar es cap(MI7)vespre\nmirant s'entrada des (si)port,\nben (MI7)junts, davant sa fi(LA)nestra. (_LA)",
+      "Veient ses (_LA7)barques del (RE)bou\n(SI7)amb un estol de ga(MI7)vines.\n(RE)Reprèn s'oratge es seu (LA)vol\nom(MI7)plert de notes ma(LA)rines. (_LA)",
+      "Som d'un (_MI7)poble que és fei(la)ner,\nsap cantar, també sap (MI7)viure,\ni sa festa coneix (re)bé,\nquan arriba un foras(MI7)ter\nja l'acull amb un som(la)riure. (_la)",
+      "Té ses (_LA7)barques descan(re)sant,\n(SOL7)amarrades a sa (DO)riba,\n(re)presumint des seu en(la)cant\nfan un vel pintat de (MI7)blanc\nsimulant que estan dor(LA)mides. (_LA)",
+      "Dona (_MI7)meva, quina (LA)sort\npoder passar es cap(MI7)vespre\nmirant s'entrada des (si)port,\nben (MI7)junts, davant sa fi(LA)nestra. (_LA)",
+      "Veient ses (_LA7)barques del (RE)bou\n(SI7)amb un estol de ga(MI7)vines.\n(RE)Reprèn s'oratge es seu (LA)vol\nom(MI7)plert de notes ma(LA)rines. (_LA)",
+      "(_re)Sa teva veu sent de (_la)nou,\nva repe(_FA)tint (_MI7)que m'es(LA)times. (_LA)"
     ]
   },
   93: {
     stanzas: [
-      "Des(la)perta, amor, sa mort m'està cridant\ni saps que (MI7)vull partir, mirant el (la)cel i la mar.\nPer sa finestra neix es sol que m'ofereix\nun raig de (MI7)clara llum per as vol e(LA)tern. (LA)",
+      "Des(la)perta, amor, sa mort m'està cridant\ni saps que (MI7)vull partir, mirant el (la)cel i la mar.\nPer sa finestra neix es sol que m'ofereix\nun raig de (MI7)clara llum per as vol e(LA)tern. (_LA)",
       "Sa meva (LA)barca sigui sa tomba,\nes pal i antena faran de (MI7)creu,\ndeixau sa (si)vela ben esco(MI)tada\nque sa bor(MI7)dada és cap a (LA)vent.",
       "Mon pare i (LA)l'avi as fons m'esperen,\nvan prendre es viatge, un poc més (MI7)prest,\nla mar ge(si)losa sempre de(MI)sitja\nomplir-se es (MI7)ventre d'homos va(la)lents.",
-      "* (la)Prega, mariner, si veus sa (FA)barca sense pa(MI7)tró. (MI7)\n(re)Però no ploris (la)si per flassada\n(MI7)no vull sa terra (la)sinó mar brava.\n(re)Es cos s'escampi, (la)per mil onades,\n** (MI7)fins l'infinit des (la)temps. {(bis 2 x2 i final: (la))}",
-      "(LA)A sa vo(LA)rera seu una dona\namb es ulls fixos a s'horit(MI7)zó.\nDe sa mà (si)dreta cau una (MI)rosa,\ndes seu cor (MI7)brolla una ora(LA)ció.",
+      "* (la)Prega, mariner, si veus sa (FA)barca sense pa(MI7)tró. (_MI7)\n(re)Però no ploris (la)si per flassada\n(MI7)no vull sa terra (la)sinó mar brava.\n(_re)Es cos s'escampi, (la)per mil onades,\n** (MI7)fins l'infinit des (la)temps. {(bis 2 x2 i final: (_la))}",
+      "(_LA)A sa vo(LA)rera seu una dona\namb es ulls fixos a s'horit(MI7)zó.\nDe sa mà (si)dreta cau una (MI)rosa,\ndes seu cor (MI7)brolla una ora(LA)ció.",
       "Sa mà es(LA)querra estalonada\nan es fill jove, que de ma(MI7)jor,\ncom un mi(si)racle, fidel sem(MI)blança,\nvol, com son (MI7)pare, ser pesca(la)dor. {(bis 1)}"
     ]
   },
   94: {
     stanzas: [
-      "Quan trobis (LA)que has de par(si)tir\n(MI7)no ho diguis dins de sa (LA)casa.\nQue sigui a (dis2)prop des ca(si)mí\ni m'estal(dis1)vies pa(MI7)tir\na sa darrera abra(LA)çada.",
-      "Tindré o(LA)berta sa (si)porta,\n(MI7)bé del tot, per si tu (LA)véns.\nDeixa(dis2)ré sa llum en(si)cesa\namb s'es(dis1)tora d'herba es(MI7)tesa\ni quan vulguis tu me (LA)tens. (LA)",
-      "* I s'arbre (LA7)que vas sem(RE)brar\n(SI7)traurà flors, omplert de (MI7)verd.\n(RE)Ses lloses des mals re(LA)cords\ns'enfonsa(MI7)ran dins s'a(LA)venc,\n(RE)ses lloses des mals re(LA)cords\ns'enfonsa(MI7)ran dins s'a(LA)venc. {(final en bis: (LA))}",
-      "Si penses (LA)que has de par(si)tir\n(MI7)no em donaràs cap sor(LA)presa.\nNo guarda(dis2)ré cap ren(si)cor,\nconserva(dis1)ré sa il·lu(MI7)sió\ni ofegaré sa tris(LA)tesa.",
-      "Si tornes (LA)ple d'ale(si)gria,\n(MI7)en es meu rostre som(LA)rient,\nsi una (dis2)llàgrima pa(si)tina\nmostra(dis1)rà sa meva es(MI7)tima\ndes des fons des senti(LA)ment. (LA) {(bis)}"
+      "Quan trobis (_LA)que has de par(si)tir\n(MI7)no ho diguis dins de sa (LA)casa.\nQue sigui a (_dis2)prop des ca(_si)mí\ni m'estal(_dis1)vies pa(_MI7)tir\na sa darrera abra(LA)çada.",
+      "Tindré o(_LA)berta sa (si)porta,\n(MI7)bé del tot, per si tu (LA)véns.\nDeixa(_dis2)ré sa llum en(_si)cesa\namb s'es(_dis1)tora d'herba es(_MI7)tesa\ni quan vulguis tu me (LA)tens. (_LA)",
+      "* I s'arbre (_LA7)que vas sem(RE)brar\n(SI7)traurà flors, omplert de (MI7)verd.\n(RE)Ses lloses des mals re(LA)cords\ns'enfonsa(MI7)ran dins s'a(LA)venc,\n(RE)ses lloses des mals re(LA)cords\ns'enfonsa(MI7)ran dins s'a(LA)venc. {(final en bis: (_LA))}",
+      "Si penses (_LA)que has de par(si)tir\n(MI7)no em donaràs cap sor(LA)presa.\nNo guarda(_dis2)ré cap ren(_si)cor,\nconserva(_dis1)ré sa il·lu(_MI7)sió\ni ofegaré sa tris(LA)tesa.",
+      "Si tornes (LA)ple d'ale(si)gria,\n(MI7)en es meu rostre som(LA)rient,\nsi una (_dis2)llàgrima pa(_si)tina\nmostra(_dis1)rà sa meva es(_MI7)tima\ndes des fons des senti(LA)ment. (_LA) {(bis)}"
     ]
   },
   95: {
     stanzas: [
-      "(RE)Si em dius a(mi)déu, vull que el (fa#)dia sigui net i (SOL)clar,\n(RE)que cap o(mi)cell trenqui (fa#)l'harmonia del seu (SOL)cant.\n(RE)Que tinguis (mi)sort, i que (SOL)trobis el que t'ha man(LA7)cat en (RE)mi. (RE)",
-      "Si em dius «et (mi)vull», que el sol (fa#)faci el dia molt més (SOL)llarg,\n(RE)i així ro(mi)bar temps al (fa#)temps d'un rellotge atu(SOL)rat.\n(RE)Que tinguem (mi)sort, que tro(SOL)bem tot el que ens va man(LA7)car a(RE)hir. (RE)",
-      "* I així (SOL)pren, i així (LA7)pren (RE)tot el fruit que et (FA#)pugui do(si)nar\nel ca(mi)mí que a poc a poc es(LA7)crius per de(RE)mà. (RE7 x3)\n(RE7)Que de(SOL)mà, que de(LA7)mà (RE)mancarà el fruit (FA#)de cada (si)pas,\nper ai(mi)xò malgrat la boira (LA7)cal cami(RE)nar. (RE) {(final en bis)}",
-      "Si véns amb (mi)mi, no de(fa#)manis un camí pla(SOL)ner,\n(RE)ni estels d'ar(mi)gent, ni un de(fa#)mà ple de promeses, (SOL)sols\n(RE)un poc de (mi)sort i que la (SOL)vida ens doni un ca(LA7)mí ben (RE)llarg. (RE) {(bis)}"
+      "(_RE)Si em dius a(mi)déu, vull que el (fa#)dia sigui net i (SOL)clar,\n(RE)que cap o(mi)cell trenqui (fa#)l'harmonia del seu (SOL)cant.\n(RE)Que tinguis (mi)sort, i que (SOL)trobis el que t'ha man(LA7)cat en (RE)mi. (_RE)",
+      "Si em dius «et (mi)vull», que el sol (fa#)faci el dia molt més (SOL)llarg,\n(RE)i així ro(mi)bar temps al (fa#)temps d'un rellotge atu(SOL)rat.\n(_RE)Que tinguem (mi)sort, que tro(SOL)bem tot el que ens va man(LA7)car a(RE)hir. (_RE)",
+      "* I així (_SOL)pren, i així (LA7)pren (RE)tot el fruit que et (FA#)pugui do(si)nar\nel ca(mi)mí que a poc a poc es(LA7)crius per de(RE)mà. (_RE7 x3)\n(_RE7)Que de(_SOL)mà, que de(LA7)mà (RE)mancarà el fruit (FA#)de cada (si)pas,\nper ai(mi)xò malgrat la boira (LA7)cal cami(RE)nar. (_RE) {(final en bis)}",
+      "Si véns amb (_mi)mi, no de(fa#)manis un camí pla(SOL)ner,\n(RE)ni estels d'ar(mi)gent, ni un de(fa#)mà ple de promeses, (SOL)sols\n(RE)un poc de (mi)sort i que la (SOL)vida ens doni un ca(LA7)mí ben (RE)llarg. (_RE) {(bis)}"
     ]
   },
   96: {
     stanzas: [
-      "(la)¿Quién será la que me (MI7)quiera a mí,\nquién será, (la)quién será?\n¿Quién será la que me (MI7)dé su amor,\nquién será, (la)quién será? (la)",
-      "* Yo no sé si la po(MI7)dré encontrar,\nyo no sé, (la)yo no sé.\nYo no sé si volve(MI7)ré a querer,\nyo no sé, (la)yo no sé. (la)",
-      "He querido vol(SOL7)ver a vivir\nla pasión y el ca(DO)lor de otro amor,\nde otro amor que me hi(MI7)ciera sentir,\nque me hiciera fe(la)liz como a(SOL)yer (FA)lo (MI7)fui.",
-      "¿Quién se(la)rá la que me (MI7)quiera a mí,\nquién será, (la)quién será?\n¿Quién será la que me (MI7)dé su amor,\nquién será, (la)quién será? {(bis)} (la)"
+      "(_la)¿Quién será la que me (MI7)quiera a mí,\nquién será, (la)quién será?\n¿Quién será la que me (MI7)dé su amor,\nquién será, (la)quién será? (_la)",
+      "* Yo no sé si la po(MI7)dré encontrar,\nyo no sé, (la)yo no sé.\nYo no sé si volve(MI7)ré a querer,\nyo no sé, (la)yo no sé. (_la)",
+      "He querido vol(SOL7)ver a vivir\nla pasión y el ca(DO)lor de otro amor,\nde otro amor que me hi(MI7)ciera sentir,\nque me hiciera fe(la)liz como a(_SOL)yer (_FA)lo (_MI7)fui.",
+      "¿Quién se(_la)rá la que me (MI7)quiera a mí,\nquién será, (la)quién será?\n¿Quién será la que me (MI7)dé su amor,\nquién será, (la)quién será? {(bis)} (_la)"
     ]
   },
   97: {
     stanzas: [
-      "Siempre que te pre(la)gunto\nqué, (re)cuándo, cómo y (la)dónde,\ntú (re)siempre me res(la)pondes\n«qui(FA)zás, qui(MI7)zás, qui(la)zás». (la)",
-      "Y a(MI7)sí pasan los (la)días,\ny (re)yo, desespe(la)rando,\ny (re)tú, tú contes(la)tando\n«qui(FA)zás, qui(MI7)zás, qui(la)zás». (la)",
-      "* Es(LA)tás perdiendo el (MI7)tiempo\npensando, pen(LA)sando,\npor lo que tú más (MI7)quieras,\n¿hasta cuándo, hasta (LA)cuándo? (la)",
-      "Y a(MI7)sí pasan los (la)días,\ny (re)yo, desespe(la)rando,\ny (re)tú, tú contes(la)tando\n«qui(FA)zás, qui(MI7)zás, qui(la)zás». (la) {(bis 1)}",
-      "** «Qui(FA)zás, qui(MI7)zás, qui(la)zás». {(bis 2)} (la)"
+      "Siempre que te pre(la)gunto\nqué, (re)cuándo, cómo y (la)dónde,\ntú (re)siempre me res(la)pondes\n«qui(_FA)zás, qui(_MI7)zás, qui(la)zás». (_la)",
+      "Y a(_MI7)sí pasan los (la)días,\ny (re)yo, desespe(la)rando,\ny (re)tú, tú contes(la)tando\n«qui(_FA)zás, qui(_MI7)zás, qui(la)zás». (_la)",
+      "* Es(_LA)tás perdiendo el (MI7)tiempo\npensando, pen(LA)sando,\npor lo que tú más (MI7)quieras,\n¿hasta cuándo, hasta (LA)cuándo? (_la)",
+      "Y a(_MI7)sí pasan los (la)días,\ny (re)yo, desespe(la)rando,\ny (re)tú, tú contes(la)tando\n«qui(_FA)zás, qui(_MI7)zás, qui(la)zás». (_la) {(bis 1)}",
+      "** «Qui(FA)zás, qui(MI7)zás, qui(la)zás». {(bis 2)} (_la)"
     ]
   },
   98: {
     stanzas: [
-      "M'he aixecat (DO)tard,\n(FA)no he fet sa (DO)feina,\ntenc mal de cap\nde lo que ahir vaig (SOL7)beure. (SOL7)",
-      "Mumare ha en(DO)trat. Per (FA)què?\nPer veure lo que (DO)feia.\nEs nas ha arrufat\nde veure sa (SOL7)roba com es(DO)teia. (DO)",
-      "* Fillet (DO7)meu, què has (FA)fet?\nJo ja t'ho (DO)deia, (LA7)\nque amb aquestes (re)vetles (SOL7)\nno acabaries (DO)bé. (DO)",
-      "Fillet (DO7)meu, què has (FA)fet?\nJo ja t'ho (DO)deia, (LA7)\nque es diumenge ha pa(re)ssat (SOL7)\ni en soldemà a fer (DO)feina. (DO)\n{(final en bis):} i en solde(FA)mà... (fa) (SOL7)di(DO)lluns...",
-      "Ja m'he aixe(DO)cat,\n(FA)amb ses calces pes (DO)cap,\npijames des germà\ni es coixí des cos(SOL7)tat. (SOL7)",
-      "M'he anat a ren(DO)tar es (FA)ulls\ni no els he tro(DO)bat,\nses celles m'he decantat\ni he enro(SOL7)cat amb es (DO)nas. (DO) {(bis)}"
+      "M'he aixecat (DO)tard,\n(FA)no he fet sa (DO)feina,\ntenc mal de cap\nde lo que ahir vaig (SOL7)beure. (_SOL7)",
+      "Mumare ha en(DO)trat. Per (FA)què?\nPer veure lo que (DO)feia.\nEs nas ha arrufat\nde veure sa (SOL7)roba com es(DO)teia. (_DO)",
+      "* Fillet (_DO7)meu, què has (FA)fet?\nJo ja t'ho (DO)deia, (LA7)\nque amb aquestes (re)vetles (SOL7)\nno acabaries (DO)bé. (_DO)",
+      "Fillet (_DO7)meu, què has (FA)fet?\nJo ja t'ho (DO)deia, (LA7)\nque es diumenge ha pa(re)ssat (SOL7)\ni en soldemà a fer (DO)feina. (_DO)\n{(final en bis):} i en solde(_FA)mà... (fa) (_SOL7)di(_DO)lluns...",
+      "Ja m'he aixe(DO)cat,\n(FA)amb ses calces pes (DO)cap,\npijames des germà\ni es coixí des cos(SOL7)tat. (_SOL7)",
+      "M'he anat a ren(DO)tar es (FA)ulls\ni no els he tro(DO)bat,\nses celles m'he decantat\ni he enro(SOL7)cat amb es (DO)nas. (_DO) {(bis)}"
     ]
   },
   99: {
     stanzas: [
-      "Rose(DO)ret (SOL7)de roses (DO)blanques, (DO7)\nqui mos (FA)ho havia de (SOL7)dir,\ntan a(FA)mics com érem (DO)antes, (LA7)\nque ara ha(re)guéssim (SOL7)de re(DO)nyir. (DO)",
-      "Si hem ren(DO)yit, (SOL7)per què hem re(DO)nyit, (DO7)\nRose(FA)ret, en el cor (SOL7)meu?\nHem re(FA)nyit per poca (DO)cosa, (LA7)\ntu fes es (re)teu, jo (SOL7)faré es (DO)meu. (DO)",
-      "Jo d'a(DO)quí (SOL7)veig una es(DO)trella, (DO7)\njo d'a(FA)quí la veig llu(SOL7)ir,\njo no (FA)sé si és una es(DO)trella (LA7)\no és l'a(re)mor que em (SOL7)fas pa(DO)tir. (DO)",
-      "Si la (DO)mar (SOL7)tornara (DO)tinta, (DO7)\nses mun(FA)tanyes, paper (SOL7)fi,\nt'escriu(FA)ria una car(DO)teta (LA7)\nper l'a(re)mor que em (SOL7)fas pa(DO)tir. (DO)",
-      "Per l'amor que em fas pa(SOL7)tir,\nper l'a(re)mor que em (SOL7)fas pa(DO)tir. (DO)"
+      "Rose(DO)ret (SOL7)de roses (DO)blanques, (DO7)\nqui mos (FA)ho havia de (SOL7)dir,\ntan a(FA)mics com érem (DO)antes, (LA7)\nque ara ha(re)guéssim (SOL7)de re(DO)nyir. (_DO)",
+      "Si hem ren(DO)yit, (SOL7)per què hem re(DO)nyit, (DO7)\nRose(FA)ret, en el cor (SOL7)meu?\nHem re(FA)nyit per poca (DO)cosa, (LA7)\ntu fes es (re)teu, jo (SOL7)faré es (DO)meu. (_DO)",
+      "Jo d'a(DO)quí (SOL7)veig una es(DO)trella, (DO7)\njo d'a(FA)quí la veig llu(SOL7)ir,\njo no (FA)sé si és una es(DO)trella (LA7)\no és l'a(re)mor que em (SOL7)fas pa(DO)tir. (_DO)",
+      "Si la (DO)mar (SOL7)tornara (DO)tinta, (DO7)\nses mun(FA)tanyes, paper (SOL7)fi,\nt'escriu(FA)ria una car(DO)teta (LA7)\nper l'a(re)mor que em (SOL7)fas pa(DO)tir. (_DO)",
+      "Per l'amor que em fas pa(_SOL7)tir,\nper l'a(_re)mor que em (_SOL7)fas pa(DO)tir. (_DO)"
     ]
   },
   100: {
     stanzas: [
-      "Petita (mi)barca, però valenta,\nd'un tros de suro pintat de (SI7)verd,\ntimó de (la)llauna, (SI7)de proa (mi)fina,\nes pal de (FA#)canya i dos cor(SI7)dells. (SI7)",
-      "Nedàvem (mi)junts i l'empe(la)nyia, (RE7)\nun plom per orsa, surava (SOL)bé, (mi)\ni vam a(la)prendre, (SI7)en compa(mi)nyia,\ncom s'avan(SI7)çava de cap a (MI)vent. (MI)",
-      "* Sa meva (MI)barca era s'en(SI7)veja\nde sa vorera de baixa(MI)mar,\nsa més polida, sa (dis2)més lleu(fa#)gera, (SI7)\nel cor m'o(fa#)bria de bat a (SI7)bat. (SI7)",
-      "Sa meva (MI)barca duia per (SI7)vela\nuns quants pe(fa#)daços de vells cal(SOL#)çons, (SOL#)\n** en (DO#7)mig te(fa#)nia (SI7)una bo(MI)dega\non hi guar(SI7)dava ses il·lu(MI)sions. (MI) {(bis 2 i final)}",
-      "Quan un mal (mi)dia, amb empopada,\nde sa bordada no va vi(SI7)rar,\nja vaig a(la)prendre (SI7)que allò que es(mi)times\nde cop s'a(FA#)llunya, se'n pot a(SI7)nar. (SI7)",
-      "Potser sa (mi)barca encara (la)lluita, (RE7)\ndonant brandades per mar en(SOL)dins, (mi)\ntambé sa (la)vida (SI7)sent com na(mi)vega,\nentre ses (SI7)ones des meu des(MI)tí. (MI) {(bis 1)}"
+      "Petita (mi)barca, però valenta,\nd'un tros de suro pintat de (SI7)verd,\ntimó de (la)llauna, (SI7)de proa (mi)fina,\nes pal de (FA#)canya i dos cor(SI7)dells. (_SI7)",
+      "Nedàvem (mi)junts i l'empe(la)nyia, (RE7)\nun plom per orsa, surava (SOL)bé, (mi)\ni vam a(la)prendre, (SI7)en compa(mi)nyia,\ncom s'avan(SI7)çava de cap a (MI)vent. (_MI)",
+      "* Sa meva (MI)barca era s'en(SI7)veja\nde sa vorera de baixa(MI)mar,\nsa més polida, sa (_dis2)més lleu(fa#)gera, (SI7)\nel cor m'o(fa#)bria de bat a (SI7)bat. (_SI7)",
+      "Sa meva (MI)barca duia per (SI7)vela\nuns quants pe(fa#)daços de vells cal(SOL#)çons, (_SOL#)\n** en (_DO#7)mig te(_fa#)nia (_SI7)una bo(MI)dega\non hi guar(SI7)dava ses il·lu(MI)sions. (_MI) {(bis 2 i final)}",
+      "Quan un mal (mi)dia, amb empopada,\nde sa bordada no va vi(SI7)rar,\nja vaig a(la)prendre (SI7)que allò que es(mi)times\nde cop s'a(FA#)llunya, se'n pot a(SI7)nar. (_SI7)",
+      "Potser sa (mi)barca encara (la)lluita, (RE7)\ndonant brandades per mar en(SOL)dins, (mi)\ntambé sa (la)vida (SI7)sent com na(mi)vega,\nentre ses (SI7)ones des meu des(MI)tí. (_MI) {(bis 1)}"
     ]
   },
   101: {
     stanzas: [
-      "(DO)Per sa plaça un bon migdia, un soldat deia amb tris(SOL7)tor:\n«Me fa falta una ga(re)llina», (SOL7)i se mirava es ca(DO)nó.\nCosa fina de carn tendra, (DO7)amb un pas remena(FA)dor, (FA)\ni de sa primera (DO)posta, (SOL7)ses que fan es gust mi(DO)llor. (DO)",
-      "(DO)Sa meva sogra me diu tot (SOL7)s'any:\n(re)«Cuida'm sa (SOL7)filla, no passi (DO)fam,\ntant si és de dia (DO7)com si és de (FA)nit,\ndamunt sa (DO)taula (SOL7)o dins des (DO)llit». (DO)",
-      "(DO)Ja tenim que na Marianna mig festeja aquell sol(SOL7)dat,\nque li fa sa vida a(re)mable (SOL7)per lo molt que sap lli(DO)gar.\nEn Tomeu era de quinta (DO7)de sa del seixanta-(FA)nou, (FA)\ni prest van fer altres (DO)nombres (SOL7)per es moll de Cales (DO)Fonts. (DO)",
+      "(DO)Per sa plaça un bon migdia, un soldat deia amb tris(SOL7)tor:\n«Me fa falta una ga(re)llina», (SOL7)i se mirava es ca(DO)nó.\nCosa fina de carn tendra, (DO7)amb un pas remena(FA)dor, (_FA)\ni de sa primera (DO)posta, (SOL7)ses que fan es gust mi(DO)llor. (_DO)",
+      "(DO)Sa meva sogra me diu tot (SOL7)s'any:\n(re)«Cuida'm sa (SOL7)filla, no passi (DO)fam,\ntant si és de dia (DO7)com si és de (FA)nit,\ndamunt sa (DO)taula (SOL7)o dins des (DO)llit». (_DO)",
+      "(DO)Ja tenim que na Marianna mig festeja aquell sol(SOL7)dat,\nque li fa sa vida a(re)mable (SOL7)per lo molt que sap lli(DO)gar.\nEn Tomeu era de quinta (DO7)de sa del seixanta-(FA)nou, (_FA)\ni prest van fer altres (DO)nombres (SOL7)per es moll de Cales (DO)Fonts. (_DO)",
       "(DO)Sa meva sogra me diu tot (SOL7)s'any [...]",
-      "(DO)Romp el cor com se llamenta pes quarter, pobre sol(SOL7)dat,\ntothom veu com sa ber(re)ganta (SOL7)tova molt més que es lle(DO)vat.\nAmb tan bona artilleria (DO7)no se pot ser impru(FA)dent (FA)\npracticant sa punte(DO)ria (SOL7)amb sa filla des ser(DO)gent. (DO)",
+      "(DO)Romp el cor com se llamenta pes quarter, pobre sol(SOL7)dat,\ntothom veu com sa ber(re)ganta (SOL7)tova molt més que es lle(DO)vat.\nAmb tan bona artilleria (DO7)no se pot ser impru(FA)dent (_FA)\npracticant sa punte(DO)ria (SOL7)amb sa filla des ser(DO)gent. (_DO)",
       "(DO)Sa meva sogra me diu tot (SOL7)s'any [...]"
     ]
   },
   102: {
     stanzas: [
-      "(DO)Just a sa boca des port hi ha u(dis2)na tequi(re)neta,\nti(SOL7)rada damunt des (re)moll, nin(SOL7)gú ja no hi (DO)pensa.\n(LA7)Pela per culpa des sol, té sa llenya ben (re)seca.\nEm (RE7)sembla que sent s'olor des peix a co(SOL7)berta.",
-      "* (MI7)Quan me mir sa tequineta m'agafa nos(la)tàlgia:\nre(RE7)cord a l'avi an es rems i junts nave(SOL7)gàvem.\n(DO7)Amb es records enfon(FA)sats\nen es fons de la (SOL7)mar, ningú ja no hi (DO)pensa.\n{(final en bis):} (FA)Just a sa boca des (SOL7)port es veu sa tequi(DO)neta. (SOL7 - DO)",
-      "(DO)Just a sa boca des port hi ha u(dis2)na tequi(re)neta,\nti(SOL7)rada damunt des (re)moll, nin(SOL7)gú ja no hi (DO)pensa.\n(LA7)Culpa d'un fort temporal va quedar cope(re)jada.\nCo(RE7)berta tota de sal, ningú vol mi(SOL7)rar-la. {(bis)}"
+      "(DO)Just a sa boca des port hi ha u(_dis2)na tequi(re)neta,\nti(SOL7)rada damunt des (re)moll, nin(SOL7)gú ja no hi (DO)pensa.\n(LA7)Pela per culpa des sol, té sa llenya ben (re)seca.\nEm (RE7)sembla que sent s'olor des peix a co(SOL7)berta.",
+      "* (MI7)Quan me mir sa tequineta m'agafa nos(la)tàlgia:\nre(_RE7)cord a l'avi an es rems i junts nave(SOL7)gàvem.\n(DO7)Amb es records enfon(FA)sats\nen es fons de la (SOL7)mar, ningú ja no hi (DO)pensa.\n{(final en bis):} (FA)Just a sa boca des (SOL7)port es veu sa tequi(DO)neta. (_SOL7 - _DO)",
+      "(DO)Just a sa boca des port hi ha u(_dis2)na tequi(re)neta,\nti(SOL7)rada damunt des (re)moll, nin(SOL7)gú ja no hi (DO)pensa.\n(LA7)Culpa d'un fort temporal va quedar cope(re)jada.\nCo(_RE7)berta tota de sal, ningú vol mi(SOL7)rar-la. {(bis)}"
     ]
   },
   103: {
     stanzas: [
-      "{(valset)} L'avi (la)meu (MI7)va morir (la)trist,\na pe(DO)sar (SOL7)que hi fóssim (DO)tots,\nfami(re)liars i vells a(la)mics,\nperò (MI7)lluny de xerxes i bots. (MI7)",
+      "{(valset)} L'avi (la)meu (MI7)va morir (la)trist,\na pe(DO)sar (SOL7)que hi fóssim (DO)tots,\nfami(re)liars i vells a(la)mics,\nperò (MI7)lluny de xerxes i bots. (_MI7)",
       "Per da(la)munt (MI7)la mar tran(la)quil·la\nd'a(DO)quell (SOL7)net port de (DO)Maó\nva llui(re)tar tota una (la)vida\nafe(MI7)rrat an es ti(LA)mó. (LA)",
-      "{(havanera)} Vogant, vo(LA)gant rem en(MI7)dins\n(si)esteles (MI7)l'avi llau(LA)rà,\nobrint, obrint nous ca(MI7)mins,\nfent (si)bèrguins (MI7)sense pa(LA)rar. (LA7)",
-      "Dei(re)xant, deixant-hi sa (la)vida,\npa(re)tint per un tros de (MI7)pa.\nSu(re)or, suor i es(la)quitxos\nse (MI7)mesclen damunt la (la)mar. (la)",
+      "{(havanera)} Vogant, vo(_LA)gant rem en(MI7)dins\n(si)esteles (MI7)l'avi llau(LA)rà,\nobrint, obrint nous ca(MI7)mins,\nfent (si)bèrguins (MI7)sense pa(LA)rar. (LA7)",
+      "Dei(re)xant, deixant-hi sa (la)vida,\npa(re)tint per un tros de (MI7)pa.\nSu(re)or, suor i es(la)quitxos\nse (MI7)mesclen damunt la (la)mar. (_la)",
       "{(DC)}"
     ]
   },
   104: {
     stanzas: [
       "Salió de Ja(LA)maica (LA7)rumbo a Nueva (RE)York\nun barco ve(MI)lero, un barco ve(MI7)lero cargado de (LA)ron.\nEn medio del mar (LA7)el barco se hun(RE)dió,\nla culpa la (MI)tuvo el señor capi(MI7)tán, que se emborra(LA)chó.",
-      "No siento el (LA)barco, no siento el barco que naufra(MI7)gó,\nsien(si)to el pi(MI)loto, siento el pi(MI7)loto y la tripula(LA)ción.\nPo(MI7)bres ma(LA)rinos, pobres pedazos del cora(MI7)zón,\nque (si)la mar (MI)brava, que la mar (MI7)brava se los lle(LA)vó. (LA)",
+      "No siento el (LA)barco, no siento el barco que naufra(MI7)gó,\nsien(si)to el pi(MI)loto, siento el pi(MI7)loto y la tripula(LA)ción.\nPo(_MI7)bres ma(LA)rinos, pobres pedazos del cora(MI7)zón,\nque (si)la mar (MI)brava, que la mar (MI7)brava se los lle(LA)vó. (LA)",
       "Señor capi(LA)tán, (LA7)déjeme su(RE)bir\na izar la ban(MI)dera del palo más (MI7)alto de su bergan(LA)tín.\nSeñor capitán, (LA7)déjeme su(RE)bir\na izar la ban(MI)dera del palo más (MI7)alto de su bergan(LA)tín.",
       "No siento el (LA)barco [...]",
-      "Señor capi(LA)tán, (LA7)déjeme su(RE)bir\na izar la ban(MI)dera del palo más (MI7)alto de su bergan(LA)tín.\nQue quiero mirar (LA7)del palo ma(RE)yor\nsi en el puerto (MI)se halla, si en el puerto (MI7)se halla, (MI7)esperando mi a(LA)mor. (LA)"
+      "Señor capi(LA)tán, (LA7)déjeme su(RE)bir\na izar la ban(MI)dera del palo más (MI7)alto de su bergan(LA)tín.\nQue quiero mirar (LA7)del palo ma(RE)yor\nsi en el puerto (MI)se halla, si en el puerto (MI7)se halla, (_MI7)esperando mi a(LA)mor. (LA)"
     ]
   },
   105: {
@@ -1159,10 +1159,10 @@ const TRANSCRIBED_SONGS = {
       "Es (RE)dia ja és aquí, es (SOL)dia ja s'a(RE)traca,\nes vint-i-tres de juny, es di(MI7)ssabte des vint-i-(LA7)quatre.\nEs (RE)gin està bocat, ses (SOL)ensiamades (RE)couen,\nes xicolati armat i ses co(LA7)quetes que (RE)touen.",
       "Ha sor(RE)tit ja fa estona es fabio(SOL)ler amb sa so(RE)mera,\ni diuen que ara ja van cap a cer(MI7)car sa ban(LA7)dera.\nEs (RE)sent s'esvalot fins (SOL)as carrer des (RE)Forn,\nes caixer entra al galop en es (LA7)caragol des (RE)Born.",
       "Es ca(RE)valls van a botar, co(SOL)mença a picar es (RE)sol,\ntots volem animar fins as da(MI7)rrer cara(LA7)gol.\nJo ja (RE)sent com ressona es tam(SOL)bor i es fabi(RE)ol,\nno hi ha res en sa vida que em (LA7)doni tan bon con(RE)sol.",
-      "(LA7)Per fer (RE)gins amb llimonada di(SOL)uen que som a(RE)vencs,\ncapells i avellanes, feim (MI7)bulla es ciutade(LA7)llencs,\ni en re(RE)viure ses gestes des (SOL)poble més (RE)gran,\nneixen aquestes festes, ses (LA7)festes de Sant Jo(RE)an. (RE) (SI7)",
+      "(_LA7)Per fer (RE)gins amb llimonada di(SOL)uen que som a(RE)vencs,\ncapells i avellanes, feim (MI7)bulla es ciutade(LA7)llencs,\ni en re(RE)viure ses gestes des (SOL)poble més (RE)gran,\nneixen aquestes festes, ses (LA7)festes de Sant Jo(_RE)an. (RE) (_SI7)",
       "Mos n'a(MI)nam an es Pla a (LA)veure ses ca(MI)rotes,\nun tros n'hem d'agafar per do(FA#7)nar a qualque a(SI7)l·lota.\nUna a(MI)l·lot amb son pare aga(LA)fats de sa ma(MI)neta,\nas caragol de Santa Clara, dema(SI7)nant sa capa(MI)deta.",
-      "(SI7)Està a (MI)punt de sortir es sol i un re(LA)cord mos deixa(MI)rà,\ni no podrem oblidar es darrer (FA#7)toc de fa(SI7)biol.\nQuan (MI)diuen aquestes paraules a (LA)jo em fan arru(MI)far sa pell,\ni és que davant Sant (LA)Joan jo em tenc de (SI7)treure es ca(MI)pell.",
-      "* (SI7)Per fer (MI)gins amb llimonada di(LA)uen que som a(MI)vencs,\ncapells i avellanes, feim (FA#7)bulla es ciutade(SI7)llencs,\ni en re(MI)viure ses gestes des (LA)poble més (MI)gran,\nneixen aquestes festes, ses (SI7)festes de Sant Jo(MI)an. {(bis x2)} (SI7 - MI)"
+      "(_SI7)Està a (MI)punt de sortir es sol i un re(LA)cord mos deixa(MI)rà,\ni no podrem oblidar es darrer (FA#7)toc de fa(_SI7)biol.\nQuan (_MI)diuen aquestes paraules a (_LA)jo em fan arru(_MI)far sa pell,\ni és que davant Sant (_LA)Joan jo em tenc de (_SI7)treure es ca(_MI)pell.",
+      "* (_SI7)Per fer (MI)gins amb llimonada di(LA)uen que som a(MI)vencs,\ncapells i avellanes, feim (FA#7)bulla es ciutade(SI7)llencs,\ni en re(MI)viure ses gestes des (LA)poble més (MI)gran,\nneixen aquestes festes, ses (SI7)festes de Sant Jo(MI)an. {(bis x2)} (_SI7 - _MI)"
     ]
   },
   106: {
@@ -1170,199 +1170,199 @@ const TRANSCRIBED_SONGS = {
       "Probablemente (DO)ya de mí te has olvi(SOL7)dado,\ny sin embargo (re)yo te (SOL7)seguiré espe(DO)rando.\nNo me he querido ir para ver si algún (SOL7)día\nque tú quieras vol(re)ver me en(SOL7)cuentres toda(DO)vía.",
       "* Por eso aún es(DO)toy en mi lugar de (SOL7)siempre,\nen la misma ciu(re)dad y (SOL7)con la misma (DO)gente.\nPara que tú al volver no encuentres nada ex(SOL7)traño,\ny sea como a(re)yer, y (SOL7)nunca más de(DO)jarnos.",
       "Pro(DO7)bablemente es(FA)toy\npi(SOL7)diendo dema(DO)siado.\nSe me olvidaba (SOL7)que\nya habíamos termi(DO)nado.",
-      "Que (DO7)nunca volve(FA)rás,\nque (SOL7)nunca me qui(DO)siste.\nSe me olvidó otra (SOL7)vez\nque solo yo te (DO)quise. {(bis)} (DO)"
+      "Que (DO7)nunca volve(FA)rás,\nque (SOL7)nunca me qui(DO)siste.\nSe me olvidó otra (SOL7)vez\nque solo yo te (DO)quise. {(bis)} (_DO)"
     ]
   },
   107: {
     stanzas: [
-      "Se sent la (re)mar des de ca (LA7)nostra,\nremor que (sol)sona (LA7)en sa nit (re)fosca.\nFa (DO)notes que (FA)volen, s'en(dis2)lairen, no (LA7)tornen... (LA7)",
-      "A dins des (re)llit pens en ses ve(LA7)gades\nque junts hem sen(sol)tit (LA7)aquesta to(re)nada.\nRe(DO)corda tem(FA)pestes, ven(dis2)tades, mals (LA7)vespres... (LA7)",
+      "Se sent la (re)mar des de ca (LA7)nostra,\nremor que (sol)sona (LA7)en sa nit (re)fosca.\nFa (_DO)notes que (_FA)volen, s'en(_dis2)lairen, no (LA7)tornen... (_LA7)",
+      "A dins des (re)llit pens en ses ve(LA7)gades\nque junts hem sen(sol)tit (LA7)aquesta to(re)nada.\nRe(_DO)corda tem(_FA)pestes, ven(_dis2)tades, mals (LA7)vespres... (_LA7)",
       "* Dona (sol)meva, (DO7)abraça'm ben (FA)fort,\n(re)fins sa mati(LA7)nada\nsi a(SIb)fluixa es (sol)vent del (LA7)nord,\nculpable de tantes ona(re)des.",
-      "Te (DO7)vull sentir més a (FA)prop,\nescol(sol)tant (LA7)sa tramun(re)tana,\ni de(RE7)mà, que surti es (sol)sol\ncontem(LA7)plant sa nostra abraça(re)da. (re)\n{(final en bis):} Se sent la (LA7)mar (LA7)des de ca (re)nostra. (re)",
-      "Se sent la (re)mar des de ca (LA7)nostra,\nremor que (sol)sona (LA7)en sa nit (re)fosca.\nFa (DO)notes que (FA)volen, s'en(dis2)lairen, no (LA7)tornen... (LA7)",
-      "Amb força es (re)vent just sembla que (LA7)canta\nquan passa vio(sol)lent, (LA7)xiulant entre es (re)arbres.\nS'es(DO)pera es fa (FA)llarga per (dis2)veure si (LA7)calma... (LA7) {(bis)}"
+      "Te (DO7)vull sentir més a (FA)prop,\nescol(sol)tant (LA7)sa tramun(re)tana,\ni de(RE7)mà, que surti es (sol)sol\ncontem(LA7)plant sa nostra abraça(re)da. (_re)\n{(final en bis):} Se sent la (LA7)mar (_LA7)des de ca (re)nostra. (_re)",
+      "Se sent la (re)mar des de ca (LA7)nostra,\nremor que (sol)sona (LA7)en sa nit (re)fosca.\nFa (_DO)notes que (_FA)volen, s'en(_dis2)lairen, no (LA7)tornen... (_LA7)",
+      "Amb força es (re)vent just sembla que (LA7)canta\nquan passa vio(sol)lent, (LA7)xiulant entre es (re)arbres.\nS'es(_DO)pera es fa (_FA)llarga per (_dis2)veure si (LA7)calma... (_LA7) {(bis)}"
     ]
   },
   108: {
     intro: "(LA - DO - SIb - MI7)",
     stanzas: [
-      "Es(LA)colta'm, a(DO#)miga, es(RE)colta'm, com(LA)panya,\nsi (FA#)fóssim ga(si)vines, ga(MI7)vinetes (LA)blanques\ncom ses que pla(DO#)negen amb (RE)ritme dan(LA)saire,\namb (FA#)tu parti(si)ria a (MI7)fer solcs en (LA)l'aire. (LA)",
+      "Es(LA)colta'm, a(DO#)miga, es(RE)colta'm, com(LA)panya,\nsi (FA#)fóssim ga(si)vines, ga(MI7)vinetes (LA)blanques\ncom ses que pla(DO#)negen amb (RE)ritme dan(LA)saire,\namb (FA#)tu parti(_si)ria a (MI7)fer solcs en (LA)l'aire. (_LA)",
       "Escolta'm, a(LA)miga, escolta'm, com(MI7)panya,\nsi fóssim gavines, gavinetes (LA)blanques\nque es bec suau se (FA#)donen amb ganes de (si)gresca,\namb tu parti(MI7)ria una aubada (LA)fresca.",
-      "Faríem vo(LA)lades fins as nivo(MI7)lats,\ndolces engronxades damunt de la (LA)mar,\nmenjant sardi(FA#)netes fins no poder (si)més,\njugant una es(MI7)tona entorn des cap(LA)cers. (LA) (LA - DO - SIb - MI7)",
+      "Faríem vo(LA)lades fins as nivo(MI7)lats,\ndolces engronxades damunt de la (LA)mar,\nmenjant sardi(FA#)netes fins no poder (_si)més,\njugant una es(MI7)tona entorn des cap(LA)cers. (LA) (LA - DO - SIb - _MI7)",
       "Es(LA)colta'm, a(DO#)miga, es(RE)colta'm, com(LA)panya,\nsi (FA#)fóssim ga(si)vines, ga(MI7)vinetes (LA)blanques\ncom ses que pla(DO#)negen amb (RE)ritme dan(LA)saire,\namb (FA#)tu parti(si)ria a (MI7)fer solcs en (LA)l'aire. (LA)",
       "Escolta'm, a(LA)miga, escolta'm, com(MI7)panya,\nsi fóssim gavines, gavinetes (LA)blanques,\nsentint sa ca(FA#)rícia des vent quan mos (si)toca,\ndescansant tran(MI7)quil·les damunt d'una (LA)roca,",
-      "faríem des (LA)riure un so musi(MI7)cal,\nes niu penjaríem damunt es pe(LA)nyal,\nvolant dalt ses (FA#)barques quan surten des (si)port,\ndibuixant co(MI7)rones, desitjant-lis (LA)sort. (LA) (LA - DO - SIb - MI7)",
-      "Es(LA)colta'm, a(DO#)miga, es(RE)colta'm, com(LA)panya,\nsi (FA#)fóssim ga(si)vines, ga(MI7)vinetes (LA)blanques\ncom ses que pla(DO#)negen amb (RE)ritme dan(LA)saire,\n* amb (FA#)tu parti(si)ria a (MI7)fer solcs en (LA)l'aire. {(bis)} (LA - MI7 - LA)"
+      "faríem des (LA)riure un so musi(MI7)cal,\nes niu penjaríem damunt es pe(LA)nyal,\nvolant dalt ses (FA#)barques quan surten des (si)port,\ndibuixant co(MI7)rones, desitjant-lis (LA)sort. (LA) (_LA - DO - SIb - _MI7)",
+      "Es(LA)colta'm, a(DO#)miga, es(RE)colta'm, com(LA)panya,\nsi (FA#)fóssim ga(si)vines, ga(MI7)vinetes (LA)blanques\ncom ses que pla(DO#)negen amb (RE)ritme dan(LA)saire,\n* amb (FA#)tu parti(si)ria a (MI7)fer solcs en (LA)l'aire. {(bis)} (_LA - _MI7 - _LA)"
     ]
   },
   109: {
     stanzas: [
-      "Si (MI7)tú me dices (la)ven, (LA7)lo dejo (re)todo,\nsi tú me dices (SOL7)ven, será todo para (DO)ti.\nMis momentos más o(FA)cultos también te los da(MI7)ré,\nmis secretos, que son (FA)pocos, serán tuyos tam(MI7)bién.",
+      "Si (_MI7)tú me dices (la)ven, (LA7)lo dejo (re)todo,\nsi tú me dices (SOL7)ven, será todo para (DO)ti.\nMis momentos más o(FA)cultos también te los da(MI7)ré,\nmis secretos, que son (FA)pocos, serán tuyos tam(MI7)bién.",
       "Si tú me dices (re)ven, (SOL7)todo cambia(DO)rá,\nsi tú me dices (re)ven, ha(MI7)brá felici(la)dad,\nsi tú me dices (re)ven, si (MI7)tú me dices (la)ven. (MI7)",
-      "* (la)No detengas el momento por (LA7)las indeci(re)siones,\n(SOL7)para unir alma con alma, corazón con (DO)corazón.\nReír con(LA7)tigo ante cualquier do(re)lor,\nllorar con(la)tigo, llorar con(MI7)tigo será mi salva(la)ción.",
-      "Pero si (MI7)tú me dices (la)ven, (LA7)lo dejo (re)todo,\nque no se te haga (SOL7)tarde\ny te encuentres en la calle\nper(DO)dida, sin (re)rumbo y en el (la)lodo.",
-      "Si tú me dices (FA)ven, (MI7)lo dejo (la)todo. {(bis)} (la)"
+      "* (la)No detengas el momento por (LA7)las indeci(re)siones,\n(SOL7)para unir alma con alma, corazón con (DO)corazón.\nReír con(LA7)tigo ante cualquier do(re)lor,\nllorar con(la)tigo, llorar con(MI7)tigo será mi salva(_la)ción.",
+      "Pero si (_MI7)tú me dices (la)ven, (LA7)lo dejo (re)todo,\nque no se te haga (SOL7)tarde\ny te encuentres en la calle\nper(_DO)dida, sin (_re)rumbo y en el (_la)lodo.",
+      "Si tú me dices (FA)ven, (MI7)lo dejo (la)todo. {(bis)} (_la)"
     ],
     footnote: "Títol original de la cançó: Lodo"
   },
   110: {
     stanzas: [
-      "* Són teus u(re)llets co(LA7)lor del cel que (re)bri(DO - re)lla,\nsón tes mirades que vénen cap a (LA7)mi,\ni lo meu (re)cor pateix (RE7)i sos(sol)pira, (sol)\ni al (LA7)mateix (re)temps me (LA7)fas penar i so(RE)frir. (LA7 - RE)",
-      "Jo (RE)t'ho vaig (LA7)dir i tu no m'escol(RE)taves,\ni el teu a(LA7)mor a un altre el vas do(RE)nar, (LA7 - RE)\ni (LA7)jo, infe(RE)liç, cre(RE7)gut que m'esti(SOL)ma(SOL)ves,\nen (LA7)braços (RE)d'altri em (LA7)disfrutaves (RE)ja. (RE) {(bis)}",
-      "I en (sol)braços (RE)d'altri... tu em disfru(SOL)ta(LA7)ves (RE)ja. (RE)"
+      "* Són teus u(re)llets co(LA7)lor del cel que (re)bri(DO - re)lla,\nsón tes mirades que vénen cap a (LA7)mi,\ni lo meu (re)cor pateix (RE7)i sos(sol)pira, (_sol)\ni al (_LA7)mateix (re)temps me (LA7)fas penar i so(RE)frir. (LA7 - _RE)",
+      "Jo (_RE)t'ho vaig (LA7)dir i tu no m'escol(RE)taves,\ni el teu a(LA7)mor a un altre el vas do(RE)nar, (LA7 - _RE)\ni (_LA7)jo, infe(RE)liç, cre(RE7)gut que m'esti(SOL)ma(_SOL)ves,\nen (_LA7)braços (RE)d'altri em (LA7)disfrutaves (RE)ja. (_RE) {(bis)}",
+      "I en (_sol)braços (_RE)d'altri... tu em disfru(_SOL)ta(_LA7)ves (RE)ja. (_RE)"
     ]
   },
   111: {
     stanzas: [
-      "Sé que te (mi)perd i se m'esqueixa un tros de (la)vida.\nSa teva (SI7)llum mentre s'apaga deixa fe(mi)rida.\nMai sé quan (MI7)véns, te m'apareixes de cop i (la)volta, (la)\ndesprés te'n (mi)vas quan veus o(FA#)berta (SI7)una altra (MI)porta. (SI7)",
-      "* Sense des(MI)cans li don corda an es (dis2)torn de sa (fa#)vida (SI7)\nquan vaig po(fa#)ant il·lu(SI7)sions que m'empenyen a (MI)viure.\nD'entre ses (MI7)mans, sent es temps com parteix i no (LA)torna. (la)\nEn es vol(MI)tant, fulles (fa#)seques d'a(SI7)mors que s'es(MI)fondren. (MI)\n{(final en bis):} En es vol(la)tant, fulles seques d'a(SI7)mors que s'es(MI)fondren. (MI)",
-      "Llarg és s'hi(mi)vern i quan tu vols és prima(la)vera.\nEn un mo(SI7)ment, fons tot es gel de llarga es(mi)pera.\nTu ets s'es(MI7)tiu, ets es meu doll, font d'aigo (la)fresca. (la)\nEts es ca(mi)liu que encén es (FA#)foc (SI7)amb flama in(MI)tensa. (SI7) {(bis)}"
+      "Sé que te (_mi)perd i se m'esqueixa un tros de (_la)vida.\nSa teva (_SI7)llum mentre s'apaga deixa fe(_mi)rida.\nMai sé quan (_MI7)véns, te m'apareixes de cop i (_la)volta, (_la)\ndesprés te'n (mi)vas quan veus o(FA#)berta (SI7)una altra (MI)porta. (_SI7)",
+      "* Sense des(MI)cans li don corda an es (_dis2)torn de sa (fa#)vida (SI7)\nquan vaig po(fa#)ant il·lu(SI7)sions que m'empenyen a (MI)viure.\nD'entre ses (MI7)mans, sent es temps com parteix i no (LA)torna. (la)\nEn es vol(MI)tant, fulles (fa#)seques d'a(_SI7)mors que s'es(MI)fondren. (_MI)\n{(final en bis):} En es vol(_la)tant, fulles seques d'a(_SI7)mors que s'es(MI)fondren. (_MI)",
+      "Llarg és s'hi(_mi)vern i quan tu vols és prima(_la)vera.\nEn un mo(_SI7)ment, fons tot es gel de llarga es(_mi)pera.\nTu ets s'es(_MI7)tiu, ets es meu doll, font d'aigo (_la)fresca. (_la)\nEts es ca(mi)liu que encén es (FA#)foc (SI7)amb flama in(MI)tensa. (_SI7) {(bis)}"
     ]
   },
   112: {
     stanzas: [
       "* (RE)Sona, sona, gui(LA7)terra,\n(mi)canta, can(LA7)ta, com(RE)pany, {(bis)}\n* (SOL)sa teva veu mari(RE)nera\nse me (mi)fica (LA7)dins sa (RE)sang. {(bis)}",
-      "* (RE)Se m'encalla com sa (LA7)proa\n(mi)de ses bar(LA7)quetes des (RE)port, {(bis)}\n* (SOL)que tenc salmenca sa (RE)boca\ni es cant (mi)se me (LA7)torna un (RE)plor. {(bis)}",
+      "* (RE)Se m'encalla com sa (LA7)proa\n(mi)de ses bar(LA7)quetes des (RE)port, {(bis)}\n* (SOL)que tenc salmenca sa (RE)boca\ni es cant (mi)se me (_LA7)torna un (RE)plor. {(bis)}",
       "(re)Hem despenjat sa gui(LA7)terra, (re)hem retrobat es a(LA7)mics,\n(re)i ses cançons de sa (sol)terra ja mos (DO7)brollen per es (FA)pit.\n(sol)Cert és que es front se mos (re)rua (LA7)i es cabells ja són més (re)blancs,\n(RE7)però tenim el cor (sol)tendre, que us es(re)tima (LA7)com a(RE)bans.",
       "(RE)Sona, sona, gui(LA7)terra [...]",
-      "(re)Ofegarem es si(LA7)lenci, (re)compartirem es lla(LA7)ment,\n(re)sa guiterra amb ses (sol)cordes i jo amb (DO7)es meu senti(FA)ment.\n(sol)Voldria aturar sa (re)vida (LA7)un vespre a Cales (re)Fonts.\n(RE7)Es sol se'n va, ve sa (sol)fosca, però (re)queden (LA7)es re(RE)cords.",
-      "(RE)Sona, sona, gui(LA7)terra [...]   {(final):} (RE - LA7 - RE)"
+      "(re)Ofegarem es si(LA7)lenci, (re)compartirem es lla(LA7)ment,\n(re)sa guiterra amb ses (sol)cordes i jo amb (DO7)es meu senti(_FA)ment.\n(sol)Voldria aturar sa (re)vida (LA7)un vespre a Cales (re)Fonts.\n(RE7)Es sol se'n va, ve sa (sol)fosca, però (re)queden (LA7)es re(RE)cords.",
+      "(RE)Sona, sona, gui(LA7)terra [...]   {(final):} (_RE - _LA7 - _RE)"
     ]
   },
   113: {
     intro: "(DO - SOL7 - FA - DO)",
     stanzas: [
-      "S'aire ar(DO)dent (SOL7)de sa terra enfe(DO)brada, (DO7)\nsol d'es(FA)tiu a ses cales i al (DO)mar,\ntot pen(SOL7)sant en s'al·lota esti(DO)mada\ni es record d'una flor perfu(RE7)mada, feliç, vaig can(SOL7)tant. (SOL7)",
+      "S'aire ar(DO)dent (SOL7)de sa terra enfe(DO)brada, (DO7)\nsol d'es(FA)tiu a ses cales i al (DO)mar,\ntot pen(SOL7)sant en s'al·lota esti(DO)mada\ni es record d'una flor perfu(RE7)mada, feliç, vaig can(SOL7)tant. (_SOL7)",
       "Torna(DO)ré (SOL7)quan es mori es cap(DO)vespre, (DO7)\ntorna(FA)ré pes camins de la (DO)mar,\ntorna(SOL7)ré ple d'amor i espe(DO)rança\na cercar sa mirada enci(RE7)sera d'a(SOL7)quests teus ulls (DO)blaus.",
       "* (RE7)Tu també m'es(SOL)times,\n(RE7)tu també penses en (SOL)mi,\n(MI7)tu, que dius coses tan (la)belles, tu,\n(RE7)quan tornaràs prop de (SOL)mi? (SOL7)",
-      "Tu se(DO)ràs, (SOL7)menorquina esti(DO)mada, (DO7)\ntu se(FA)ràs, a la vora del (DO)mar,\ntu se(SOL7)ràs com un so de cam(DO)panes,\nsa gran font per sa set des meus (RE7)llavis que em (SOL7)crema sa (DO)sang. (DO)\n{(final en bis)}\n(DO - SOL7 - FA - DO)",
-      "Més en(DO)llà (SOL7)veig un cel ple d'es(DO)trelles, (DO7)\nmés en(FA)llà veig un arbre flo(DO)rit,\nprop de (SOL7)mi, una dolça mi(DO)rada\ni unes mans amoroses i ar(RE7)dents a sobre des meu (SOL7)pit. (SOL7)",
+      "Tu se(DO)ràs, (SOL7)menorquina esti(DO)mada, (DO7)\ntu se(FA)ràs, a la vora del (DO)mar,\ntu se(SOL7)ràs com un so de cam(DO)panes,\nsa gran font per sa set des meus (RE7)llavis que em (SOL7)crema sa (DO)sang. (_DO)\n{(final en bis)}\n(DO - SOL7 - FA - DO)",
+      "Més en(DO)llà (SOL7)veig un cel ple d'es(DO)trelles, (DO7)\nmés en(FA)llà veig un arbre flo(DO)rit,\nprop de (SOL7)mi, una dolça mi(DO)rada\ni unes mans amoroses i ar(RE7)dents a sobre des meu (SOL7)pit. (_SOL7)",
       "Torna(DO)ré (SOL7)quan sa font torni (DO)clara, (DO7)\ntorna(FA)ré amb sa lluna de (DO)maig,\ntorna(SOL7)ré quan sa nit ampla i (DO)bruna,\nentre canyes i pàl·lids si(RE7)lencis, es(SOL7)colti es meu (DO)cant. {(bis)}"
     ]
   },
   114: {
     stanzas: [
-      "Te acordarás de (mi)mí cuando te besen otros (SI7)labios,\nte acordarás de mí cuando te estrechen otros (mi)brazos,\njamás olvida(MI7)rás que mi pasión fue desme(la)dida,\ny un día llora(mi)rás por la falsa ilu(SI7)sión de tu par(mi)tida. (mi)",
-      "Yo siempre espera(mi)ré que tú regreses a mi (SI7)lado,\ncuando tu nuevo amor se canse y te haya abando(mi)nado.\nLe pedirás per(MI7)dón al corazón que abando(la)naste\nbuscando la ter(mi)nura que con tu aven(SI7)tura no encon(mi)traste. (mi)",
-      "Te acordarás de (MI7)mí cuando te sientas enga(la)ñada,\ntú volverás a (RE7)mí cuando te encuentres destro(SOL)zada,\ny buscarás mis (MI7)brazos y los besos que te (la)di. (la)",
-      "Mi amor, que fue en de(mi)rroche,\nyo sé que cualquier (FA#)noche\ntú (SI7)volverás a (mi)mí. (mi)",
+      "Te acordarás de (mi)mí cuando te besen otros (SI7)labios,\nte acordarás de mí cuando te estrechen otros (mi)brazos,\njamás olvida(MI7)rás que mi pasión fue desme(la)dida,\ny un día llora(mi)rás por la falsa ilu(SI7)sión de tu par(mi)tida. (_mi)",
+      "Yo siempre espera(mi)ré que tú regreses a mi (SI7)lado,\ncuando tu nuevo amor se canse y te haya abando(mi)nado.\nLe pedirás per(MI7)dón al corazón que abando(la)naste\nbuscando la ter(mi)nura que con tu aven(SI7)tura no encon(mi)traste. (_mi)",
+      "Te acordarás de (MI7)mí cuando te sientas enga(la)ñada,\ntú volverás a (RE7)mí cuando te encuentres destro(SOL)zada,\ny buscarás mis (MI7)brazos y los besos que te (la)di. (_la)",
+      "Mi amor, que fue en de(mi)rroche,\nyo sé que cualquier (FA#)noche\ntú (SI7)volverás a (mi)mí. (_mi)",
       "{(DC)}",
-      "{(final):} (SI7 - mi)"
+      "{(final):} (_SI7 - _mi)"
     ]
   },
   115: {
     stanzas: [
-      "Vol(re)dria ser poeta per dir-te quant t'es(LA7)tim,\nper convertir ses llàgrimes en versos i en can(re)çons,\nper prendre i oferir-te es (RE7)boscos, ses es(sol)trelles,\nses ones i ses (re)coses més (LA7)belles d'aquest (RE)món. (RE)",
-      "* Ulls (RE)verds (LA7)de mirada (RE)tendra\nque no (LA7)puc aconse(RE)guir,\nsi po(SI7)gués es teus ulls (mi)prendre\ni tot mi(LA7)rant-los mo(RE)rir. (re - re)\n{(final en bis):} I tot mi(sol)rant-los... (sol) (LA7)mo(RE)rir. (RE)",
-      "Vol(re)dria ser la mar de sa cala on et (LA7)banyes,\ni es blau llençol de seda que embolcalla es teu (re)cos,\ni es mirall que es matí es (RE7)teu rostre emmi(sol)ralla,\ni fer-te de com(re)panya des (LA7)teu dolç llit d'a(RE)mor. (RE) {(bis)}"
+      "Vol(re)dria ser poeta per dir-te quant t'es(LA7)tim,\nper convertir ses llàgrimes en versos i en can(re)çons,\nper prendre i oferir-te es (RE7)boscos, ses es(sol)trelles,\nses ones i ses (re)coses més (LA7)belles d'aquest (RE)món. (_RE)",
+      "* Ulls (RE)verds (_LA7)de mirada (RE)tendra\nque no (LA7)puc aconse(RE)guir,\nsi po(SI7)gués es teus ulls (mi)prendre\ni tot mi(LA7)rant-los mo(RE)rir. (re - _re)\n{(final en bis):} I tot mi(sol)rant-los... (_sol) (LA7)mo(RE)rir. (_RE)",
+      "Vol(re)dria ser la mar de sa cala on et (LA7)banyes,\ni es blau llençol de seda que embolcalla es teu (re)cos,\ni es mirall que es matí es (RE7)teu rostre emmi(sol)ralla,\ni fer-te de com(re)panya des (LA7)teu dolç llit d'a(RE)mor. (_RE) {(bis)}"
     ]
   },
   116: {
     stanzas: [
-      "Tenía (DO)negros los (re)ojos\n(SOL7)y era su piel amba(DO)rina,\nuna mu(dis2)chacha mo(re)rena,\n(SOL7)delicada y menor(DO)quina.",
-      "Me acerqué a (DO)ella una (re)tarde\n(SOL7)en la (FA)villa de Ala(MI7)ior,\n(FA)y desde entonces Me(DO)norca\n(SOL7)fue para mí todo a(DO)mor. (DO7 x4)",
-      "* (DO7)Por (FA)más que quise no (la)pude conser(sol)var\na(DO7)quel amor que me (sol - DO7)trajo el a(FA)zar.\n(RE7)Ay, amor, inextin(sol)guible dulce amor.\n(DO7)Ay, muchacha encanta(FA)dora de Alaior. (FA)\n{(final en bis):} (sol)De Ala(FA)ior! (FA)",
-      "(SOL7)La quise (DO)mucho y con (re)ella\n(SOL7)quise esta isla ben(DO)dita.\nEra Me(dis2)norca tan (re)bella,\n(SOL7)la muchacha, tan bo(DO)nita...",
-      "Como una (DO)rosa muy (re)blanca\n(SOL7)en mi (FA)vida flore(MI7)ció.\n(FA)Ella soñaba en mis (DO)brazos,\n(SOL7)pero en mis brazos mu(DO)rió. (DO7 x4) {(bis)}"
+      "Tenía (_DO)negros los (re)ojos\n(SOL7)y era su piel amba(DO)rina,\nuna mu(_dis2)chacha mo(re)rena,\n(SOL7)delicada y menor(DO)quina.",
+      "Me acerqué a (_DO)ella una (re)tarde\n(SOL7)en la (FA)villa de Ala(MI7)ior,\n(FA)y desde entonces Me(DO)norca\n(SOL7)fue para mí todo a(DO)mor. (_DO7 x4)",
+      "* (_DO7)Por (FA)más que quise no (la)pude conser(sol)var\na(DO7)quel amor que me (sol - DO7)trajo el a(FA)zar.\n(_RE7)Ay, amor, inextin(sol)guible dulce amor.\n(DO7)Ay, muchacha encanta(FA)dora de Alaior. (_FA)\n{(final en bis):} (_sol)De Ala(FA)ior! (_FA)",
+      "(_SOL7)La quise (_DO)mucho y con (re)ella\n(SOL7)quise esta isla ben(DO)dita.\nEra Me(_dis2)norca tan (re)bella,\n(SOL7)la muchacha, tan bo(DO)nita...",
+      "Como una (_DO)rosa muy (re)blanca\n(SOL7)en mi (FA)vida flore(MI7)ció.\n(FA)Ella soñaba en mis (DO)brazos,\n(SOL7)pero en mis brazos mu(DO)rió. (_DO7 x4) {(bis)}"
     ]
   },
   117: {
     stanzas: [
-      "Sin fir(MI7)mar un docu(la)mento\n(SI7)ni mediar un previo a(mi)viso,\nsin cruzar un jura(FA#)mento\nhemos (SI7)hecho un compro(mi)miso. (mi)",
-      "Sin pro(MI7)mesas nos mar(la)chamos,\n(SI7)ni te obligas ni me o(mi)bligo,\ny aún así sé que so(FA#)ñamos\ntú con(SI7)migo y yo con(mi)tigo. (mi)",
-      "* Tu des(mi)tino es como el (RE7)mío,\nsi eres vela, yo soy (SOL)viento,\n(mi)si eres cauce, yo soy (la)río,\n(DO)si eres llaga, yo, la(SI7)mento. (DO7 - SI7)",
-      "Nadie ha(MI7)bló de enamo(la)rarnos,\n(SI7)pero Dios así lo (mi)quiso,\ny tan solo de tra(FA#)tarnos\nha na(SI7)cido un compro(mi)miso. (mi) {(bis)}",
-      "(la)Un compro(MI)miso... (MI)"
+      "Sin fir(_MI7)mar un docu(la)mento\n(SI7)ni mediar un previo a(mi)viso,\nsin cruzar un jura(FA#)mento\nhemos (SI7)hecho un compro(mi)miso. (_mi)",
+      "Sin pro(_MI7)mesas nos mar(la)chamos,\n(SI7)ni te obligas ni me o(mi)bligo,\ny aún así sé que so(FA#)ñamos\ntú con(SI7)migo y yo con(mi)tigo. (_mi)",
+      "* Tu des(_mi)tino es como el (RE7)mío,\nsi eres vela, yo soy (SOL)viento,\n(mi)si eres cauce, yo soy (la)río,\n(DO)si eres llaga, yo, la(SI7)mento. (DO7 - _SI7)",
+      "Nadie ha(_MI7)bló de enamo(la)rarnos,\n(SI7)pero Dios así lo (mi)quiso,\ny tan solo de tra(FA#)tarnos\nha na(SI7)cido un compro(mi)miso. (_mi) {(bis)}",
+      "(_la)Un compro(MI)miso... (_MI)"
     ]
   },
   118: {
     stanzas: [
-      "Un (MI)dia bai(SI7)xant d'Ar(MI)gent\nvaig veure pa(SI7)ssar un se(MI)nyor\nqui anava a ca(SI7)vall d'un (MI)ruc,\na cavall d'un (SI7)ruc, a cavall d'un ruc. (SI7)",
-      "Un se(MI)nyor damunt un ruc\nse'n va anar a passe(MI7)jar,\nera un (LA)dia que plo(MI)via,\njo us di(SI7)ré què va pa(MI)ssar. (MI)",
-      "Es ruc va (MI)caure, va llene(SI7)gar,\nhi havia (fa#)aigo, (SI7)se va so(MI)iar,\ni es senyor deia (MI7)per tot a(LA)rreu:\n«Qui no vol (MI)caure, qui no vol (SI7)caure que vagi a (MI)peu!» (MI)",
-      "Un se(MI)nyor damunt un ruc\nuna costa dava(MI7)llava,\ni a sa (LA)gent que se'l mi(MI)rava\ndeia: (SI7)«Jo qualc perquè (MI)puc!» (MI)",
-      "Es ruc va (MI)caure d'un tropi(SI7)ssó,\nper ses o(fa#)relles (SI7)passà es se(MI)nyor,\ni es senyor deia (MI7)amb es front (LA)blau:\n«No basta es (MI)sebre, no basta es (SI7)sebre quan s'ase (MI)cau!» (MI - SI7 - MI)"
+      "Un (MI)dia bai(SI7)xant d'Ar(MI)gent\nvaig veure pa(SI7)ssar un se(MI)nyor\nqui anava a ca(SI7)vall d'un (MI)ruc,\na cavall d'un (SI7)ruc, a cavall d'un ruc. (_SI7)",
+      "Un se(MI)nyor damunt un ruc\nse'n va anar a passe(MI7)jar,\nera un (LA)dia que plo(MI)via,\njo us di(SI7)ré què va pa(MI)ssar. (_MI)",
+      "Es ruc va (MI)caure, va llene(SI7)gar,\nhi havia (fa#)aigo, (SI7)se va so(MI)iar,\ni es senyor deia (MI7)per tot a(LA)rreu:\n«Qui no vol (MI)caure, qui no vol (SI7)caure que vagi a (MI)peu!» (_MI)",
+      "Un se(MI)nyor damunt un ruc\nuna costa dava(MI7)llava,\ni a sa (LA)gent que se'l mi(MI)rava\ndeia: (SI7)«Jo qualc perquè (MI)puc!» (_MI)",
+      "Es ruc va (MI)caure d'un tropi(SI7)ssó,\nper ses o(fa#)relles (SI7)passà es se(MI)nyor,\ni es senyor deia (MI7)amb es front (LA)blau:\n«No basta es (MI)sebre, no basta es (SI7)sebre quan s'ase (MI)cau!» (_MI - _SI7 - _MI)"
     ]
   },
   119: {
     intro: "(la - mi - FA# - SI7 - mi)",
     stanzas: [
-      "(mi)A un racó de taverna,\n(DO)a sa vorera des (mi)port,\n(DO)te veig seure (RE7)cada (SOL)vespre\namo(SI7)rrat an es teu (mi)got.",
-      "(mi)Vell mariner sense barca,\n(DO)sense vela ni ti(mi)mó,\n(DO)sols una ve(RE7)lla ber(SOL)ganta\nte dó(SI7)na sa compa(mi)ssió.",
-      "* ** Però (mi)tornes, però (MI7)tornes cada (la)nit\na (SI7)prendre es teu vol tan (mi)màgic,\ndalt o(FA#)nades (SI7)d'espe(mi)rit.",
-      "(MI7)I si un vespre malpa(la)rit\nd'aquest (RE7)somni no des(SOL)pertes,\nna(SI7)vega pel cel, fe(mi)liç,\nrecol(FA#)zat da(SI7)munt co(mi)berta. {(bis 2 i final)}",
-      "(mi)No tens amics que t'envoltin\n(DO)ni pescadors per xe(mi)rrar.\n(DO)Una nansa i (RE7)sa fi(SOL)tora,\ntot es (SI7)teu poc capi(mi)tal.",
-      "(mi)I una guiterra rompuda,\n(DO)amb es so mig esquer(mi)dat,\n(DO)de sa que treus (RE7)per to(SOL)nada\ncançons (SI7)des avantpa(mi)ssats. {(bis 1)}"
+      "(mi)A un racó de taverna,\n(DO)a sa vorera des (mi)port,\n(DO)te veig seure (_RE7)cada (SOL)vespre\namo(SI7)rrat an es teu (mi)got.",
+      "(mi)Vell mariner sense barca,\n(DO)sense vela ni ti(mi)mó,\n(DO)sols una ve(_RE7)lla ber(SOL)ganta\nte dó(SI7)na sa compa(mi)ssió.",
+      "* ** Però (mi)tornes, però (MI7)tornes cada (la)nit\na (SI7)prendre es teu vol tan (mi)màgic,\ndalt o(_FA#)nades (_SI7)d'espe(mi)rit.",
+      "(MI7)I si un vespre malpa(la)rit\nd'aquest (RE7)somni no des(SOL)pertes,\nna(SI7)vega pel cel, fe(mi)liç,\nrecol(_FA#)zat da(_SI7)munt co(mi)berta. {(bis 2 i final)}",
+      "(mi)No tens amics que t'envoltin\n(DO)ni pescadors per xe(mi)rrar.\n(DO)Una nansa i (_RE7)sa fi(SOL)tora,\ntot es (SI7)teu poc capi(mi)tal.",
+      "(mi)I una guiterra rompuda,\n(DO)amb es so mig esquer(mi)dat,\n(DO)de sa que treus (_RE7)per to(SOL)nada\ncançons (SI7)des avantpa(mi)ssats. {(bis 1)}"
     ]
   },
   120: {
     stanzas: [
-      "Pinto les (mi)notes (MI7)d'una hava(la)nera,\nblava com (RE7)l'aigua d'un mar an(SOL)tic. (SI7)\nBlanca d'es(mi)cuma, (MI7)dolça com (la)l'aire,\ngris de ga(mi)vines, daurada d'i(SI7)matges, vestida de (mi)nit. (mi)",
-      "Miro el pai(la)satge, (RE7)cerco pa(SOL)raules (mi)\nque omplin els (SI7)versos sense ne(mi)guit. (MI7)\nEls pins m'a(la)bracen, (SI7)sento com (mi)callen,\nel vent s'em(la)porta (SI7)tot l'horit(MI)zó. (SI7)",
-      "* Si pogués fer-me es(MI)cata i amagar-me a la (sol#)platja\nper sentir sons i (fa#)tardes del pa(MI)ssat, (SI7)\nd'aquest món d'enyo(sol#)rança, (fa#)a(SI7)mor i (do#)calma,\nperfu(fa#)mat de (SI7)lluna, foc i (MI)rom. (SI7)",
-      "Si pogués enfi(MI)lar-me a l'onada més (sol#)alta\ni guarnir de pal(fa#)meres el re(MI)cord, (SI7)\nescampant amb ca(sol#)nyella (fa#)to(SI7)tes les (do#)cales\n** i amb pe(fa#)txines (SI7)fer-lis un bre(MI)ssol. {(bis 2 i final: (MI))}",
-      "(mi)Els vells em (mi)parlen, (MI7)plens de ten(la)dresa,\nd'hores vis(RE7)cudes amb emo(SOL)ció, (SI7)\njoves en(mi)cara, (MI7)forts i va(la)lents,\nprínceps de (mi)xarxa, herois de tem(SI7)pesta, amics del bon (mi)temps. (mi)",
-      "Els ulls in(la)venten (RE7)noves his(SOL)tòries, (mi)\nvaixells que (SI7)tornen d'un lloc de (mi)sol (MI7)\nporten to(la)nades (SI7)enamo(mi)rades,\ndones i (la)Pàtria, (SI7)veles i (MI)flors. (SI7) {(bis 1)}"
+      "Pinto les (mi)notes (MI7)d'una hava(la)nera,\nblava com (RE7)l'aigua d'un mar an(SOL)tic. (_SI7)\nBlanca d'es(mi)cuma, (MI7)dolça com (la)l'aire,\ngris de ga(mi)vines, daurada d'i(SI7)matges, vestida de (mi)nit. (_mi)",
+      "Miro el pai(la)satge, (RE7)cerco pa(SOL)raules (mi)\nque omplin els (SI7)versos sense ne(mi)guit. (MI7)\nEls pins m'a(la)bracen, (SI7)sento com (mi)callen,\nel vent s'em(la)porta (SI7)tot l'horit(MI)zó. (_SI7)",
+      "* Si pogués fer-me es(MI)cata i amagar-me a la (sol#)platja\nper sentir sons i (fa#)tardes del pa(MI)ssat, (SI7)\nd'aquest món d'enyo(sol#)rança, (_fa#)a(_SI7)mor i (do#)calma,\nperfu(fa#)mat de (SI7)lluna, foc i (MI)rom. (_SI7)",
+      "Si pogués enfi(MI)lar-me a l'onada més (sol#)alta\ni guarnir de pal(fa#)meres el re(MI)cord, (SI7)\nescampant amb ca(sol#)nyella (_fa#)to(_SI7)tes les (do#)cales\n** i amb pe(fa#)txines (SI7)fer-lis un bre(MI)ssol. {(bis 2 i final: (_MI))}",
+      "(_mi)Els vells em (mi)parlen, (MI7)plens de ten(la)dresa,\nd'hores vis(RE7)cudes amb emo(SOL)ció, (_SI7)\njoves en(mi)cara, (MI7)forts i va(la)lents,\nprínceps de (mi)xarxa, herois de tem(SI7)pesta, amics del bon (mi)temps. (_mi)",
+      "Els ulls in(la)venten (RE7)noves his(SOL)tòries, (mi)\nvaixells que (SI7)tornen d'un lloc de (mi)sol (MI7)\nporten to(la)nades (SI7)enamo(mi)rades,\ndones i (la)Pàtria, (SI7)veles i (MI)flors. (_SI7) {(bis 1)}"
     ]
   },
   121: {
     stanzas: [
-      "Este a(SOL7)mor apasio(DO)nado\nanda (SOL7)todo alboro(DO)tado por vol(SOL7)ver.\nVoy camino a la lo(re)cura,\ny aunque todo me tor(SOL7)tura, sé que(DO)rer. (DO)",
-      "* Nos de(SOL7)jamos hace (DO)tiempo,\npero (SOL7)me llegó el mo(DO)mento (DO7)de per(FA)der. (FA)\nTú te(SOL7)nías mucha ra(DO)zón,\nle hago (LA7)caso al cora(re)zón y me (SOL7)muero por vol(DO)ver. (DO)",
-      "Y vol(DO)ver, volver, vol(SOL7)ver\na tus brazos otra (DO)vez.\nLlegaré hasta donde es(SOL7)tés,\nyo sé per(re)der, yo sé per(SOL7)der,\nquiero vol(SOL7)ver, volver, vol(DO)ver. {(bis)} (DO - SOL7 - DO)"
+      "Este a(_SOL7)mor apasio(DO)nado\nanda (SOL7)todo alboro(DO)tado por vol(SOL7)ver.\nVoy camino a la lo(re)cura,\ny aunque todo me tor(SOL7)tura, sé que(DO)rer. (_DO)",
+      "* Nos de(_SOL7)jamos hace (DO)tiempo,\npero (SOL7)me llegó el mo(DO)mento (DO7)de per(FA)der. (_FA)\nTú te(_SOL7)nías mucha ra(DO)zón,\nle hago (LA7)caso al cora(re)zón y me (SOL7)muero por vol(DO)ver. (_DO)",
+      "Y vol(_DO)ver, volver, vol(SOL7)ver\na tus brazos otra (DO)vez.\nLlegaré hasta donde es(SOL7)tés,\nyo sé per(re)der, yo sé per(SOL7)der,\nquiero vol(_SOL7)ver, volver, vol(DO)ver. {(bis)} (_DO - _SOL7 - _DO)"
     ]
   },
   122: {
     stanzas: [
-      "Me(mi)norca, (la)terra de lle(mi)genda. Menorca, (la)illa de s'a(mi)mor.\n(la)Guarden, ge(SI7)loses, ses (mi)roques, sa (RE7)cova (RE7)d'en Xo(mi)roi.",
+      "Me(_mi)norca, (_la)terra de lle(_mi)genda. Menorca, (_la)illa de s'a(_mi)mor.\n(_la)Guarden, ge(_SI7)loses, ses (_mi)roques, sa (_RE7)cova (_RE7)d'en Xo(mi)roi.",
       "Hi hagué un (mi)moro que a aquesta (SOL)illa no se (SI7)sap com va arri(mi)bar,\ntal vegada com a(SOL)rriba (SI7)amb ses ones es fus(mi)tam.\nCer(SOL)cant lloc (RE7)on ama(SOL)gar-se (la)una caverna tro(SI7)bà,\nentre (mi)roques, allà (SOL)dalt (SI7)d'un majestuós pe(mi)nyal.",
-      "* Xo(MI7)roi, Xo(la)roi, d'una (RE7)al·lota es va enamo(SOL)rar,\nXo(mi)roi, Xo(SI7)roi, i un dia la va rap(mi)tar.\nXo(MI7)roi, Xo(la)roi, ses (RE7)roques, es sol i la (SOL)mar,\nXo(mi)roi, Xo(SI7)roi, visqueren sa felici(mi)tat.\nXoroi, Xoroi, (RE7)Xo(mi)roi...\n{(final en bis):} Me(mi)norca, (la)terra de lle(mi)genda.\nMe(mi)norca, (LA)illa de s'a(mi)mor. (mi)",
+      "* Xo(MI7)roi, Xo(la)roi, d'una (RE7)al·lota es va enamo(SOL)rar,\nXo(mi)roi, Xo(SI7)roi, i un dia la va rap(mi)tar.\nXo(MI7)roi, Xo(la)roi, ses (RE7)roques, es sol i la (SOL)mar,\nXo(mi)roi, Xo(SI7)roi, visqueren sa felici(mi)tat.\nXoroi, Xoroi, (RE7)Xo(mi)roi...\n{(final en bis):} Me(_mi)norca, (_la)terra de lle(_mi)genda.\nMe(_mi)norca, (_LA)illa de s'a(mi)mor. (_mi)",
       "Es temps (mi)passa i dins sa (SOL)cova (SI7)de s'imponent roque(mi)ral,\nfruits d'amor, s'escol(SOL)taren (SI7)tendres rialles d'in(mi)fants.\nPerò un (SOL)dia (RE7)en què sa (SOL)neu ves(la)tí tota s'illa de (SI7)blanc,\nses pe(mi)uades deno(SOL)taren d'en Xo(SI7)roi s'amaga(mi)tall. {(bis)}"
     ]
   },
   123: {
     stanzas: [
-      "Fue en un (LA)pueblo con mar, una (si)noche des(MI7)pués de un con(LA)cierto.\nTú reinabas detrás de la barra del único bar que vimos a(MI7)bierto.\n—Cánta(si)me una canción al (MI)oído y te pongo un cubata.\n—Con u(si)na condición: que me (MI)dejes abierto el bal(MI7)cón de tus ojos de (LA)gata.\nLoco (LA7)por conocer los secretos de tu dormi(RE)torio,\nesa (SI7)noche canté al piano del amanecer todo mi reper(MI)torio. (MI7)",
-      "Los cli(LA)entes del bar, uno a (si)uno, se (MI7)fueron mar(LA)chando.\nTú saliste a cerrar, yo me dije: «Cuidado, chaval, te estás enamo(MI7)rando».\nLuego (si)todo pasó de re(MI)pente: tu dedo en mi espalda\ndibu(si)jó un corazón y mi (MI)mano le correspon(MI7)dió debajo de tu (LA)falda.\nCami(LA7)nito al hostal nos besamos en cada fa(RE)rola.\nEra un (SI7)pueblo con mar; yo quería dormir contigo y tú no querías dormir (MI)sola. (MI)",
-      "* ** Y nos (RE)dieron las diez y las once,\nlas doce y la (LA)una, y las dos, y las tres,\ny des(si)nudos al anoche(MI7)cer nos encon(LA)tró la luna. (LA) {(bis 2 i final: (MI7 - LA))}",
-      "Nos di(LA)jimos adiós, oja(si)lá que vol(MI7)vamos a (LA)vernos.\nEl verano acabó, el otoño duró lo que tarda en llegar el in(MI7)vierno,\ny a tu (si)pueblo el azar, otra (MI)vez, el verano siguiente\nme lle(si)vó, y al final del con(MI)cierto me puse a bus(MI7)car tu cara entre la (LA)gente.\nY no ha(LA7)llé quien de ti me dijera ni media pa(RE)labra.\nPare(SI7)cía como si me quisiera gastar el destino una broma ma(MI)cabra. (MI7)",
-      "No había (LA)nadie detrás de la (si)barra del (MI7)otro ve(LA)rano,\ny en lugar de tu bar me encontré una sucursal del Banco Hispano Ameri(MI7)cano.\nTu me(si)moria vengué a pe(MI)dradas contra los cristales.\n«Sé que (si)no lo soñé», protes(MI)taba mientras me espo(MI7)saban los munici(LA)pales.\nEn mi (LA7)declaración alegué que llevaba tres (RE)copas,\ny empe(SI7)cé esta canción en el cuarto donde aquella vez te quitaba la (MI)ropa. (MI) {(bis)}"
+      "Fue en un (LA)pueblo con mar, una (si)noche des(MI7)pués de un con(LA)cierto.\nTú reinabas detrás de la barra del único bar que vimos a(MI7)bierto.\n—Cánta(si)me una canción al (MI)oído y te pongo un cubata.\n—Con u(si)na condición: que me (MI)dejes abierto el bal(MI7)cón de tus ojos de (LA)gata.\nLoco (LA7)por conocer los secretos de tu dormi(RE)torio,\nesa (SI7)noche canté al piano del amanecer todo mi reper(MI)torio. (_MI7)",
+      "Los cli(LA)entes del bar, uno a (si)uno, se (MI7)fueron mar(LA)chando.\nTú saliste a cerrar, yo me dije: «Cuidado, chaval, te estás enamo(MI7)rando».\nLuego (si)todo pasó de re(MI)pente: tu dedo en mi espalda\ndibu(si)jó un corazón y mi (MI)mano le correspon(MI7)dió debajo de tu (LA)falda.\nCami(LA7)nito al hostal nos besamos en cada fa(RE)rola.\nEra un (SI7)pueblo con mar; yo quería dormir contigo y tú no querías dormir (MI)sola. (_MI)",
+      "* ** Y nos (RE)dieron las diez y las once,\nlas doce y la (LA)una, y las dos, y las tres,\ny des(si)nudos al anoche(MI7)cer nos encon(LA)tró la luna. (LA) {(bis 2 i final: (_MI7 - _LA))}",
+      "Nos di(LA)jimos adiós, oja(si)lá que vol(MI7)vamos a (LA)vernos.\nEl verano acabó, el otoño duró lo que tarda en llegar el in(MI7)vierno,\ny a tu (si)pueblo el azar, otra (MI)vez, el verano siguiente\nme lle(si)vó, y al final del con(MI)cierto me puse a bus(MI7)car tu cara entre la (LA)gente.\nY no ha(LA7)llé quien de ti me dijera ni media pa(RE)labra.\nPare(SI7)cía como si me quisiera gastar el destino una broma ma(MI)cabra. (_MI7)",
+      "No había (LA)nadie detrás de la (si)barra del (MI7)otro ve(LA)rano,\ny en lugar de tu bar me encontré una sucursal del Banco Hispano Ameri(MI7)cano.\nTu me(si)moria vengué a pe(MI)dradas contra los cristales.\n«Sé que (si)no lo soñé», protes(_MI)taba mientras me espo(MI7)saban los munici(LA)pales.\nEn mi (LA7)declaración alegué que llevaba tres (RE)copas,\ny empe(SI7)cé esta canción en el cuarto donde aquella vez te quitaba la (MI)ropa. (_MI) {(bis)}"
     ]
   },
   124: {
     stanzas: [
-      "Ya no te (LA7)doy mi per(re)dón\nporque (RE7)sé que me enga(sol)ñaste,\nno me pidas compa(LA7)sión\nporque un día te entre(re)gaste. (re)",
-      "No hiciste (LA7)caso de (re)mí\ncuando llo(RE7)ré por tu e(sol)rror,\npensabas (LA7)ser muy (re)feliz\ny él se burlaba de (LA7)ti\nmientras matabas mi a(re)mor. (re)",
-      "* Busca(RE7)rás felici(sol)dad (DO7)en los labios de otras (FA)bocas, (re)\nvas a querer olvi(LA7)dar tus largas noches (re)locas. (re)\nCuánto he llo(RE7)rado por (sol)ti, (DO7)suplicando que me a(FA)maras, (re)\nmientras el lobo fe(LA7)roz te tenía bajo sus (re)garras. (re)",
-      "Llorando a (LA7)mí volve(re)rás,\npidiéndo(RE7)me compa(sol)sión,\npero este (LA7)día sa(re)brás\nque es tarde para olvi(LA7)dar.\nYa no te doy mi per(re)dón. (re) {(final en bis)}",
+      "Ya no te (_LA7)doy mi per(re)dón\nporque (RE7)sé que me enga(sol)ñaste,\nno me pidas compa(LA7)sión\nporque un día te entre(re)gaste. (_re)",
+      "No hiciste (_LA7)caso de (re)mí\ncuando llo(RE7)ré por tu e(sol)rror,\npensabas (LA7)ser muy (re)feliz\ny él se burlaba de (LA7)ti\nmientras matabas mi a(re)mor. (_re)",
+      "* Busca(_RE7)rás felici(sol)dad (DO7)en los labios de otras (FA)bocas, (re)\nvas a querer olvi(LA7)dar tus largas noches (re)locas. (_re)\nCuánto he llo(_RE7)rado por (sol)ti, (DO7)suplicando que me a(FA)maras, (re)\nmientras el lobo fe(LA7)roz te tenía bajo sus (re)garras. (_re)",
+      "Llorando a (_LA7)mí volve(re)rás,\npidiéndo(RE7)me compa(sol)sión,\npero este (LA7)día sa(re)brás\nque es tarde para olvi(LA7)dar.\nYa no te doy mi per(re)dón. (_re) {(final en bis)}",
       "{(recitat) Tu inocencia fue culpable}\n{del final de nuestro amor,}\n{y aunque no logro olvidarte,}\n{jamás tendrás mi perdón. (bis)}"
     ]
   },
   125: {
     stanzas: [
       "* {(jota)} Volem (DO)vi, volem (SOL7)vi, volem (DO)vi, [1]\nen beurem, en beurem, en beu(SOL7)rem,\nsi no mos ne (FA)donen no (SOL7)mos n'ani(DO)rem,\nvo(re)lem estar a(SOL7)quí, i aquí esta(DO)rem. (DO) {(bis)}",
-      "(DO)Txi, txiribiribí, txiribiri(SOL7)bí,\nquac, quac, quac (quac!).\nTxi, txiribiribí, txiribiri(DO)bí,\nquac, quac, quac (quac!).\n(DO7)Txi, txiribiribí, txiribiri(FA)bí,\nquac, quac, quac (quac!).\n(DO)Quac (quac!), (SOL7)quac (quac!),\n(DO)quac, quac, quac, (DO)quac.\nPe(DO)brots ver(DO)mells\n(SOL7)pintats de (DO)blau, (SOL7)ba(DO)bau!",
+      "(DO)Txi, txiribiribí, txiribiri(SOL7)bí,\nquac, quac, quac (quac!).\nTxi, txiribiribí, txiribiri(DO)bí,\nquac, quac, quac (quac!).\n(DO7)Txi, txiribiribí, txiribiri(FA)bí,\nquac, quac, quac (quac!).\n(DO)Quac (quac!), (SOL7)quac (quac!),\n(DO)quac, quac, quac, (_DO)quac.\nPe(_DO)brots ver(_DO)mells\n(SOL7)pintats de (_DO)blau, (_SOL7)ba(_DO)bau!",
       "***",
-      "Si vo(DO)leu sentir cantar [2]\nsa cançó de sa cui(SOL7)nera,\nella és (re)una punye(SOL7)tera\nque a tots (re)mos vol (SOL7)embrui(DO)xar.\nSi vo(DO)leu sentir cantar\nsa can(DO7)çó de sa cui(FA)nera,\nella és una punye(DO)tera\n(SOL7)que a tots mos vol embrui(DO)xar. (DO)",
-      "Dins sa (DO)cuina hi ha d'haver\nun armariet pe(SOL7)tit\nper po(re)sar-hi es so(SOL7)frit\ni una an(re)colla de (SOL7)sèu de (DO)be.\nDins sa (DO)cuina hi ha d'haver\nun ar(DO7)mariet pe(FA)tit\nper posar-hi es so(DO)frit\ni u(SOL7)na ancolla de sèu de (DO)be. (DO)",
-      "Sa cui(DO)nera n'és petita\ni no basta an es fo(SOL7)gons,\nli han hagut (re)de fer uns esca(SOL7)lons\ni una o(re)lleta (SOL7)més pe(DO)tita.\nSa cui(DO)nera n'és petita\ni no (DO7)basta an es fo(FA)gons,\nli han hagut de fer uns esca(DO)lons\n(SOL7)i una olleta més pe(DO)tita. (DO)",
+      "Si vo(DO)leu sentir cantar [2]\nsa cançó de sa cui(SOL7)nera,\nella és (re)una punye(SOL7)tera\nque a tots (re)mos vol (SOL7)embrui(DO)xar.\nSi vo(DO)leu sentir cantar\nsa can(DO7)çó de sa cui(FA)nera,\nella és una punye(DO)tera\n(SOL7)que a tots mos vol embrui(DO)xar. (_DO)",
+      "Dins sa (DO)cuina hi ha d'haver\nun armariet pe(SOL7)tit\nper po(re)sar-hi es so(SOL7)frit\ni una an(re)colla de (SOL7)sèu de (DO)be.\nDins sa (DO)cuina hi ha d'haver\nun ar(DO7)mariet pe(FA)tit\nper posar-hi es so(DO)frit\ni u(SOL7)na ancolla de sèu de (DO)be. (_DO)",
+      "Sa cui(DO)nera n'és petita\ni no basta an es fo(SOL7)gons,\nli han hagut (re)de fer uns esca(SOL7)lons\ni una o(re)lleta (SOL7)més pe(DO)tita.\nSa cui(DO)nera n'és petita\ni no (DO7)basta an es fo(FA)gons,\nli han hagut de fer uns esca(DO)lons\n(SOL7)i una olleta més pe(DO)tita. (_DO)",
       "Tant si és (DO)cuit com si és cru\nella és atrevida i (SOL7)tasta,\ni un di(re)a farà una em(SOL7)pasta\nque fa(re)rà mal (SOL7)a col(DO)cú.\nTant si és (DO)cuit com si és cru\nella és (DO7)atrevida i (FA)tasta,\n* (FA)i un dia farà una em(DO)pasta\n(SOL7)que farà mal a col(DO)cú. {(bis: (DO7))} (DO)\n{(tot seguit: Ses muntanyes...)}",
       "***",
       "* Ses (DO)muntanyes de Mallor(SOL7)ca [3]\nsón ses més altes del món, (DO) {(bis)}\n* i de tan altes que (FA)són veuen te(SOL7)rres,\nveuen terres de Menor(DO)ca. {(bis)}",
       "(DO)Ses fadrines m'agraden, ses casades tam(SOL7)bé,\nsi són velles ruades, (re)les a(SOL7)profita(DO)ré,\nles aprofitaré, les aprofita(SOL7)ré.\nSes fadrines m'agraden, (re)ses ca(SOL7)sades tam(DO)bé. (RE7 x4)",
-      "(SOL)Txi, txiribiribí, txiribiri(RE7)bí,\nquac, quac, quac (quac!).\nTxi, txiribiribí, txiribiri(SOL)bí,\nquac, quac, quac (quac!).\n(SOL7)Txi, txiribiribí, txiribiri(DO)bí,\nquac, quac, quac (quac!).\n(SOL)Quac (quac!), (RE7)quac (quac!),\n(SOL)quac, quac, quac, (SOL)quac.\nPe(SOL)brots ver(SOL)mells\n(RE7)pintats de (SOL)blau, (RE7)ba(SOL)bau!",
+      "(SOL)Txi, txiribiribí, txiribiri(RE7)bí,\nquac, quac, quac (quac!).\nTxi, txiribiribí, txiribiri(SOL)bí,\nquac, quac, quac (quac!).\n(SOL7)Txi, txiribiribí, txiribiri(DO)bí,\nquac, quac, quac (quac!).\n(SOL)Quac (quac!), (RE7)quac (quac!),\n(SOL)quac, quac, quac, (_SOL)quac.\nPe(_SOL)brots ver(_SOL)mells\n(RE7)pintats de (_SOL)blau, (_RE7)ba(_SOL)bau!",
       "***",
-      "(SOL)Es Mahón una ciudad hermosa y ga(RE7)lante, [4]\n(la)tiene (RE7)comodidades de una ciudad (SOL)grande,\nhay comercios, hay comercios de (SOL7)gran impor(DO)tancia,\njuzga(RE7)do de Primera Ins(SOL)tancia\ny una her(RE7)mosa electrici(SOL)dad. (SOL)",
+      "(SOL)Es Mahón una ciudad hermosa y ga(RE7)lante, [4]\n(la)tiene (RE7)comodidades de una ciudad (SOL)grande,\nhay comercios, hay comercios de (SOL7)gran impor(DO)tancia,\njuzga(RE7)do de Primera Ins(SOL)tancia\ny una her(RE7)mosa electrici(SOL)dad. (_SOL)",
       "Mahón (RE7)tiene muchachas bo(SOL)nitas,\nhay bo(RE7)ticas, hay ca(SOL)fés,\nhay te(RE7)atros y buenos pa(SOL)seos (SOL7)\ny un puer(DO)to de (RE7)mar al (SOL)pie. (SOL)",
       "Si con (RE7)esto no tienes bas(SOL)tante,\nmira que te (RE7)quiero, mira que te a(SOL)doro,\nsi con (RE7)esto no tienes bas(SOL)tante, (SOL7)\nmira que te (DO)quiero con (RE7)todo mi a(SOL)mor. (SOL) {(tot seguit: El amor)}",
       "***",
       "El a(SOL)mor es como el vino: [5]\nquien lo bebe ríe y (RE7)llora.\nCuando un (la)hombre se ena(RE7)mora,\nríe, (la)llora y (RE7)algo (SOL)más.",
-      "Y si (SOL)la mujer que adora\npor o(SOL7)tro ha perdido el (DO)tino, (DO)\nyo no (DO)sé, no sé, yo no (SOL)sé, no sé\nlo que (la)luego le (RE7)puede pa(SOL)sar. (SOL)",
-      "(SOL)Era bonita como una (RE7)flor,\nera chiquita, grande mi a(SOL)mor,\nyo la quería, (SOL7)ella a mí (DO)no,\ny era una (SOL)pena, (RE7)pena de a(SOL)mor. (SOL)",
+      "Y si (SOL)la mujer que adora\npor o(SOL7)tro ha perdido el (DO)tino, (_DO)\nyo no (DO)sé, no sé, yo no (SOL)sé, no sé\nlo que (la)luego le (RE7)puede pa(SOL)sar. (_SOL)",
+      "(SOL)Era bonita como una (RE7)flor,\nera chiquita, grande mi a(SOL)mor,\nyo la quería, (SOL7)ella a mí (DO)no,\ny era una (SOL)pena, (RE7)pena de a(SOL)mor. (_SOL)",
       "***",
       "Na Jo(SOL)ana és una dona [6]\nque se sap cosir una (RE7)bata,\nfa auber(la)gínies bastant (RE7)bones,\ncolque (la)pudi (RE7)de pa(SOL)tata.",
-      "I si un (SOL)dia va deveres\namb una (SOL7)hora fa es di(DO)nar. (DO)\nJo no (DO)sé, no sé, jo no (SOL)sé, no sé\ncom ve(la)gades m'ho a(RE7)rrib a men(SOL)jar. (SOL)",
-      "(SOL)Jo li dic sempre que tengui pre(RE7)sent\nque no m'agrada es menjar ca(SOL)lent.\nColque vegada (SOL7)me'l fa sa(DO)lat\ni altres ve(SOL)gades (RE7)me'l fa ben (SOL)fat. (SOL)",
+      "I si un (SOL)dia va deveres\namb una (SOL7)hora fa es di(DO)nar. (_DO)\nJo no (DO)sé, no sé, jo no (SOL)sé, no sé\ncom ve(la)gades m'ho a(RE7)rrib a men(SOL)jar. (_SOL)",
+      "(SOL)Jo li dic sempre que tengui pre(RE7)sent\nque no m'agrada es menjar ca(SOL)lent.\nColque vegada (SOL7)me'l fa sa(DO)lat\ni altres ve(SOL)gades (RE7)me'l fa ben (SOL)fat. (_SOL)",
       "***",
       "Na Do(SOL)lores tenia un novio [7]\nqui per Nadal li va rega(RE7)lar\nun (DO)pollastre blanc i (SOL)negre\nque tres pe(RE7)ssetes li va cos(SOL)tar. (SOL)",
       "Na Do(SOL)lores 'gafa es pollastre\ni el fot dins s'olla peus per a(RE7)munt.\n—Di(DO)ràs a sa teva (SOL)sogra si vol\npo(RE7)llastre que en compri (SOL)un. (SOL)",
@@ -1373,29 +1373,29 @@ const TRANSCRIBED_SONGS = {
       "(SOL)Nena, no siguis tossuda,\nque surt sa (RE7)lluna.\nNena, no siguis mussol,\nque surt es (SOL)sol.",
       "(SOL)Jo, qui tot es vespre\nt'estic can(RE7)tant\nes meus desitjos\ni es teus en(SOL)cants.",
       "(SOL)I una jove somiava,\nde Sant Llu(RE7)ís,\nsomiava que ballava\ni era es coi(SOL)xí.",
-      "(SOL)Somiava que ballava\n(SOL7)un vals sal(DO)tat,\ni era es coixí que li (SOL)feia\n(RE7)nyigo-nyigo, nyigo-(SOL)nyà. (SOL)Sí!",
+      "(SOL)Somiava que ballava\n(SOL7)un vals sal(DO)tat,\ni era es coixí que li (SOL)feia\n(RE7)nyigo-nyigo, nyigo-(SOL)nyà. (_SOL)Sí!",
       "(SOL)Quan la seva mare\nva desper(RE7)tar\nli va dir «filleta meva!»,\ni ella es va posar a plo(SOL)rar.",
-      "(SOL)Quan el seu pare\n(SOL7)va sentir aquell so(DO)roll\nli va dir «filleta (SOL)meva,\ntu estàs empre(RE7)nyada\no tens un ull de (SOL)poll!». (SOL)Sí!",
+      "(SOL)Quan el seu pare\n(SOL7)va sentir aquell so(DO)roll\nli va dir «filleta (SOL)meva,\ntu estàs empre(RE7)nyada\no tens un ull de (SOL)poll!». (_SOL)Sí!",
       "(SOL)Aigo del Carme\nli van do(RE7)nar\nmentres son pare\nes doctor va anar a avi(SOL)sar.",
       "(SOL)Quan es doctor\n(SOL7)va arri(DO)bar\nels hi va dir {«señores (SOL)míos,}\naçò és sa co(RE7)mare,\nque heu d'anar a cer(SOL)car».",
-      "Els (DO)hi va dir {«señores (SOL)míos,}\naçò és sa co(RE7)mare,\nque heu d'anar a cer(SOL)car». (SOL)Sí!",
+      "Els (DO)hi va dir {«señores (SOL)míos,}\naçò és sa co(RE7)mare,\nque heu d'anar a cer(SOL)car». (_SOL)Sí!",
       "***",
       "(SOL)Na Catalina de plaça, [9]\naquella qui ven es (RE7)pa,\n(la)li encengueren sa (RE7)traca\ni ella tota s'assus(SOL)tà.",
-      "(SOL)Va sortir en camieta,\n(SOL7)tan sols no duia cor(DO)sé,\ni de tan guapa que a(SOL)nava\nparei(la)xia (RE7)un be(SOL)bé. (SOL)",
+      "(SOL)Va sortir en camieta,\n(SOL7)tan sols no duia cor(DO)sé,\ni de tan guapa que a(SOL)nava\nparei(la)xia (RE7)un be(SOL)bé. (_SOL)",
       "(SOL)En Joan quan va arribar\namb aquelles saba(RE7)totes\n(la)encalçava ses a(RE7)l·lotes\nper darrere es campa(SOL)nar.",
       "(SOL)Sa mare quan el va veure\n(SOL7)que venia tan su(DO)at,\nli va donar una pe(SOL)sseta\nper a(la)nar a com(RE7)prar un ge(SOL)lat. (SOL)",
       "(SOL)Txi, txiribiribí, txiribiri(RE7)bí [...]",
       "***",
       "{(canvi de ritme: marxa)}",
-      "A(SOL)nem a Xauxa, si voleu venir, [10]\nque em fastidia tant de temps d'estar a(RE7)quí,\nallà on sa misèria mai s'ha cone(DO)gut\ni (DO)no do(SOL)mina sa llei (RE7)de s'em(SOL)but.",
+      "A(SOL)nem a Xauxa, si voleu venir, [10]\nque em fastidia tant de temps d'estar a(RE7)quí,\nallà on sa misèria mai s'ha cone(_DO)gut\ni (_DO)no do(SOL)mina sa llei (RE7)de s'em(SOL)but.",
       "Mar(SOL)xem, marxem, marxem,\n(SOL7)marxem a (DO)Xauxa, no ens en(RE7)tretin(SOL)guem.",
-      "A(SOL)llà on ses llebres són grosses com a murtons,\nses llangonisses corren per tots es ra(RE7)cons,\nes pins fan cocos, ses alzines fan me(DO)lons\ni (DO)ses pal(SOL)meres fan con(RE7)fits des (SOL)bons.",
+      "A(SOL)llà on ses llebres són grosses com a murtons,\nses llangonisses corren per tots es ra(RE7)cons,\nes pins fan cocos, ses alzines fan me(_DO)lons\ni (_DO)ses pal(SOL)meres fan con(RE7)fits des (SOL)bons.",
       "Mar(SOL)xem, marxem, marxem,\n(SOL7)marxem a (DO)Xauxa, no ens en(RE7)tretin(SOL)guem.",
-      "A(SOL)llà on ses al·lotes no presumen tant,\ntotes acostumen a dur es polissó da(RE7)vant,\nsón guapes totes i bones de fer un fa(DO)vor,\na(DO)nem a (SOL)Xauxa amb es pri(RE7)mer va(SOL)por.",
-      "* Mar(SOL)xem, marxem, marxem,\n(SOL7)marxem a (DO)Xauxa, no ens en(RE7)tretin(SOL)guem. {(bis)} (LA7 x4)",
+      "A(SOL)llà on ses al·lotes no presumen tant,\ntotes acostumen a dur es polissó da(RE7)vant,\nsón guapes totes i bones de fer un fa(_DO)vor,\na(_DO)nem a (SOL)Xauxa amb es pri(RE7)mer va(SOL)por.",
+      "* Mar(SOL)xem, marxem, marxem,\n(SOL7)marxem a (DO)Xauxa, no ens en(RE7)tretin(SOL)guem. {(bis)} (_LA7 x4)",
       "***",
-      "Es (RE)llagosts quan (LA7)són vin(RE)guts, [11]\nes llagosts quan són vin(LA7)guts\nsón vin(SOL)guts demati(RE)ners,\nroben (SI7)s'ordi an es bra(mi)cers\ni els (LA7)fan anar mo(RE)guts. (RE)",
-      "En Vi(RE)vó diu (LA7)a n'Es(RE)quella,\nen Vivó diu a n'Es(LA7)quella:\n«Vamos, (SOL)vamos, 'nem-hi (RE)tots,\nque la (SI7)cosa s'atro(mi)pella\nd'ani(LA7)mals qui peguen (RE)bots». (RE)",
+      "Es (RE)llagosts quan (LA7)són vin(RE)guts, [11]\nes llagosts quan són vin(LA7)guts\nsón vin(SOL)guts demati(RE)ners,\nroben (SI7)s'ordi an es bra(mi)cers\ni els (LA7)fan anar mo(RE)guts. (_RE)",
+      "En Vi(RE)vó diu (LA7)a n'Es(RE)quella,\nen Vivó diu a n'Es(LA7)quella:\n«Vamos, (SOL)vamos, 'nem-hi (RE)tots,\nque la (SI7)cosa s'atro(mi)pella\nd'ani(LA7)mals qui peguen (RE)bots». (_RE)",
       "Per fo(RE)rats i (LA7)fora(RE)dins,\nper forats i fora(LA7)dins\ns'hi en(SOL)fonyen es lla(RE)gosts,\nvamos (SI7)ja, anem-hi (mi)tots,\nque més (LA7)tost se fan en(RE)dins. (RE)",
       "Vamos, (RE)gent de (LA7)Ciuta(RE)della,\nvamos, genta de Ciuta(LA7)della,\ncorrem (SOL)a matar lla(RE)gosts,\nvamos (SI7)ja, anem-hi (mi)tots,\nque sa (LA7)plaga ens atro(RE)pella! (RE)\n{(tot seguit: Camí de Cavalls)}",
       "***",
@@ -1406,26 +1406,26 @@ const TRANSCRIBED_SONGS = {
       "A quant (RE)els veneu, madona?,\nara va de bo,\na vuit (SOL)van es mesu(LA7)rats,\nara va de bo,\na vuit van es mesu(SOL)rats,\nara va de (LA7)bo, que de bo (RE)va.",
       "No me'ls (RE)podríeu dar a quatre?,\nara va de bo,\na qua(SOL)tre no els hi puc (LA7)dar,\nara va de bo,\na quatre no els hi puc (SOL)dar,\nara va de (LA7)bo, que de bo (RE)va.",
       "Mal que (RE)vos caigués es covo,\nara va de bo,\ni no el (SOL)poguéssiu aixe(LA7)car,\nara va de bo\ni no el poguéssiu aixe(SOL)car,\nara va de (LA7)bo, que de bo (RE)va.",
-      "Quan va ha(RE)ver girat cantó,\nara va de bo,\nes co(SOL)vo li trabu(LA7)cà,\nara va de bo,\nes covo li trabu(SOL)cà,\nara va de (LA7)bo, que de bo (RE)va. (RE)",
+      "Quan va ha(RE)ver girat cantó,\nara va de bo,\nes co(SOL)vo li trabu(LA7)cà,\nara va de bo,\nes covo li trabu(SOL)cà,\nara va de (LA7)bo, que de bo (RE)va. (_RE)",
       "***",
       "(RE)Noltros qui no tenim ranxo [14]\nni cavalls per galo(LA7)par,\n(SOL)frissam que arribi es di(RE)ssabte\nper 'nar a (MI7)romandre as Mur(LA7)tar.",
       "(RE)Tenim una tequineta\ni es a(RE7)rreus d'anar a pes(SOL)car.\nNo hi ha res com (SOL)sa ca(RE)seta\nper 'nar a (LA7)beure i a xa(RE)lar. (RE7)",
-      "Quan la mar és (SOL)calma, petits i (RE)grans,\ntèquina a (LA7)s'aigo cap as se(RE)rrans. (RE7)\nNo anam de (SOL)farres ni de bes(RE)tiar,\nqualque fu(LA7)mando, beure i (RE)xalar. (RE)",
-      "(RE)Si amb noltros voleu venir (voleu venir!)\na romandre a sa ca(LA7)seta,\nfarem una caldereta,\npop amb cebes i prou (RE)vi. (RE)",
-      "Cali(LA7)uada (LA7)de cos(RE)telles,\n(RE7)de tornelles, un ti(SOL)à.\nSi amb noltros veniu a (RE)vega,\nsi amb noltros veniu a (LA7)vega\nno vos faltarà men(RE)jar. (RE)",
+      "Quan la mar és (SOL)calma, petits i (RE)grans,\ntèquina a (LA7)s'aigo cap as se(RE)rrans. (RE7)\nNo anam de (SOL)farres ni de bes(RE)tiar,\nqualque fu(LA7)mando, beure i (RE)xalar. (_RE)",
+      "(RE)Si amb noltros voleu venir (voleu venir!)\na romandre a sa ca(LA7)seta,\nfarem una caldereta,\npop amb cebes i prou (RE)vi. (_RE)",
+      "Cali(LA7)uada (LA7)de cos(RE)telles,\n(RE7)de tornelles, un ti(SOL)à.\nSi amb noltros veniu a (RE)vega,\nsi amb noltros veniu a (LA7)vega\nno vos faltarà men(RE)jar. (_RE)",
       "***",
-      "(RE)Un dilluns de molta vessa [15]\nuns quants mos vam ajuntar (LA7)\ni a Sant (mi)Isidro vam (LA7)'nar\na menjar una llet es(RE)pessa. (RE)",
-      "(RE)Mentres pujàvem sa costa\nes pagesos van sortir (LA7)\ni l'a(mi)mo ja mos va (LA7)dir:\n«Açò és sa casa i ca (RE)vostra!» (RE)",
-      "Sa ma(LA7)dona (sa ma(LA7)dona!),\nlo ma(RE)teix (lo ma(RE)teix!).\nSa cri(LA7)ada (sa cri(LA7)ada!),\nben i(RE)gual (ben i(RE7)gual!).",
-      "No vos (SOL)prengueu res a (RE)mal,\nque quasi (LA7)tots som saba(RE)ters\nde pes (LA7)cap de s'Arra(RE)val. (RE)",
-      "I (LA7)tra-larà-larà, i (RE)tra-larà-larà,\ni (LA7)tra-larà, la(RE)rà-larà-larà,\ni (LA7)tra-larà-larà, i (RE)tra-larà-larà,\ni (LA7)tra-larà-la(RE)rà! (RE)",
+      "(RE)Un dilluns de molta vessa [15]\nuns quants mos vam ajuntar (LA7)\ni a Sant (mi)Isidro vam (LA7)'nar\na menjar una llet es(RE)pessa. (_RE)",
+      "(RE)Mentres pujàvem sa costa\nes pagesos van sortir (LA7)\ni l'a(mi)mo ja mos va (LA7)dir:\n«Açò és sa casa i ca (RE)vostra!» (_RE)",
+      "Sa ma(LA7)dona (sa ma(_LA7)dona!),\nlo ma(RE)teix (lo ma(RE)teix!).\nSa cri(LA7)ada (sa cri(LA7)ada!),\nben i(RE)gual (ben i(RE7)gual!).",
+      "No vos (SOL)prengueu res a (RE)mal,\nque quasi (LA7)tots som saba(RE)ters\nde pes (LA7)cap de s'Arra(RE)val. (_RE)",
+      "I (LA7)tra-larà-larà, i (RE)tra-larà-larà,\ni (LA7)tra-larà, la(RE)rà-larà-larà,\ni (LA7)tra-larà-larà, i (RE)tra-larà-larà,\ni (LA7)tra-larà-la(RE)rà! (_RE)",
       "***",
-      "(RE)Mestre Benet Fogons, [16]\ntot lo (LA7)dia, tot lo (RE)dia,\nmestre Benet Fogons,\ntot lo (LA7)dia pes ra(RE)cons.",
+      "(RE)Mestre Benet Fogons, [16]\ntot lo (LA7)dia, tot lo (RE)dia,\nmestre Benet Fogons,\ntot lo (LA7)dia pes ra(_RE)cons.",
       "—(RE)Jo te l'encendré,\nan el (LA7)tió, tió, (RE)tió,\njo te l'encendré,\nan el (LA7)tió de pa(RE)per.",
-      "—(RE)No me l'encendràs,\nan el (LA7)tió, tió, (RE)tió,\nno me l'encendràs,\nan el (LA7)tió de pe(RE)daç.",
-      "—(RE)Pastoret, d'on véns?\n—De la mun(LA7)tanya,\nde la mun(RE)tanya.\n—Pastoret, d'on véns?\n—De la mun(LA7)tanya,\nque hi fa mal (RE)temps.",
-      "—(LA7)Quin temps (RE)fa?\n—Plou i (LA7)neva, plou i (RE)neva.\n—(LA7)Quin temps (RE)fa?\n—Plou i (LA7)neva per a(RE)llà.",
-      "Si (RE)Sant Josep ho vol,\nde(LA7)mà farà un bon (RE)dia,\nsi Sant Josep ho vol,\nde(LA7)mà farà un bon (RE)sol.\n(LA7)Si Déu (RE)vol, (LA7)si Déu (RE)vol! (RE)"
+      "—(RE)No me l'encendràs,\nan el (LA7)tió, tió, (RE)tió,\nno me l'encendràs,\nan el (LA7)tió de pe(_RE)daç.",
+      "—(RE)Pastoret, d'on véns?\n—De la mun(LA7)tanya,\nde la mun(RE)tanya.\n—Pastoret, d'on véns?\n—De la mun(LA7)tanya,\nque hi fa mal (_RE)temps.",
+      "—(LA7)Quin temps (RE)fa?\n—Plou i (LA7)neva, plou i (RE)neva.\n—(LA7)Quin temps (RE)fa?\n—Plou i (LA7)neva per a(_RE)llà.",
+      "Si (RE)Sant Josep ho vol,\nde(LA7)mà farà un bon (RE)dia,\nsi Sant Josep ho vol,\nde(LA7)mà farà un bon (_RE)sol.\n(_LA7)Si Déu (_RE)vol, (_LA7)si Déu (_RE)vol! (_RE)"
     ],
     footnote: "[1] Volem vi · [2] Cançó de sa cuinera · [3] Jotes parranderes · [4] Es Mahón · [5] El amor · [6] Na Joana · [7] Na Dolores · [8] Una jove de Sant Lluís · [9] Na Catalina de plaça · [10] Anem a Xauxa · [11] Es llagosts de Ciutadella · [12] Camí de Cavalls · [13] Una dona llarga i prima · [14] Es Murtar · [15] Cançó des sabaters · [16] Pastoret, d'on véns?"
   }
