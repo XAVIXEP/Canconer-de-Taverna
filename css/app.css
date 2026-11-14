@@ -314,3 +314,17 @@ body {
 .tl-prompt .tl-sub { margin-bottom: 18px; }
 .tl-row { align-items: stretch; }
 .tl-row .tl-btn { margin-bottom: 14px; }
+
+/* Peu de pàgina */
+.send-btn {
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  width: fit-content; max-width: 100%; margin: 6px auto 4px; padding: 12px 22px; min-height: 48px;
+  font: inherit; font-size: 16px; font-weight: 600; color: #fff;
+  background: #b45309; border: 1px solid #d97706; border-radius: 8px; cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45); transition: background 0.15s, transform 0.1s;
+}
+.send-btn:hover { background: #d97706; }
+.send-btn:active { transform: scale(0.97); }
+.send-btn svg { width: 20px; height: 20px; flex: none; color: #fff; }
+.foot-links { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px; margin-top: 4px; }
+.foot-links.hidden { display: none; }

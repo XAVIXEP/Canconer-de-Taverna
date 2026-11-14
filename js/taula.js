@@ -49,9 +49,9 @@ function taulaPaint() {
   if (dot) { dot.style.background = colors[taula.status]; dot.style.animation = (taula.status === 'connecting' || taula.status === 'retry') ? 'pulse 1.4s ease-in-out infinite' : ''; }
   const lab = $t('navTableLabel');
   if (lab) lab.textContent = taula.status === 'on' ? `Taula · ${taula.n}` : (taula.status === 'off' ? 'Taula' : 'Taula…');
-  // El botó «Enviar aquesta pàgina» només es veu si som dins una taula i hi podem enviar
+  // El botó «Enviar aquesta pàgina» només es veu en una cançó, si som dins una taula i hi podem enviar
   const send = $t('btnSendPage');
-  if (send) send.style.display = taulaCanSend() ? '' : 'none';
+  if (send) send.style.display = (taulaCanSend() && typeof currentView === 'number' && currentView >= 1) ? '' : 'none';
   if (!$t('tableModal').classList.contains('hidden')) taulaRenderModal();
 }
 

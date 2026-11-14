@@ -326,6 +326,10 @@ function render() {
     try { lucide.createIcons(); } catch (e) {}
   }
   fitLyrics();
+  // Peu: els enllaços preliminars només a la portada; el botó d'enviar, només a les cançons
+  const foot = document.getElementById('footLinks');
+  if (foot) foot.classList.toggle('hidden', currentView !== 0);
+  if (typeof taulaPaint === 'function') taulaPaint();
 }
 
 /* =========================================================================
