@@ -1,13 +1,20 @@
 # Servidor de la Taula · Cançoner de Taverna
 
-Pequeño servidor en tiempo real (Cloudflare Worker + Durable Objects). Cada sala es un Durable Object:
-los móviles se conectan por WebSocket y cuando uno envía una canción, todos los de la sala la reciben.
-No guarda datos personales: solo la última canción enviada (número, nombre opcional y hora).
+Pequeño servidor en tiempo real (Cloudflare Worker + Durable Objects).
+
+- Una **taula** es una sala con un código de 6 cifras. Se crea con `POST /create`, que devuelve el código
+  y una clave para quien la ha creado (el *host*).
+- Los móviles se conectan por WebSocket a `/ws/<código>`. Si el código no existe o ha caducado,
+  el servidor responde `no_room` y cierra la conexión (código 4004).
+- Cuando alguien envía una canción (1-125), todos los de la taula la reciben. Al crear la taula se
+  elige si puede enviar todo el mundo o solo el host.
+- Una taula caduca tras **2 horas sin actividad** (nadie entra ni envía).
+- No guarda datos personales: solo la última canción enviada (número, nombre y hora).
 
 ## Qué hay aquí
 - `src/index.js` · Worker y clase `Room`.
 - `src/logic.js` · validaciones puras (sala, mensajes, origen).
-- `test/` · pruebas (`npm test`, solo necesita Node 20+).
+- `test/` · pruebas (`npm test`, solo necesita Node 22+).
 - `dev/local-server.mjs` · servidor de pruebas local (NO es el de producción).
 - `wrangler.toml` · configuración. **`ALLOWED_ORIGINS`** debe contener la URL de tu GitHub Pages.
 

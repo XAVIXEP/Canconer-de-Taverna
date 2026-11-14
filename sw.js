@@ -8,7 +8,7 @@
 //
 // Si afegeixes un fitxer nou a l'aplicació, posa'l a APP_FILES i canvia VERSION.
 
-const VERSION = '2026-11-14a';
+const VERSION = '2026-11-14b';
 const APP_CACHE = 'canconer-app-' + VERSION;
 const EXT_CACHE = 'canconer-externs-v1';
 const NETWORK_TIMEOUT_MS = 3000;
@@ -20,6 +20,9 @@ const APP_FILES = [
   'css/tailwind.css',
   'js/canconer-data.js',
   'js/app.js',
+  'js/taula.js',
+  'js/vendor/qrcode.js',
+  'js/vendor/jsQR.js',
   'img/portada-coberta.jpg',
   'img/acords.jpg',
   'img/icona-192.png',

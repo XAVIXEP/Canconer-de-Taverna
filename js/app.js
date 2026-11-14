@@ -16,8 +16,7 @@ let currentView = 0; // 0 = Portada, 'index', 'proleg', 'presentacio', 'acords',
 let showChords = true;
 let isFacsimil = false;
 let activeIndexCategoryFilter = null;
-// Les funcions de la Taula (connexió en viu) són al final del script.
-let channel = null;
+// Les funcions de la Taula (connexió en viu) són a js/taula.js.
 
 /* =========================================================================
    FORMATADOR DE LLETRA I ACORDS EN SUPERÍNDEX
@@ -661,223 +660,6 @@ function selectSearchResult(pageNum) {
 /* =========================================================================
    MODO TAULA (SINCRONITZACIÓ EN VIU ENTRE DISPOSITIUS)
    ========================================================================= */
-// ---- Configuració ----
-// Adreça del servidor de la Taula (Cloudflare Worker). Buida = sense servidor.
-// Exemple: "wss://cancioner-taula.EL-TEU-USUARI.workers.dev"
-const TAULA_SERVER_URL = "wss://canconer-de-taverna.xavixep4.workers.dev";
-
-const taula = { ws: null, status: 'off', n: 0, lastSeq: 0, retry: 0, timer: null, ping: null, want: false, last: null };
-const taulaCid = Math.random().toString(36).slice(2, 10);
-const lsGet = (k, d) => { try { const v = localStorage.getItem(k); return v === null ? d : v; } catch (e) { return d; } };
-const lsSet = (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} };
-
-function taulaUrl() { return (typeof window.__TAULA_URL__ === 'string' ? window.__TAULA_URL__ : TAULA_SERVER_URL).replace(/\/+$/, ''); }
-function normRoom(raw) {
-  const s = String(raw || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim()
-    .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-  return /^[a-z0-9][a-z0-9-]{2,39}$/.test(s) ? s : null;
-}
-function taulaRoom() { return normRoom(lsGet('taula_room', 'es-cau')) || 'es-cau'; }
-function taulaWho() { return lsGet('taula_who', ''); }
-function taulaFollow() { return lsGet('taula_follow', '1') === '1'; }
-function titleOfPage(p) {
-  const it = FULL_INDEX.find(x => x.p === p);
-  return it ? it.t : '';
-}
-
-// ---- Estat visible ----
-function taulaPaint() {
-  const url = taulaUrl();
-  const st = taula.status;
-  const colors = { off: '#78716c', connecting: '#f59e0b', on: '#22c55e', retry: '#f59e0b' };
-  for (const id of ['navTableDot', 'modalDot']) {
-    const d = document.getElementById(id);
-    if (d) { d.style.background = colors[st]; d.style.animation = (st === 'connecting' || st === 'retry') ? 'pulse 1.4s ease-in-out infinite' : ''; }
-  }
-  const lab = document.getElementById('navTableLabel');
-  if (lab) lab.textContent = st === 'on' ? `Taula · ${taula.n}` : (st === 'off' ? 'Taula' : 'Taula…');
-  const btn = document.getElementById('btnConnect');
-  if (btn) btn.textContent = !url ? 'Servidor no configurat' : (taula.want ? 'Desconnectar' : 'Connectar-me a la taula');
-  if (btn) btn.disabled = !url;
-  const intro = document.getElementById('taulaIntro');
-  if (intro) {
-    if (!url) intro.innerHTML = '<strong>Sense servidor.</strong> Aquesta còpia de l\'aplicació encara no té adreça de servidor, així que només s\'actualitzen les pestanyes obertes en aquest mateix dispositiu.';
-    else if (st === 'on') intro.textContent = `Connectat a la sala «${taulaRoom()}». Hi ha ${taula.n} ${taula.n === 1 ? 'dispositiu connectat' : 'dispositius connectats'}. Quan algú envia una cançó, et surt aquí.`;
-    else if (st === 'connecting') intro.textContent = 'Connectant…';
-    else if (st === 'retry') intro.textContent = 'Sense connexió. Ho tornaré a provar automàticament.';
-    else intro.textContent = 'No connectat. Posa el codi de sala, connecta\'t i veuràs les cançons que enviï la resta. Pots enviar-ne tu també.';
-  }
-}
-
-function taulaShowBanner(song, who) {
-  const t = titleOfPage(song);
-  document.getElementById('taulaBannerText').textContent = `Pàg. ${song}${t ? ' · ' + t : ''}${who ? ' — ' + who : ''}`;
-  document.getElementById('taulaBannerGo').onclick = () => { goToPage(song); taulaHideBanner(); };
-  document.getElementById('taulaBanner').classList.remove('hidden');
-}
-function taulaHideBanner() { document.getElementById('taulaBanner').classList.add('hidden'); }
-
-// ---- Connexió ----
-function taulaClearTimers() { clearTimeout(taula.timer); clearInterval(taula.ping); taula.timer = null; taula.ping = null; }
-
-function taulaConnect() {
-  const base = taulaUrl();
-  if (!base) { taulaPaint(); return; }
-  taula.want = true; lsSet('taula_on', '1');
-  if (taula.ws && taula.ws.readyState <= 1) { taulaPaint(); return; }
-  taulaClearTimers();
-  taula.status = taula.retry ? 'retry' : 'connecting'; taulaPaint();
-  let ws;
-  try { ws = new WebSocket(`${base}/ws/${encodeURIComponent(taulaRoom())}`); }
-  catch (e) { taulaScheduleRetry(); return; }
-  taula.ws = ws;
-  ws.onopen = () => {
-    taula.status = 'on'; taula.retry = 0; taulaPaint();
-    taula.ping = setInterval(() => { try { if (ws.readyState === 1) ws.send('ping'); } catch (e) {} }, 30000);
-  };
-  ws.onmessage = (ev) => { if (ev.data !== 'pong') taulaOnMessage(ev.data); };
-  ws.onclose = () => {
-    if (taula.ws !== ws) return;
-    taulaClearTimers(); taula.ws = null;
-    if (taula.want) taulaScheduleRetry(); else { taula.status = 'off'; taulaPaint(); }
-  };
-  ws.onerror = () => { try { ws.close(); } catch (e) {} };
-}
-
-function taulaScheduleRetry() {
-  taula.status = 'retry'; taulaPaint();
-  const wait = Math.min(15000, 1000 * Math.pow(2, taula.retry++)) + Math.random() * 500;
-  taula.timer = setTimeout(taulaConnect, wait);
-}
-
-function taulaDisconnect() {
-  taula.want = false; lsSet('taula_on', '0');
-  taulaClearTimers();
-  const ws = taula.ws; taula.ws = null;
-  if (ws) { try { ws.close(); } catch (e) {} }
-  taula.status = 'off'; taula.n = 0; taula.retry = 0; taulaPaint();
-}
-
-function taulaToggleConnection() {
-  saveTaulaFields();
-  if (taula.want) taulaDisconnect(); else { taula.lastSeq = 0; taulaConnect(); }
-}
-
-function taulaOnMessage(text) {
-  let m; try { m = JSON.parse(text); } catch (e) { return; }
-  if (m.t === 'n') { taula.n = m.n; taulaPaint(); return; }
-  if (m.t === 'err') {
-    if (m.e === 'slow') showToast('Massa de pressa: espera un segon abans d\'enviar una altra cançó.');
-    return;
-  }
-  if (m.t !== 'state') return;
-  taula.n = m.n; taulaPaint();
-  if (!m.song || m.seq === taula.lastSeq) return;
-  taula.lastSeq = m.seq;
-  if (m.cid === taulaCid && !m.init) return;           // eco del que he enviat jo
-  if (m.init) { taulaShowBanner(m.song, m.who); return; } // en entrar, només aviso; no et moc de pàgina
-  if (taulaFollow()) { goToPage(m.song); taulaShowBanner(m.song, m.who); }
-  else taulaShowBanner(m.song, m.who);
-}
-
-// ---- Enviar ----
-function sendPage(p) {
-  if (!Number.isInteger(p) || p < 1 || p > 125) { showToast('Obre primer una cançó (pàgina 1-125) per poder-la enviar.'); return; }
-  const t = titleOfPage(p);
-  const url = taulaUrl();
-  if (url && taula.ws && taula.ws.readyState === 1) {
-    taula.ws.send(JSON.stringify({ t: 'set', song: p, who: taulaWho(), cid: taulaCid }));
-    showToast(`Enviada a la taula: pàg. ${p}${t ? ' · ' + t : ''}`);
-    return;
-  }
-  if (url) {
-    showToast('No estàs connectat a la taula. Obre «Taula» i prem Connectar-me.');
-    openTableModal();
-    return;
-  }
-  if (channel) channel.postMessage({ type: 'SYNC_PAGE', page: p, title: t || ('pàg. ' + p) });
-  showToast(`Sense servidor: pàg. ${p} enviada només a les pestanyes d'aquest dispositiu.`);
-}
-
-function broadcastCurrentPage() {
-  sendPage(typeof currentView === 'number' ? currentView : NaN);
-}
-
-function quickSendPageFromModal() {
-  const val = parseInt(document.getElementById('quickBroadcastPage').value, 10);
-  if (!(val >= 1 && val <= 125)) { showToast('Escriu un número de pàgina entre 1 i 125.'); return; }
-  saveTaulaFields();
-  closeTableModal();
-  goToPage(val);
-  sendPage(val);
-}
-
-// ---- Modal ----
-function saveTaulaFields() {
-  const r = normRoom(document.getElementById('inputRoom').value);
-  if (r) lsSet('taula_room', r);
-  else showToast('El codi de sala ha de tenir entre 3 i 40 lletres, números o guions.');
-  lsSet('taula_who', document.getElementById('inputWho').value.trim().slice(0, 24));
-  lsSet('taula_follow', document.getElementById('chkFollow').checked ? '1' : '0');
-  document.getElementById('inputRoom').value = taulaRoom();
-  if (taula.want && taula.ws && r && !taula.ws.url.endsWith('/' + encodeURIComponent(r))) { taulaDisconnect(); taula.lastSeq = 0; taulaConnect(); }
-}
-
-function openTableModal() {
-  document.getElementById('inputRoom').value = taulaRoom();
-  document.getElementById('inputWho').value = taulaWho();
-  document.getElementById('chkFollow').checked = taulaFollow();
-  taulaPaint();
-  document.getElementById('tableModal').classList.remove('hidden');
-}
-
-function closeTableModal() {
-  saveTaulaFields();
-  document.getElementById('tableModal').classList.add('hidden');
-}
-
-function taulaJoinLink() {
-  return `${location.origin}${location.pathname}?taula=${encodeURIComponent(taulaRoom())}`;
-}
-
-function copyCode() {
-  saveTaulaFields();
-  const link = taulaJoinLink();
-  const done = () => showToast('Enllaç de la taula copiat. Qui l\'obri entrarà a la mateixa sala.');
-  if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(link).then(done, () => taulaFallbackCopy(link, done));
-  else taulaFallbackCopy(link, done);
-}
-function taulaFallbackCopy(text, done) {
-  const temp = document.createElement('textarea');
-  temp.value = text; document.body.appendChild(temp); temp.select();
-  try { document.execCommand('copy'); } catch (e) {}
-  document.body.removeChild(temp); done();
-}
-
-// ---- Arrencada ----
-function taulaInit() {
-  try {
-    if ('BroadcastChannel' in window) {
-      channel = new BroadcastChannel('canconer_taverna_sync');
-      channel.onmessage = (ev) => {
-        if (ev.data && ev.data.type === 'SYNC_PAGE' && typeof ev.data.page === 'number') {
-          goToPage(ev.data.page);
-          showToast(`Un altre dispositiu/pestanya t'ha enviat: ${ev.data.title}`);
-        }
-      };
-    }
-  } catch (e) {}
-  const q = new URLSearchParams(location.search).get('taula');
-  const r = normRoom(q);
-  if (r) { lsSet('taula_room', r); lsSet('taula_on', '1'); }
-  taulaPaint();
-  if (taulaUrl() && lsGet('taula_on', '0') === '1') taulaConnect();
-  document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'visible' && taula.want && (!taula.ws || taula.ws.readyState > 1)) { taula.retry = 0; taulaConnect(); }
-  });
-  window.addEventListener('online', () => { if (taula.want && (!taula.ws || taula.ws.readyState > 1)) { taula.retry = 0; taulaConnect(); } });
-}
-
 function showToast(msg) {
   const toast = document.getElementById("toast");
   document.getElementById("toastMsg").innerText = msg;
@@ -899,19 +681,10 @@ window.selectCategoryFromSearch = selectCategoryFromSearch;
 window.filterByCategory = filterByCategory;
 window.handlePdfUpload = handlePdfUpload;
 window.handleCoverImageUpload = handleCoverImageUpload;
-window.openTableModal = openTableModal;
-window.closeTableModal = closeTableModal;
-window.taulaToggleConnection = taulaToggleConnection;
-window.taulaHideBanner = taulaHideBanner;
-window.__taula = taula;
-window.broadcastCurrentPage = broadcastCurrentPage;
-window.quickSendPageFromModal = quickSendPageFromModal;
-window.copyCode = copyCode;
 window.render = render;
 
 // Render inicial en carregar el document
 render();
-taulaInit();
 
 // Mode sense connexió: el service worker desa l'aplicació al mòbil
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
