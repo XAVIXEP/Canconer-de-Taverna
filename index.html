@@ -2455,16 +2455,24 @@
         normalizeText(cat.label).includes(normQ)
       );
 
-      const matches = FULL_INDEX.filter(s => {
-        const catObj = SONG_CATEGORIES[s.cat] || SONG_CATEGORIES.desempre;
-        return (
-          String(s.p) === q ||
-          normalizeText(s.t).includes(normQ) ||
-          normalizeText(s.auth).includes(normQ) ||
-          normalizeText(s.r).includes(normQ) ||
-          s.cats.some(k => normalizeText(SONG_CATEGORIES[k].label).includes(normQ))
-        );
-      }).slice(0, 14);
+      // Ordre de prioritat: títol (exacte > comença per > paraula que comença per > conté),
+      // després autor, i al final ritme o tipologia.
+      const scoreOf = (s) => {
+        const t = normalizeText(s.t);
+        if (String(s.p) === q) return 0;
+        if (t === normQ) return 1;
+        if (t.startsWith(normQ)) return 2;
+        if ((' ' + t).includes(' ' + normQ)) return 3;
+        if (t.includes(normQ)) return 4;
+        if (normalizeText(s.auth).includes(normQ)) return 5;
+        if (normalizeText(s.r).includes(normQ)) return 6;
+        if (s.cats.some(k => normalizeText(SONG_CATEGORIES[k].label).includes(normQ))) return 7;
+        return -1;
+      };
+      const scored = FULL_INDEX.map(s => ({ s, sc: scoreOf(s) })).filter(x => x.sc >= 0);
+      scored.sort((x, y) => x.sc - y.sc || x.s.p - y.s.p);
+      const matches = scored.slice(0, 14).map(x => x.s);
+      const titleMatches = scored.filter(x => x.sc <= 4).length;
 
       if (matches.length === 0 && matchedCategories.length === 0) {
         drop.innerHTML = `<div class="px-3.5 py-2 text-xs text-[#9c8269]">Cap cançó ni tipologia trobada amb "${q}"</div>`;
@@ -2475,19 +2483,20 @@
       let html = '';
 
       // Si coincideix amb una tipologia, oferir un accés directe per filtrar tot l'índex per aquesta tipologia
+      let catRows = '';
       if (matchedCategories.length > 0 && normQ.length >= 3) {
-        html += matchedCategories.map(cat => `
+        catRows = matchedCategories.map(cat => `
           <div onclick="selectCategoryFromSearch('${cat.id}')" class="px-3.5 py-2 bg-[#281d14] hover:bg-[#38291d] cursor-pointer flex items-center justify-between text-xs sm:text-sm transition">
             <div class="flex items-center gap-2">
               <span class="cat-dot" style="background-color: ${cat.color}"></span>
               <span class="text-[#f3e6be] font-semibold">Veure totes les cançons «${cat.label}» a l'Índex</span>
             </div>
-            <span class="text-[11px] text-amber-300 font-semibold">${cat.pages.length} cançons &rsaquo;</span>
+            <span class="text-[11px] text-amber-300 font-semibold">${FULL_INDEX.filter(s => s.cats.includes(cat.id)).length} cançons &rsaquo;</span>
           </div>
         `).join('');
       }
 
-      html += matches.map(m => {
+      const rowHTML = (m) => {
         const tipus = m.cats.map(k => SONG_CATEGORIES[k].label).join(', ');
         return `
           <div onclick="selectSearchResult(${m.p})" class="px-3.5 py-2 hover:bg-[#2e2117] cursor-pointer flex items-start gap-2.5 text-sm transition">
@@ -2498,7 +2507,11 @@
             </div>
           </div>
         `;
-      }).join('');
+      };
+      // Primer les cançons que coincideixen pel títol, després l'accés a la tipologia, després la resta
+      html += matches.slice(0, titleMatches).map(rowHTML).join('');
+      html += catRows;
+      html += matches.slice(titleMatches).map(rowHTML).join('');
 
       drop.innerHTML = html;
       drop.classList.remove('hidden');
@@ -2536,9 +2549,8 @@
           selectSearchResult(num);
           return;
         }
-        const normQ = normalizeText(q);
-        const first = FULL_INDEX.find(s => normalizeText(s.t).includes(normQ));
-        if (first) selectSearchResult(first.p);
+        const firstRow = document.querySelector('#searchDropdown [onclick^="selectSearchResult"]');
+        if (firstRow) firstRow.click();
       }
     }
 
