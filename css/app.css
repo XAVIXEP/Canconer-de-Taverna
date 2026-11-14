@@ -325,7 +325,7 @@ body {
 /* Desplaçament automàtic */
 .as-box {
   position: fixed; left: 12px; bottom: 14px; z-index: 45;
-  display: flex; align-items: center; gap: 4px; padding: 5px;
+  display: flex; align-items: center; gap: 6px; padding: 6px;
   background: rgba(28, 21, 16, 0.92); border: 1px solid #5c432e; border-radius: 999px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45); font-family: 'Source Sans 3', system-ui, sans-serif;
   -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);
@@ -334,13 +334,19 @@ body {
 .as-btn {
   display: inline-flex; align-items: center; justify-content: center;
   border: 0; border-radius: 999px; cursor: pointer; color: #f3e6be; background: transparent;
-  font: inherit; font-size: 22px; font-weight: 600; line-height: 1;
+  font: inherit; font-size: 30px; font-weight: 600; line-height: 1;
+  touch-action: manipulation;     /* tocar ràpid diverses vegades no fa zoom */
+  -webkit-tap-highlight-color: transparent; user-select: none; -webkit-user-select: none;
 }
-.as-small { width: 38px; height: 38px; }
+.as-small { width: 52px; height: 52px; background: #2b1f16; }
 .as-small:hover { background: #3b2b1e; }
-.as-play { width: 46px; height: 46px; background: #b45309; color: #fff; }
+.as-play { width: 60px; height: 60px; background: #b45309; color: #fff; }
+.as-play svg { width: 28px; height: 28px; }
 .as-play:hover { background: #d97706; }
-.as-level { min-width: 18px; text-align: center; color: #cdb99d; font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.as-level { min-width: 24px; text-align: center; color: #cdb99d; font-size: 19px; font-weight: 700; font-variant-numeric: tabular-nums; }
 /* Mentre està aturat només es veu el botó ▶, perquè no tapi la lletra */
 .as-box:not(.as-on) .as-small, .as-box:not(.as-on) .as-level { display: none; }
-.as-box:not(.as-on) { padding: 4px; }
+.as-box:not(.as-on) { padding: 5px; }
+.as-box { touch-action: manipulation; }
+/* En general, cap botó de la web fa zoom si s'hi toca dues vegades seguides */
+button, [role="button"], label, input[type="checkbox"] { touch-action: manipulation; }
