@@ -321,3 +321,26 @@ body {
 .send-btn svg { width: 20px; height: 20px; flex: none; color: #fff; }
 .foot-links { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px; margin-top: 4px; }
 .foot-links.hidden { display: none; }
+
+/* Desplaçament automàtic */
+.as-box {
+  position: fixed; left: 12px; bottom: 14px; z-index: 45;
+  display: flex; align-items: center; gap: 4px; padding: 5px;
+  background: rgba(28, 21, 16, 0.92); border: 1px solid #5c432e; border-radius: 999px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45); font-family: 'Source Sans 3', system-ui, sans-serif;
+  -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);
+}
+.as-box.hidden { display: none; }
+.as-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  border: 0; border-radius: 999px; cursor: pointer; color: #f3e6be; background: transparent;
+  font: inherit; font-size: 22px; font-weight: 600; line-height: 1;
+}
+.as-small { width: 38px; height: 38px; }
+.as-small:hover { background: #3b2b1e; }
+.as-play { width: 46px; height: 46px; background: #b45309; color: #fff; }
+.as-play:hover { background: #d97706; }
+.as-level { min-width: 18px; text-align: center; color: #cdb99d; font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }
+/* Mentre està aturat només es veu el botó ▶, perquè no tapi la lletra */
+.as-box:not(.as-on) .as-small, .as-box:not(.as-on) .as-level { display: none; }
+.as-box:not(.as-on) { padding: 4px; }

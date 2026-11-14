@@ -178,6 +178,14 @@
     </div>
   </div>
 
+  <!-- DESPLAÇAMENT AUTOMÀTIC (només a les cançons) -->
+  <div id="autoScroll" class="as-box hidden" role="group" aria-label="Desplaçament automàtic">
+    <button class="as-btn as-small" onclick="autoScrollSpeed(-1)" aria-label="Més lent">&minus;</button>
+    <span id="asLevel" class="as-level" aria-live="polite" title="Velocitat"></span>
+    <button class="as-btn as-small" onclick="autoScrollSpeed(1)" aria-label="Més ràpid">+</button>
+    <button id="asPlay" class="as-btn as-play" onclick="autoScrollToggle()"></button>
+  </div>
+
   <!-- NOTIFICACIÓ TOAST -->
   <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none font-sans">
     <div class="bg-[#241912] border border-[#8c6239] text-[#f3e6be] px-4 py-3 rounded shadow-2xl flex items-center gap-3 text-sm">
@@ -190,5 +198,6 @@
   <script src="js/app.js"></script>
   <script src="js/vendor/qrcode.js"></script>
   <script src="js/taula.js"></script>
+  <script src="js/autoscroll.js"></script>
 
 </body></html>

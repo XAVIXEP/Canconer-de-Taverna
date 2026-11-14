@@ -364,6 +364,7 @@ function render() {
   const foot = document.getElementById('footLinks');
   if (foot) foot.classList.toggle('hidden', currentView !== 0);
   if (typeof taulaPaint === 'function') taulaPaint();
+  if (typeof asPaint === 'function') asPaint();
 }
 
 /* =========================================================================
@@ -549,6 +550,7 @@ function renderFallbackSongStanzas(song) {
    NAVEGACIÓ, CERCA BIDIRECCIONAL I CONTROLS
    ========================================================================= */
 function goToPage(target) {
+  if (typeof asStop === 'function') asStop();   // canviar de pàgina atura el desplaçament automàtic
   currentView = target;
   document.getElementById('searchDropdown').classList.add('hidden');
   render();
